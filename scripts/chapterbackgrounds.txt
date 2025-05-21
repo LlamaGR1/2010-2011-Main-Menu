@@ -1,0 +1,14 @@
+    "chapters"
+    {
+            1       "title_red"
+            2       "title_blue"
+            3       "title_team"
+            4       "title_war"
+    }
+    "BackgroundMaps"
+    {
+            1       "title_red"
+            2       "title_blue"
+            3       "title_team"
+            4       "title_war"
+    }
