@@ -1,280 +1,199 @@
-"Resource/UI/MatchmakingCategoryPanel.res"
+"matchmakingcategorypanel"
 {
 	"MatchmakingCategoryPanel"
 	{
-		"fieldName"				"MatchmakingCategoryPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"50"
+		"wide"			"f0"
+		"tall"			"50"
 		"proportionaltoparent"	"1"
-
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
 	}
 
 	"TopContainer"
 	{
-		"Controlname"	"EditablePanel"
-		"fieldName"		"TopContainer"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"EditablePanel"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"p1.17"
-		"visible"		"1"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
 		"BGColor"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGColor"
-			"xpos"			"0"
-			"ypos"			"0"
+			"controlname"	"EditablePanel"
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled"	"0"
-		
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 255"
+			"mouseinputenabled"	"0"
 		}
 
 		"BGImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BGImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
+			"controlname"	"ImagePanel"
 			"wide"			"o4"
 			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
 		}
 
-		"EntryToggleButton"
+		"NewEntryToggleButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"EntryToggleButton"
-			"xpos"			"0"
+			"controlname"	"CExImageButton"
 			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"70" //f0
+			"wide"			"f0"
 			"tall"			"9"
 			"proportionaltoparent"	"1"
-
-			"actionsignallevel"	"2"
-			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
-			"textAlignment"	"west"
-			"font"			""
-			"textinsetx"	"40"
-
-			"stay_armed_on_click"	"1"
-
-			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
-
-			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightRed" //LightOrange
-			"selectedBGColor_override" "LighterRed" //Orange
-
+			"font"			"MMenuPlayListDesc"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"18"
+			"command"		"toggle_collapse"
+			"actionsignallevel"	"2"
 			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"image_default"	"glyph_expand"
-
+			"roundedcorners"			"0"
 			"button_activation_type"	"1"
+			"stay_armed_on_click"		"1"
 
-			"SubImage"
+			"defaultfgcolor_override"	"TanLight"
+			"defaultbgcolor_override"	"235 226 202 20"
+			"armedfgcolor_override"		"TanLight"
+			"armedbgcolor_override"		"LightOrange"
+
+			"image_default"	"pve/buy_disabled"
+			"image_armed"	"pve/buy_selected"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
 				"xpos"			"6"
 				"ypos"			"cs-0.5"
-				"zpos"			"1"
 				"wide"			"o1"
 				"tall"			"p.9"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-
 				"proportionaltoparent"	"1"
+				"scaleimage"	"1"
 			}
 		}
 
 		"Shade"
 		{
-			"fieldName"			"Shade"
-			"ControlName"		"EditablePanel"
-			"xpos"				"cs-0.5"
-			"ypos"				"0"
-			"zpos"				"0"
-			"wide"				"f0"
-			"tall"				"57"
-			"mouseinputenabled"	"0"
-
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"wide"			"f0"
+			"tall"			"57"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Blank"
+			"mouseinputenabled"	"0"
 		}
 
 		"Checkbutton"
 		{
-			"ControlName"	"CExCheckButton"
-			"fieldName"		"Checkbutton"
+			"controlname"	"CExCheckButton"
 			"xpos"			"r27"
 			"ypos"			"-1"
 			"zpos"			"3"
 			"wide"			"25"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
-			"labeltext"		""
 			"smallcheckimage"	"1"
 
-			"sound_depressed"	"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
 		}
 
 		"Title"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Title"
+			"controlname"	"CExLabel"
 			"xpos"			"rs1-24"
 			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%title_token%"
+			"labeltext"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
+			"textalignment"	"east"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-
 			"fgcolor"		"TanLight"
 		}
 
 		"TitleShadow"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleShadow"
+			"controlname"	"CExLabel"
 			"xpos"			"rs1-23"
 			"ypos"			"3"
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%title_token%"
+			"labeltext"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
+			"textalignment"	"east"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-
-			"fgcolor_override"		"Black"
+			"fgcolor_override"	"Black"
 		}
 
 		"DescLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DescLabel"
-			"font"			""
-			"labelText"		"%desc_token%"
-			"textAlignment"	"north-west"
+			"controlname"	"CExLabel"
+			"font"			"MMenuPlayListDesc"
+			"labeltext"		"%desc_token%"
+			"textalignment"	"north-west"
 			"xpos"			"rs1-5"
 			"ypos"			"18"
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-
+			"proportionaltoparent"	"1"
 			"wrap"			"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent" "1"
+			"fgcolor_override"	"TanLight"
 			"mouseinputenabled"	"0"
 		}
 
 		"DescLabelShadow"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DescLabelShadow"
-			"font"			""
-			"labelText"		"%desc_token%"
-			"textAlignment"	"north-west"
+			"controlname"	"CExLabel"
+			"font"			"MMenuPlayListDesc"
+			"labeltext"		"%desc_token%"
+			"textalignment"	"north-west"
 			"xpos"			"rs1-4"
 			"ypos"			"19"
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-
+			"proportionaltoparent"	"1"
 			"wrap"			"1"
-			"fgcolor_override" "Black"
-			"proportionaltoparent" "1"
+			"fgcolor_override"	"Black"
 			"mouseinputenabled"	"0"
 		}
 	}
 
 	"PlayListDropShadow"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlaylistBGPanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"p1.17-2"
 		"zpos"			"1"
 		"wide"			"p1.5"
 		"tall"			"1000"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
 		"proportionaltoparent"	"1"
+	//	"border"		"ViviWhiteBG"
 		"mouseinputenabled"	"0"
 	}
 
 	"MapsContainer"
 	{
-		"Controlname"	"EditablePanel"
-		"fieldName"		"MapsContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
-
-		"border"		"InnerShadowBorder"
-
-		"pinCorner"		"2"
-		"autoResize"	"1"
+	//	"bgcolor_override"	"0 0 0 150"
+	//	"border"		"ViviWhiteBG"
 
 		"skip_autoresize"	"1"
-
-		"bgcolor_override"	"0 0 0 150"
 	}
 }

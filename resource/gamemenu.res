@@ -1,88 +1,44 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
-	"VRModeButton"
+	"HUDOptionsButton"
 	{
-		"label"			"#MMenu_VRMode_Activate"
-		"command"		"engine vr_toggle"
-		"subimage"		"glyph_vr"
-		"OnlyWhenVREnabled"	"1"
+		"label"			"n"
+		"tooltip"		"#TF_OptionCategory_HUD"
+		"command"		"engine toggle cl_mainmenu_safemode"
 	}
 
-	// These buttons get positioned by the MainMenuOverride.res
-	"GeneralStoreButton"
+	"ExplanationTooltipPanel1"
 	{
-		"label"			"#GameUI_GameMenu_Store"
-		"command"		"engine open_store"
-		"subimage"		"glyph_store"
+		"label"			"?"
+		"tooltip"		"#Vote_RestartGame"
+		"command"		"0"
 	}
 
-	"CharacterSetupButton"
+	"ExplanationTooltipPanel2"
 	{
-		"label"			"MANAGE ITEMS"
-		"command"		"engine open_charinfo"
-		"subimage"		"glyph_achievements"
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_7__"
+		"command"		"0"
 	}
 
-	// These buttons are only shown while in-game and are positioned by mainmenuoverride.res
-	"OfflinePracticeButton"
+	"ExplanationTooltipPanel3"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_9__"
+		"command"		"0"
+	}
+
+	"MainMenuBGPanel2"
 	{
 		"label"			""
-		"command"		"offlinepractice"
-		"subimage"		"glyph_practice"
-		"OnlyAtMenu"	"1"
-		"tooltip"		"#GameUI_GameMenu_OfflinePractice"
-	}
-
-	"CreateServerButton"
-	{
-		"label"			""
-		"command"		"OpenCreateMultiplayerGameDialog"
-		"subimage"		"glyph_create"
-		"OnlyAtMenu"	"1"
-		"tooltip"		"#GameUI_GameMenu_CreateServer"
-	}
-
-	"ReportPlayerButton"
-	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
+		"command"		"0"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
 	}
 
-	"CallVoteButton"
+	"ResumeGameButton"
 	{
-		"label"			""
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage"		"icon_checkbox"
-		"tooltip"		"#MMenu_CallVote"
-	}
-
-	"MutePlayersButton"
-	{
-		"label"			""
-		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_muted"
-		"tooltip"		"#MMenu_MutePlayers"
-	}
-
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage"		"icon_whistle"
-		"tooltip"		"#MMenu_RequestCoach"
-	}
-
-	"ChangeServerButton"
-	{
-		"label"			"#MMenu_ChangeServer"
-		"command"		"find_game"
-		"subimage"		"glyph_server"
+		"label"			"#GameUI_GameMenu_ResumeGame"
+		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 	}
 
@@ -90,15 +46,68 @@
 	{
 		"label"			"#MMenu_StartPlaying"
 		"command"		"find_game"
-		"subimage"		"glyph_server"
 		"OnlyAtMenu"	"1"
 	}
 
-//	"DemoUIButton"
-//	{
-//		"label"			""
-//		"command"		"engine demoui"
-//		"subimage"		"glyph_commentary"
-//		"tooltip"		"DEMOUI"
-//	}
+	"ChangeServerButton"
+	{
+		"label"			"#MMenu_ChangeServer"
+		"command"		"find_game"
+		"OnlyInGame"	"1"
+	}
+
+	"OfflinePracticeButton"
+	{
+		"label"			""
+		"tooltip"		"#GameUI_GameMenu_OfflinePractice"
+		"command"		"offlinepractice"
+		"OnlyAtMenu"	"1"
+	}
+
+	"CreateServerButton"
+	{
+		"label"			""
+		"tooltip"		"#GameUI_GameMenu_CreateServer"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu"	"1"
+	}
+
+	// "ReportPlayerButton"
+	// {
+	// 	"label"			""
+	// 	"tooltip"		"#MMenu_ReportPlayer"
+	// 	"command"		"OpenReportPlayerDialog"
+	// 	"OnlyInGame"	"1"
+	// }
+
+	"CallVoteButton"
+	{
+		"label"			""
+		"tooltip"		"#MMenu_CallVote"
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+	}
+
+	"MutePlayersButton"
+	{
+		"label"			""
+		"tooltip"		"#MMenu_MutePlayers"
+		"command"		"OpenMutePlayerDialog"
+		"OnlyInGame"	"1"
+	}
+
+	"RequestCoachButton"
+	{
+		"label"			""
+		"tooltip"		"#MMenu_RequestCoach"
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+	}
+
+	"UtilitiesButton"
+	{
+		"label"			""
+		"tooltip"		"#Vivi_Utilities_List"
+		"command"		"openbenchmarkdialog"
+	}
 }

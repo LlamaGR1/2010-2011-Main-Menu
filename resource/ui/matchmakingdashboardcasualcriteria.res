@@ -1,92 +1,128 @@
-#base "MatchMakingDashboardSidePanel.res"
+//#base "MatchMakingDashboardSidePanel.res"
 
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"matchmakingdashboardcasualcriteria"
 {
 	"CasualCriteria"
 	{
-		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"10"
 		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
-		"visible"		"1"
+		"wide"			"f0"
+		"tall"			"400"		//	395
 		"proportionaltoparent"	"1"
+	//	"bgcolor_override"		"255 0 0 255"
+	}
+
+	"BGPanel"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1"
+		"wide"			"440"
+		"tall"			"355"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"40 37 37 255"
 	}
 
 	"Title"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"20"
-		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
+		"ControlName"	"Label"
+		"xpos"			"cs-0.5"
+		"ypos"			"55"
+		"zpos"			"1"
+		"wide"			"440"
+		"tall"			"20"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderQuickplay"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
-
-		"mouseinputenabled"	"0"
+		"labeltext"		"#TF_Matchmaking_HeaderCasual"
+		"font"			"HudFontMediumBold"
+		"textAlignment"	"center"
 	}
 
 	"criteria"
 	{
 		"ControlName"	"CCasualCriteriaPanel"
-		"fieldName"		"criteria"
-		"xpos"			"0" // -3
-		"ypos"			"40"
+		"xpos"			"cs-0.5"
+		"ypos"			"120"
 		"zpos"			"100"
-		"wide"			"f0"
-		"tall"			"f73"
-		"visible"		"1"
+		"wide"			"410"
+		"tall"			"310"		//	310
 		"proportionaltoparent"	"1"
 	}
 
 	"ToolTipButtonHack"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"101"
-		"wide"			"f20"
-		"tall"			"20"
+		"ypos"			"340"
+		"zpos"			"106"
+		"wide"			"160"
+		"tall"			"35"
 		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
+		"proportionaltoparent"	"1"
+	}
+
+	"GradientBgPanel"
+	{
+		"controlname"	"ImagePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"175"
+		"zpos"			"1"
+		"wide"			"430"
+		"tall"			"400"
+		"proportionaltoparent"	"1"
+		"scaleimage"	"1"
+		"image"			"training/gradient"
 	}
 
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"QueueButton"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-5"
-		"zpos"			"100"
-		"wide"			"255"
-		"tall"			"24"
+		"ypos"			"340"		//		rs1-50
+		"zpos"			"105"
+		"wide"			"160"		//		150
+		"tall"			"35"		//		30
+		"proportionaltoparent"	"1"
+		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"find_game"
-		"proportionaltoparent"	"1"
-		"labeltext"		"START SEARCH >>" // #TF_Matchmaking_StartSearch
-		"actionsignallevel"	"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
-		"border_selected" 	"MainMenuButtonArmed"
+		"border_selected"	"MainMenuButtonArmed"
+		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultfgcolor_override"	"Black"
+		"armedfgcolor_override"		"TanLight"
+		"disabledfgcolor2_override"	"Black"
 	}
+
+	// "CancelButton"
+	// {
+	// 	"ControlName"	"CExButton"
+	// 	"xpos"			"cs-0.5"
+	// 	"ypos"			"406"
+	// 	"zpos"			"105"
+	// 	"wide"			"100"
+	// 	"tall"			"25"
+	// 	"proportionaltoparent"	"1"
+	// 	"labelText"		"#Cancel"
+	// 	"font"			"HudFontSmallBold"
+	// 	"textAlignment"	"center"
+	// 	"Command"		"nav_close"
+	// 	"sound_depressed"	"ui/buttonclick.wav"
+	// 	"sound_released"	"ui/buttonclickrelease.wav"
+
+	//	"stay_armed_on_click"	"1"
+
+	// 	"border_default"	"ViviTanDarkBG"
+	// 	"border_armed"		"ViviTFOrangeBG"
+	// 	"border_selected"	"ViviTFOrangeBG"
+	// 	"paintbackground"	"0"
+	// }
 }

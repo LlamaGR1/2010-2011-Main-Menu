@@ -3,147 +3,248 @@
 	"Shade"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Shade"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"1000"
+	//	"xpos"			"3"
+	//	"ypos"			"0"
+	//	"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
+	//	"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-
-		"bgcolor_override"	"0 0 0 255"
 	}
 
-	"TitleGradient"
+	// "TitleGradient"
+	// {
+	// 	"ControlName"		"ImagePanel"
+	// 	"fieldName"		"TitleGradient"
+	// 	"xpos"		"3"
+	// 	"ypos"		"0"
+	// 	"wide"		"f0"
+	// 	"tall"		"60"
+	// 	"zpos"	"98"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"rotation"		"3"
+	// 	"proportionaltoparent"	"1"
+	// 	"scaleimage"	"1"
+	// 	"mouseinputenabled"	"0"
+	// 	"alpha"		"180"
+
+	// 	"image"		"gradient_pure_black"
+	// }
+	
+	// "InnerGradient"
+	// {
+	// 	"ControlName"		"ImagePanel"
+	// 	"fieldName"		"InnerGradient"
+	// 	"xpos"		"3"
+	// 	"rotation"		"2"
+
+	// 	if_left
+	// 	{
+	// 		"xpos"	"rs1-3"
+	// 		"rotation"		"1"
+	// 	}
+
+	// 	"ypos"		"0"
+	// 	"wide"		"30"
+	// 	"tall"		"f0"
+	// 	"zpos"	"1000"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+
+	// 	"proportionaltoparent"	"1"
+	// 	"scaleimage"	"1"
+	// 	"mouseinputenabled"	"0"
+
+	// 	"image"		"gradient_pure_black"
+	// }
+
+	// "OuterGradient"
+	// {
+	// 	"ControlName"		"ImagePanel"
+	// 	"fieldName"		"OuterGradient"
+	// 	"xpos"		"rs1"
+	// 	"rotation"		"1"
+
+	// 	if_left
+	// 	{
+	// 		"xpos"	"0"
+	// 		"rotation"		"2"
+	// 	}
+
+	// 	"ypos"		"0"
+	// 	"wide"		"20"
+	// 	"tall"		"f0"
+	// 	"zpos"	"1000"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+
+
+	// 	"proportionaltoparent"	"1"
+	// 	"scaleimage"	"1"
+	// 	"mouseinputenabled"	"0"
+	// 	"alpha"		"255"
+
+	// 	"image"		"gradient_pure_black"
+	// }
+
+	// "CloseButton"
+	// {
+	// 	"ControlName"	"CExButton"
+	// 	"fieldName"		"CloseButton"
+	// 	"xpos"			"rs1"
+	// 	"labelText"		">"
+
+	// 	if_left
+	// 	{
+	// 		"xpos"		"0"
+	// 		"labelText"		"<"
+	// 	}
+
+	// 	"ypos"			"0"
+	// 	"zpos"			"10069"
+	// 	"wide"			"15"
+	// 	"tall"			"f0"
+	// 	"visible"		"1"
+	// 	"proportionaltoparent"	"1"
+	// 	"command"		"nav_close"
+
+	// 	"textAlignment"	"east"
+	// 	"font"			"HudFontSmallBold"
+
+	// 	"armedBgColor_override"	"0 0 0 0"
+	// 	"defaultBgColor_override"	"0 0 0 0"
+
+	// 	"armedFgColor_override"	"Orange"
+	// }
+
+	// "ReturnButton"
+	// {
+	// 	"ControlName"	"CExButton"
+	// 	"fieldName"		"ReturnButton"
+	// 	"xpos"			"3"
+	// 	"labelText"		"<"
+
+	// 	if_left
+	// 	{
+	// 		"xpos"	"rs1-3"
+	// 		"labelText"		">"
+	// 	}
+
+	// 	"ypos"			"0"
+	// 	"zpos"			"10069"
+	// 	"wide"			"20"
+	// 	"tall"			"f0"
+	// 	"visible"		"1"
+	// 	"proportionaltoparent"	"1"
+	// 	"command"		"nav_to"
+	// 	"labelText"		"<"
+
+	// 	"textAlignment"	"west"
+	// 	"font"			"HudFontSmallBold"
+
+	// 	"armedBgColor_override"	"0 0 0 0"
+	// 	"defaultBgColor_override"	"0 0 0 0"
+
+	// 	"armedFgColor_override"	"Orange"
+	// }
+	
+	"BGPanel"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TitleGradient"
-		"xpos"		"3"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"60"
-		"zpos"	"98"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"3"
+		"ControlName"	"Panel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"1"
+		"wide"			"450"
+		"tall"			"400"
 		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"		"180"
-
-		"image"		"gradient_pure_black"
+		"border"		"QuickplayBorder"
+		"bgcolor_override"	"40 37 37 255"
 	}
 
-	"InnerGradient"
+	"BGPanel2"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"InnerGradient"
-		"xpos"		"3"
-		"rotation"		"2"
-
-		if_left
-		{
-			"xpos"	"rs1-3"
-			"rotation"		"1"
-		}
-
-		"ypos"		"0"
-		"wide"		"30"
-		"tall"		"f0"
-		"zpos"	"1000"
-		"visible"		"1"
-		"enabled"		"1"
-
+		"ControlName"	"Panel"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-
-		"image"		"gradient_pure_black"
+		"bgcolor_override"	"0 0 0 200"
 	}
 
-//	"CloseButton" //broken, too lazy to fix
-//	{
-//		"ControlName"	"CExButton"
-//		"fieldName"		"CloseButton"
-//		"xpos"			"cs-0.5" //rs1
-//		"ypos"			"rs1-8" //0
-//		"zpos"			"900"
-//		"wide"			"f20" //15
-//		"tall"			"20" //f0
-//		"visible"		"1"
-//		"proportionaltoparent"	"1"
-//		"command"		"nav_close"
-//
-//		"labelText"		"#TF_BackToMainMenu" //>
-//		if_left
-//		{
-//			"xpos"		"0"
-//			"labelText"		"<"
-//		}
-//
-//		"textAlignment"	"center" //east
-//		"font"			"HudFontMediumSmallBold" //HudFontSmallBold
-//
-//		"armedBgColor_override"	"0 0 0 0"
-//		"defaultBgColor_override"	"0 0 0 0"
-//
-//		"armedFgColor_override"	"Orange"
-//
-//		"sound_depressed"	"UI/buttonclick.wav"
-//		"sound_released"	"UI/buttonclickrelease.wav"
-//
-//		"border_default"	"MainMenuButtonDefault"
-//		"border_armed"		"MainMenuButtonArmed"
-//		"paintbackground"	"0"
-//	
-//		"defaultFgColor_override" "46 43 42 255"
-//		"armedFgColor_override" "235 226 202 255"
-//		"depressedFgColor_override" "46 43 42 255"
-//	}
+	"Corners11123"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"406"
+		"zpos"			"123"
+		"wide"			"100"
+		"tall"			"25"
+		"proportionaltoparent"	"1"
+		"src_corner_height"		"6"
+		"src_corner_width"		"6"
+		"draw_corner_width"		"2"
+		"draw_corner_height"	"2"
+		"drawcolor"		"40 37 37 255"
+		"image"			"replay/thumbnails/borders/vivi_button_corners"
+		"mouseinputenabled"	"0"
+	}
+
+	"CloseButton"
+	{
+		"controlname"	"CExButton"
+		"xpos"			"cs-0.5"
+		"ypos"			"406"
+		"zpos"			"10"
+		"wide"			"100"
+		"tall"			"25"
+		"proportionaltoparent"	"1"
+		"labeltext"		"#Cancel"
+		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
+		"command"		"nav_close"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"roundedcorners"	"0"
+
+		"stay_armed_on_click"	"1"
+
+		// "border_default"	"ViviTanDarkBG"
+		// "border_armed"		"ViviTFOrangeBG"
+		// "border_selected"	"ViviTFOrangeBG"
+		// "paintbackground"	"0"
+	}
 
 	"ReturnButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReturnButton"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"20"
-		"tall"			"f0"
-		"visible"		"1"
+		"controlname"	"CExButton"
+		"xpos"			"cs-0.5"
+		"ypos"			"406"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"25"
 		"proportionaltoparent"	"1"
-		"command"		"nav_to"
-		"labelText"		"<"
-
-		if_left
-		{
-			"xpos"	"rs1-3"
-			"labelText"		">"
-		}
-
-		"textAlignment"	"west"
+		"labeltext"		"#TF_BackCarat" //#TF_BackCarat
 		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
+		"command"		"nav_to"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"roundedcorners"	"0"
 
-		"armedFgColor_override"	"LightRed" //Orange
+		"stay_armed_on_click"	"1"
+
+		// "border_default"	"ViviTanDarkBG"
+		// "border_armed"		"ViviTFOrangeBG"
+		// "border_selected"	"ViviTFOrangeBG"
+		// "paintbackground"	"0"
 	}
 
-	"BGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f-20"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
-	}
+
+
+
+
 }

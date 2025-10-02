@@ -1,189 +1,123 @@
-"Resource/UI/CharInfoPanel.res"
+#base "../../cfg/2010hud/loadout20119.txt"
+
+#base "1/12333.res"
+
+"charinfopanel"
 {
 	"character_info"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
-
-		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
-
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
-	}
-
-	"CaratLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"xpos"			"85"
-		"ypos"			"5"
-		"zpos"			"10"
-		"wide"			"20"
-		"tall"			"15"
-		"fgcolor_override" "200 80 60 255"
-	}
-
-	"TitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#CharInfoAndSetup"
-		"xpos"			"100"
-		"ypos"			"5"
-		"zpos"			"10"
-		"wide"			"300"
-		"tall"			"15"
-		"fgcolor_override" "117 107 94 255"
+		"clientinsetx_override"	"0"
 	}
 
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"ImagePanel"
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_header"
 		"tileImage"		"1"
+		"image"			"loadout_header"
 	}
+
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
+		"image"			"loadout_bottom_gradient"
 	}
+
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
-		"xpos"			"0"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
 	}
 
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
+		"controlname"	"EditablePanel"
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
-		"tabwidth"		"240"
 		"tabheight"		"34"
-		"transition_time" "0"
+		"transition_time"	"0"
 
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
+			"controlname"	"ImagePanel"
 			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"scaleimage"	"1"
 			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
 		}
 
 		"tabskv"
 		{
-			"textinsetx"		"40"
 			"font"				"HudFontMediumBold"
+			"textinsetx"		"40"
 			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
+			"unselectedcolor"	"130 120 104 255"
 			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"normalborder_override"	"OutlinedDullGreyBox"
+			"paintbackground"	"0"
 		}
 	}
 
 	"BackButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"c-300"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"25"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"back"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
+		"controlname"	"CExButton"
 		"xpos"			"c200"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"25"
-		"labelText"		"#TF_Close"
+		"labeltext"		"#GameUI_Close"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"textalignment"	"center"
+		"command"		"close"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"border_default"	"ViviTanDarkBG"
+		"border_armed"		"ViviTFOrangeBG"
+		"border_selected"	"ViviTFOrangeBG"
+		"paintbackground"	"0"
+	}
+
+	"BackButton2"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&q"
+		"command"		"back"
+		"sound_released"	"ui/panel_open.wav"
+	}
+
+	"BackButton3"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&e"
+		"command"		"close"
+		"sound_released"	"ui/panel_open.wav"
 	}
 
 	"NotificationsPresentPanel"
 	{
-		"ControlName"	"CNotificationsPresentPanel"
-		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
-		"ypos"			"10"
-		"zpos"			"10000"
-		"wide"			"190"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
+		"controlname"	"CNotificationsPresentPanel"
 	}
 }

@@ -1,0 +1,8 @@
+"unlitGeneric"
+{
+	"$basetexture" "vgui\class_portraits/all_class"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+}

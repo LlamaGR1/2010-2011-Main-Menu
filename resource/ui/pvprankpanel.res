@@ -51,13 +51,8 @@
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"0"		
 			"wide"			"o1"
-			"tall"			"p0.12"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"tall"			"100"
 			"fov"			"70"
 			"proportionaltoparent"	"1"
 
@@ -72,7 +67,7 @@
 			"paintbackground"	"0"
 
 			"render_texture"	"0"
-
+		
 			"model"
 			{
 				"force_pos"		"1"
@@ -97,7 +92,7 @@
 					"default"	"1"
 				}
 			}
-
+		
 			"lights"
 			{
 				"default"
@@ -184,12 +179,11 @@
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
 		"xpos"			"rs1"
-		"ypos"			"20"
+	//	"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"f40"
+		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -202,50 +196,105 @@
 			"wide"			"505"
 		}
 
+
+
+		// "WelcomeLabel"
+		// {
+		// 	"ControlName"	"Label"
+		// 	"xpos"			"65"
+		// 	"ypos"			"5"
+		// 	"wide"			"f0"
+		// 	"zpos"			"100"
+		// 	"tall"			"20"
+		// 	"proportionaltoparent"	"1"
+		// 	"labelText"		"#Vivi_WelcomeBack"
+		// 	"font"			"HudFontSmallishBold"
+		// 	"textAlignment"	"north-west"
+
+		// 	if_mini
+		// 	{
+		// 		"visible"		"0"
+		// 	}
+		// }
+
+
 		"NameLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
+			"wide"			"260"
 			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontSmallBold" //HudFontSmallishBold
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
-			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
+			"labelText"		"%name%"
+			"font"			"HudFontSmallBold"		//		HudFontSmallishBold
+		//	"textAlignment"	"north-west"
 
 			if_mini
 			{
-				"visible"	"0"
+				"visible"		"0"
 			}
 		}
+
+
+
+		// "WelcomeLabel"
+		// {
+		// 	"controlname"	"Label"
+		// 	"ypos"			"5"
+		// 	"zpos"			"100"
+		// 	"auto_wide_tocontents"	"1"
+		// 	"tall"			"15"
+		// 	"labeltext"		"#Vivi_WelcomeBack"
+		// 	"font"			"HudFontSmallBold"
+		// }
+
+		// "NameLabel"
+		// {
+		// 	"ControlName"	"Label"
+		// 	"xpos"			"5"
+		// 	"zpos"			"100"
+		// 	"wide"			"225"
+		// 	"tall"			"15"
+		// 	"font"			"HudFontSmallBold"
+		// 	"labelText"		"%name%"
+		// 	"proportionaltoparent"	"1"
+
+		// 	"pin_to_sibling" "WelcomeLabel"
+		// 	"pin_to_sibling_corner" "1"
+
+		// 	if_mini
+		// 	{
+		// 		"visible"	"0"
+		// 	}
+		// }
+
+
 
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
-			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"29" //19
-			"wide"			"195"
+			"xpos"			"165"
+			"ypos"			"89"
 			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
-			"labelText"		"%desc1%"
+			"wide"			"90"
+			"tall"			"30"
 			"proportionaltoparent"	"1"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"labelText"		"%desc1%"
+			"bgcolor_override"	"0 0 255 0"
+			"centerwrap"		"1"
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"			"67"
+				"ypos"			"4"
+				"wide"			"195"
+				"tall"			"20"
+				"textAlignment"	"north-west"
+				"centerwrap"	"0"
 			}
 
 			"fonts"
@@ -256,12 +305,11 @@
 			}
 		}
 
-		"DescLine2"
+		"DescLine2"		//  	 game mode text
 		{
 			"ControlName"	"CAutoFittingLabel"
-			"fieldName"		"DescLine2"
 			"xpos"			"65"
-			"ypos"			"39" //29
+			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -296,18 +344,18 @@
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-9999"
-			"ypos"			"0"
+			"xpos"			"rs1-5"
+			"ypos"			"0"	//	remove
 			"wide"			"f70"
-			"tall"			"f0"
+			"tall"			"0"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"			"rs1-10"
-				"ypos"			"0"
+				"ypos"			"0"	//	remove
 				"wide"			"p0.85"
+				"tall"			"f0"
 			}
 
 			"XPBar"
@@ -320,40 +368,41 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-				"CurrentXPLabel"
+				"CurrentXPLabel"		//		check in game
 				{
 					"ControlName"	"Label"
-					"fieldName"		"CurrentXPLabel"
-					"xpos"			"0"
 					"ypos"			"rs1"
-					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-west"
-					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					"visible"		"0"
+					"labelText"		"%current_xp%"
+					"font"			"ItemFontAttribSmall"
+					"textAlignment"	"south-west"
+
+					if_mini
+					{
+						"visible"		"1"
+					}
 				}
 
-				"NextLevelXPLabel"
+				"NextLevelXPLabel"		//		check in game
 				{
 					"ControlName"	"Label"
-					"fieldName"		"NextLevelXPLabel"
 					"xpos"			"rs1"
 					"ypos"			"rs1"
-					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-east"
-					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					"visible"		"0"
+					"labelText"		"%next_level_xp%"
+					"font"			"ItemFontAttribSmall"
+					"textAlignment"	"south-east"
+
+					if_mini
+					{
+						"visible"		"1"
+					}
 				}
 
 				"ProgressBarsContainer"
@@ -440,6 +489,8 @@
 					"proportionaltoparent"	"1"
 					"border"		"InnerShadowBorder"
 				}
+
+
 	
 				// First column
 				"GamesLabel"
