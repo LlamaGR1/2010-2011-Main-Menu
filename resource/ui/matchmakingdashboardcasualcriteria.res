@@ -14,7 +14,7 @@
 
 	"BGPanel"
 	{
-		"ControlName"	"Panel"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"wide"			"440"
@@ -25,7 +25,7 @@
 
 	"Title"
 	{
-		"ControlName"	"Label"
+		"controlname"	"Label"
 		"xpos"			"cs-0.5"
 		"ypos"			"55"
 		"zpos"			"1"
@@ -39,7 +39,7 @@
 
 	"criteria"
 	{
-		"ControlName"	"CCasualCriteriaPanel"
+		"controlname"	"CCasualCriteriaPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"120"
 		"zpos"			"100"
@@ -50,7 +50,7 @@
 
 	"ToolTipButtonHack"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"340"
 		"zpos"			"106"
@@ -75,7 +75,7 @@
 
 	"QueueButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"cs-0.5"
 		"ypos"			"340"		//		rs1-50
 		"zpos"			"105"
@@ -104,7 +104,7 @@
 
 	// "CancelButton"
 	// {
-	// 	"ControlName"	"CExButton"
+	// 	"controlname"	"CExButton"
 	// 	"xpos"			"cs-0.5"
 	// 	"ypos"			"406"
 	// 	"zpos"			"105"

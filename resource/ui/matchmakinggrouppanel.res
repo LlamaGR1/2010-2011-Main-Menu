@@ -11,7 +11,7 @@
 
 	// "BGPanel"
 	// {
-	// 	"ControlName"	"EditablePanel"
+	// 	"controlname"	"EditablePanel"
 	// 	"xpos"			"cs-0.5"
 	// 	"ypos"			"0"
 	// 	"wide"			"p1.3"
@@ -23,7 +23,7 @@
 
 	"Checkbutton"
 	{
-		"ControlName"	"CExCheckButton"
+		"controlname"	"CExCheckButton"
 	//	"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"3"

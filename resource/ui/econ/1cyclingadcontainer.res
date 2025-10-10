@@ -44,7 +44,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"	"5"
+		"roundedcorners"			"5"
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
 

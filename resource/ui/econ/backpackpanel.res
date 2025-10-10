@@ -42,7 +42,7 @@
 		// 	"visible"		"0"
 		// 	"bgcolor_override"		"0 0 0 0"
 		// 	"noitem_textcolor"		"117 107 94 255"
-		// 	"paintbackgroundType"	"2"
+		// 	"paintbackgroundtype"	"2"
 		// 	"paintborder"	"1"
 
 		// 	"Button"
@@ -54,7 +54,7 @@
 		// 		"visible"		"1"
 		// 		"bgcolor_override"		"0 0 0 0"
 		// 		"noitem_textcolor"		"117 107 94 255"
-		// 		"paintbackgroundType"	"2"
+		// 		"paintbackgroundtype"	"2"
 		// 		"paintborder"	"1"
 		// 		"textalignment"	"center"
 		// 		"labeltext"		"%page%"
@@ -155,7 +155,7 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"zpos"			"102"
+		"zpos"			"1069"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
@@ -216,7 +216,7 @@
 	// 	"visible"		"0"
 	// 	"enabled"		"1"
 	// 	"image"			"backpack_jewel_modify_target_b_g"
-	// 	"tileImage"		"0"
+	// 	"tileimage"		"0"
 	// 	"tileVertically" "0"
 	// 	"drawcolor"		"112 176 74 255"
 	// }
@@ -245,8 +245,8 @@
 		"editable"		"0"
 
 		"fgcolor_override"				"TanLight"
-		"selectioncolor_override"		"Blank"
 		"selectiontextcolor_override"	"TanLight"
+		"selectioncolor_override"		"Blank"
 	}
 
 	"SortByComboBox"
@@ -260,8 +260,8 @@
 		"editable"		"0"
 
 		"fgcolor_override"				"TanLight"
-		"selectioncolor_override"		"Blank"
 		"selectiontextcolor_override"	"TanLight"
+		"selectioncolor_override"		"Blank"
 	}
 
 	"PrevPageButton"
@@ -349,49 +349,37 @@
 	"DragToNextPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldName"		"DragToNextPageButton"
 		"xpos"			"c290"
 		"ypos"			"154"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+	//	"visible"		"0"
 		"labeltext"		">"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		""
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+	//	"command"		""
+
+		"border_default"	"ViviTanDarkBG"
+		"paintbackground"	"0"
 	}
 
 	"DragToPrevPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldName"		"DragToPrevPageButton"
 		"xpos"			"c-315"
 		"ypos"			"154"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+	//	"visible"		"0"
 		"labeltext"		"<"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		""
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+	//	"command"		""
+
+		"border_default"	"ViviTanDarkBG"
+		"paintbackground"	"0"
 	}
 
 	"NameFilterTextBG"
@@ -512,7 +500,7 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -687,7 +675,7 @@
 		"wide"			"250"
 		"tall"			"100"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -909,7 +897,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1131,7 +1119,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"SortExplanation"
@@ -1353,7 +1341,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		

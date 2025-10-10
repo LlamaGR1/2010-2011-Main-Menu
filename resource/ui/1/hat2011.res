@@ -181,7 +181,7 @@
 
 	"BackpackExplanation"
 	{
-		"ControlName"	"CExplanationPopup"
+		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
@@ -197,7 +197,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#BackpackExplanation_Title"
@@ -216,7 +216,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#BackpackExplanation_Text"
@@ -263,7 +263,7 @@
 
 		"PrevButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"100"
@@ -293,10 +293,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -305,12 +305,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_back"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}		
 		"PositionLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PositionLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
@@ -328,7 +328,7 @@
 		}
 		"NextButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"NextButton"
 			"xpos"			"210"
 			"ypos"			"100"
@@ -358,10 +358,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -370,14 +370,14 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_forward"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}		
 	}	
 	
 	"CraftingExplanation"
 	{
-		"ControlName"	"CExplanationPopup"
+		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
@@ -393,7 +393,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#CraftingExplanation_Title"
@@ -412,7 +412,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#CraftingExplanation_Text"
@@ -459,7 +459,7 @@
 
 		"PrevButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"110"
@@ -489,10 +489,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -501,12 +501,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_back"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}		
 		"PositionLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PositionLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
@@ -524,7 +524,7 @@
 		}
 		"NextButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"NextButton"
 			"xpos"			"210"
 			"ypos"			"110"
@@ -554,10 +554,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -566,14 +566,14 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_forward"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}	
 	}	
 	
 	"ArmoryExplanation"
 	{
-		"ControlName"	"CExplanationPopup"
+		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
@@ -589,7 +589,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#ArmoryExplanation_Title"
@@ -608,7 +608,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#ArmoryExplanation_Text"
@@ -655,7 +655,7 @@
 
 		"PrevButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"110"
@@ -685,10 +685,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -697,12 +697,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_back"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}		
 		"PositionLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PositionLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
@@ -720,7 +720,7 @@
 		}
 		"NextButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"NextButton"
 			"xpos"			"210"
 			"ypos"			"110"
@@ -750,10 +750,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -762,14 +762,14 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_forward"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}	
 	}
 	
 	"TradingExplanation"
 	{
-		"ControlName"	"CExplanationPopup"
+		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
@@ -785,7 +785,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TradingExplanation_Title"
@@ -804,7 +804,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TradingExplanation_Text"
@@ -851,7 +851,7 @@
 
 		"PrevButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"110"
@@ -881,10 +881,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -893,12 +893,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_back"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}		
 		"PositionLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PositionLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
@@ -916,7 +916,7 @@
 		}
 		"NextButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"NextButton"
 			"xpos"			"210"
 			"ypos"			"110"
@@ -946,10 +946,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -958,14 +958,14 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_forward"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}	
 	}
 	
 	"ExplanationExplanation"
 	{
-		"ControlName"	"CExplanationPopup"
+		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
@@ -980,7 +980,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#ExplanationExplanation_Title"
@@ -999,7 +999,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#ExplanationExplanation_Text"
@@ -1046,7 +1046,7 @@
 
 		"PrevButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"fieldName"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"90"
@@ -1076,10 +1076,10 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
+				"fieldName"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -1088,12 +1088,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"blog_back"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}		
 		"PositionLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PositionLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"

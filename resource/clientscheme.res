@@ -195,11 +195,9 @@ Scheme
 
 	BaseSettings
 	{
-        Replay.RenderDialog.BgColor			"LighterDarkBrown"
+		Replay.RenderDialog.BgColor			"LighterDarkBrown"
 		ReplayBrowser.BgColor							"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor	"LightRed"
-		ReplayBrowser.Button.ArmedBgColor				"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor			"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
 		ReplayBrowser.Warning.FgColor					"TanLight"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
@@ -258,7 +256,7 @@ Scheme
 		GraphPanel.FgColor					"Orange"
 		GraphPanel.BgColor					"TransparentBlack"
  
-    	label.TextDullColor					"TanDark"
+		label.TextDullColor					"TanDark"
 		label.TextColor						"TanLight"
 		label.TextBrightColor				"TanLight"
 		label.SelectedTextColor				"White"
@@ -400,7 +398,7 @@ Scheme
 
 		"VguiScreenCursor"			"255 208 64 255"
 	}
-    
+
 	Borders
 	{
 		ViviTanDarkBG2
@@ -491,6 +489,30 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"color"					"69 64 63 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviTradingBG		//		used in trading
+		{
+			"bordertype"			"scalable_image"
+			"color"					"0 0 0 69"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviYellowBG		//		used in item selection
+		{
+			"bordertype"			"scalable_image"
+			"color"					"Yellow"
 
 			"image"					"replay/thumbnails/borders/vivi_button"
 			"src_corner_height"		"6"
@@ -3080,7 +3102,7 @@ Scheme
 				}
 			}
 		}
-    }
+	}
 
 	BitmapFontFiles
 	{
@@ -3133,9 +3155,10 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"9"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 
@@ -3219,9 +3242,10 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"9"
+				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 
@@ -3277,7 +3301,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"15"
+				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
@@ -3328,9 +3352,10 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"18"
+				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 
@@ -5778,21 +5803,21 @@ Scheme
 	CustomFontFiles
 	{
 		"1"	"resource/tf.ttf"
-
 		"2"	"resource/tfd.ttf"
 
 		"3"
 		{
 			"font"	"resource/TF2.ttf"
 			"name"	"TF2"
+
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 
@@ -5800,14 +5825,15 @@ Scheme
 		{
 			"font"	"resource/TF2Secondary.ttf"
 			"name"	"TF2 Secondary"
+
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 
@@ -5815,14 +5841,15 @@ Scheme
 		{
 			"font"	"resource/TF2Professor.ttf"
 			"name"	"TF2 Professor"
+
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 			}
 
 			"polish"
 			{
-				"range" "0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 			}
 		}
 
@@ -5830,19 +5857,20 @@ Scheme
 		{
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"
+
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 
 			"turkish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 
@@ -5850,74 +5878,75 @@ Scheme
 		{
 			"font"	"resource/ocra.ttf"
 			"name"	"ocra"
+
 			"turkish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"swedish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"spanish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"romanian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"polish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"norwegian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"danish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"hungarian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"german"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"french"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"finnish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"czech"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"bulgarian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 
 			"russian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 		}
 

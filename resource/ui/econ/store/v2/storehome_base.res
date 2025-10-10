@@ -49,7 +49,7 @@
 			"visible"		"0"
 		//	"bgcolor_override"		"0 0 0 255"
 		//	"noitem_textcolor"		"117 107 94 255"
-		//	"paintbackgroundType"	"2"
+		//	"paintbackgroundtype"	"2"
 			"paintborder"	"0"
 						
 			"model_xpos"	"17"
@@ -108,41 +108,14 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
+		"zpos"			"1069"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundType"	"2"
-		"paintborder"	"1"
-		
-		"text_ypos"			"20"
-		"text_center"		"1"
+
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labeltext"		"%attriblist%"
-			"textalignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
-		}
 	}
 
 	"ReloadSchemeButton"
@@ -278,7 +251,7 @@
 		"tall"			"0"
 	//	"visible"		"0"
 	//	"enabled"		"1"
-	//	"paintbackgroundType"	"2"
+	//	"paintbackgroundtype"	"2"
 	//	"textinsetx"	"15"
 		
 	//	"command"		"viewcart"
@@ -693,7 +666,7 @@
 	// 	"visible"		"1"
 	// 	"bgcolor_override"		"0 0 0 0"
 	// 	"noitem_textcolor"		"117 107 94 255"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"paintborder"	"1"
 		
 	// 	"model_xpos"	"0"

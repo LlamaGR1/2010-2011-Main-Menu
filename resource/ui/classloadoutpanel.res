@@ -40,7 +40,7 @@
 			"visible"		"0"
 		//	"bgcolor_override"		"30 0 0 255"
 			"noitem_textcolor"		"TanDark"
-		//	"paintbackgroundType"	"2"
+		//	"paintbackgroundtype"	"2"
 		//	"paintborder"	"1"
 
 			"model_center_x"	"1"
@@ -67,7 +67,7 @@
 		"itemoptionpanels_kv"
 		{
 			"controlname"	"CExButton"
-			"zpos"			"10069"
+			"zpos"			"69"
 			"wide"			"14"
 			"tall"			"14"
 			"visible"		"0"
@@ -163,7 +163,7 @@
 		"ypos"			"40"
 		"wide"			"610"
 		"tall"			"10"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"tilevertically"	"0"
 		"image"			"loadout_dotted_line"
 	}
@@ -227,41 +227,14 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
+		"zpos"			"1069"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundType"	"2"
-		"paintborder"	"1"
 
-		"text_ypos"			"15"
-		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labeltext"		"%attriblist%"
-			"textalignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
-		}
 	}
 
 	"LoadoutPresetPin"
@@ -293,7 +266,7 @@
 	// 	"wide"			"250"
 	// 	"tall"			"160"
 	// 	"visible"		"0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"paintbackground"	"0"
 	// 	"border"		"MainMenuHighlightBorder"
 
@@ -413,7 +386,7 @@
 	// 	"wide"			"250"
 	// 	"tall"			"160"
 	// 	"visible"		"0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"paintbackground"	"0"
 	// 	"border"		"MainMenuHighlightBorder"
 		

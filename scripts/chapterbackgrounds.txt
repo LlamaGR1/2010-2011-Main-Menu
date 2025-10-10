@@ -1,7 +1,7 @@
+#base "../cfg/2010hud/bgs.txt"
+
+#base "../resource/ui/1/mainmenu/bgs_tf2.res"
+
 "chapters"
 {
-	1	"title_team"
-	2	"title_war"
-	3	"title_blue"
-	4	"title_red"
 }

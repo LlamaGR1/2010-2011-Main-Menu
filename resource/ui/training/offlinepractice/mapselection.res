@@ -9,15 +9,15 @@
 		"scaleimage"	"1"
 	}
 
-	// "HackCoverBottomOfMapImagePanel"
-	// {
-	// 	"controlname"	"EditablePanel"
-	// 	"xpos"			"60"
-	// 	"ypos"			"320"
-	// 	"wide"			"330"
-	// 	"tall"			"15"
-	// 	"bgcolor_override"	"40 37 37 255"
-	// }
+	"HackCoverBottomOfMapImagePanel"
+	{
+		"controlname"	"Panel"
+		"xpos"			"55"
+		"ypos"			"320"
+		"wide"			"340"
+		"tall"			"20"
+		"bgcolor_override"	"40 37 37 255"
+	}
 
 	"GradientPanel"
 	{
@@ -150,15 +150,10 @@
 		"tall"			"20"
 		"font"			"HudFontSmallestBold"
 		"editable"		"0"
-
 		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"0 0 0 200"		//		"16 14 14 255"
+		"bgcolor_override"	"0 0 0 200"
 
-	//	"disabledFgColor_override"	"235 226 202 255"
-	//	"disabledBgColor_override"	"51 47 46 255"
-	//	"selectioncolor_override"	"51 47 46 255"
-	//	"selectiontextcolor_override"	"235 226 202 255"
-	//	"defaultSelectionBG2Color_override"	"51 47 46 255"
+		"selectioncolor_override"	"51 47 46 255"
 	}
 
 	"PlayersLabel"

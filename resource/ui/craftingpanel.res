@@ -1,3 +1,7 @@
+#base "../../cfg/2010hud/client20102011.txt"
+
+#base "1/2011fix/1craftingpanel.res"
+
 "craftingpanel"
 {
 	"crafting_panel"
@@ -56,8 +60,9 @@
 		{
 			"font"			"HudFontSmallestBold"
 			"zpos"			"1"
-			"wide"			"270"
+			"wide"			"255"
 			"tall"			"13"
+			"textinsetx"	"0"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -125,7 +130,7 @@
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
-	//	"paintbackgroundType"	"2"
+	//	"paintbackgroundtype"	"2"
 	//	"bgcolor_override"	"200 187 161 0"
 
 		"RecipeTitle"
@@ -291,63 +296,63 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"paintbackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
-		"bgcolor_override"	"200 187 161 0"
-		"autohide_buttons"	"1"
+
+		"VerticalScrollBar"
+		{
+			"controlname"	"ScrollBar"
+			"xpos"			"rs1"
+			"zpos"			"1069"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+
+			"UpButton"
+			{
+				"textinsetx"				"0"
+				"defaultfgcolor_override"	"59 54 48 255"
+				"armedfgcolor_override"		"59 54 48 255"
+			}
+
+			"DownButton"
+			{
+				"textinsetx"				"0"
+				"defaultfgcolor_override"	"59 54 48 255"
+				"armedfgcolor_override"		"59 54 48 255"
+			}
+		}
 	}
 
 	"recipecontainer"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"recipecontainer"
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"paintbackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
 	}
 
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
+		"zpos"			"1069"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundType"	"2"
-		"paintborder"	"1"
 
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"15"
+	//	"padding_height"	"15"
 
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labeltext"		"%attriblist%"
-			"textalignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
-		}
+		// "attriblabel"
+		// {
+		// 	"ypos"			"30"
+		// 	"wide"			"140"
+		// 	"tall"			"60"
+		// 	"labeltext"		"%attriblist%"
+		// 	"font"			"ItemFontAttribLarge"
+		// 	"centerwrap"	"1"
+		// }
 	}
 
 	"mousedragitempanel"
@@ -362,7 +367,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintborder"	"1"
 
 		"model_ypos"	"5"
@@ -383,13 +388,11 @@
 		"controlname"	"EditablePanel"
 		"zpos"			"777" // 99% of gamblers quit right before they win big
 		"visible"		"0"
-		"border"		"MainMenuBGBorder"
+		"border"		"LoadoutItemPopupBorder"
 
 		"TipLabel"
 		{
 			"controlname"	"CExLabel"
-			"xpos"			"10"
-			"ypos"			"9"
 			"auto_wide_tocontents"	"1"
 			"labeltext"		"%tiptext%"
 			"font"			"HudFontSmallest"

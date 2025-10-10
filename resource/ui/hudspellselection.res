@@ -1,18 +1,9 @@
-"Resource/UI/HudSpellSelection.res"
-{		
-	HudSpellMenu
-	{
-		"xpos"			"130"
-		"ypos"			"r49"
-		"ypos_minmode"	"r34"
-		"proportionaltoparent"	"1"
+#base "../../cfg/2010hud/killstreakfix.txt"
 
-		"if_killstreak_visible"
-		{
-			"xpos"			"200"
-		}
-	}
+#base "1/ingame/spell_war.res"
 
+"hudspellselection"
+{
 	"Spellbook"
 	{
 		"controlname"	"CTFImagePanel"
@@ -21,7 +12,6 @@
 		"zpos"			"1"
 		"wide"			"53"
 		"tall"			"o1"
-		"visible"		"1"
 		"scaleimage"	"1"
 		"image"			"spellbook_book"
 	}
@@ -111,6 +101,7 @@
 		"controlname"	"CTFImagePanel"
 		"wide"			"75"
 		"tall"			"o0.5"
+	//	"visible_minmode"	"1"
 		"scaleimage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"		

@@ -26,43 +26,6 @@
 		"control_button_y"				"c-140"
 	}
 
-	"ScrollBar"
-	{
-		"controlname"	"ScrollBar"
-		"FieldName"		"ScrollBar"
-		"xpos"			"c222"
-		"ypos"			"c-120"
-		"wide"			"11"
-		"tall"			"200"
-		"zpos"			"1000"
-		"visible"		"1"
-		"nobuttons"		"1"
-
-		"Slider"
-		{
-			"paintbackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
-		}
-
-		"UpButton"
-		{
-			"controlname"	"Button"
-			"FieldName"		"UpButton"
-			"visible"		"0"
-			"tall"			"0"
-			"wide"			"0"
-		}
-
-		"DownButton"
-		{
-			"controlname"	"Button"
-			"FieldName"		"DownButton"
-			"visible"		"0"
-			"tall"			"0"
-			"wide"			"0"
-		}
-	}
-
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -128,7 +91,7 @@
 		{
 			"controlname"	"EditablePanel"
 			"xpos"			"115"
-			"ypos"			"3"
+			"ypos"			"2"
 			"wide"			"110"
 			"tall"			"19"
 			"border"		"StorePreviewTabSelected"
@@ -154,7 +117,7 @@
 		"PreviewBG"
 		{
 			"controlname"	"EditablePanel"
-			"ypos"			"22"
+			"ypos"			"21"
 			"zpos"			"-91"
 			"wide"			"225"
 			"tall"			"280"
@@ -164,7 +127,7 @@
 		"BottomBGImage"
 		{
 			"controlname"	"ScalableImagePanel"
-			"ypos"			"235"
+			"ypos"			"234"
 			"wide"			"225"
 			"tall"			"67"
 			"image"			"store/store_inspector_bottom"
@@ -202,7 +165,7 @@
 			"wide"			"230"
 			"tall"			"201"
 			"visible"		"1"
-			"paintbackgroundType"	"0"
+			"paintbackgroundtype"	"0"
 			"bgcolor_override"	"0 0 0 0"
 			"skip_autoresize"	"1"
 			"autoresize"		"0"
@@ -217,7 +180,7 @@
 				"wide"			"230"
 				"tall"			"222"
 				"visible"		"1"
-				"paintbackgroundType"	"0"
+				"paintbackgroundtype"	"0"
 				"bgcolor_override"	"0 0 0 0"
 				"skip_autoresize"	"1"
 				"autoresize"		"0"
@@ -629,22 +592,38 @@
 			// "modelname"	""
 		}
 	}
-	
+
+	"ItemIcon1Corners"
+	{
+		"controlname"	"ScalableImagePanel"
+		"zpos"			"14"
+		"wide"			"30"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"src_corner_height"		"6"
+		"src_corner_width"		"6"
+		"draw_corner_width"		"2"
+		"draw_corner_height"	"2"
+		"drawcolor"		"59 54 52 255"
+		"image"			"replay/thumbnails/borders/vivi_button_corners"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ItemIcon1"
+	}
+
 	"ItemIcon1"
 	{
 		"controlname"	"CStorePreviewItemIcon"
-		"xpos"			"123"
-		"ypos"			"245"
+		"xpos"			"423"
+		"ypos"			"244"
 		"zpos"			"13"
 		"wide"			"30"
 		"tall"			"20"
-	//	"visible"		"1"
 		"panel_bgcolor"	"TanDark"
 		"panel_bgcolor_mouseover"	"TanLight"
-	//	"image_indent"	"0"
-		"paintbackgroundType"	"2"
-		
-		"bgblockout"
+		"paintbackgroundtype"	"0"
+
+		"bgblockout" // fix make border not bg color override
 		{
 			"controlname"	"EditablePanel"
 			"xpos"			"2"
@@ -652,17 +631,14 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-		//	"visible"		"1"
-		//	"enabled"		"0"
-			"paintbackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override"	"51 47 46 255"
+			"paintbackgroundtype"	"0"
 		}
-		
+
 		"itempanel"
 		{
-		//	"paintbackgroundType"	"2"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -694,7 +670,7 @@
 	// 	"panel_bgcolor" "117 107 94 255"
 	// 	"panel_bgcolor_mouseover" "255 255 255 255"
 	// 	"image_indent"	"0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 		
 	// 	"bgblockout"
 	// 	{
@@ -707,7 +683,7 @@
 	// 		"tall"			"16"
 	// 		"visible"		"1"
 	// 		"enabled"		"0"
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"bgcolor_override" "51 47 46 255"
 	// 	}
 		
@@ -715,7 +691,7 @@
 	// 	{
 	// 		"fieldName"		"itempanel"
 			
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"paintborder"	"0"
 			
 	// 		"model_xpos"	"1"
@@ -749,7 +725,7 @@
 	// 	"panel_bgcolor" "117 107 94 255"
 	// 	"panel_bgcolor_mouseover" "255 255 255 255"
 	// 	"image_indent"	"0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 		
 	// 	"bgblockout"
 	// 	{
@@ -762,7 +738,7 @@
 	// 		"tall"			"16"
 	// 		"visible"		"1"
 	// 		"enabled"		"0"
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"bgcolor_override" "51 47 46 255"
 	// 	}
 		
@@ -770,7 +746,7 @@
 	// 	{
 	// 		"fieldName"		"itempanel"
 			
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"paintborder"	"0"
 			
 	// 		"model_xpos"	"1"
@@ -804,7 +780,7 @@
 	// 	"panel_bgcolor" "117 107 94 255"
 	// 	"panel_bgcolor_mouseover" "255 255 255 255"
 	// 	"image_indent"	"0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 		
 	// 	"bgblockout"
 	// 	{
@@ -817,7 +793,7 @@
 	// 		"tall"			"16"
 	// 		"visible"		"1"
 	// 		"enabled"		"0"
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"bgcolor_override" "51 47 46 255"
 	// 	}
 		
@@ -825,7 +801,7 @@
 	// 	{
 	// 		"fieldName"		"itempanel"
 			
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"paintborder"	"0"
 			
 	// 		"model_xpos"	"1"
@@ -859,7 +835,7 @@
 	// 	"panel_bgcolor" "117 107 94 255"
 	// 	"panel_bgcolor_mouseover" "255 255 255 255"
 	// 	"image_indent"	"0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 		
 	// 	"bgblockout"
 	// 	{
@@ -872,7 +848,7 @@
 	// 		"tall"			"16"
 	// 		"visible"		"1"
 	// 		"enabled"		"0"
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"bgcolor_override" "51 47 46 255"
 	// 	}
 		
@@ -880,7 +856,7 @@
 	// 	{
 	// 		"fieldName"		"itempanel"
 			
-	// 		"paintbackgroundType"	"2"
+	// 		"paintbackgroundtype"	"2"
 	// 		"paintborder"	"0"
 			
 	// 		"model_xpos"	"1"
@@ -899,7 +875,25 @@
 	// 		}
 	// 	}
 	// }
-	
+
+	"ClassUsageImage1Corners"
+	{
+		"controlname"	"ScalableImagePanel"
+		"zpos"			"6"
+		"wide"			"20"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"src_corner_height"		"6"
+		"src_corner_width"		"6"
+		"draw_corner_width"		"2"
+		"draw_corner_height"	"2"
+		"drawcolor"		"59 54 52 255"
+		"image"			"replay/thumbnails/borders/vivi_button_corners"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ClassUsageImage1"
+	}
+
 	"ClassUsageImage1"
 	{
 		"controlname"	"CStorePreviewClassIcon"
@@ -909,7 +903,25 @@
 		"image_indent"	"2"
 		"panel_bgcolor"	"TanDark"
 		"panel_bgcolor_mouseover"	"TanLight"
-		"paintbackgroundtype"	"2"
+		"paintbackgroundtype"	"0"
+	}
+
+	"ClassUsageImage2Corners"
+	{
+		"controlname"	"ScalableImagePanel"
+		"zpos"			"6"
+		"wide"			"20"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"src_corner_height"		"6"
+		"src_corner_width"		"6"
+		"draw_corner_width"		"2"
+		"draw_corner_height"	"2"
+		"drawcolor"		"59 54 52 255"
+		"image"			"replay/thumbnails/borders/vivi_button_corners"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ClassUsageImage2"
 	}
 
 	"ClassUsageImage2"
@@ -921,7 +933,25 @@
 		"image_indent"	"2"
 		"panel_bgcolor"	"TanDark"
 		"panel_bgcolor_mouseover"	"TanLight"
-		"paintbackgroundtype"	"2"
+		"paintbackgroundtype"	"0"
+	}
+
+	"ClassUsageImage3Corners"
+	{
+		"controlname"	"ScalableImagePanel"
+		"zpos"			"6"
+		"wide"			"20"
+		"tall"			"20"
+		"proportionaltoparent"	"1"
+		"src_corner_height"		"6"
+		"src_corner_width"		"6"
+		"draw_corner_width"		"2"
+		"draw_corner_height"	"2"
+		"drawcolor"		"59 54 52 255"
+		"image"			"replay/thumbnails/borders/vivi_button_corners"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "ClassUsageImage3"
 	}
 
 	"ClassUsageImage3"
@@ -933,7 +963,7 @@
 		"image_indent"	"2"
 		"panel_bgcolor"	"TanDark"
 		"panel_bgcolor_mouseover"	"TanLight"
-		"paintbackgroundtype"	"2"
+		"paintbackgroundtype"	"0"
 	}
 
 	"ClassUsageImage4"
@@ -1034,7 +1064,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
@@ -1422,7 +1452,7 @@
 	"BackButton"
 	{
 		"controlname"	"EditablePanel"
-		"ypos"			"3"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"110"
 		"tall"			"19"
@@ -1501,7 +1531,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"30"
-		"ypos"			"273"
+		"ypos"			"272"
 		"zpos"			"2"
 		"wide"			"165"
 		"tall"			"20"
@@ -1529,29 +1559,14 @@
 
 	"mouseoveritempanel"
 	{
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"1001"
-		"wide"			"200"
-		"tall"			"150"
+		"controlname"	"CItemModelPanel"
+		"zpos"			"1069"
+		"wide"			"300"
+		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundType"	"2"
-		"paintborder"	"1"
 
-		"text_center_x"		"1"
+		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
-		"model_ypos"	"15"
-		"model_wide"	"150"
-		"model_tall"	"100"
-
-		"hide_collection_panel" "1"
-		"model_center_x"	"1"
-
-		"name_only"			"1"
 	}
 }

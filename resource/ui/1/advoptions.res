@@ -162,10 +162,8 @@
 	"TF2SettingsButton"
 	{
 		"controlname"	"CExImageButton"
-		"xpos"			"c130"
-		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"25"
+		"wide"			"20"
 		"tall"			"25"
 		"labeltext"		""
 		"command"		"opentf2options"
@@ -174,17 +172,21 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
+		"border_default"	"ViviTanDarkBGCornersL"
+		"border_armed"		"ViviTFOrangeBGCornersL"
+		"border_selected"	"ViviTFOrangeBGCornersL"
 		"paintbackground"	"0"
+
+		"pin_to_sibling" "OptionsButton"
+		"pin_corner_to_sibling" "1"
 
 		"subimage"
 		{
-			"xpos"			"3"
+			"xpos"			"cs-0.5"
 			"ypos"			"6"
 			"wide"			"14"
 			"tall"			"14"
+			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
 			"image"			"glyph_options"
 		}
@@ -207,7 +209,7 @@
 		"controlname"	"CExImageButton"
 		"xpos"			"c150"
 		"ypos"			"437"
-		"zpos"			"2"
+		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
 		"labeltext"		"#GameUI_GameMenu_Options"

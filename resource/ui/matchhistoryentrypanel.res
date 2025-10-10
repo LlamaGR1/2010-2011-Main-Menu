@@ -30,8 +30,8 @@
 			"sound_released"	"ui/buttonclickrelease.wav"
 
 			"roundedcorners"			"0"
-			"stay_armed_on_click"		"1"
 			"button_activation_type"	"2"
+			"stay_armed_on_click"		"1"
 
 			"defaultbgcolor_override"	"Blank"
 			"armedbgcolor_override"		"235 226 202 20"

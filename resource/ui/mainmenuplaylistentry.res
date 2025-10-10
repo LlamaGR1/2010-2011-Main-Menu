@@ -2,7 +2,7 @@
 {
 	"ModeImage"
 	{
-		"ControlName"	"ImagePanel"
+		"controlname"	"ImagePanel"
 		"xpos"			"cs-0.5"		//		10
 		"ypos"			"0"		//		32
 		"zpos"			"1"
@@ -25,14 +25,14 @@
 
 	// "PlayListDropShadow"
 	// {
-	// 	"ControlName"	"EditablePanel"
+	// 	"controlname"	"EditablePanel"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
 	// 	"zpos"			"1000"
 	// 	"wide"			"f0"
 	// 	"tall"			"f0"
 	// 	"visible"		"1"
-	// 	"PaintBackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"border"		"InnerShadowBorderThin"
 	// 	"proportionaltoparent"	"1"
 	// 	"mouseinputenabled"	"0"
@@ -40,7 +40,7 @@
 
 	"BGColor"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -56,7 +56,7 @@
 	
 	"ToolTipHack"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"50"
@@ -71,7 +71,7 @@
 
 	"ToolTipButtonHack"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"rs1-6"
 		"ypos"			"2"
 		"zpos"			"51"
@@ -87,7 +87,7 @@
 
 	"ModeButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"zpos"			"6"
@@ -117,7 +117,7 @@
 
 	"MatchmakingBanPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"fieldName"		"MatchmakingBanPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -132,7 +132,7 @@
 
 		"MatchmakingBanDurationLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"MatchmakingBanDurationLabel"
 			"font"			"MMenuPlayListDesc"
 			"fgcolor_override"	"RedSolid"
@@ -155,7 +155,7 @@
 
 	"DescLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 	//	"xpos"			"cs-0.5"
 		"ypos"			"99918"
 		"zpos"			"332"
@@ -180,7 +180,7 @@
 
 	// "DescLabelShadow"
 	// {
-	// 	"ControlName"	"CExLabel"
+	// 	"controlname"	"CExLabel"
 	// 	"fieldName"		"DescLabelShadow"
 	// 	"font"			"MMenuPlayListDesc"
 	// 	"labelText"		"%desc_token%"
@@ -202,7 +202,7 @@
 	
 	"DisabledIcon"
 	{
-		"ControlName"	"CExImageButton"
+		"controlname"	"CExImageButton"
 		"fieldName"		"DisabledIcon"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -229,10 +229,10 @@
 				
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 140 140 255"
-		"SubImage"
+		"subimage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
+			"controlname"	"ImagePanel"
+			"fieldName"		"subimage"
 			"xpos"			"233"
 			"ypos"			"2"
 			"zpos"			"1"
@@ -241,7 +241,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"locked_icon"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"proportionaltoparent" "1"
 		}	
 	}

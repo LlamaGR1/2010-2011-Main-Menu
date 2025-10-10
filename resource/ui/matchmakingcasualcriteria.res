@@ -8,7 +8,7 @@
 {
 	"PlaylistBGPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 	//	"xpos"			"cs-0.5"
 	//	"ypos"			"0"
 	//	"zpos"			"-1"
@@ -25,7 +25,7 @@
 
 		"Title"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"wide"			"230"
 			"tall"			"20"
@@ -36,7 +36,7 @@
 
 		"SelectedCount"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"21"
 			"wide"			"169"
@@ -48,7 +48,7 @@
 
 		// "RankImage"
 		// {
-		// 	"ControlName"	"CTFLocalPlayerBadgePanel"
+		// 	"controlname"	"CTFLocalPlayerBadgePanel"
 		// 	"xpos"			"4"
 		// 	"ypos"			"-8"
 		// 	"zpos"			"110"
@@ -64,7 +64,7 @@
 
 		// "RankPanel"
 		// {
-		// 	"ControlName"	"CPvPRankPanel"
+		// 	"controlname"	"CPvPRankPanel"
 		// 	"fieldName"		"RankPanel"
 		// 	"xpos"			"-70"
 		// 	"ypos"			"-35"
@@ -83,7 +83,7 @@
 
 		"RestoreCasualSearchCriteria"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"xpos"			"rs1-30" //-50
 			"ypos"			"2"		//		361
 			"zpos"			"100"
@@ -109,14 +109,14 @@
 				"ypos"			"2"
 				"wide"			"11"
 				"tall"			"11"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 				"image"			"button_load"
 			}
 		}
 
 		"SaveCasualSearchCriteria"
 		{
-			"ControlName"	"CExImageButton"
+			"controlname"	"CExImageButton"
 			"xpos"			"rs1-10"	//-30
 			"ypos"			"2"
 			"zpos"			"100"
@@ -142,14 +142,14 @@
 				"ypos"			"2"
 				"wide"			"11"
 				"tall"			"11"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 				"image"			"button_save"
 			}
 		}
 
 		"ShowExplanationsButton"
 		{
-			"ControlName"	"CExButton"
+			"controlname"	"CExButton"
 			"xpos"			"rs1-10"
 			"ypos"			"2"
 			"zpos"			"100"
@@ -175,7 +175,7 @@
 
 		"QueueEstimation"
 		{
-			"ControlName"		"Label"
+			"controlname"		"Label"
 			"fieldName"		"QueueEstimation"
 			"xpos"		"rs1-5"
 			"ypos"		"18"
@@ -195,14 +195,14 @@
 
 		"PlayListDropShadow"
 		{
-			"ControlName"	"EditablePanel"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"65"
 			"zpos"			"101"
 			"wide"			"f15"
 			"tall"			"200"		//		f65
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 		//	"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -211,7 +211,7 @@
 
 		"GameModesList"
 		{
-			"ControlName"	"CScrollableList"
+			"controlname"	"CScrollableList"
 			"xpos"			"10"
 			"ypos"			"38"
 			"wide"			"280"
@@ -224,7 +224,7 @@
 
 			"ScrollBar"
 			{
-				"ControlName"	"ScrollBar"
+				"controlname"	"ScrollBar"
 				"xpos"			"rs1"
 				"zpos"			"1069"
 				"wide"			"5"

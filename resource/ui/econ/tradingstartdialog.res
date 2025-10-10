@@ -11,19 +11,19 @@
 		"button_kv"
 		{
 			"xpos"			"10"
-			"ypos"			"0"
-			"wide"			"350"
+		//	"ypos"			"0"
+			"wide"			"358"
 			"tall"			"30"
 
 			"button"
 			{
-				"wide"			"350"
+				"xpos"			"2"
+				"wide"			"356"
 				"tall"			"30"
-				"labeltext"		""
+			//	"labeltext"		""
 				"font"			"HudFontSmallBold"
-				"textalignment"	"west"
-				"textinsetx"	"34"
 				"use_proportional_insets"	"1"
+				"textinsetx"	"30"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -38,12 +38,12 @@
 			"avatar"
 			{
 				"controlname"	"CAvatarImagePanel"
-				"xpos"			"5"
+				"xpos"			"7"
 				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
-				"image"			""
+			//	"image"			""
 			//	"visible"		"1"
 			//	"enabled"		"1"
 				"scaleimage"	"1"
@@ -59,7 +59,7 @@
 		"labeltext"		"#TF_TradeStartDialog_Title"
 		"textalignment"	"north"
 		"ypos"			"15"
-		"zpos"			"1"
+	//	"zpos"			"1"
 		"wide"			"400"
 		"tall"			"25"
 		"fgcolor_override"	"LightRed"
@@ -71,50 +71,50 @@
 		"xpos"			"10"
 		"ypos"			"80"
 		"wide"			"380"
-		"tall"			"130"
-		"paintbackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"0 0 0 64"
+		"tall"			"162"
+	//	"paintbackgroundtype"	"2"
+		"fgcolor_override"	"TanDark"
+	//	"bgcolor_override"	"0 0 0 64"
+		"border"		"ViviTradingBG"
 
 		"PlayerList"
 		{
 			"controlname"	"EditablePanel"
-			"xpos"			"0"
-			"ypos"			"0"
+		//	"xpos"			"2"
 			"wide"			"190"
-			"tall"			"130"
-			"visible"		"1"
+			"tall"			"162"
+		//	"visible"		"1"
 		}
 	}
 
 	"StatePanel0"
 	{
 		"controlname"	"EditablePanel"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
 		"tall"			"180"
-		"paintbackgroundType"	"2"
-	
+	//	"paintbackgroundtype"	"2"
+
 		"QueryLabel"
 		{
 			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
 			"labeltext"		"#TF_TradeStartDialog_Select"
 			"textalignment"	"north"
-			"xpos"			"0"
+		//	"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+		//	"autoResize"	"0"
+		//	"pinCorner"		"0"
+		//	"visible"		"1"
+		//	"enabled"		"1"
 			"fgcolor_override"	"HudOffWhite"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -189,14 +189,14 @@
 	"StatePanel1"
 	{
 		"controlname"	"EditablePanel"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
 		"tall"			"180"
-		"paintbackgroundType"	"2"
-	
+	//	"paintbackgroundtype"	"2"
+
 		"QueryLabel"
 		{
 			"controlname"	"CExLabel"
@@ -212,8 +212,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"HudOffWhite"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"controlname"	"CExLabel"
@@ -232,19 +232,20 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override"	"HudOffWhite"
-		}	
+		}
 	}
+
 	"StatePanel2"
 	{
 		"controlname"	"EditablePanel"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
 		"tall"			"180"
-		"paintbackgroundType"	"2"
-	
+	//	"paintbackgroundtype"	"2"
+
 		"QueryLabel"
 		{
 			"controlname"	"CExLabel"
@@ -261,8 +262,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"HudOffWhite"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"controlname"	"CExLabel"
@@ -281,19 +282,20 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override"	"HudOffWhite"
-		}	
+		}
 	}
+
 	"StatePanel3"
 	{
 		"controlname"	"EditablePanel"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
 		"tall"			"180"
-		"paintbackgroundType"	"2"
-	
+	//	"paintbackgroundtype"	"2"
+
 		"QueryLabel"
 		{
 			"controlname"	"CExLabel"
@@ -310,8 +312,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"HudOffWhite"
-		}	
-		
+		}
+
 		"URLHelpLabel"
 		{
 			"controlname"	"Label"
@@ -329,9 +331,9 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override"	"117 107 94 255"
-		}	
-		
+			"fgcolor_override"	"TanDark"
+		}
+
 		"URLFailLabel"
 		{
 			"controlname"	"Label"
@@ -349,8 +351,9 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override"	"200 80 60 255"
-		}	
+			"fgcolor_override"	"LightRed"
+		}
+
 		"URLSearchingLabel"
 		{
 			"controlname"	"Label"
@@ -368,35 +371,36 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override"	"200 80 60 255"
-		}	
-		
+			"fgcolor_override"	"LightRed"
+		}
+
 		"URLEntry"
 		{
-			"controlname"		"TextEntry"
-			"xpos"				"20"
-			"ypos"				"80"
-			"wide"				"360"
-			"tall"				"25"
-			"autoResize"		"1"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"textHidden"		"0"
-			"editable"			"1"
-			"maxchars"			"256"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			"wrap"				"0"
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 60"
-			"paintbackgroundtype"	"0"
-			"labeltext"			""
-			"font"				"HudFontSmall"
-			"textalignment"		"west"
+			"controlname"	"TextEntry"
+			"xpos"			"20"
+			"ypos"			"80"
+			"wide"			"360"
+			"tall"			"25"
+		//	"autoResize"		"1"
+		//	"pinCorner"			"0"
+		//	"visible"			"1"
+		//	"enabled"			"1"
+		//	"tabPosition"		"0"
+		//	"textHidden"		"0"
+			"editable"		"1"
+			"maxchars"		"256"
+		//	"NumericInputOnly"	"0"
+		//	"unicode"			"0"
+		//	"wrap"				"0"
+			"fgcolor_override"	"TanLight"
+		//	"bgcolor_override"	"0 0 0 60"
+		//	"paintbackgroundtype"	"0"
+		//	"labeltext"			""
+			"font"			"HudFontSmall"
+		//	"textalignment"		"west"
+			"border"		"ViviTradingBG"
 		}
-		
+
 		"subbutton0"
 		{
 			"controlname"	"CExButton"
@@ -417,10 +421,11 @@
 			"border_default"	"ViviTanDarkBG"
 			"border_armed"		"ViviTFOrangeBG"
 			"border_selected"	"ViviTFOrangeBG"
+			"border_disabled"	"ViviTanDarkBG"
 			"paintbackground"	"0"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"controlname"	"CExButton"

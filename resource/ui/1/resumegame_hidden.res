@@ -314,14 +314,6 @@
 
 	"MMDashboard"
 	{
-		"zpos"			"-68"
-		"wide"			"f0"
-
-		"expanded_height"	"175"
-		"resize_time"		"0"
-
-	//	"bgcolor_override"	"255 0 0 15"
-
 		"StartPlayingButton"
 		{
 			"controlname"	"EditablePanel"

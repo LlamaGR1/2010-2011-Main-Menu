@@ -1,8 +1,16 @@
 Scheme
 {
+	Colors
+	{
+		"CartIconColor"			"117 107 94 255"
+	}
+
 	BaseSettings
 	{
- 		Econ.Button.PresetDefaultColorFg	"Orange"
+		ReplayBrowser.Button.ArmedBgColor		"Orange"
+		ReplayBrowser.Button.DepressedBgColor	"Orange"
+
+		Econ.Button.PresetDefaultColorFg	"Orange"
 		Econ.Button.PresetArmedColorFg		"OrangeDim"
 		Econ.Button.PresetDepressedColorFg	"Orange"
 
@@ -36,6 +44,18 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
+		ViviTanDarkBGCornersL
+		{
+			"bordertype"			"scalable_image"
+			"color"					"Yellow"
+
+			"image"					"replay/thumbnails/borders/vivi_button_corners_l"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
 		ViviTanDarkBGCornersR
 		{
 			"bordertype"			"scalable_image"
@@ -54,6 +74,18 @@ Scheme
 			"color"					"Orange"
 
 			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviTFOrangeBGCornersL
+		{
+			"bordertype"			"scalable_image"
+			"color"					"Orange"
+
+			"image"					"replay/thumbnails/borders/vivi_button_corners_l"
 			"src_corner_height"		"6"
 			"src_corner_width"		"6"
 			"draw_corner_width"		"2"

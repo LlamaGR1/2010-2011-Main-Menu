@@ -1,3 +1,7 @@
+#base "../../cfg/2010hud/client20102011.txt"
+
+#base "1/2011fix/1charinfoarmorysubpanel.res"
+
 "charinfoarmorysubpanel"
 {
 	"armory_panel"
@@ -151,16 +155,13 @@
 	{
 		"controlname"	"CItemModelPanel"
 		"zpos"			"1069"
-		"wide"			"200"
-		"tall"			"150"
+		"visible"		"0"
 
 		"text_center_x"	"1"
-		"text_ypos"		"10"
 		"text_wide"		"180"
 		"name_only"		"1"
 
 		"model_center_x"	"1"
-		"model_ypos"	"30"
 		"model_wide"	"150"
 		"model_tall"	"100"
 	}

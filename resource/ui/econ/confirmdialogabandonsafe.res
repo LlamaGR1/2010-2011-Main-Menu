@@ -2,7 +2,7 @@
 {
 	"ConfirmDialog"
 	{
-		"ControlName"	"Frame"
+		"controlname"	"Frame"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"wide"			"325"
@@ -12,7 +12,7 @@
 
 	"TitleLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 		"ypos"			"15"
 		"wide"			"325"
 		"tall"			"25"
@@ -25,7 +25,7 @@
 
 	"ExplanationLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"40"
 		"ypos"			"50"
 		"wide"			"245"
@@ -39,7 +39,7 @@
 
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"190"
 		"ypos"			"165"
 		"zpos"			"1"
@@ -62,7 +62,7 @@
 
 	"ConfirmButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"10"
 		"ypos"			"165"
 		"zpos"			"1"

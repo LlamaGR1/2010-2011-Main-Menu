@@ -3,6 +3,9 @@ exec joystick.cfg
 exec autoexec.cfg
 stuffcmds
 startupmenu
+sv_unlockedchapters 99
+
+
 
 con_enable 1
 wait 2; showconsole; incrementvar mat_aaquality 0 1 1; hideconsole
@@ -148,9 +151,9 @@ alias 341ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/client
 alias 341ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/client20102011.txt"
 alias 341ci_unlog "con_logfile console.log"
 
-alias client2010 "341ci_clear; 341ci_log; exec client2010.cfg; 341ci_unlog; toggle mat_aaquality"
-alias client2011 "341ci_clear; 341ci_log; exec client2011.cfg; 341ci_unlog; toggle mat_aaquality"
-//alias client2011 "341ci_clear; toggle mat_aaquality"
+alias client2010 "341ci_clear; 341ci_log; exec client2010.cfg; 341ci_unlog"
+//alias client2011 "341ci_clear; 341ci_log; exec client2011.cfg; 341ci_unlog"
+alias client2011 "341ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		quit confirm
 
@@ -160,3 +163,58 @@ alias 36ci_unlog "con_logfile console.log"
 
 alias quitgameconfirm "36ci_clear; 36ci_log; exec quitgameconfirm.cfg; 36ci_unlog; toggle mat_aaquality"
 alias quitgameconfirmno "36ci_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		scoreboard rank
+
+alias 16ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/scoreboardrank.txt"
+alias 16ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/scoreboardrank.txt"
+alias 16ci_unlog "con_logfile console.log"
+
+alias scoreboardrankhide "16ci_clear; 16ci_log; exec scoreboardrank.cfg; 16ci_unlog; hud_reloadscheme"
+alias scoreboardrank "16ci_clear; hud_reloadscheme"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		backgrounds / theme
+
+alias bgs_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/bgs.txt"
+alias bgs_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/bgs.txt"
+alias bgs_unlog "con_logfile console.log"
+
+alias bgs_hl2 "bgs_clear; bgs_log; exec bgs_hl2.cfg; bgs_unlog; toggle mat_aaquality"
+alias bgs_tf "bgs_clear; bgs_log; exec bgs_tf.cfg; bgs_unlog; toggle mat_aaquality"
+alias bgs_tf2 "bgs_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		killstreak
+
+alias killstreak_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/killstreak.txt"
+alias killstreak_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/killstreak.txt"
+alias killstreak_unlog "con_logfile console.log"
+
+alias killstreakdefault "killstreak_clear; killstreak_log; exec killstreak.cfg; killstreak_unlog; hud_reloadscheme"
+alias killstreakwar "killstreak_clear; hud_reloadscheme"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		killstreak fix
+
+alias killstreakfix_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/killstreakfix.txt"
+alias killstreakfix_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/killstreakfix.txt"
+alias killstreakfix_unlog "con_logfile console.log"
+
+alias killstreakdefaultfix "killstreakfix_clear; killstreakfix_log; exec killstreakfix.cfg; killstreakfix_unlog"
+alias killstreakwarfix "killstreakfix_clear"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		presets
+
+alias presets_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/presets.txt"
+alias presets_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/presets.txt"
+alias presets_unlog "con_logfile console.log"
+
+alias presetshide "presets_clear; presets_log; exec presets.cfg; presets_unlog; toggle mat_aaquality"
+alias presets "presets_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		start playing command
+
+alias startplaying_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/startplaying.txt"
+alias startplaying_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/startplaying.txt"
+alias startplaying_unlog "con_logfile console.log"
+
+alias startplayingcommunity "startplaying_clear; startplaying_log; exec startplaying.cfg; startplaying_unlog; toggle mat_aaquality"
+alias startplaying "startplaying_clear; toggle mat_aaquality"

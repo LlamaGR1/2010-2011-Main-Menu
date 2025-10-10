@@ -2,7 +2,7 @@
 {
 	"EventEntry"
 	{
-		"ControlName"	"CEventPlayListEntry"
+		"controlname"	"CEventPlayListEntry"
 		"xpos"			"0"
 		"ypos"			"3"
 		"tall"			"45"
@@ -14,7 +14,7 @@
 
 	"CasualEntry"
 	{
-		"ControlName"	"CPlayListEntry"
+		"controlname"	"CPlayListEntry"
 		"xpos"			"5"
 		"ypos"			"5"
 		"wide"			"205"
@@ -35,7 +35,7 @@
 
 	"CompetitiveEntry"
 	{
-		"ControlName"	"CPlayListEntry"
+		"controlname"	"CPlayListEntry"
 		"xpos"			"230"
 		"ypos"			"5"
 		"wide"			"205"
@@ -56,7 +56,7 @@
 
 	"MvMEntry"
 	{
-		"ControlName"	"CPlayListEntry"
+		"controlname"	"CPlayListEntry"
 		"xpos"			"5"
 		"ypos"			"155"
 		"wide"			"205"
@@ -77,7 +77,7 @@
 
 	"ServerBrowserEntry"
 	{
-		"ControlName"	"CPlayListEntry"
+		"controlname"	"CPlayListEntry"
 		"xpos"			"230"
 		"ypos"			"155"
 		"wide"			"205"
@@ -97,7 +97,7 @@
 
 	// "TrainingEntry"
 	// {
-	// 	"ControlName"	"CPlayListEntry"
+	// 	"controlname"	"CPlayListEntry"
 	// 	"xpos"			"0"
 	// 	"ypos"			"203"
 	// 	"tall"			"45"
@@ -117,7 +117,7 @@
 
 	// "CreateServerEntry"
 	// {
-	// 	"ControlName"	"CPlayListEntry"
+	// 	"controlname"	"CPlayListEntry"
 	// 	"xpos"			"0"
 	// 	"ypos"			"253"
 	// 	"tall"			"45"
@@ -137,7 +137,7 @@
 
 	"ScrollBar"
 	{
-		"ControlName"	"ScrollBar"
+		"controlname"	"ScrollBar"
 		"xpos"			"rs1-1"
 		"ypos"			"0"
 		"tall"			"f0"
@@ -153,13 +153,13 @@
 		
 		"UpButton"
 		{
-			"ControlName"	"Button"
+			"controlname"	"Button"
 			"visible"		"0"
 		}
 		
 		"DownButton"
 		{
-			"ControlName"	"Button"
+			"controlname"	"Button"
 			"visible"		"0"
 		}
 	}

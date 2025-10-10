@@ -2,7 +2,7 @@
 {
 	"ModelContainer"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -14,7 +14,7 @@
 
 		"BelowModelParticlePanel"
 		{
-			"ControlName"	"CTFParticlePanel"
+			"controlname"	"CTFParticlePanel"
 			"fieldName"		"BelowModelParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -47,7 +47,7 @@
 
 		"RankModel"
 		{
-			"ControlName"	"CBaseModelPanel"
+			"controlname"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -106,7 +106,7 @@
 
 		"AboveModelParticlePanel"
 		{
-			"ControlName"	"CTFParticlePanel"
+			"controlname"	"CTFParticlePanel"
 			"fieldName"		"AboveModelParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -159,7 +159,7 @@
 
 		"MedalButton"
 		{
-			"ControlName"	"Button"
+			"controlname"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5+2"
@@ -178,14 +178,14 @@
 
 	"BGPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"rs1"
 	//	"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"f0"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -200,7 +200,7 @@
 
 		// "WelcomeLabel"
 		// {
-		// 	"ControlName"	"Label"
+		// 	"controlname"	"Label"
 		// 	"xpos"			"65"
 		// 	"ypos"			"5"
 		// 	"wide"			"f0"
@@ -220,7 +220,7 @@
 
 		"NameLabel"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
@@ -252,7 +252,7 @@
 
 		// "NameLabel"
 		// {
-		// 	"ControlName"	"Label"
+		// 	"controlname"	"Label"
 		// 	"xpos"			"5"
 		// 	"zpos"			"100"
 		// 	"wide"			"225"
@@ -274,7 +274,7 @@
 
 		"DescLine1"
 		{
-			"ControlName"	"CAutoFittingLabel"
+			"controlname"	"CAutoFittingLabel"
 			"xpos"			"165"
 			"ypos"			"89"
 			"zpos"			"100"
@@ -307,7 +307,7 @@
 
 		"DescLine2"		//  	 game mode text
 		{
-			"ControlName"	"CAutoFittingLabel"
+			"controlname"	"CAutoFittingLabel"
 			"xpos"			"65"
 			"ypos"			"29"
 			"wide"			"195"
@@ -343,7 +343,7 @@
 
 		"StatsContainer"
 		{
-			"ControlName"	"EditablePanel"
+			"controlname"	"EditablePanel"
 			"xpos"			"rs1-5"
 			"ypos"			"0"	//	remove
 			"wide"			"f70"
@@ -360,7 +360,7 @@
 
 			"XPBar"
 			{
-				"Controlname"	"EditablePanel"
+				"controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-3"
@@ -370,7 +370,7 @@
 
 				"CurrentXPLabel"		//		check in game
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"ypos"			"rs1"
 					"wide"			"100"
 					"tall"			"20"
@@ -388,7 +388,7 @@
 
 				"NextLevelXPLabel"		//		check in game
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"xpos"			"rs1"
 					"ypos"			"rs1"
 					"wide"			"100"
@@ -407,7 +407,7 @@
 
 				"ProgressBarsContainer"
 				{
-					"Controlname"	"EditablePanel"
+					"controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"rs1-10"
@@ -417,7 +417,7 @@
 
 					"ProgressBar"
 					{
-						"ControlName"	"ProgressBar"
+						"controlname"	"ProgressBar"
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
@@ -433,7 +433,7 @@
 
 					"ContinuousProgressBar"
 					{
-						"ControlName"	"ContinuousProgressBar"
+						"controlname"	"ContinuousProgressBar"
 						"fieldName"		"ContinuousProgressBar"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
@@ -447,7 +447,7 @@
 
 					"Frame"
 					{
-						"Controlname"	"EditablePanel"
+						"controlname"	"EditablePanel"
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
@@ -462,7 +462,7 @@
 
 			"Stats"
 			{
-				"ControlName"	"EditablePanel"
+				"controlname"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
 				"ypos"			"5"
@@ -479,7 +479,7 @@
 
 				"Frame"
 				{
-					"ControlName"	"EditablePanel"
+					"controlname"	"EditablePanel"
 					"fieldName"		"Frame"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -495,7 +495,7 @@
 				// First column
 				"GamesLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"GamesLabel"
 					"xpos"			"10"
 					"ypos"			"0"
@@ -513,7 +513,7 @@
 
 				"KillsLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"KillsLabel"
 					"xpos"			"10"
 					"ypos"			"10"
@@ -531,7 +531,7 @@
 
 				"DeathsLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"DeathsLabel"
 					"xpos"			"10"
 					"ypos"			"20"
@@ -550,7 +550,7 @@
 				// Second column
 				"DamageLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"DamageLabel"
 					"xpos"			"c-20"
 					"ypos"			"0"
@@ -568,7 +568,7 @@
 
 				"HealingLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"HealingLabel"
 					"xpos"			"c-20"
 					"ypos"			"10"
@@ -586,7 +586,7 @@
 
 				"SupportLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"SupportLabel"
 					"xpos"			"c-20"
 					"ypos"			"20"
@@ -605,7 +605,7 @@
 				// Third column
 				"ScoreLabel"
 				{
-					"ControlName"	"Label"
+					"controlname"	"Label"
 					"fieldName"		"ScoreLabel"
 					"xpos"			"rs1"
 					"ypos"			"0"

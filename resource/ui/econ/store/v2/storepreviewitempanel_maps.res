@@ -33,7 +33,7 @@
 		"ItemDetailsButton1"
 		{
 			"controlname"	"EditablePanel"
-			"ypos"			"3"
+			"ypos"			"2"
 			"wide"			"110"
 			"tall"			"19"
 			"border"		"StorePreviewTabUnselected"
@@ -60,7 +60,7 @@
 		{
 			"controlname"	"EditablePanel"
 			"xpos"			"115"
-			"ypos"			"3"
+			"ypos"			"2"
 			"wide"			"110"
 			"tall"			"19"
 			"border"		"StorePreviewTabSelected"
@@ -85,7 +85,7 @@
 		"PreviewBG"
 		{
 			"controlname"	"EditablePanel"
-			"ypos"			"22"
+			"ypos"			"21"
 			"zpos"			"-91"
 			"wide"			"225"
 			"tall"			"280"
@@ -95,7 +95,7 @@
 		"BottomBGImage"
 		{
 			"controlname"	"ScalableImagePanel"
-			"ypos"			"235"
+			"ypos"			"234"
 			"wide"			"225"
 			"tall"			"67"
 			"image"			"store/store_inspector_bottom"
@@ -231,7 +231,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	"ClassUsageImage2"
 	{
@@ -247,7 +247,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	"ClassUsageImage3"
 	{
@@ -263,7 +263,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	"ClassUsageImage4"
 	{
@@ -279,7 +279,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	"ClassUsageImage5"
 	{
@@ -295,7 +295,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	"ClassUsageImage6"
 	{
@@ -311,7 +311,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	// "IconsMoveLeftButton"
@@ -377,7 +377,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
@@ -619,7 +619,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"30"
-		"ypos"			"273"
+		"ypos"			"272"
 		"zpos"			"2"
 		"wide"			"165"
 		"tall"			"20"
@@ -647,29 +647,14 @@
 
 	"mouseoveritempanel"
 	{
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"1001"
-		"wide"			"200"
-		"tall"			"150"
+		"controlname"	"CItemModelPanel"
+		"zpos"			"1069"
+		"wide"			"300"
+		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundType"	"2"
-		"paintborder"	"1"
 
-		"text_center_x"		"1"
+		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
-		"model_ypos"	"15"
-		"model_wide"	"150"
-		"model_tall"	"100"
-
-		"hide_collection_panel" "1"
-		"model_center_x"	"1"
-
-		"name_only"			"1"
 	}
 }

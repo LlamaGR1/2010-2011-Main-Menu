@@ -11,7 +11,7 @@
 
 	"BGPanel"
 	{
-		"ControlName"	"Panel"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"wide"			"440"
@@ -22,7 +22,7 @@
 
 	"Title"
 	{
-		"ControlName"	"Label"
+		"controlname"	"Label"
 		"xpos"			"cs-0.5"
 		"ypos"			"55"
 		"zpos"			"1"
@@ -36,7 +36,7 @@
 
 	"ShowExplanationsButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"rs1-21"
 		"ypos"			"20"
 		"zpos"			"100"
@@ -62,7 +62,7 @@
 
 	"RankTooltipPanel"
 	{
-		"ControlName"	"ImagePanel"
+		"controlname"	"ImagePanel"
 		"xpos"			"cs-0.5+180"
 		"ypos"			"195"
 		"zpos"			"1000"
@@ -70,7 +70,7 @@
 		"tall"			"8"
 		"proportionaltoparent"	"1"
 		"alpha"			"32"
-		"scaleImage"	"1"	
+		"scaleimage"	"1"	
 		"image"			"info"
 	}
 
@@ -99,7 +99,7 @@
 
 	"ToolTipButtonHack"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"340"
 		"zpos"			"106"
@@ -111,7 +111,7 @@
 
 	"QueueButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"cs-0.5"
 		"ypos"			"340"
 		"zpos"			"105"

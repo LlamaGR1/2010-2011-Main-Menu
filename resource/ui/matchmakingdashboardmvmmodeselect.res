@@ -13,7 +13,7 @@
 
 	"ModeBackground"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"fieldName"		"ModeBackground"
 		"ypos"			"51"
 		"zpos"			"1"
@@ -24,29 +24,29 @@
 
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
+		"controlname"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"wide"			"f0"
 		"tall"			"72"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"image"			"loadout_header"
 	}
 
 	"HeaderLine"
 	{
-		"ControlName"	"ImagePanel"
+		"controlname"	"ImagePanel"
 		"fieldName"		"HeaderLine"
 		"ypos"			"c-191"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
 	"Tab"
 	{
-		"ControlName"	"CExImageButton"
+		"controlname"	"CExImageButton"
 		"fieldName"		"Tab"
 		"xpos"			"80"
 		"ypos"			"18"
@@ -67,31 +67,31 @@
 
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"controlname"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"ypos"			"420"
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"72"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"image"			"loadout_bottom_gradient"
 	}
 
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"controlname"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"ypos"			"420"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"10"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
 	"MannVsMachineGroupBox"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"fieldName"		"MannVsMachineGroupBox"
 		"xpos"			"c-305"
 		"ypos"			"61"
@@ -102,7 +102,7 @@
 
 		"MannVsMachineLabel"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"fieldName"		"MannVsMachineLabel"
 			"xpos"			"15"
 			"ypos"			"5"
@@ -118,7 +118,7 @@
 
 		"MannVsMachineExplanation"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"fieldName"		"MannVsMachineExplanation"
 			"font"			"HudFontSmall"
 			"fgcolor_override"	"89 81 71 255"
@@ -133,13 +133,13 @@
 
 		"ModeImage"
 		{
-			"ControlName"	"ImagePanel"
+			"controlname"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"10"
 			"ypos"			"55"
 			"wide"			"380"
 			"tall"			"190"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"image"			"illustrations/gamemode_mvm"
 			"mouseinputenabled" "0"
 		}
@@ -147,7 +147,7 @@
 
 	"PlayNowButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"c-295"
 		"ypos"			"303"
 		"zpos"			"22"
@@ -173,7 +173,7 @@
 
 	"PlayForBraggingRightsExplanation"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 		"font"			"HudFontSmall"
 		"fgcolor_override"	"89 81 71 255"
 		"labelText"		"#TF_MvM_BraggingRightsExplaination"
@@ -187,7 +187,7 @@
 
 	"PracticeButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"c-95"
 		"ypos"			"303"
 		"zpos"			"22"
@@ -213,7 +213,7 @@
 
 	"PlayOnCommunityServerExplanation"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 		"fieldName"		"PlayOnCommunityServerExplanation"
 		"font"			"HudFontSmall"
 		"fgcolor_override"	"89 81 71 255"
@@ -228,7 +228,7 @@
 
 	"PlayWithFriendsExplanation"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"fieldName"		"PlayWithFriendsExplanation"
 		"xpos"			"c+100"
 		"ypos"			"62"
@@ -240,7 +240,7 @@
 
 		"PlayWithFriendsExplanationTitle"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationTitle"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Matchmaking_PlayWithFriends"
@@ -252,19 +252,19 @@
 
 		"FriendsImage"
 		{
-			"ControlName"	"ImagePanel"
+			"controlname"	"ImagePanel"
 			"fieldName"		"FriendsImage"
 			"xpos"			"10"
 			"ypos"			"32"
 			"wide"			"180"
 			"tall"			"90"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"image"			"pve/mvm_friends_image"
 		}
 
 		"PlayWithFriendsExplanationLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlname"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_PlayWithFriendsExplanation"
@@ -280,7 +280,7 @@
 
 	"StartPartyButton"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"c+110"
 		"ypos"			"310"
 		"zpos"			"100"
@@ -352,7 +352,7 @@
 
 	// "LearnMoreButton"
 	// {
-	// 	"ControlName"	"CExButton"
+	// 	"controlname"	"CExButton"
 	// 	"fieldName"		"LearnMoreButton"
 	// 	"xpos"			"c106"
 	// 	"ypos"			"385"

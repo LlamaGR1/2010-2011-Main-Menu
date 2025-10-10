@@ -18,7 +18,7 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"image"			"loadout_header"
 	}
 
@@ -29,7 +29,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"image"			"loadout_bottom_gradient"
 	}
 

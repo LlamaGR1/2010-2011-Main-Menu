@@ -13,7 +13,7 @@
 
 	"Title"
 	{
-		"ControlName"	"Label"
+		"controlname"	"Label"
 		"xpos"			"cs-0.5"
 		"ypos"			"55"
 		"zpos"			"99"
@@ -27,7 +27,7 @@
 
 	"playlist"
 	{
-	//	"ControlName"	"CTFPlaylistPanel"
+	//	"controlname"	"CTFPlaylistPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"100"
@@ -39,7 +39,7 @@
 
 		"ModeImageCasual"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"48"									//		35
 			"ypos"			"19"									//		-7
 			"zpos"			"110"
@@ -52,7 +52,7 @@
 
 		"ModeLabelCasual"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"111"
@@ -70,7 +70,7 @@
 
 		"ModeImageComp"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"273"									//		270
 			"ypos"			"15"									//		5
 			"zpos"			"110"
@@ -83,7 +83,7 @@
 
 		"ModeLabelComp"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"235"
 			"ypos"			"5"
 			"zpos"			"111"
@@ -101,7 +101,7 @@
 
 		"ModeImageMvM"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"20"									//		5
 			"ypos"			"179"									//		159
 			"zpos"			"110"
@@ -114,7 +114,7 @@
 
 		"ModeLabelMvM"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"155"
 			"zpos"			"111"
@@ -132,7 +132,7 @@
 
 		"ModeImageCommunity"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"276"									//		260
 			"ypos"			"165"									//		137
 			"zpos"			"110"
@@ -145,7 +145,7 @@
 
 		"ModeLabelCommunity"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"235"
 			"ypos"			"155"
 			"zpos"			"111"
@@ -164,14 +164,14 @@
 
 	// "PlayListDropShadow"
 	// {
-	// 	"ControlName"	"EditablePanel"
+	// 	"controlname"	"EditablePanel"
 	// 	"xpos"			"8"
 	// 	"ypos"			"50"
 	// 	"zpos"			"1000"
 	// 	"wide"			"255"
 	// 	"tall"			"298"
 	// 	"visible"		"0"
-	// 	"PaintBackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"border"		"InnerShadowBorder"
 	// 	"proportionaltoparent"	"1"
 	// 	"mouseinputenabled"	"0"

@@ -9,7 +9,7 @@
 		"visible"		"0"
 		"bgcolor_override"	"Black"
 		
-		"max_cart_model_panels"	"10"
+		"max_cart_model_panels"	"8"
 		
 		"item_ypos"		"40"
 		
@@ -47,7 +47,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
-			"paintbackgroundType"	"2"
+			"paintbackgroundtype"	"0"
 			"paintborder"	"0"
 						
 			"model_xpos"	"18"
@@ -75,7 +75,25 @@
 				"inventory_image_type" "1"
 			}
 
-			"use_item_sounds" "1"		
+			"use_item_sounds"	"1"		
+
+			"modelpanels_kvCorners"
+			{
+				"controlname"	"ScalableImagePanel"
+				"zpos"			"6"
+				"wide"			"87"
+				"tall"			"49"
+				"proportionaltoparent"	"1"
+				"src_corner_height"		"6"
+				"src_corner_width"		"6"
+				"draw_corner_width"		"2"
+				"draw_corner_height"	"2"
+				"drawcolor"		"Black"
+				"image"			"replay/thumbnails/borders/vivi_button_corners"
+				"mouseinputenabled"	"0"
+
+			//	"pin_to_sibling" "modelpanels_kv"
+			}
 		}
 		
 		"modelpanel_labels_kv"
@@ -105,7 +123,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
-			"paintbackgroundType"	"2"
+			"paintbackgroundtype"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"2"
@@ -121,11 +139,29 @@
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"				"0"
 			}
-			
-			"use_item_sounds" "1"		
+
+			"use_item_sounds"	"1"		
+
+			"cart_modelpanels_kvCorners"
+			{
+				"controlname"	"ScalableImagePanel"
+				"zpos"			"6"
+				"wide"			"32"
+				"tall"			"25"
+				"proportionaltoparent"	"1"
+				"src_corner_height"		"6"
+				"src_corner_width"		"6"
+				"draw_corner_width"		"2"
+				"draw_corner_height"	"2"
+				"drawcolor"		"Black"
+				"image"			"replay/thumbnails/borders/vivi_button_corners"
+				"mouseinputenabled"	"0"
+
+			//	"pin_to_sibling" "modelpanels_kv"
+			}
 		}
 		
 		"cart_labels_kv"
@@ -213,40 +249,14 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-	//	"xpos"			"c-170"
-	//	"ypos"			"1270"
-		"zpos"			"100"
+		"zpos"			"1069"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-	//	"bgcolor_override"		"0 0 0 0"
-	//	"noitem_textcolor"		"117 107 94 255"
-	//	"paintbackgroundType"	"2"
-		"paintborder"	"1"
 
-		"text_ypos"			"20"
-		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			// "autoResize"	"0"
-			// "pinCorner"		"0"
-			// "visible"		"1"
-			// "enabled"		"1"
-			"labeltext"		"%attriblist%"
-			"textalignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
-		}
 	}
 
 	// "ClassFilterTooltipLabel"
@@ -265,7 +275,7 @@
 	// 	"visible"		"0"
 	// 	"enabled"		"1"
 	// 	"bgcolor_override"		"0 0 0 0"
-	// 	"paintbackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"centerwrap"	"1"
 	// 	"paintborder"	"1"
 	// 	"textinsetx"	"100"
@@ -599,7 +609,7 @@
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"labeltext"		"RELOADSCHEME"
 		"font"			"HudFontSmallestBold"
 		"textalignment"	"center"
@@ -697,6 +707,7 @@
 		"zpos"			"1"
 		"wide"			"165"
 		"tall"			"20"
+		"visible"		"0"
 		"border"		"StoreAddToCart"
 
 		"subbutton"
@@ -884,12 +895,13 @@
 	"CartImage"
 	{
 		"controlname"	"ScalableImagePanel"
-		"xpos"			"c-296"
-		"ypos"			"321"
+		"xpos"			"c-294"
+		"ypos"			"323"
 		"zpos"			"13"
-		"wide"			"25"
-		"tall"			"20"
-		"image"			"store_cart"
+		"wide"			"20"
+		"tall"			"17"
+		"drawcolor"		"CartIconColor"
+		"image"			"replay/thumbnails/icons/icon_store"
 	}
 
 	"CartButton"
@@ -1292,17 +1304,17 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-190"
-		"end_y"			"0"
+		"end_y"			"90"
 		"end_wide"		"300"
 		"end_tall"		"140"
-		"callout_inparents_x"	"c-210"
-		"callout_inparents_y"	"60"
+		"callout_inparents_x"	"c-213"
+		"callout_inparents_y"	"120"
 		"next_explanation"		"DetailsExplanation"
 		
 		"TitleLabel"
@@ -1495,7 +1507,7 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1698,7 +1710,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"AddToCartExplanation"
@@ -1708,7 +1720,7 @@
 		"end_y"			"80"
 		"end_wide"		"300"
 		"end_tall"		"125"
-		"callout_inparents_x"	"c200"
+		"callout_inparents_x"	"c193"
 		"callout_inparents_y"	"30"
 		
 		"TitleLabel"
@@ -1901,7 +1913,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -2104,7 +2116,7 @@
 		"wide"			"250"
 		"tall"			"180"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -2113,7 +2125,7 @@
 		"end_y"			"170"
 		"end_wide"		"300"
 		"end_tall"		"175"
-		"callout_inparents_x"	"c-230"
+		"callout_inparents_x"	"c-240"
 		"callout_inparents_y"	"335"
 		"next_explanation"		"CheckoutExplanation"
 	
@@ -2307,7 +2319,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"HelpExplanation"
@@ -2317,8 +2329,8 @@
 		"end_y"			"200"
 		"end_wide"		"300"
 		"end_tall"		"145"
-		"callout_inparents_x"	"c190"
-		"callout_inparents_y"	"320"
+		"callout_inparents_x"	"c195"
+		"callout_inparents_y"	"335"
 		
 		"TitleLabel"
 		{
@@ -2510,7 +2522,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"paintbackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -2520,7 +2532,7 @@
 		"end_wide"		"300"
 		"end_tall"		"125"
 		"callout_inparents_x"	"c60"
-		"callout_inparents_y"	"40"
+		"callout_inparents_y"	"35"
 		
 		"TitleLabel"
 		{

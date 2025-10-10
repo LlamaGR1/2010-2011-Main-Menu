@@ -1,3 +1,7 @@
+#base "../cfg/2010hud/startplaying.txt"
+
+#base "ui/1/mainmenu/startplaying.res"
+
 "GameMenu"
 {
 	"HUDOptionsButton"
@@ -28,6 +32,20 @@
 		"command"		"0"
 	}
 
+	"ExplanationTooltipPanel11"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category77_"
+		"command"		"0"
+	}
+
+	"ExplanationTooltipPanel19"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category71_"
+		"command"		"0"
+	}
+
 	"MainMenuBGPanel2"
 	{
 		"label"			""
@@ -45,14 +63,12 @@
 	"StartPlayingButton"
 	{
 		"label"			"#MMenu_StartPlaying"
-		"command"		"find_game"
 		"OnlyAtMenu"	"1"
 	}
 
 	"ChangeServerButton"
 	{
 		"label"			"#MMenu_ChangeServer"
-		"command"		"find_game"
 		"OnlyInGame"	"1"
 	}
 

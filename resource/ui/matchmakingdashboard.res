@@ -1,5 +1,14 @@
 "matchmakingdashboard"
 {
+	"MMDashboard"
+	{
+		"zpos"			"-68"
+		"wide"			"f0"
+
+		"expanded_height"	"175"
+		"resize_time"		"0"
+	}
+
 	"TopBar"
 	{
 		"controlname"	"EditablePanel"

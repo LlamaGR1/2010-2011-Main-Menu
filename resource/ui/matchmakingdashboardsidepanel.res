@@ -2,7 +2,7 @@
 {
 	"Shade"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 	//	"xpos"			"3"
 	//	"ypos"			"0"
 	//	"zpos"			"1000"
@@ -15,7 +15,7 @@
 
 	// "TitleGradient"
 	// {
-	// 	"ControlName"		"ImagePanel"
+	// 	"controlname"		"ImagePanel"
 	// 	"fieldName"		"TitleGradient"
 	// 	"xpos"		"3"
 	// 	"ypos"		"0"
@@ -35,7 +35,7 @@
 	
 	// "InnerGradient"
 	// {
-	// 	"ControlName"		"ImagePanel"
+	// 	"controlname"		"ImagePanel"
 	// 	"fieldName"		"InnerGradient"
 	// 	"xpos"		"3"
 	// 	"rotation"		"2"
@@ -62,7 +62,7 @@
 
 	// "OuterGradient"
 	// {
-	// 	"ControlName"		"ImagePanel"
+	// 	"controlname"		"ImagePanel"
 	// 	"fieldName"		"OuterGradient"
 	// 	"xpos"		"rs1"
 	// 	"rotation"		"1"
@@ -91,7 +91,7 @@
 
 	// "CloseButton"
 	// {
-	// 	"ControlName"	"CExButton"
+	// 	"controlname"	"CExButton"
 	// 	"fieldName"		"CloseButton"
 	// 	"xpos"			"rs1"
 	// 	"labelText"		">"
@@ -121,7 +121,7 @@
 
 	// "ReturnButton"
 	// {
-	// 	"ControlName"	"CExButton"
+	// 	"controlname"	"CExButton"
 	// 	"fieldName"		"ReturnButton"
 	// 	"xpos"			"3"
 	// 	"labelText"		"<"
@@ -152,7 +152,7 @@
 	
 	"BGPanel"
 	{
-		"ControlName"	"Panel"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"1"
@@ -165,19 +165,19 @@
 
 	"BGPanel2"
 	{
-		"ControlName"	"Panel"
+		"controlname"	"Panel"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 200"
 	}
 
-	"Corners11123"
+	"CloseReturnButtonsCorners"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"controlname"	"ScalableImagePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"406"
-		"zpos"			"123"
+		"zpos"			"12"
 		"wide"			"100"
 		"tall"			"25"
 		"proportionaltoparent"	"1"
@@ -206,8 +206,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"	"0"
-
+		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
 
 		// "border_default"	"ViviTanDarkBG"
@@ -232,8 +231,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"	"0"
-
+		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
 
 		// "border_default"	"ViviTanDarkBG"

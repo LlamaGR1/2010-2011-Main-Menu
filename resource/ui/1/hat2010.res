@@ -132,7 +132,7 @@
 
 	// "BackpackExplanation"
 	// {
-	// 	"ControlName"	"CExplanationPopup"
+	// 	"controlname"	"CExplanationPopup"
 	// 	"fieldName"		"BackpackExplanation"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
@@ -140,7 +140,7 @@
 	// 	"wide"			"250"
 	// 	"tall"			"120"
 	// 	"visible"		"0"
-	// 	"PaintBackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"paintbackground" "0"
 	// 	"border"		"MainMenuHighlightBorder"
 		
@@ -155,7 +155,7 @@
 		
 	// 	"TitleLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"TitleLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labelText"		"#BackpackExplanation_Title"
@@ -174,7 +174,7 @@
 		
 	// 	"TextLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"TextLabel"
 	// 		"font"			"HudFontSmall"
 	// 		"labelText"		"#BackpackExplanation_Text"
@@ -193,7 +193,7 @@
 		
 	// 	"CloseButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"CloseButton"
 	// 		"xpos"			"230"
 	// 		"ypos"			"5"
@@ -223,10 +223,10 @@
 			
 	// 		"image_drawcolor"	"117 107 94 255"
 	// 		"image_armedcolor"	"200 80 60 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -235,12 +235,12 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"close_button"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// 	"PrevButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"PrevButton"
 	// 		"xpos"			"10"
 	// 		"ypos"			"100"
@@ -270,10 +270,10 @@
 			
 	// 		"image_drawcolor"	"235 226 202 255"
 	// 		"image_armedcolor"	"255 255 255 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -282,12 +282,12 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"blog_back"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// 	"PositionLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"PositionLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labelText"		"%explanationnumber%"
@@ -305,7 +305,7 @@
 	// 	}
 	// 	"NextButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"NextButton"
 	// 		"xpos"			"210"
 	// 		"ypos"			"100"
@@ -335,10 +335,10 @@
 			
 	// 		"image_drawcolor"	"235 226 202 255"
 	// 		"image_armedcolor"	"255 255 255 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -347,14 +347,14 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"blog_forward"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// }	
 	
 	// "CraftingExplanation"
 	// {
-	// 	"ControlName"	"CExplanationPopup"
+	// 	"controlname"	"CExplanationPopup"
 	// 	"fieldName"		"CraftingExplanation"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
@@ -362,7 +362,7 @@
 	// 	"wide"			"250"
 	// 	"tall"			"120"
 	// 	"visible"		"0"
-	// 	"PaintBackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"paintbackground" "0"
 	// 	"border"		"MainMenuHighlightBorder"
 		
@@ -377,7 +377,7 @@
 		
 	// 	"TitleLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"TitleLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labelText"		"#CraftingExplanation_Title"
@@ -396,7 +396,7 @@
 		
 	// 	"TextLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"TextLabel"
 	// 		"font"			"HudFontSmall"
 	// 		"labelText"		"#CraftingExplanation_Text"
@@ -415,7 +415,7 @@
 		
 	// 	"CloseButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"CloseButton"
 	// 		"xpos"			"230"
 	// 		"ypos"			"5"
@@ -445,10 +445,10 @@
 			
 	// 		"image_drawcolor"	"117 107 94 255"
 	// 		"image_armedcolor"	"200 80 60 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -457,12 +457,12 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"close_button"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// 	"PrevButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"PrevButton"
 	// 		"xpos"			"10"
 	// 		"ypos"			"110"
@@ -492,10 +492,10 @@
 			
 	// 		"image_drawcolor"	"235 226 202 255"
 	// 		"image_armedcolor"	"255 255 255 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -504,12 +504,12 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"blog_back"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// 	"PositionLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"PositionLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labelText"		"%explanationnumber%"
@@ -527,7 +527,7 @@
 	// 	}
 	// 	"NextButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"NextButton"
 	// 		"xpos"			"210"
 	// 		"ypos"			"110"
@@ -557,10 +557,10 @@
 			
 	// 		"image_drawcolor"	"235 226 202 255"
 	// 		"image_armedcolor"	"255 255 255 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -569,14 +569,14 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"blog_forward"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}	
 	// }	
 	
 	// "ExplanationExplanation"
 	// {
-	// 	"ControlName"	"CExplanationPopup"
+	// 	"controlname"	"CExplanationPopup"
 	// 	"fieldName"		"ExplanationExplanation"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
@@ -584,7 +584,7 @@
 	// 	"wide"			"250"
 	// 	"tall"			"120"
 	// 	"visible"		"0"
-	// 	"PaintBackgroundType"	"2"
+	// 	"paintbackgroundtype"	"2"
 	// 	"paintbackground" "0"
 	// 	"border"		"MainMenuHighlightBorder"
 		
@@ -598,7 +598,7 @@
 		
 	// 	"TitleLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"TitleLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labelText"		"#ExplanationExplanation_Title"
@@ -617,7 +617,7 @@
 		
 	// 	"TextLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"TextLabel"
 	// 		"font"			"HudFontSmall"
 	// 		"labelText"		"#ExplanationExplanation_Text"
@@ -636,7 +636,7 @@
 		
 	// 	"CloseButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"CloseButton"
 	// 		"xpos"			"230"
 	// 		"ypos"			"5"
@@ -666,10 +666,10 @@
 			
 	// 		"image_drawcolor"	"117 107 94 255"
 	// 		"image_armedcolor"	"200 80 60 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -678,12 +678,12 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"close_button"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// 	"PrevButton"
 	// 	{
-	// 		"ControlName"	"CTFImageButton"
+	// 		"controlname"	"CTFImageButton"
 	// 		"fieldName"		"PrevButton"
 	// 		"xpos"			"10"
 	// 		"ypos"			"90"
@@ -713,10 +713,10 @@
 			
 	// 		"image_drawcolor"	"235 226 202 255"
 	// 		"image_armedcolor"	"255 255 255 255"
-	// 		"SubImage"
+	// 		"subimage"
 	// 		{
-	// 			"ControlName"	"ImagePanel"
-	// 			"fieldName"		"SubImage"
+	// 			"controlname"	"ImagePanel"
+	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -725,12 +725,12 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"image"			"blog_back"
-	// 			"scaleImage"	"1"
+	// 			"scaleimage"	"1"
 	// 		}				
 	// 	}		
 	// 	"PositionLabel"
 	// 	{
-	// 		"ControlName"	"CTFLabel"
+	// 		"controlname"	"CTFLabel"
 	// 		"fieldName"		"PositionLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labelText"		"%explanationnumber%"

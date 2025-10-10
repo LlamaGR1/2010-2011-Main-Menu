@@ -10,7 +10,7 @@
 
 		"Title"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"wide"			"230"
 			"tall"			"20"
@@ -21,7 +21,7 @@
 
 		// "ShowMatchHistoryButton"
 		// {
-		// 	"ControlName"	"CExImageButton"
+		// 	"controlname"	"CExImageButton"
 		// 	"xpos"			"rs1-30"
 		// 	"ypos"			"2"
 		// 	"zpos"			"100"
@@ -48,14 +48,14 @@
 		// 		"ypos"			"2"
 		// 		"wide"			"11"
 		// 		"tall"			"11"
-		// 		"scaleImage"	"1"
+		// 		"scaleimage"	"1"
 		// 		"image"			"button_load1"
 		// 	}
 		// }
 
 		// "ShowLeaderboardsButton"
 		// {
-		// 	"ControlName"	"CExImageButton"
+		// 	"controlname"	"CExImageButton"
 		// 	"xpos"			"rs1-10"
 		// 	"ypos"			"2"
 		// 	"zpos"			"100"
@@ -82,7 +82,7 @@
 		// 		"ypos"			"2"
 		// 		"wide"			"11"
 		// 		"tall"			"11"
-		// 		"scaleImage"	"1"
+		// 		"scaleimage"	"1"
 		// 		"image"			"button_load1"
 		// 	}
 		// }
