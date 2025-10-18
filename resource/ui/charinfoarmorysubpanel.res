@@ -31,6 +31,7 @@
 			"tall"			"49"
 		//	"visible"		"0"
 			"paintborder"	"0"
+			"paintbackgroundtype"	"0"
 
 			"model_xpos"	"7"
 			"model_ypos"	"5"
@@ -47,6 +48,22 @@
 			{
 				"use_item_rendertarget"	"0"
 				"allow_rot"				"0"
+			}
+
+			"thumbnail_modelpanels_kvCorners"
+			{
+				"controlname"	"ScalableImagePanel"
+				"zpos"			"6"
+				"wide"			"70"
+				"tall"			"49"
+				"proportionaltoparent"	"1"
+				"src_corner_height"		"6"
+				"src_corner_width"		"6"
+				"draw_corner_width"		"2"
+				"draw_corner_height"	"2"
+				"drawcolor"		"Black"
+				"image"			"replay/thumbnails/borders/vivi_button_corners"
+				"mouseinputenabled"	"0"
 			}
 		}
 	}
@@ -259,7 +276,7 @@
 		"zpos"			"20"
 		"wide"			"160"
 		"tall"			"20"
-		"labeltext"		"#Vivi_Community_Comments"
+		"labeltext"		"#ArmoryButton_Wiki"
 		"font"			"HudFontSmallestBold"
 		"textalignment"	"center"
 		"command"		"wiki"

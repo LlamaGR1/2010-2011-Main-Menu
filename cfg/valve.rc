@@ -28,15 +28,15 @@ alias cc "sv_cheats 1; echo "addcond 56 (crits)"; echo "addcond 57 (uber)"
 alias "2010hud_folder" "ds_dir cfg/2010hud; ds_log 0; ds_record; ds_stop"
 2010hud_folder
 
-////////////////////////////////////////////////////////////////////////////////////////////////		BUTTONS
+////////////////////////////////////////////////////////////////////////////////////////////////		SUBBUTTONS
 
-alias ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/advoptions.txt"
-alias ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/advoptions.txt"
-alias ci_unlog "con_logfile console.log"
+alias subbuttons_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/subbuttons.txt"
+alias subbuttons_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/subbuttons.txt"
+alias subbuttons_unlog "con_logfile console.log"
 
-alias ci_vivi "ci_clear; ci_log; exec advoptions.cfg; ci_unlog; toggle mat_aaquality"
-alias ci_vivi123 "ci_clear; ci_log; exec advoptions2.cfg; ci_unlog; toggle mat_aaquality"
-alias ci_tf2 "ci_clear; toggle mat_aaquality"
+alias subbuttons_2010 "subbuttons_clear; subbuttons_log; exec subbuttons_2010.cfg; subbuttons_unlog; toggle mat_aaquality"
+alias subbuttons_2011_adv_options "subbuttons_clear; subbuttons_log; exec subbuttons_2011_adv_options.cfg; subbuttons_unlog; toggle mat_aaquality"
+alias subbuttons_2011 "subbuttons_clear; toggle mat_aaquality"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CHALLENGE
 
@@ -109,14 +109,15 @@ alias 8ci_vivi "8ci_clear; 8ci_log; exec shopbuttonhide.cfg; 8ci_unlog; toggle m
 alias 8bgs_vivi123123 "8ci_clear; 8ci_log; exec shopbuttonfriends.cfg; 8ci_unlog; toggle mat_aaquality"
 alias 8ci_tf2 "8ci_clear; toggle mat_aaquality"
 
-////////////////////////////////////////////////////////////////////////////////////////////////		RESUME GAME
+////////////////////////////////////////////////////////////////////////////////////////////////		RESUME GAME - replays
 
 alias 39ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/resumegame.txt"
 alias 39ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/resumegame.txt"
 alias 39ci_unlog "con_logfile console.log"
 
-alias resumegame "39ci_clear; 39ci_log; exec resumegame.cfg; 39ci_unlog; toggle mat_aaquality"
 alias resumegamehidden "39ci_clear; toggle mat_aaquality"
+alias resumegame "39ci_clear; 39ci_log; exec resumegame.cfg; 39ci_unlog; toggle mat_aaquality"
+alias resumegame_replays "39ci_clear; 39ci_log; exec resumegame_replays.cfg; 39ci_unlog; toggle mat_aaquality"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CHARACTER LOADOUT - TAUNTS BUTTONS
 
@@ -179,6 +180,7 @@ alias bgs_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/bgs.txt"
 alias bgs_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/bgs.txt"
 alias bgs_unlog "con_logfile console.log"
 
+alias bgs_saxxy "bgs_clear; bgs_log; exec bgs_saxxy.cfg; bgs_unlog; toggle mat_aaquality"
 alias bgs_hl2 "bgs_clear; bgs_log; exec bgs_hl2.cfg; bgs_unlog; toggle mat_aaquality"
 alias bgs_tf "bgs_clear; bgs_log; exec bgs_tf.cfg; bgs_unlog; toggle mat_aaquality"
 alias bgs_tf2 "bgs_clear; toggle mat_aaquality"

@@ -3,7 +3,6 @@
 	"ModelContainer"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"		
@@ -15,7 +14,6 @@
 		"BelowModelParticlePanel"
 		{
 			"controlname"	"CTFParticlePanel"
-			"fieldName"		"BelowModelParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
@@ -48,7 +46,6 @@
 		"RankModel"
 		{
 			"controlname"	"CBaseModelPanel"
-			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"wide"			"o1"
@@ -107,7 +104,6 @@
 		"AboveModelParticlePanel"
 		{
 			"controlname"	"CTFParticlePanel"
-			"fieldName"		"AboveModelParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -160,7 +156,6 @@
 		"MedalButton"
 		{
 			"controlname"	"Button"
-			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5+2"
 			"zpos"			"100"
@@ -361,7 +356,6 @@
 			"XPBar"
 			{
 				"controlname"	"EditablePanel"
-				"fieldName"		"XPBar"
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-3"
 				"wide"			"p1"
@@ -408,7 +402,6 @@
 				"ProgressBarsContainer"
 				{
 					"controlname"	"EditablePanel"
-					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"rs1-10"
 					"wide"			"p1"
@@ -418,7 +411,6 @@
 					"ProgressBar"
 					{
 						"controlname"	"ProgressBar"
-						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
 						"wide"			"f0"
@@ -434,7 +426,6 @@
 					"ContinuousProgressBar"
 					{
 						"controlname"	"ContinuousProgressBar"
-						"fieldName"		"ContinuousProgressBar"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"wide"			"f2"
@@ -448,7 +439,6 @@
 					"Frame"
 					{
 						"controlname"	"EditablePanel"
-						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
 						"wide"			"f0"
@@ -463,7 +453,6 @@
 			"Stats"
 			{
 				"controlname"	"EditablePanel"
-				"fieldName"		"Stats"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"f0"
@@ -480,7 +469,6 @@
 				"Frame"
 				{
 					"controlname"	"EditablePanel"
-					"fieldName"		"Frame"
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"10"
@@ -496,7 +484,6 @@
 				"GamesLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"GamesLabel"
 					"xpos"			"10"
 					"ypos"			"0"
 					"zpos"			"0"
@@ -514,7 +501,6 @@
 				"KillsLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"KillsLabel"
 					"xpos"			"10"
 					"ypos"			"10"
 					"zpos"			"0"
@@ -532,7 +518,6 @@
 				"DeathsLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"DeathsLabel"
 					"xpos"			"10"
 					"ypos"			"20"
 					"zpos"			"0"
@@ -551,7 +536,6 @@
 				"DamageLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"DamageLabel"
 					"xpos"			"c-20"
 					"ypos"			"0"
 					"zpos"			"0"
@@ -569,7 +553,6 @@
 				"HealingLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"HealingLabel"
 					"xpos"			"c-20"
 					"ypos"			"10"
 					"zpos"			"0"
@@ -587,7 +570,6 @@
 				"SupportLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"SupportLabel"
 					"xpos"			"c-20"
 					"ypos"			"20"
 					"zpos"			"0"
@@ -606,7 +588,6 @@
 				"ScoreLabel"
 				{
 					"controlname"	"Label"
-					"fieldName"		"ScoreLabel"
 					"xpos"			"rs1"
 					"ypos"			"0"
 					"zpos"			"0"

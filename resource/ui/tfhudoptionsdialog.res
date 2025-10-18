@@ -74,39 +74,6 @@
 			"paintbackground"	"0"
 		}
 
-		// "Explanation"
-		// {
-		// 	"controlname"			"Label"
-		// 	"xpos"					"cs-0.5"
-		// 	"ypos"					"230"
-		// 	"zpos"					"100"
-		// 	"wide"					"p0.92"
-		// 	"tall"					"p0.5"
-		// 	"textalignment"			"north-west"
-		// 	"proportionaltoparent"	"1"
-		// 	"wrap"					"1"
-		// 	"labeltext"				"#MMenu_SafeMode_Explanation"
-		// 	"proportionaltoparent"	"1"
-		// 	"font"					"HudFontSmallest"
-		// 	"mouseinputenabled"	"0"
-		// }
-
-		// "InfoImage"
-		// {
-		// 	"controlname"			"ImagePanel"
-		// 	"xpos"					"rs1-5"
-		// 	"ypos"					"5"
-		// 	"zpos"					"100"
-		// 	"wide"					"40"
-		// 	"tall"					"o1"
-		// 	"visible"				"1"
-		// 	"enabled"				"1"
-		// 	"image"					"info"
-		// 	"scaleimage"			"1"
-		// 	"proportionaltoparent"	"1"
-		// 	"mouseinputenabled"		"0"
-		// }
-
 		"PanelListPanel"
 		{
 			"controlname"	"CScrollableList"
@@ -154,7 +121,7 @@
 					"border"		"OptionsCategoryBorder"
 				}
 
-				"Background"
+				"Theme"
 				{
 					"controlname"	"EditablePanel"
 					"xpos"			"7"
@@ -170,12 +137,12 @@
 						"auto_wide_tocontents"	"1"
 						"tall"			"20"
 					//	"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_Category77"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_1"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
 
-					"ExplanationTooltipPanel11"
+					"ExplanationTooltipPanel1"
 					{
 						"controlname"	"EditablePanel"
 						"zpos"			"1"
@@ -205,6 +172,30 @@
 					"Button1"
 					{
 						"controlname"	"CExButton"
+						"xpos"			"rs1-140"
+						"zpos"			"1"
+						"wide"			"55"
+						"tall"			"20"
+						"proportionaltoparent"	"1"
+						"labeltext"		"#TF_Spectator_Default"
+						"font"			"HudFontSmallestBold"
+						"textalignment"	"center"
+						"command"		"engine bgs_tf2"
+						"actionsignallevel"	"5"
+						"sound_depressed"	"ui/buttonclick.wav"
+						"sound_released"	"ui/buttonclickrelease.wav"
+
+						"stay_armed_on_click"	"1"
+
+						"border_default"	"ViviTanDarkBG"
+						"border_armed"		"ViviTFOrangeBG"
+						"border_selected"	"ViviTFOrangeBG"
+						"paintbackground"	"0"
+					}
+
+					"Button2"
+					{
+						"controlname"	"CExButton"
 						"xpos"			"rs1-90"
 						"zpos"			"1"
 						"wide"			"45"
@@ -213,7 +204,7 @@
 						"labeltext"		"1"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
-						"command"		"engine bgs_tf2"
+						"command"		"engine bgs_saxxy"
 						"actionsignallevel"	"5"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
@@ -235,10 +226,10 @@
 						"border"		"MainMenuSubButtonBorder2"
 						"mouseinputenabled"	"0"
 
-						"pin_to_sibling" "Button2"
+						"pin_to_sibling" "Button3"
 					}
 
-					"Button2"
+					"Button3"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-45"
@@ -249,7 +240,7 @@
 						"labeltext"		"2"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
-						"command"		"engine bgs_hl2"
+						"command"		"engine bgs_tf"
 						"actionsignallevel"	"5"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
@@ -258,7 +249,7 @@
 						"stay_armed_on_click"	"1"
 					}
 
-					"OptionsDividerBorder2"
+					"OptionsDividerBorder3"
 					{
 						"controlname"	"Panel"
 						"zpos"			"2"
@@ -267,10 +258,10 @@
 						"border"		"MainMenuSubButtonBorder2"
 						"mouseinputenabled"	"0"
 
-						"pin_to_sibling" "Button3"
+						"pin_to_sibling" "Button4"
 					}
 
-					"Button3"
+					"Button4"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1"
@@ -281,7 +272,7 @@
 						"labeltext"		"3"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
-						"command"		"engine bgs_tf"
+						"command"		"engine bgs_hl2"
 						"actionsignallevel"	"5"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
@@ -304,7 +295,7 @@
 					"proportionaltoparent"	"1"
 					"bgcolor_override"	"255 0 255 0"
 
-					"pin_to_sibling" "Background"
+					"pin_to_sibling" "Theme"
 					"pin_to_sibling_corner" "2"
 
 					"Explanation"
@@ -312,12 +303,12 @@
 						"controlname"	"Label"
 						"auto_wide_tocontents"	"1"
 						"tall"			"20"
-						"labeltext"		"#Vivi_HUD_Options_1_"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_2"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
 
-					"ExplanationTooltipPanel1"
+					"ExplanationTooltipPanel2"
 					{
 						"controlname"	"EditablePanel"
 						"zpos"			"1"
@@ -412,7 +403,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_1"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_3"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -620,7 +611,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_2"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_4"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -742,7 +733,7 @@
 					}
 				}
 
-				"AdvOptionsButton"
+				"SubButtons"
 				{
 					"controlname"	"EditablePanel"
 					"ypos"			"9"
@@ -760,7 +751,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_3"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_5"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -776,7 +767,7 @@
 						"labeltext"		"2010"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
-						"command"		"engine ci_vivi123"
+						"command"		"engine subbuttons_2010"
 						"actionsignallevel"	"5"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
@@ -800,7 +791,7 @@
 						"labeltext"		"2011"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
-						"command"		"engine ci_vivi"
+						"command"		"engine subbuttons_2011"
 						"actionsignallevel"	"5"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
@@ -833,10 +824,10 @@
 						"wide"			"95"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_12"
+						"labeltext"		"#Vivi_HUD_Options_Button_1"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
-						"command"		"engine ci_tf2"
+						"command"		"engine subbuttons_2011_adv_options"
 						"actionsignallevel"	"5"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
@@ -859,7 +850,7 @@
 					"proportionaltoparent"	"1"
 					"bgcolor_override"	"255 0 255 0"
 
-					"pin_to_sibling" "AdvOptionsButton"
+					"pin_to_sibling" "SubButtons"
 					"pin_to_sibling_corner" "2"
 
 					"Explanation"
@@ -867,12 +858,12 @@
 						"controlname"	"Label"
 						"auto_wide_tocontents"	"1"
 						"tall"			"20"
-						"labeltext"		"#Vivi_HUD_Options_Category71"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_6"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
 
-					"ExplanationTooltipPanel19"
+					"ExplanationTooltipPanel3"
 					{
 						"controlname"	"EditablePanel"
 						"zpos"			"1"
@@ -966,7 +957,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_4"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_7"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -974,33 +965,9 @@
 					"Button1"
 					{
 						"controlname"	"CExButton"
-						"xpos"			"rs1-70"
+						"xpos"			"rs1-140"
 						"zpos"			"1"
-						"wide"			"65"
-						"tall"			"20"
-						"proportionaltoparent"	"1"
-						"labeltext"		"#GameUI_Enable"
-						"font"			"HudFontSmallestBold"
-						"textalignment"	"center"
-						"command"		"engine resumegame"
-						"actionsignallevel"	"5"
-						"sound_depressed"	"ui/buttonclick.wav"
-						"sound_released"	"ui/buttonclickrelease.wav"
-
-						"stay_armed_on_click"	"1"
-
-						"border_default"	"ViviTanDarkBG"
-						"border_armed"		"ViviTFOrangeBG"
-						"border_selected"	"ViviTFOrangeBG"
-						"paintbackground"	"0"
-					}
-
-					"Button2"
-					{
-						"controlname"	"CExButton"
-						"xpos"			"rs1"
-						"zpos"			"1"
-						"wide"			"65"
+						"wide"			"55"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
 						"labeltext"		"#GameUI_Disable"
@@ -1016,6 +983,66 @@
 						"border_default"	"ViviTanDarkBG"
 						"border_armed"		"ViviTFOrangeBG"
 						"border_selected"	"ViviTFOrangeBG"
+						"paintbackground"	"0"
+					}
+
+					"Button2"
+					{
+						"controlname"	"CExButton"
+						"xpos"			"rs1-80"
+						"zpos"			"1"
+						"wide"			"55"
+						"tall"			"20"
+						"proportionaltoparent"	"1"
+						"labeltext"		"#GameUI_Enable"
+						"font"			"HudFontSmallestBold"
+						"textalignment"	"center"
+						"command"		"engine resumegame"
+						"actionsignallevel"	"5"
+						"sound_depressed"	"ui/buttonclick.wav"
+						"sound_released"	"ui/buttonclickrelease.wav"
+
+						"stay_armed_on_click"	"1"
+
+						"border_default"	"ViviTanDarkBGCornersL"
+						"border_armed"		"ViviTFOrangeBGCornersL"
+						"border_selected"	"ViviTFOrangeBGCornersL"
+						"paintbackground"	"0"
+					}
+
+					"OptionsDividerBorder1"
+					{
+						"controlname"	"Panel"
+						"zpos"			"2"
+						"wide"			"1"
+						"tall"			"25"
+						"border"		"MainMenuSubButtonBorder2"
+						"mouseinputenabled"	"0"
+
+						"pin_to_sibling" "Button3"
+					}
+
+					"Button3"
+					{
+						"controlname"	"CExButton"
+						"xpos"			"rs1"
+						"zpos"			"1"
+						"wide"			"80"
+						"tall"			"20"
+						"proportionaltoparent"	"1"
+						"labeltext"		"#Vivi_HUD_Options_Button_3"
+						"font"			"HudFontSmallestBold"
+						"textalignment"	"center"
+						"command"		"engine resumegame_replays"
+						"actionsignallevel"	"5"
+						"sound_depressed"	"ui/buttonclick.wav"
+						"sound_released"	"ui/buttonclickrelease.wav"
+
+						"stay_armed_on_click"	"1"
+
+						"border_default"	"ViviTanDarkBGCornersR"
+						"border_armed"		"ViviTFOrangeBGCornersR"
+						"border_selected"	"ViviTFOrangeBGCornersR"
 						"paintbackground"	"0"
 					}
 				}
@@ -1038,7 +1065,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_5"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_8"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1111,7 +1138,7 @@
 						"wide"			"80"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_13"
+						"labeltext"		"#Vivi_HUD_Options_Button_2"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
 						"command"		"engine 8bgs_vivi123123"
@@ -1146,7 +1173,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_6"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_9"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1217,12 +1244,12 @@
 						"controlname"	"Label"
 						"auto_wide_tocontents"	"1"
 						"tall"			"20"
-						"labeltext"		"#Vivi_HUD_Options_7"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_10"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
 
-					"ExplanationTooltipPanel2"
+					"ExplanationTooltipPanel4"
 					{
 						"controlname"	"EditablePanel"
 						"zpos"			"1"
@@ -1316,7 +1343,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_2_"
+						"labeltext"		"#Vivi_HUD_Options_Category_1_Title_11"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1417,7 +1444,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_8"
+						"labeltext"		"#Vivi_HUD_Options_Category_2_Title_1"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1490,7 +1517,7 @@
 						"wide"			"95"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_14"
+						"labeltext"		"#Vivi_HUD_Options_Button_4"
 						"font"			"HudFontSmallestBold"
 						"textalignment"	"center"
 						"command"		"engine 5ci_vivi7771; 5ci_vivi777"
@@ -1524,12 +1551,12 @@
 						"controlname"	"Label"
 						"auto_wide_tocontents"	"1"
 						"tall"			"20"
-						"labeltext"		"Display Presets buttons"
+						"labeltext"		"#Vivi_HUD_Options_Category_2_Title_2"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
 
-					// "ExplanationTooltipPanel3"
+					// "ExplanationTooltipPanel5"
 					// {
 					// 	"controlname"	"EditablePanel"
 					// 	"zpos"			"1"
@@ -1622,12 +1649,12 @@
 						"controlname"	"Label"
 						"auto_wide_tocontents"	"1"
 						"tall"			"20"
-						"labeltext"		"#Vivi_HUD_Options_9"
+						"labeltext"		"#Vivi_HUD_Options_Category_2_Title_3"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
 
-					"ExplanationTooltipPanel3"
+					"ExplanationTooltipPanel5"
 					{
 						"controlname"	"EditablePanel"
 						"zpos"			"1"
@@ -1721,7 +1748,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_10"
+						"labeltext"		"#Vivi_HUD_Options_Category_2_Title_4"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1793,7 +1820,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_11"
+						"labeltext"		"#Vivi_HUD_Options_Category_2_Title_5"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1863,7 +1890,7 @@
 					"xpos"			"7"
 					"auto_wide_tocontents"	"1"
 					"tall"			"15"
-					"labeltext"		"#Vivi_HUD_Options_Category3"
+					"labeltext"		"#Vivi_HUD_Options_Category_3"
 					"font"			"HudFontSmallBold"
 				}
 
@@ -1894,7 +1921,7 @@
 						"wide"			"f0"
 						"tall"			"20"
 						"proportionaltoparent"	"1"
-						"labeltext"		"#Vivi_HUD_Options_Category32"
+						"labeltext"		"#Vivi_HUD_Options_Category_3_Title_1"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
 					}
@@ -1963,12 +1990,38 @@
 					"Explanation"
 					{
 						"controlname"	"Label"
-						"wide"			"f0"
+						"auto_wide_tocontents"	"1"
 						"tall"			"20"
-						"proportionaltoparent"	"1"
-						"labeltext"		"killstreak style"
+						"labeltext"		"#Vivi_HUD_Options_Category_3_Title_2"
 						"font"			"HudFontSmallestBold"
 						"fgcolor_override"	"TanDark"
+					}
+
+					"ExplanationTooltipPanel6"
+					{
+						"controlname"	"EditablePanel"
+						"zpos"			"1"
+						"wide"			"11"
+						"tall"			"11"
+						"proportionaltoparent"	"1"
+
+						"pin_to_sibling" "Explanation"
+						"pin_corner_to_sibling" "7"
+						"pin_to_sibling_corner" "5"
+
+						"subbutton"
+						{
+							"controlname"	"CExImageButton"
+							"wide"			"11"
+							"tall"			"11"
+							"enabled"		"0"
+							"font"			"ItemFontNameSmall"
+							"textalignment"	"center"
+
+							"paintbackground"	"0"
+
+							"disabledfgcolor2_override"	"Gray"
+						}
 					}
 
 					"Button1"

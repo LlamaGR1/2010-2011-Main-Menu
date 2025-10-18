@@ -43,10 +43,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_scout_red"
 				}
 
@@ -120,10 +121,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_soldier_blu"
 				}
 
@@ -197,10 +199,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_pyro_red"
 				}
 
@@ -274,10 +277,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_demo_blu"
 				}
 
@@ -351,10 +355,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_heavy_red"
 				}
 
@@ -428,10 +433,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_engineer_blu"
 				}
 
@@ -505,10 +511,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_medic_red"
 				}
 
@@ -582,10 +589,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_sniper_blu"
 				}
 
@@ -659,10 +667,11 @@
 
 				"ChallengeClassImage"
 				{
-					"controlname"	"ScalableImagePanel"
+					"controlname"	"ImagePanel"
 					"xpos"			"5"
 					"wide"			"60"
 					"tall"			"120"
+					"scaleimage"	"1"
 					"image"			"class_sel_sm_spy_red"
 				}
 

@@ -1,3 +1,7 @@
+
+
+#base "mainmenu/replaysbutton_hide.res"
+
 "mainmenuoverride"
 {
 	"MainMenuBGPanel2"
@@ -67,50 +71,11 @@
 		}
 	}
 
-	// "ReportPlayerButton"
-	// {
-	// 	"controlname"	"EditablePanel"
-	// 	"xpos"			"c-126"
-	// 	"ypos"			"111"
-	// 	"zpos"			"12"
-	// 	"wide"			"20"
-	// 	"tall"			"20"
-
-	// 	"subbutton"
-	// 	{
-	// 		"controlname"	"CExImageButton"
-	// 		"wide"			"20"
-	// 		"tall"			"20"
-	// 		"sound_depressed"	"ui/buttonclick.wav"
-	// 		"sound_released"	"ui/buttonclickrelease.wav"
-
-		//	"stay_armed_on_click"	"1"
-
-	// 		"border_default"	"MainMenuMiniButtonDefault"
-	// 		"border_armed"		"MainMenuMiniButtonArmed"
-	// 		"border_selected"	"MainMenuMiniButtonArmed"
-	// 		"paintbackground"	"0"
-
-	// 		"image_drawcolor"		"255 255 255 255"
-	// 		"image_armedcolor"		"255 255 255 255"
-	// 		"image_selectedcolor"	"255 255 255 255"
-	// 		"subimage"
-	// 		{
-	// 			"xpos"			"4"
-	// 			"ypos"			"4"
-	// 			"wide"			"12"
-	// 			"tall"			"12"
-	// 			"scaleimage"	"1"
-	// 			"image"			"glyph_alert"
-	// 		}
-	// 	}
-	// }
-
 	"CallVoteButton"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c-106"
-		"ypos"			"111"
+		"xpos"			"c-115"
+		"ypos"			"113"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -120,6 +85,7 @@
 			"controlname"	"CExImageButton"
 			"wide"			"20"
 			"tall"			"20"
+			"visible"		"0"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -148,8 +114,8 @@
 	"MutePlayersButton"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c-86"
-		"ypos"			"111"
+		"xpos"			"c-95"
+		"ypos"			"113"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -159,6 +125,7 @@
 			"controlname"	"CExImageButton"
 			"wide"			"20"
 			"tall"			"20"
+			"visible"		"0"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -187,8 +154,8 @@
 	"RequestCoachButton"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c-66"
-		"ypos"			"111"
+		"xpos"			"c-75"
+		"ypos"			"113"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -198,6 +165,7 @@
 			"controlname"	"CExImageButton"
 			"wide"			"20"
 			"tall"			"20"
+			"visible"		"0"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -230,7 +198,7 @@
 		"ypos"			"130"
 		"zpos"			"-71"
 		"wide"			"260"
-		"tall"			"66"
+	//	"tall"			"66"
 		"border"		"MainMenuBGBorderAlpha"
 	}
 
@@ -448,6 +416,69 @@
 				"tall"			"14"
 				"scaleimage"	"1"
 				"image"			"glyph_achievements"
+			}
+		}
+	}
+
+	"CoachPlayersButton"
+	{
+		"controlname"	"CExImageButton"
+		"xpos"			"c65"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"labeltext"		""
+		"command"		"engine cl_coach_toggle"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"border_default"	"MainMenuSubButtonBorder"
+
+		"subimage"
+		{
+			"xpos"			"5"
+			"ypos"			"5"
+			"wide"			"16"
+			"tall"			"16"
+			"scaleimage"	"1"
+			"image"			"icon_coach"
+		}
+	}
+
+	"MutePlayersButton1"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c65"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+
+		"subbutton"
+		{
+			"controlname"	"CExImageButton"
+			"wide"			"25"
+			"tall"			"25"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"stay_armed_on_click"	"1"
+
+			"border_default"	"MainMenuSubButtonBorder"
+
+			"subimage"
+			{
+
+				"xpos"			"5"
+				"ypos"			"5"
+				"wide"			"15"
+				"tall"			"15"
+				"scaleimage"	"1"
+				"image"			"glyph_muted"
 			}
 		}
 	}

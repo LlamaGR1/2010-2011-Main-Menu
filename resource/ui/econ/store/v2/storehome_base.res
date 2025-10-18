@@ -74,7 +74,7 @@
 				"inventory_image_type" "1"
 			}
 
-			"use_item_sounds" "1"		
+			"use_item_sounds"	"1"
 		}
 		
 		"modelpanel_labels_kv"		//wtf is this fuck
@@ -267,7 +267,6 @@
 	"TitleLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallest"
 		"labeltext"		""
 		"textalignment"	"west"
@@ -285,7 +284,6 @@
 	"HomePageLabelContainer"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"HomePageLabelContainer"
 		"xpos"			"c-295"
 		"ypos"			"54"
 		"zpos"			"5"
@@ -297,7 +295,6 @@
 		"CaseLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"CaseLabel"
 			"font"			"HudFontMediumBold"
 			"labeltext"		"#Store_Case_Label"
 			"textalignment"	"west"
@@ -315,7 +312,6 @@
 		"KeyLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"KeyLabel"
 			"font"			"HudFontMediumBold"
 			"labeltext"		"#Store_Key_Label"
 			"textalignment"	"west"
@@ -333,7 +329,6 @@
 		"TauntLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"CaseLabel"
 			"font"			"HudFontMediumBold"
 			"labeltext"		"#Store_Taunt_Label"
 			"textalignment"	"west"
@@ -475,7 +470,6 @@
 		"PromotionBonusItem"
 		{
 			"controlname"	"EditablePanel"
-			"fieldName"		"PromotionBG_BonusItem"
 			"xpos"			"182"
 			"ypos"			"185"
 			"zpos"			"1"
@@ -489,7 +483,6 @@
 		"PromotionLabel_BonusItem"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"PromotionLabel_BonusItem"
 			"font"			"StorePromotionsTitle"
 			"labeltext"		"#Store_Promotion_SpendForGift"
 			"textalignment"	"north"
@@ -510,7 +503,6 @@
 		"PromotionImage_BonusItem"
 		{
 			"controlname"	"ImagePanel"
-			"fieldName"		"PromotionImage_BonusItem"
 			"xpos"			"232"
 			"ypos"			"220"
 			"zpos"			"2"
@@ -539,7 +531,6 @@
 		"PromotionHat"
 		{
 			"controlname"	"EditablePanel"
-			"fieldName"		"PromotionHat"
 			"xpos"			"15"
 			"ypos"			"185"
 			"zpos"			"1"
@@ -553,7 +544,6 @@
 		"PromotionLabel_Hat"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"PromotionLabel_Hat"
 			"font"			"StorePromotionsTitle"
 			"labeltext"		"#Store_Promotion_FirstPurchaseGift"
 			"textalignment"	"north"
@@ -574,7 +564,6 @@
 		"PromotionImage_Hat"
 		{
 			"controlname"	"ImagePanel"
-			"fieldName"		"PromotionImage_Hat"
 			"xpos"			"44"
 			"ypos"			"187"
 			"zpos"			"2"
@@ -694,7 +683,7 @@
 		"zpos"			"2"
 		"wide"			"140"
 		"tall"			"80"
-		"border"		"GrayDialogBorder"		//		OutlinedGreyBox			EconItemBorder
+		"border"		"GrayDialogBorder"
 	}
 
 	"FeaturedItemLabel"

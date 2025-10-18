@@ -235,7 +235,7 @@
 			"zpos"			"20"
 			"wide"			"100"
 			"tall"			"25"
-			"labeltext"		"#Vivi_Craft"
+			"labeltext"		"#CraftConfirm"
 			"font"			"HudFontSmallBold"
 			"textalignment"	"center"
 			"command"		"craft"
@@ -358,7 +358,6 @@
 	"mousedragitempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldName"		"mousedragitempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"

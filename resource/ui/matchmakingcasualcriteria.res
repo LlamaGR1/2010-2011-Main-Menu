@@ -15,7 +15,7 @@
 	//	"wide"			"p0.98"
 	//	"tall"			"p1"
 		"wide"			"300"		//		f0
-		"tall"			"200"		//		390
+		"tall"			"220"		//		390
 		"proportionaltoparent"	"1"
 	//	"bgcolor_override"		"Orange"
 		"border"		"ViviBlack2BG"
@@ -27,7 +27,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"10"
-			"wide"			"230"
+			"wide"			"240"
 			"tall"			"20"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"font"			"HudFontMediumBold"
@@ -65,7 +65,6 @@
 		// "RankPanel"
 		// {
 		// 	"controlname"	"CPvPRankPanel"
-		// 	"fieldName"		"RankPanel"
 		// 	"xpos"			"-70"
 		// 	"ypos"			"-35"
 		// 	"zpos"			"100"
@@ -176,7 +175,6 @@
 		"QueueEstimation"
 		{
 			"controlname"		"Label"
-			"fieldName"		"QueueEstimation"
 			"xpos"		"rs1-5"
 			"ypos"		"18"
 			"zpos"		"0"
@@ -215,7 +213,7 @@
 			"xpos"			"10"
 			"ypos"			"38"
 			"wide"			"280"
-			"tall"			"152"		//		f65
+			"tall"			"172"		//		f65
 			"proportionaltoparent"	"1"
 			"restrict_width"	"0"
 
@@ -253,7 +251,7 @@
 	{
 		"controlname"	"CPvPRankPanel"
 		"xpos"			"310"
-		"ypos"			"40"
+		"ypos"			"60"
 		"zpos"			"123"
 		"wide"			"100"
 		"tall"			"120"
@@ -271,7 +269,7 @@
 	{
 		"controlname"	"ImagePanel"
 		"xpos"			"355"
-		"ypos"			"20"
+		"ypos"			"40"
 		"wide"			"50"
 		"tall"			"50"
 		"drawcolor"		"100 100 100 255"

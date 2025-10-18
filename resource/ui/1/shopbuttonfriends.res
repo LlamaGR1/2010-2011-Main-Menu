@@ -1,4 +1,8 @@
-#base "shopbutton.res"
+#base "../../../cfg/2010hud/resumegame.txt"
+
+//#base "shopbutton.res"
+
+#base "mainmenu/replaysbutton_hide.res"
 
 "mainmenuoverride"
 {
@@ -6,7 +10,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"c-305"
-		"ypos"			"211"
+	//	"ypos"			"211"
 		"zpos"			"-51"
 		"wide"			"260"
 		"tall"			"122"

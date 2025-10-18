@@ -112,13 +112,13 @@
 	"CurrentlyEquippedLabel"
 	{
 		"controlname"	"Label"
-		"xpos"			"c-55"
-		"ypos"			"22"
-		"wide"			"180"
+		"xpos"			"cs-0.5"
+		"ypos"			"24"
+		"wide"			"200"
 		"tall"			"15"
 		"labeltext"		"#CurrentlyEquipped"
 		"font"			"HudFontSmallestBold"
-		"textalignment"	"south-west"
+		"textalignment"	"center"
 	}
 
 	// "TauntCaratLabel"
@@ -259,7 +259,6 @@
 	// "PresetsExplanation"
 	// {
 	// 	"controlname"	"CExplanationPopup"
-	// 	"fieldName"		"PresetsExplanation"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
 	// 	"zpos"			"10069"
@@ -282,7 +281,6 @@
 	// 	"TitleLabel"
 	// 	{
 	// 		"controlname"	"CExLabel"
-	// 		"fieldName"		"TitleLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labeltext"		"#ItemPresetsExplanation_Title"
 	// 		"textalignment"	"north"
@@ -301,7 +299,6 @@
 	// 	"TextLabel"
 	// 	{
 	// 		"controlname"	"CExLabel"
-	// 		"fieldName"		"TextLabel"
 	// 		"font"			"HudFontSmall"
 	// 		"labeltext"		"#ClassLoadoutItemPresetsExplanation_Text"
 	// 		"textalignment"	"north-west"
@@ -320,7 +317,6 @@
 	// 	"CloseButton"
 	// 	{
 	// 		"controlname"	"CExImageButton"
-	// 		"fieldName"		"CloseButton"
 	// 		"xpos"			"230"
 	// 		"ypos"			"5"
 	// 		"zpos"			"10"
@@ -352,7 +348,6 @@
 	// 		"subimage"
 	// 		{
 	// 			"controlname"	"ImagePanel"
-	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"
@@ -379,7 +374,6 @@
 	// "TauntsExplanation"
 	// {
 	// 	"controlname"	"CExplanationPopup"
-	// 	"fieldName"		"TauntsExplanation"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
 	// 	"zpos"			"10069"
@@ -402,7 +396,6 @@
 	// 	"TitleLabel"
 	// 	{
 	// 		"controlname"	"CExLabel"
-	// 		"fieldName"		"TitleLabel"
 	// 		"font"			"HudFontSmallBold"
 	// 		"labeltext"		"#TauntsExplanation_Title"
 	// 		"textalignment"	"north"
@@ -421,7 +414,6 @@
 	// 	"TextLabel"
 	// 	{
 	// 		"controlname"	"CExLabel"
-	// 		"fieldName"		"TextLabel"
 	// 		"font"			"HudFontSmall"
 	// 		"labeltext"		"#ClassLoadoutTauntsExplanation_Text"
 	// 		"textalignment"	"north-west"
@@ -440,7 +432,6 @@
 	// 	"CloseButton"
 	// 	{
 	// 		"controlname"	"CExImageButton"
-	// 		"fieldName"		"CloseButton"
 	// 		"xpos"			"230"
 	// 		"ypos"			"5"
 	// 		"zpos"			"10"
@@ -472,7 +463,6 @@
 	// 		"subimage"
 	// 		{
 	// 			"controlname"	"ImagePanel"
-	// 			"fieldName"		"subimage"
 	// 			"xpos"			"0"
 	// 			"ypos"			"0"
 	// 			"zpos"			"1"

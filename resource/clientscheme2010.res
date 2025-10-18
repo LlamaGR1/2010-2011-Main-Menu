@@ -104,17 +104,17 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviTFOrangeTransBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"152 60 45 205"
+		// ViviTFOrangeTransBG
+		// {
+		// 	"bordertype"			"scalable_image"
+		// 	"color"					"152 60 45 205"
 
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
+		// 	"image"					"replay/thumbnails/borders/vivi_button"
+		// 	"src_corner_height"		"6"
+		// 	"src_corner_width"		"6"
+		// 	"draw_corner_width"		"2"
+		// 	"draw_corner_height"	"2"
+		// }
 
 		LoadoutItemPopupBorder
 		{

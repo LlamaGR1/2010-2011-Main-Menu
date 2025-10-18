@@ -1,4 +1,4 @@
-"GameMenu"
+"gamemenu"
 {
 	"StartPlayingButton"
 	{

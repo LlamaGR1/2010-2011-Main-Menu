@@ -2,8 +2,15 @@
 
 #base "ui/1/mainmenu/startplaying.res"
 
-"GameMenu"
+"gamemenu"
 {
+	"SaxxyAwards"
+	{
+		"label"			""
+		"command"		"0"
+		"onlyatmenu"	"1"
+	}
+
 	"HUDOptionsButton"
 	{
 		"label"			"n"
@@ -14,35 +21,42 @@
 	"ExplanationTooltipPanel1"
 	{
 		"label"			"?"
-		"tooltip"		"#Vote_RestartGame"
+		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_1_ToolTip"
 		"command"		"0"
 	}
 
 	"ExplanationTooltipPanel2"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_7__"
+		"tooltip"		"#Vote_RestartGame"
 		"command"		"0"
 	}
 
 	"ExplanationTooltipPanel3"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_9__"
+		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_6_ToolTip"
 		"command"		"0"
 	}
 
-	"ExplanationTooltipPanel11"
+	"ExplanationTooltipPanel4"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_Category77_"
+		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_10_ToolTip"
 		"command"		"0"
 	}
 
-	"ExplanationTooltipPanel19"
+	"ExplanationTooltipPanel5"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_Category71_"
+		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_3_ToolTip"
+		"command"		"0"
+	}
+
+	"ExplanationTooltipPanel6"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category_3_Title_2_ToolTip"
 		"command"		"0"
 	}
 
@@ -50,26 +64,26 @@
 	{
 		"label"			""
 		"command"		"0"
-		"OnlyInGame"	"1"
+		"onlyingame"	"1"
 	}
 
 	"ResumeGameButton"
 	{
 		"label"			"#GameUI_GameMenu_ResumeGame"
 		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
+		"onlyingame"	"1"
 	}
 
 	"StartPlayingButton"
 	{
 		"label"			"#MMenu_StartPlaying"
-		"OnlyAtMenu"	"1"
+		"onlyatmenu"	"1"
 	}
 
 	"ChangeServerButton"
 	{
 		"label"			"#MMenu_ChangeServer"
-		"OnlyInGame"	"1"
+		"onlyingame"	"1"
 	}
 
 	"OfflinePracticeButton"
@@ -77,7 +91,7 @@
 		"label"			""
 		"tooltip"		"#GameUI_GameMenu_OfflinePractice"
 		"command"		"offlinepractice"
-		"OnlyAtMenu"	"1"
+		"onlyatmenu"	"1"
 	}
 
 	"CreateServerButton"
@@ -85,23 +99,22 @@
 		"label"			""
 		"tooltip"		"#GameUI_GameMenu_CreateServer"
 		"command"		"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu"	"1"
+		"onlyatmenu"	"1"
 	}
 
-	// "ReportPlayerButton"
-	// {
-	// 	"label"			""
-	// 	"tooltip"		"#MMenu_ReportPlayer"
-	// 	"command"		"OpenReportPlayerDialog"
-	// 	"OnlyInGame"	"1"
-	// }
+	"VRModeButton"
+	{
+		"label"			"#MMenu_VRMode_Activate"
+		"command"		"engine vr_toggle"
+		"onlywhenvrenabled"	"1"
+	}
 
 	"CallVoteButton"
 	{
 		"label"			""
 		"tooltip"		"#MMenu_CallVote"
 		"command"		"callvote"
-		"OnlyInGame"	"1"
+		"onlyingame"	"1"
 	}
 
 	"MutePlayersButton"
@@ -109,7 +122,7 @@
 		"label"			""
 		"tooltip"		"#MMenu_MutePlayers"
 		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"1"
+		"onlyingame"	"1"
 	}
 
 	"RequestCoachButton"
@@ -117,13 +130,20 @@
 		"label"			""
 		"tooltip"		"#MMenu_RequestCoach"
 		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
+		"onlyingame"	"1"
 	}
 
 	"UtilitiesButton"
 	{
 		"label"			""
-		"tooltip"		"#Vivi_Utilities_List"
+		"tooltip"		"#Vivi_Utilities"
 		"command"		"openbenchmarkdialog"
+	}
+
+	"MutePlayersButton1"
+	{
+		"label"			""
+		"tooltip"		"#MMenu_MutePlayers"
+		"command"		"OpenPlayerListDialog"
 	}
 }

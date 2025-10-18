@@ -16,6 +16,21 @@
 		{
 			"visible"		"0"
 		}
+
+		"Title"
+		{
+			"visible"		"0"
+		}
+
+		"MapAuthors"
+		{
+			"visible"		"0"
+		}
+
+		"MapLeaderboardTitle"
+		{
+			"visible"		"0"
+		}
 	}
 
 	"MapInfoTitle"
@@ -71,7 +86,7 @@
 		"controlname"	"CExButton"
 		"xpos"			"r190"
 		"ypos"			"r40"
-		"zpos"			"6"
+		"zpos"			"2546"
 		"wide"			"150"
 		"tall"			"30"
 		"labeltext"		"#TF_Continue"
@@ -113,7 +128,7 @@
 		"controlname"	"CExButton"
 		"xpos"			"40"
 		"ypos"			"r40"
-		"zpos"			"6"
+		"zpos"			"3121236"
 		"wide"			"150"
 		"tall"			"30"
 		"labeltext"		"#TF_Back"
@@ -128,6 +143,38 @@
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
 	}
+
+	// "eryt"
+	// {
+	// 	"ControlName"	"panel"
+	// 	"zpos"			"64"
+	// 	"bgcolor_override"	"0 0 0 255"
+	// 	"tall"		"f0"
+	// 	"wide"		"f0"
+	// }
+
+
+	// "m_pSaxxyModelPanel"
+	// {
+	// 	"controlname"	"CModelPanel"
+	// 	"zpos"			"65"
+	// 	"wide"			"f0"
+	// 	"tall"			"480"
+	// 	"fov"			"16"
+	// 	"allow_rot"	"1"
+
+
+	// 	"model"
+	// 	{
+	// 		"modelname"		"models/weapons/c_models/c_saxxy/c_saxxy.mdl"
+	// 		"origin_y"		"7"
+	// 	//	"origin_x"		"0"
+	// 		"origin_z"		"-3"
+	// 		"angles_y"		"35"
+	// 		"angles_z"		"0"
+	// 		"spotlight"		"1"
+	// 	}
+	// }
 
 	"MenuBG"
 	{

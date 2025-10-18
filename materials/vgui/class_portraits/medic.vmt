@@ -1,9 +1,4 @@
-"UnlitGeneric"
+"unlitgeneric"
 {
-	"$basetexture" "vgui\class_portraits\medic"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-	"%keywords" "tf"
+	"$basetexture"	"vgui/class_portraits/medic"
 }
-

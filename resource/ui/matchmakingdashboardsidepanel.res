@@ -16,7 +16,6 @@
 	// "TitleGradient"
 	// {
 	// 	"controlname"		"ImagePanel"
-	// 	"fieldName"		"TitleGradient"
 	// 	"xpos"		"3"
 	// 	"ypos"		"0"
 	// 	"wide"		"f0"
@@ -36,7 +35,6 @@
 	// "InnerGradient"
 	// {
 	// 	"controlname"		"ImagePanel"
-	// 	"fieldName"		"InnerGradient"
 	// 	"xpos"		"3"
 	// 	"rotation"		"2"
 
@@ -63,7 +61,6 @@
 	// "OuterGradient"
 	// {
 	// 	"controlname"		"ImagePanel"
-	// 	"fieldName"		"OuterGradient"
 	// 	"xpos"		"rs1"
 	// 	"rotation"		"1"
 
@@ -92,7 +89,6 @@
 	// "CloseButton"
 	// {
 	// 	"controlname"	"CExButton"
-	// 	"fieldName"		"CloseButton"
 	// 	"xpos"			"rs1"
 	// 	"labelText"		">"
 
@@ -122,7 +118,6 @@
 	// "ReturnButton"
 	// {
 	// 	"controlname"	"CExButton"
-	// 	"fieldName"		"ReturnButton"
 	// 	"xpos"			"3"
 	// 	"labelText"		"<"
 

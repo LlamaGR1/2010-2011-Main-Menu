@@ -30,6 +30,14 @@
 		"image_drawcolor"	"235 226 202 255"
 	}
 
+	"MutePlayersButton1"
+	{
+		"subbutton"
+		{
+			"image_drawcolor"	"235 226 202 255"
+		}
+	}
+
 	"UtilitiesButton"
 	{
 		"subbutton"

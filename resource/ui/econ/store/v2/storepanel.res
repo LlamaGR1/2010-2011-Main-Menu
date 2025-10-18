@@ -8,12 +8,22 @@
 		"clientinsetx_override"	"0"
 	}
 
+	"armory_panel"
+	{
+		"controlname"	"CArmoryPanel"
+		"ypos"			"30"
+		"zpos"			"500"
+		"wide"			"f0"
+		"tall"			"390"
+		"visible"		"0"
+	}
+
 	"BackgroundHeader"
 	{
 		"controlname"	"ImagePanel"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"69"
 		"tileimage"		"1"
 		"image"			"loadout_header"
 	}
@@ -113,63 +123,8 @@
 		"sound_released"	"ui/panel_open.wav"
 	}
 
-	"armory_panel"
-	{
-		"controlname"		"CArmoryPanel"
-		"xpos"				"0"
-		"ypos"				"30"
-		"wide"				"f0"
-		"tall"				"390"
-		"zpos"				"500"
-		"visible"			"0"
-	}
-
 	"NotificationsPresentPanel"
 	{
 		"controlname"	"CNotificationsPresentPanel"
 	}
-
-	// "SupportCommunityMapMakersCheckButton"
-	// {
-	// 	"controlname"	"CheckButton"
-	// 	"xpos"			"c275"
-	// 	"ypos"			"437"
-	// 	"zpos"			"5"
-	// 	"wide"			"25"
-	// 	"tall"			"25"
-	// 	"font"			"HudFontSmall"
-	// 	"labeltext"		""
-	// 	"visible"		"0"
-	// }
-
-	// "SupportCommunityMapMakersLabel"
-	// {
-	// 	"controlname"		"CExLabel"
-	// 	"textalignment"		"north-west"
-	// 	"xpos"				"c304"
-	// 	"ypos"				"440"
-	// 	"zpos"				"5"
-	// 	"wide"				"70"
-	// 	"tall"				"100"
-	// 	"font"				"HudFontSmallest"
-	// 	"wrap"				"1"
-	// 	"labeltext"			"#Store_ConfirmStampDonationAddTitle"
-	// 	"visible"			"0"
-	// }
-
-	// "CheckoutButton"
-	// {
-	// 	"controlname"	"CExButton"
-	// 	"xpos"			"c-170"
-	// 	"ypos"			"437"
-	// 	"zpos"			"2"
-	// 	"wide"			"130"
-	// 	"tall"			"25"
-	// 	"labeltext"		"#Store_Checkout"
-	// 	"font"			"HudFontSmallBold"
-	// 	"textalignment"	"center"
-	// 	"command"		"checkout"
-	// 	"sound_depressed"	"ui/buttonclick.wav"
-	// 	"sound_released"	"ui/buttonclickrelease.wav"
-	// }
 }

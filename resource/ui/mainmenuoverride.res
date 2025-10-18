@@ -4,7 +4,7 @@
 
 
 #base "../../cfg/2010hud/bgs.txt"
-#base "../../cfg/2010hud/advoptions.txt"
+#base "../../cfg/2010hud/subbuttons.txt"
 #base "../../cfg/2010hud/challenge.txt"
 #base "../../cfg/2010hud/contracts.txt"
 #base "../../cfg/2010hud/loadoutbb.txt"
@@ -17,7 +17,7 @@
 //#base "2011fix/subbuttonsfix2011.res"
 
 #base "1/mainmenu/bgs_theme.res"
-#base "1/advoptions.res"
+#base "1/mainmenu/subbuttons_2011.res"
 #base "1/challenge.res"
 #base "1/contracts_hidden.res"
 #base "1/loadoutcc.res"
@@ -25,6 +25,9 @@
 #base "1/achieve.res"
 #base "1/resumegame_hidden.res"
 #base "1/quitgameconfirmno.res"
+
+
+//#base "mainmenu_saxxyawards.res"
 
 "mainmenuoverride"
 {
@@ -74,6 +77,11 @@
 				}
 			}
 		}
+	}
+
+	"SaxxyAwards"
+	{
+		"controlname"	"EditablePanel"
 	}
 
 	"AvatarBGPanel"
@@ -388,8 +396,7 @@
 			"tall"			"20"
 			"labeltext"		"#Vivi_Alerts"
 			"font"			"HudFontSmallestBold"
-			"use_proportional_insets"	"1"
-			"textinsetx"	"22"
+			"textalignment"	"center"
 			"command"		"noti_show"
 			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -399,56 +406,6 @@
 
 			"defaultfgcolor_override"	"TanLight"
 			"armedfgcolor_override"		"LightRed"
-		}
-
-		"Notifications_CountLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"cs-0.5+20"
-			"wide"			"15"
-			"tall"			"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%noticount%"
-			"font"			"HudFontSmallestBold"
-			"textalignment"	"center"
-			"mouseinputenabled"	"0"
-			"bgcolor_override"	"0 0 255 0"
-		}
-
-		"Notifications_CountLabel1"
-		{
-			"controlname"	"Label"
-			"xpos"			"-4"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"labeltext"		"("
-			"font"			"HudFontSmallestBold"
-			"textalignment"	"center"
-			"mouseinputenabled"	"0"
-
-			"bgcolor_override"	"255 0 0 0"
-
-			"pin_to_sibling" "Notifications_CountLabel"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"Notifications_CountLabel2"
-		{
-			"controlname"	"Label"
-			"xpos"			"-4"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"labeltext"		")"
-			"font"			"HudFontSmallestBold"
-			"textalignment"	"center"
-			"mouseinputenabled"	"0"
-
-			"bgcolor_override"	"0 255 0 0"
-
-			"pin_to_sibling" "Notifications_CountLabel"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "3"
 		}
 	}
 
@@ -528,6 +485,37 @@
 				"visible"		"1"
 			//	"bgcolor_override"	"255 255 0 100"
 			}
+		}
+	}
+
+	"VRModeButton"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c-300"
+		"ypos"			"375"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"20"
+
+		"subbutton"
+		{
+			"controlname"	"CExImageButton"
+			"wide"			"250"
+			"tall"			"20"
+			"font"			"HudFontSmallestBold"
+			"textalignment"	"center"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"stay_armed_on_click"	"1"
+
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"border_selected"	"MainMenuButtonArmed"
+			"paintbackground"	"0"
+
+			"defaultfgcolor_override"	"Black"
+			"armedfgcolor_override"		"TanLight"
 		}
 	}
 
@@ -817,7 +805,6 @@
 	{
 		"controlname"	"Panel"
 		"xpos"			"c-299"
-		"ypos"			"r71"
 	}
 
 	"partychat"

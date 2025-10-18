@@ -1,6 +1,6 @@
-#base "../../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
-#base "2011fix/subbuttonsfix2011.res"
+#base "../2011fix/subbuttonsfix2011.res"
 
 "mainmenuoverride"
 {
@@ -50,7 +50,7 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"MainMenusubbuttonBorder"
+		"border_default"	"MainMenuSubButtonBorder"
 
 		"subimage"
 		{
@@ -78,11 +78,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"MainMenusubbuttonBorder"
+		"border_default"	"MainMenuSubButtonBorder"
 
 		"subimage"
 		{
-			"controlname"	"ImagePanel"
 			"xpos"			"5"
 			"ypos"			"5"
 			"wide"			"15"
@@ -92,37 +91,7 @@
 		}
 	}
 
-	"CoachPlayersButton"
-	{
-		"controlname"	"CExImageButton"
-		"xpos"			"c65"
-		"ypos"			"437"
-		"zpos"			"5"
-		"wide"			"25"
-		"tall"			"25"
-		"labeltext"		""
-		"command"		"engine cl_coach_toggle"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-
-		"stay_armed_on_click"	"1"
-
-		"border_default"	"MainMenusubbuttonBorder"
-
-		"subimage"
-		{
-			"controlname"	"ImagePanel"
-			"fieldName"		"subimage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"wide"			"15"
-			"tall"			"15"
-			"scaleimage"	"1"
-			"image"			"icon_coach"
-		}
-	}
-
-	"UtilitiesButton"		//       bleh
+	"UtilitiesButton"
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"c85"
@@ -148,7 +117,6 @@
 
 			"subimage"
 			{
-
 				"xpos"			"10"
 				"ypos"			"5"
 				"wide"			"15"
@@ -165,6 +133,7 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"25"
+		"visible"		"0"
 		"labeltext"		""
 		"command"		"opentf2options"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -198,6 +167,7 @@
 		"zpos"			"3"
 		"wide"			"1"
 		"tall"			"25"
+		"visible"		"0"
 		"border"		"MainMenuSubButtonBorder2"
 		"mouseinputenabled"	"0"
 
@@ -214,7 +184,7 @@
 		"tall"			"25"
 		"labeltext"		"#GameUI_GameMenu_Options"
 		"font"			"HudFontSmallBold"
-		"use_proportional_insets" "1"
+		"use_proportional_insets"	"1"
 		"textinsetx"	"35"
 		"command"		"OpenOptionsDialog"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -222,9 +192,9 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBGCornersR"
-		"border_armed"		"ViviTFOrangeBGCornersR"
-		"border_selected"	"ViviTFOrangeBGCornersR"
+		"border_default"	"ViviTanDarkBG"
+		"border_armed"		"ViviTFOrangeBG"
+		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
 
 		"subimage"

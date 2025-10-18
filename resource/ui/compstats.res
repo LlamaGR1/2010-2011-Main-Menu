@@ -4,7 +4,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"wide"			"300"		//		f0
-		"tall"			"200"		//		390
+		"tall"			"220"		//		390
 		"proportionaltoparent"	"1"
 		"border"		"ViviBlack2BG"
 
@@ -12,7 +12,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"10"
-			"wide"			"230"
+			"wide"			"280"
 			"tall"			"20"
 			"labeltext"		"#Vivi_Match_History"
 			"font"			"HudFontMediumBold"
@@ -94,7 +94,7 @@
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"280"
-			"tall"			"190"
+			"tall"			"210"
 			"proportionaltoparent"	"1"
 
 			"PlayListDropShadow"
@@ -260,7 +260,7 @@
 			//	"xpos"			"cs-0.5"
 				"ypos"			"43"
 				"wide"			"280"
-				"tall"			"147"
+				"tall"			"167"
 				"proportionaltoparent"	"1"
 				"restrict_width"	"0"
 
@@ -296,7 +296,7 @@
 	{
 		"controlname"	"CPvPRankPanel"
 		"xpos"			"310"
-		"ypos"			"40"
+		"ypos"			"60"
 		"zpos"			"123"
 		"wide"			"100"
 		"tall"			"120"
@@ -314,7 +314,7 @@
 	{
 		"controlname"	"ImagePanel"
 		"xpos"			"355"
-		"ypos"			"20"
+		"ypos"			"40"
 		"wide"			"50"
 		"tall"			"50"
 		"drawcolor"		"100 100 100 255"

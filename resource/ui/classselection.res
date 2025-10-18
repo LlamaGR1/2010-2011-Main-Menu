@@ -452,7 +452,7 @@
 		"tall"			"30"
 		"labeltext"		"#TF_SelectAClass"
 		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor_override"	"HudOffWhite"
 	}
 
 	"MenuBG"

@@ -41,7 +41,6 @@
 	// "itempanel"
 	// {
 	// 	"controlname"	"CItemModelPanel"
-	// 	"fieldName"		"itempanel"
 	// 	"xpos"			"r200"
 	// 	"ypos"			"0"
 	// 	"zpos"			"10"
@@ -68,7 +67,6 @@
 
 	// 	"itemmodelpanel"
 	// 	{
-	// 		"fieldName"		"itemmodelpanel"
 	// 		"use_item_rendertarget" "0"
 	// 		"useparentbg"		"1"
 	// 	}
@@ -76,7 +74,6 @@
 	// 	"ItemLabel"
 	// 	{	
 	// 		"controlname"	"Label"
-	// 		"fieldName"		"ItemLabel"
 	// 		"font"			"DefaultSmall"
 	// 		"xpos"			"10"
 	// 		"ypos"			"3"

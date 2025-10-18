@@ -16,7 +16,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"border"		"ViviTanDarkBG2"
+		"bgcolor_override"	"62 62 62 255"
 		"mouseinputenabled"	"0"
 	}
 
@@ -29,7 +29,7 @@
 		"wide"			"14"
 		"tall"			"14"
 		"proportionaltoparent"	"1"
-		"drawcolor"		"TanLight"
+		"drawcolor"		"245 229 193 255"
 		"scaleimage"	"1"
 		"image"			"glyph_close_x"
 		"mouseinputenabled"	"0"
@@ -122,19 +122,15 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"command"		"interact"
-	//	"actionsignallevel"	"1"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-	//	"roundedcorners"			"0"
+		"roundedcorners"			"0"
 		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
 
-		"paintbackground"	"0"
-		"border_armed"		"ViviTFOrangeTransBG"
-
-
-	//	"defaultbgcolor_override"	"152 60 45 205"
-	//	"armedbgcolor_override"		"145 73 59 205"	// 	HUDRedTeam 
+		"defaultbgcolor_override"	"Blank"
+	//	"armedbgcolor_override"		"200 80 60 69"
+		"armedbgcolor_override"		"244 114 0 69"
 	}
 }

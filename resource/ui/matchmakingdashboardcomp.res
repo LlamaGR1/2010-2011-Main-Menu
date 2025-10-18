@@ -77,7 +77,7 @@
 	"stats"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"120"
+		"ypos"			"100"
 		"zpos"			"100"
 		"wide"			"410"
 		"tall"			"310"

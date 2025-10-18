@@ -118,7 +118,6 @@
 	"MatchmakingBanPanel"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"MatchmakingBanPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -133,7 +132,6 @@
 		"MatchmakingBanDurationLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"MatchmakingBanDurationLabel"
 			"font"			"MMenuPlayListDesc"
 			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
@@ -181,7 +179,6 @@
 	// "DescLabelShadow"
 	// {
 	// 	"controlname"	"CExLabel"
-	// 	"fieldName"		"DescLabelShadow"
 	// 	"font"			"MMenuPlayListDesc"
 	// 	"labelText"		"%desc_token%"
 	// 	"textAlignment"	"north-west"
@@ -203,7 +200,6 @@
 	"DisabledIcon"
 	{
 		"controlname"	"CExImageButton"
-		"fieldName"		"DisabledIcon"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"				"49"
@@ -232,7 +228,6 @@
 		"subimage"
 		{
 			"controlname"	"ImagePanel"
-			"fieldName"		"subimage"
 			"xpos"			"233"
 			"ypos"			"2"
 			"zpos"			"1"

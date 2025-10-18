@@ -16,28 +16,28 @@
 		}
 	}
 
-	"ReportPlayerButton"
-	{
-		"xpos"			"c-135"
-		"ypos"			"113"
-	}
-
 	"CallVoteButton"
 	{
-		"xpos"			"c-115"
-		"ypos"			"113"
+		"subbutton"
+		{
+			"visible"		"1"
+		}
 	}
 
 	"MutePlayersButton"
 	{
-		"xpos"			"c-95"
-		"ypos"			"113"
+		"subbutton"
+		{
+			"visible"		"1"
+		}
 	}
 
 	"RequestCoachButton"
 	{
-		"xpos"			"c-75"
-		"ypos"			"113"
+		"subbutton"
+		{
+			"visible"		"1"
+		}
 	}
 
 	"MainMenuBGPanel"
@@ -71,5 +71,18 @@
 	"CharacterSetupButton"
 	{
 		"ypos"			"175"
+	}
+
+	"CoachPlayersButton"
+	{
+		"visible"		"1"
+	}
+
+	"MutePlayersButton1"
+	{
+		"subbutton"
+		{
+			"visible"		"0"
+		}
 	}
 }

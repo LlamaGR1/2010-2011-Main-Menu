@@ -124,15 +124,17 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
+			"roundedcorners"			"0"
 			"stay_armed_on_click"		"1"
 			"button_activation_type"	"2"
 
-			"border_default"	"ViviTanDarkBG2"
-			"border_armed"		"ViviTFOrangeBG2"
-			"paintbackground"	"0"
+			"defaultbgcolor_override"	"62 62 62 255"
+		//	"armedbgcolor_override"		"120 68 61 255"
+			"armedbgcolor_override"		"143 81 54 255"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"173 119 103 255"
+			"image_drawcolor"	"245 229 193 255"
+		//	"image_armedcolor"	"233 202 169 255"
+			"image_armedcolor"	"245 206 167 255"
 			"subimage"
 			{
 				"xpos"			"3"

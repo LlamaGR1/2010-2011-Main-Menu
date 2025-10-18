@@ -23,6 +23,7 @@
 
 		"defaultbgcolor_override"	"Blank"
 		"armedbgcolor_override"		"200 80 60 69"
+	//	"armedbgcolor_override"		"244 114 43 69"
 	}
 
 	"NameLabel"

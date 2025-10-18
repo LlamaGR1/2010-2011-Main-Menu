@@ -17,7 +17,7 @@
 		"controlname"	"ImagePanel"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"69"
 		"tileimage"		"1"
 		"image"			"loadout_header"
 	}

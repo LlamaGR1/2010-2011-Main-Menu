@@ -1,7 +1,3 @@
-//#base "../../../cfg/2010hud/client20102011.txt"
-
-//#base "2011fix/subbuttonsfix2011.res"
-
 "mainmenuoverride"
 {
 	"NewUserForumsButton"
@@ -53,6 +49,19 @@
 		"paintbackground"	"0"
 	}
 
+	"MutePlayersButton1"
+	{
+		"xpos"			"c80"
+
+		"subbutton"
+		{
+			"border_default"	"ViviTanDarkBG"
+			"border_armed"		"ViviTFOrangeBG"
+			"border_selected"	"ViviTFOrangeBG"
+			"paintbackground"	"0"
+		}
+	}
+
 	"UtilitiesButton"
 	{
 		"xpos"			"c110"
@@ -66,22 +75,5 @@
 				"xpos"			"5"
 			}
 		}
-	}
-
-	"TF2SettingsButton"
-	{
-		"visible"		"0"
-	}
-
-	"OptionsDividerBorder"
-	{
-		"visible"		"0"
-	}
-
-	"OptionsButton"
-	{
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
 	}
 }

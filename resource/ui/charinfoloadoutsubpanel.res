@@ -318,6 +318,22 @@
 		"visible"			"0"
 	}
 
+	"reloadscheme"
+	{
+		"controlname"	"Button"
+		"xpos"			"c240"
+		"ypos"			"10"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		"labeltext"		"!"
+		"command"		"reloadscheme"
+		"button_activation_type"	"1"
+		"defaultbgcolor_override"	"LightRed"
+		"armedbgcolor_override"		"TFOrange"
+	}
+
 	"ShowExplanationsButton"
 	{
 		"controlname"	"CExButton"
@@ -345,6 +361,8 @@
 	{
 		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"155"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
@@ -362,7 +380,7 @@
 			"controlname"	"Label"
 			"xpos"			"20"
 			"ypos"			"10"
-			"wide"			"260"
+			"wide"			"255"
 			"tall"			"30"
 			"labeltext"		"#LoadoutExplanation_Title"
 			"font"			"HudFontSmallBold"
@@ -377,10 +395,10 @@
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
-			"tall"			"85"
+			"auto_tall_tocontents"	"1"
 			"labeltext"		"#LoadoutExplanation_Text"
 			"font"			"HudFontSmall"
-			"textalignment"	"north-west"
+			"textalignment"	"north"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -388,11 +406,12 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"xpos"			"280"
+			"xpos"			"rs1-5"
 			"ypos"			"5"
-			"zpos"			"10"
+			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
+			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"command"		"close"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -416,9 +435,10 @@
 		"PositionLabel"
 		{
 			"controlname"	"Label"
-			"ypos"			"120"
-			"wide"			"300"
+			"ypos"			"rs1"
+			"wide"			"f0"
 			"tall"			"30"
+			"proportionaltoparent"	"1"
 			"labeltext"		"%explanationnumber%"
 			"font"			"HudFontSmallBold"
 			"textalignment"	"center"
@@ -428,11 +448,12 @@
 		"NextButton"
 		{
 			"controlname"	"CExImageButton"
-			"xpos"			"260"
-			"ypos"			"120"
-			"zpos"			"10"
+			"xpos"			"rs1-5"
+			"ypos"			"rs1"
+			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"30"
+			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"command"		"nextexplanation"
 			"sound_depressed"	"ui/buttonclick.wav"

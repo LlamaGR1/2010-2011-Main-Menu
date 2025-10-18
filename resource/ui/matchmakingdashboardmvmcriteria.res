@@ -35,7 +35,7 @@
 	{
 		"controlname"	"ImagePanel"
 		"wide"			"f0"
-		"tall"			"72"
+		"tall"			"69"
 		"tileimage"		"1"
 		"image"			"loadout_header"
 	}

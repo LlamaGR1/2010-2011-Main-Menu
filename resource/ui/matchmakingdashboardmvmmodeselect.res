@@ -2,7 +2,6 @@
 {
 	"MVMModeSelect"
 	{
-		"fieldName"		"MVMModeSelect"
 		"xpos"			"r0"
 		"ypos"			"f0"
 		"zpos"			"1002"
@@ -14,7 +13,6 @@
 	"ModeBackground"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"ModeBackground"
 		"ypos"			"51"
 		"zpos"			"1"
 		"wide"			"f0"
@@ -25,9 +23,8 @@
 	"BackgroundHeader"
 	{
 		"controlname"	"ImagePanel"
-		"fieldName"		"BackgroundHeader"
 		"wide"			"f0"
-		"tall"			"72"
+		"tall"			"69"
 		"tileimage"		"1"
 		"image"			"loadout_header"
 	}
@@ -35,7 +32,6 @@
 	"HeaderLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldName"		"HeaderLine"
 		"ypos"			"c-191"
 		"zpos"			"2"
 		"wide"			"f0"
@@ -47,7 +43,6 @@
 	"Tab"
 	{
 		"controlname"	"CExImageButton"
-		"fieldName"		"Tab"
 		"xpos"			"80"
 		"ypos"			"18"
 		"zpos"			"3"
@@ -68,7 +63,6 @@
 	"BackgroundFooter"
 	{
 		"controlname"	"ImagePanel"
-		"fieldName"		"BackgroundFooter"
 		"ypos"			"420"
 		"zpos"			"3"
 		"wide"			"f0"
@@ -80,7 +74,6 @@
 	"FooterLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldName"		"FooterLine"
 		"ypos"			"420"
 		"zpos"			"4"
 		"wide"			"f0"
@@ -92,7 +85,6 @@
 	"MannVsMachineGroupBox"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"MannVsMachineGroupBox"
 		"xpos"			"c-305"
 		"ypos"			"61"
 		"zpos"			"8"
@@ -103,7 +95,6 @@
 		"MannVsMachineLabel"
 		{
 			"controlname"	"Label"
-			"fieldName"		"MannVsMachineLabel"
 			"xpos"			"15"
 			"ypos"			"5"
 			"zpos"			"1"
@@ -119,7 +110,6 @@
 		"MannVsMachineExplanation"
 		{
 			"controlname"	"Label"
-			"fieldName"		"MannVsMachineExplanation"
 			"font"			"HudFontSmall"
 			"fgcolor_override"	"89 81 71 255"
 			"labelText"		"#TF_MvM_MannVsMachineExplaination"
@@ -134,7 +124,6 @@
 		"ModeImage"
 		{
 			"controlname"	"ImagePanel"
-			"fieldName"		"ModeImage"
 			"xpos"			"10"
 			"ypos"			"55"
 			"wide"			"380"
@@ -214,7 +203,6 @@
 	"PlayOnCommunityServerExplanation"
 	{
 		"controlname"	"CExLabel"
-		"fieldName"		"PlayOnCommunityServerExplanation"
 		"font"			"HudFontSmall"
 		"fgcolor_override"	"89 81 71 255"
 		"labelText"		"#TF_MvM_PracticeExplaination"
@@ -229,7 +217,6 @@
 	"PlayWithFriendsExplanation"
 	{
 		"controlname"	"EditablePanel"
-		"fieldName"		"PlayWithFriendsExplanation"
 		"xpos"			"c+100"
 		"ypos"			"62"
 		"zpos"			"8"
@@ -241,7 +228,6 @@
 		"PlayWithFriendsExplanationTitle"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"PlayWithFriendsExplanationTitle"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Matchmaking_PlayWithFriends"
 			"textAlignment"	"center"
@@ -253,7 +239,6 @@
 		"FriendsImage"
 		{
 			"controlname"	"ImagePanel"
-			"fieldName"		"FriendsImage"
 			"xpos"			"10"
 			"ypos"			"32"
 			"wide"			"180"
@@ -265,7 +250,6 @@
 		"PlayWithFriendsExplanationLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldName"		"PlayWithFriendsExplanationLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_PlayWithFriendsExplanation"
 			"textAlignment"	"north-west"
@@ -353,7 +337,6 @@
 	// "LearnMoreButton"
 	// {
 	// 	"controlname"	"CExButton"
-	// 	"fieldName"		"LearnMoreButton"
 	// 	"xpos"			"c106"
 	// 	"ypos"			"385"
 	// 	"zpos"			"8"

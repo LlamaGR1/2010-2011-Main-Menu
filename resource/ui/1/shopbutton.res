@@ -1,10 +1,12 @@
+#base "mainmenu/replaysbutton_hide.res"
+
 "mainmenuoverride"
 {
 	"GeneralStoreButton"
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"c-300"
-		"ypos"			"216"
+	//	"ypos"			"216"
 		"zpos"			"11"
 		"wide"			"250"
 		"tall"			"26"

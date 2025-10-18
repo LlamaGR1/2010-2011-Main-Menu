@@ -11,7 +11,7 @@
 		"log_font_large"	"ChatMiniFont"
 
 		"chat_color_default"		"Gray"
-		"chat_color_player_name"	"PartyMember1"
+		"chat_color_player_name"	"200 200 0 255"
 		"chat_color_chat_text"		"Gray"
 		"chat_color_party_event"	"Orange"
 
@@ -55,6 +55,6 @@
 		"proportionaltoparent"	"1"
 		"font"			"ChatFont"
 
-		"pin_to_sibling"	"EntryShadow"
+		"pin_to_sibling" "EntryShadow"
 	}
 }
