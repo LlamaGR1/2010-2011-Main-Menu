@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/killstreakfix.txt"
+#base "../../../../cfg/2010hud/killstreakfix.txt"
 
 #base "1/ingame/spell_war.res"
 

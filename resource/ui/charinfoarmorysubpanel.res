@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 #base "1/2011fix/1charinfoarmorysubpanel.res"
 
@@ -189,7 +189,6 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"0"
 		"labeltext"		"<"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
@@ -289,8 +288,8 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
-	}		
-	
+	}
+
 	"ViewSetButton"
 	{
 		"controlname"	"CExButton"
@@ -312,8 +311,8 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
-	}		
-	
+	}
+
 	"StoreButton"
 	{
 		"controlname"	"CExButton"
@@ -335,7 +334,7 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
-	}		
+	}
 
 	"BackButton"
 	{
@@ -362,7 +361,7 @@
 
 	"ReloadSchemeButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-270"
 		"ypos"			"290"
 		"zpos"			"25"
@@ -370,17 +369,6 @@
 		"tall"			"15"
 		"visible"		"0"
 		"labeltext"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textalignment"	"center"
 		"command"		"reloadscheme"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-
-		"stay_armed_on_click"	"1"
-
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
 	}
 }

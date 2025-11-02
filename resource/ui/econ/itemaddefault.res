@@ -124,6 +124,7 @@
 
 		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"White"
+		"disabledfgcolor2_override"	"Black"
 
 		"defaultbgcolor_override"	"72 103 32 255"
 		"armedbgcolor_override"		"72 133 32 255"
@@ -154,6 +155,7 @@
 
 		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"White"
+		"disabledfgcolor2_override"	"Black"
 
 		"defaultbgcolor_override"	"72 103 32 255"
 		"armedbgcolor_override"		"72 133 32 255"

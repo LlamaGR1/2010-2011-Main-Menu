@@ -1064,8 +1064,8 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
-	}		
-	
+	}
+
 	"RotRightButton"
 	{
 		"controlname"	"CPreviewRotButton"
@@ -1087,8 +1087,8 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
-	}	
-				
+	}
+
 	"NextWeaponButton"
 	{
 		"controlname"	"CExButton"
@@ -1110,7 +1110,7 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
-	}					
+	}
 
 	"GoFullscreenButton"
 	{
@@ -1152,9 +1152,9 @@
 			"enabled"		"1"
 			"image"			"store/store_fullscreen"
 			"scaleimage"	"1"
-		}				
+		}
 	}
-		
+
 	"ZoomButton"
 	{
 		"controlname"	"CExImageButton"
@@ -1177,12 +1177,12 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		"command"		"zoom_toggle"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
-		
+
 		"subimage"
 		{
 			"controlname"	"ImagePanel"
@@ -1195,7 +1195,7 @@
 			"enabled"		"1"
 			"image"			"store/store_zoom"
 			"scaleimage"	"1"
-		}				
+		}
 	}
 
 	"OptionsButton"
@@ -1316,7 +1316,7 @@
 				// "subimage"
 				// {
 				// 	"image"			"store/store_redteam"
-				// }				
+				// }
 			}
 
 			"blu"
@@ -1329,7 +1329,7 @@
 				// "subimage"
 				// {
 				// 	"image"			"store/store_blueteam"
-				// }				
+				// }
 			}
 		}
 	}
@@ -1354,7 +1354,7 @@
 
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
-	
+
 	"PaintNameLabel"
 	{
 		"controlname"	"CExLabel"
@@ -1371,7 +1371,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
+	}
 
 	"StyleNameLabel"
 	{
@@ -1486,7 +1486,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 		"fgcolor"		"White"
-	}	
+	}
 
 	"AddToCartButton"
 	{

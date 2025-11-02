@@ -127,7 +127,29 @@
 				"image"			"replay/saxxycontest/logo"
 			}
 
-			"SaxxyModelImage"
+			"CameraFlashes"
+			{
+				"controlname"	"CTFParticlePanel"
+				"xpos"			"50"
+				"ypos"			"50"
+				"zpos"			"3"
+				"wide"			"255"
+				"tall"			"175"
+
+				"ParticleEffects"
+				{
+					"0"
+					{
+						"particle_xpos"		"140"
+						"particle_ypos"		"40"
+						"particle_scale"	"5"
+						"loop"				"1"
+						"particlename"		"vivi_camera_flashes"		//		player_australium_sparkles
+					}
+				}
+			}
+
+			"SaxxyModelPanel"
 			{
 				"controlname"	"EditablePanel"
 				"xpos"			"137"
@@ -136,7 +158,7 @@
 				"wide"			"71"
 				"tall"			"190"
 
-				"SaxxyModelImage2"
+				"SaxxyImage"
 				{
 					"controlname"	"ImagePanel"
 					"wide"			"71"
@@ -144,6 +166,20 @@
 					"scaleimage"	"1"
 					"image"			"replay/thumbnails/misc/saxxy"
 				}
+			}
+
+			"CrowdWalla"
+			{
+				"controlname"	"Button"
+				"xpos"			"50"
+				"ypos"			"45"
+				"zpos"			"4"
+				"wide"			"255"
+				"tall"			"190"
+				"labeltext"		""
+				"sound_armed"	"misc/"		//		tf_crowd_walla_intro.wav		boring_applause_1.wav
+				"paintbackground"	"0"
+				"stayselectedonclick"	"1"
 			}
 
 			"CurtainsStatic"
@@ -154,6 +190,153 @@
 				"scaleimage"	"1"
 				"image"			"replay/mainmenu_curtains_static"
 			}
+		}
+
+		"CameraClick4"
+		{
+			"controlname"	"Button"
+			"xpos"			"c-380"
+			"ypos"			"305"
+			"zpos"			"-195"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_07.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+
+		"CameraClick5"
+		{
+			"controlname"	"Button"
+			"xpos"			"c-155"
+			"ypos"			"365"
+			"zpos"			"-195"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_04.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+
+		"CameraClick6"
+		{
+			"controlname"	"Button"
+			"xpos"			"c-35"
+			"ypos"			"265"
+			"zpos"			"-195"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_09.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+
+		"CameraClick7"
+		{
+			"controlname"	"Button"
+			"xpos"			"c125"
+			"ypos"			"285"
+			"zpos"			"-195"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_05.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+
+		"CameraClick8"
+		{
+			"controlname"	"Button"
+			"xpos"			"c275"
+			"ypos"			"335"
+			"zpos"			"-195"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_07.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+
+		"CameraClick9"
+		{
+			"controlname"	"Button"
+			"xpos"			"c300"
+			"ypos"			"175"
+			"zpos"			"-195"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_03.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+	}
+
+	"CameraClick1"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c-355"
+		"ypos"			"110"
+		"zpos"			"-67"
+		"wide"			"50"
+		"tall"			"50"
+
+		"subbuton"
+		{
+			"controlname"	"Button"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_01.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+	}
+
+	"CameraClick2"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c-105"
+		"ypos"			"95"
+		"zpos"			"-67"
+		"wide"			"70"
+		"tall"			"45"
+
+		"subbuton"
+		{
+			"controlname"	"Button"
+			"wide"			"70"
+			"tall"			"45"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_02.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
+		}
+	}
+
+	"CameraClick3"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c80"
+		"ypos"			"130"
+		"zpos"			"-67"
+		"wide"			"50"
+		"tall"			"50"
+
+		"subbuton"
+		{
+			"controlname"	"Button"
+			"wide"			"50"
+			"tall"			"50"
+			"labeltext"		""
+			"sound_armed"	"misc/tf_camera_01.wav"
+			"paintbackground"	"0"
+			"stayselectedonclick"	"1"
 		}
 	}
 }

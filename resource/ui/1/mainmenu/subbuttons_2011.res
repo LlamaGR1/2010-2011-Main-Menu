@@ -1,4 +1,4 @@
-#base "../../../../cfg/2010hud/client20102011.txt"
+#base "../../../../../../cfg/2010hud/client20102011.txt"
 
 #base "../2011fix/subbuttonsfix2011.res"
 

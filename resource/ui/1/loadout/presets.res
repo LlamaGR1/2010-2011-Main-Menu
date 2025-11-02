@@ -13,6 +13,8 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
+			"button_activation_type"	"2"
+
 			"paintbackground"	"0"
 		}
 	}

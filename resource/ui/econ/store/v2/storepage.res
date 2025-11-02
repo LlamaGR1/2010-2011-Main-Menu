@@ -280,7 +280,6 @@
 	// 	"fgcolor"		"243 234 216 255"
 	// }
 
-
 	
 	// "PriceLabel"
 	// {
@@ -299,8 +298,8 @@
 	// 	"enabled"		"1"
 	// 	"wrap"			"1"
 	// 	"centerwrap"	"1"
-	// }		
-	
+	// }
+
 	// "NameFilterLabel"
 	// {
 	// 	"controlname"	"CExLabel"
@@ -318,7 +317,7 @@
 	// 	"enabled"		"1"
 	// 	"fgcolor"		"StoreDarkTan"
 	// }
-	
+
 	// "SubcategoryFiltersLabel"
 	// {
 	// 	"controlname"	"CExLabel"
@@ -336,7 +335,7 @@
 	// 	"enabled"		"1"
 	// 	"fgcolor"		"StoreDarkTan"
 	// }
-	
+
 	// "SortFilterLabel"
 	// {
 	// 	"controlname"	"CExLabel"
@@ -354,7 +353,7 @@
 	// 	"enabled"		"1"
 	// 	"fgcolor"		"StoreDarkTan"
 	// }
-	
+
 	// "ClassFilterLabel"
 	// {
 	// 	"controlname"	"CExLabel"
@@ -372,7 +371,7 @@
 	// 	"enabled"		"1"
 	// 	"fgcolor"		"StoreDarkTan"
 	// }
-	
+
 	// "ClassFilterNavPanel"
 	// {
 	// 	"controlname"		"CNavigationPanel"
@@ -385,14 +384,14 @@
 	// 	"pinCorner"			"0"
 	// 	"visible"			"1"
 	// 	"enabled"			"1"
-		
+
 	// 	"auto_scale"		"1"
 	// 	"auto_layout"		"1"
 	// 	"selected_button_default"	"0"
 	// 	"auto_layout_horizontal_buffer"	"4"
 	// 	"display_vertically"	"0"
 	// 	"align"				"west"
-		
+
 	// 	"ButtonSettings"
 	// 	{
 	// 		"wide"				"19"
@@ -405,26 +404,26 @@
 	// 		"labeltext"			""
 	// 		"textalignment"		"south-west"
 	// 		"scaleimage"		"1"
-			
+
 	// 		"fgcolor"			"TanDark"
 	// 		"defaultfgcolor_override" "TanDark"
 	// 		"armedfgcolor_override" "TanDark"
 	// 		"depressedfgcolor_override" "TanDark"
-			
+
 	// 		"sound_depressed"	"ui/buttonclick.wav"
 	// 		"sound_released"	"ui/buttonclickrelease.wav"
 	// 		"sound_armed"		"ui/buttonrollover.wav"
-			
+
 	// 		"paintbackground"	"0"
 	// 		"paintborder"		"0"
-			
+
 	// 		"image_drawcolor"		"255 255 255 180"
 	// 		"image_armedcolor"		"255 255 255 255"
 	// 		"image_selectedcolor"	"255 255 255 255"
-			
+
 	// 		"stayselectedonclick"	"1"
 	// 		"keyboardinputenabled"	"0"
-			
+
 	// 		"subimage"
 	// 		{
 	// 			"controlname"	"ImagePanel"
@@ -436,9 +435,9 @@
 	// 			"visible"		"1"
 	// 			"enabled"		"1"
 	// 			"scaleimage"	"1"
-	// 		}				
+	// 		}
 	// 	}
-		
+
 	// 	"Buttons"
 	// 	{
 	// 		"all"
@@ -452,7 +451,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_all"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"scout"
 	// 		{
@@ -465,7 +464,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_scout"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"soldier"
 	// 		{
@@ -478,7 +477,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_soldier"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"pyro"
 	// 		{
@@ -491,7 +490,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_pyro"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"demo"
 	// 		{
@@ -504,8 +503,8 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_demo"
-	// 			}				
-	// 		}	
+	// 			}
+	// 		}
 	// 		"heavy"
 	// 		{
 	// 			"userdata"			"6"
@@ -517,7 +516,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_heavy"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"engineer"
 	// 		{
@@ -530,7 +529,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_engineer"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"medic"
 	// 		{
@@ -543,7 +542,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_medic"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"sniper"
 	// 		{
@@ -556,7 +555,7 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_sniper"
-	// 			}				
+	// 			}
 	// 		}
 	// 		"spy"
 	// 		{
@@ -569,8 +568,8 @@
 	// 			"subimage"
 	// 			{
 	// 				"image"			"class_icons/filter_spy"
-	// 			}				
-	// 		}	
+	// 			}
+	// 		}
 	// 	}
 	// }
 	
@@ -844,7 +843,6 @@
 		"controlname"	"CExLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"%freebackpackspace%"
-		"textalignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"290"
 		"zpos"			"0"

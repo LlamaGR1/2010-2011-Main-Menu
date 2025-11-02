@@ -132,32 +132,6 @@
 		"paintbackground"	"0"
 	}
 
-	// "NameFilterLabel"
-	// {
-	// 	"controlname"	"Label"
-	// 	"xpos"			"c200"
-	// 	"wide"			"100"
-	// 	"tall"			"15"
-	// 	"labeltext"		"#Store_NameFilterLabel"
-	// 	"font"			"HudFontSmallestBold"
-	// 	"fgcolor_override"	"StoreDarkTan"
-	// }
-
-	// "NameFilterTextEntry"
-	// {
-	// 	"controlname"	"TextEntry"
-	// 	"xpos"			"c200"
-	// 	"ypos"			"15"
-	// 	"zpos"			"2"
-	// 	"wide"			"100"
-	// 	"tall"			"20"
-	// 	"font"			"HudFontSmallest"
-	// 	"border"		"ViviYellowBG"
-	// 	"ignorescheme"	"1"
-	// 	"editable"		"1"
-	// 	"fgcolor_override"	"TanDark"
-	// }
-
 	"TopLine"
 	{
 		"controlname"	"ImagePanel"

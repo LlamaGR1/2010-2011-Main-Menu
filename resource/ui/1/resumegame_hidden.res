@@ -1,4 +1,6 @@
+#base "../../../../../cfg/2010hud/mainmenuborders.txt"
 
+#base "mainmenu/mainmenuborders.res"
 
 #base "mainmenu/replaysbutton_hide.res"
 
@@ -20,8 +22,8 @@
 			"tall"			"35"
 			"visible"		"0"
 			"paintbackground"	"0"
-			"border_default"	"MainMenuBGBorderAlpha"
-			"mouseinputenabled"	"0"		//ddoes this work
+//			"border_default"	"MainMenuBGBorderAlpha"
+//			"mouseinputenabled"	"0"		//ddoes this work
 		}
 	}
 
@@ -199,7 +201,7 @@
 		"zpos"			"-71"
 		"wide"			"260"
 	//	"tall"			"66"
-		"border"		"MainMenuBGBorderAlpha"
+//		"border"		"MainMenuBGBorderAlpha"
 	}
 
 	"OfflinePracticeButton"

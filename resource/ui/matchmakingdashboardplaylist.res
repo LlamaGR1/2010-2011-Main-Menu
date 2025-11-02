@@ -22,7 +22,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"font"			"HudFontMediumBold"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 	}
 
 	"playlist"

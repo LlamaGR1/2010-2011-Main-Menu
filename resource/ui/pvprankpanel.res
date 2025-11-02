@@ -1,4 +1,4 @@
-"Resource/UI/PvPRankPanel.res"
+"pvprankpanel"
 {
 	"ModelContainer"
 	{
@@ -174,10 +174,10 @@
 	"BGPanel"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"rs1"
+		"xpos"			"0"
 	//	"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"260"
+		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"paintbackgroundtype"	"2"
@@ -202,9 +202,9 @@
 		// 	"zpos"			"100"
 		// 	"tall"			"20"
 		// 	"proportionaltoparent"	"1"
-		// 	"labelText"		"#Vivi_WelcomeBack"
+		// 	"labeltext"		"#Vivi_WelcomeBack"
 		// 	"font"			"HudFontSmallishBold"
-		// 	"textAlignment"	"north-west"
+		// 	"textalignment"	"north-west"
 
 		// 	if_mini
 		// 	{
@@ -219,12 +219,12 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"260"
+			"wide"			"f0"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
-			"labelText"		"%name%"
+			"labeltext"		"%name%"
 			"font"			"HudFontSmallBold"		//		HudFontSmallishBold
-		//	"textAlignment"	"north-west"
+		//	"textalignment"	"north-west"
 
 			if_mini
 			{
@@ -253,7 +253,7 @@
 		// 	"wide"			"225"
 		// 	"tall"			"15"
 		// 	"font"			"HudFontSmallBold"
-		// 	"labelText"		"%name%"
+		// 	"labeltext"		"%name%"
 		// 	"proportionaltoparent"	"1"
 
 		// 	"pin_to_sibling" "WelcomeLabel"
@@ -270,16 +270,15 @@
 		"DescLine1"
 		{
 			"controlname"	"CAutoFittingLabel"
-			"xpos"			"165"
+			"xpos"			"0"
 			"ypos"			"89"
 			"zpos"			"100"
-			"wide"			"90"
+			"wide"			"100"
 			"tall"			"30"
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"labelText"		"%desc1%"
-			"bgcolor_override"	"0 0 255 0"
+			"textalignment"	"center"
+			"labeltext"		"%desc1%"
 			"centerwrap"		"1"
 
 			if_mini
@@ -288,7 +287,7 @@
 				"ypos"			"4"
 				"wide"			"195"
 				"tall"			"20"
-				"textAlignment"	"north-west"
+				"textalignment"	"north-west"
 				"centerwrap"	"0"
 			}
 
@@ -312,8 +311,8 @@
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
-			"labelText"		"%desc2%"
+			"textalignment"	"north-west"
+			"labeltext"		"%desc2%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -370,9 +369,9 @@
 					"tall"			"20"
 					"proportionaltoparent"	"1"
 					"visible"		"0"
-					"labelText"		"%current_xp%"
+					"labeltext"		"%current_xp%"
 					"font"			"ItemFontAttribSmall"
-					"textAlignment"	"south-west"
+					"textalignment"	"south-west"
 
 					if_mini
 					{
@@ -389,9 +388,9 @@
 					"tall"			"20"
 					"proportionaltoparent"	"1"
 					"visible"		"0"
-					"labelText"		"%next_level_xp%"
+					"labeltext"		"%next_level_xp%"
 					"font"			"ItemFontAttribSmall"
-					"textAlignment"	"south-east"
+					"textalignment"	"south-east"
 
 					if_mini
 					{
@@ -493,8 +492,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_games%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_games%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -510,8 +509,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_kills%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_kills%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -527,8 +526,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_deaths%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -545,8 +544,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_damage%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_damage%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -562,8 +561,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_healing%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_healing%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -579,8 +578,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_support%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_support%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -597,8 +596,8 @@
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_score%"
+					"textalignment"	"north-west"
+					"labeltext"		"%stat_score%"
 					"proportionaltoparent"	"1"
 				}
 			}

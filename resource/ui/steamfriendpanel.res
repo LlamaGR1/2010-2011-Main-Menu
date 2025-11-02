@@ -23,17 +23,15 @@
 
 		"defaultbgcolor_override"	"Blank"
 		"armedbgcolor_override"		"200 80 60 69"
-	//	"armedbgcolor_override"		"244 114 43 69"
 	}
 
 	"NameLabel"
 	{
 		"controlname"	"CAutoFittingLabel"
-		"xpos"			"rs1"
+		"xpos"			"22"
 		"ypos"			"1"
 		"wide"			"87"
 		"tall"			"10"
-		"proportionaltoparent"	"1"
 		"labeltext"		"%name%"
 
 		"fonts"
@@ -57,11 +55,10 @@
 
 	"StatusLabel"
 	{
-		"xpos"			"rs1"
+		"xpos"			"22"
 		"ypos"			"10"
 		"wide"			"87"
 		"tall"			"10"
-		"proportionaltoparent"	"1"
 		"labeltext"		"%status%"
 		"font"			"ItemFontAttribSmall"
 	}

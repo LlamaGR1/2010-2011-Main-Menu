@@ -269,7 +269,6 @@
 		"controlname"	"CExLabel"
 		"font"			"HudFontSmallest"
 		"labeltext"		""
-		"textalignment"	"west"
 		"xpos"			"c-45"
 		"ypos"			"c-230"
 		"zpos"			"100"
@@ -297,7 +296,6 @@
 			"controlname"	"CExLabel"
 			"font"			"HudFontMediumBold"
 			"labeltext"		"#Store_Case_Label"
-			"textalignment"	"west"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -314,7 +312,6 @@
 			"controlname"	"CExLabel"
 			"font"			"HudFontMediumBold"
 			"labeltext"		"#Store_Key_Label"
-			"textalignment"	"west"
 			"xpos"			"0"
 			"ypos"			"70"
 			"zpos"			"0"
@@ -331,7 +328,6 @@
 			"controlname"	"CExLabel"
 			"font"			"HudFontMediumBold"
 			"labeltext"		"#Store_Taunt_Label"
-			"textalignment"	"west"
 			"xpos"			"0"
 			"ypos"			"140"
 			"zpos"			"0"
@@ -697,7 +693,7 @@
 		"labeltext"		"#Store_FeaturedItem"
 		"font"			"HudFontSmallestBold"
 		"textalignment"	"north"
-	}	
+	}
 
 	"FeaturedItemSymbol"
 	{
@@ -721,5 +717,5 @@
 		"labeltext"		""		//		%featured_item_price%	
 		"font"			"HudFontSmallestBold"
 		"textalignment"	"center"
-	}		
+	}
 }

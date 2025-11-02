@@ -3,7 +3,7 @@
 	HudDeathNotice
 	{
 		"xpos"			"r640"
-		"ypos"			"18"
+		"ypos"			"12"
 		"wide"			"628"
 		"tall"			"468"
 
@@ -11,7 +11,7 @@
 		"IconScale"		"0.35"
 		"LineHeight"	"16"
 		"LineSpacing"	"4"
-		"CornerRadius"	"2"
+		"CornerRadius"	"3"
 		"RightJustify"	"1"
 
 		"TextFont"		"Default"
@@ -152,8 +152,8 @@
 		"ypos"			"0"
 		"tall"			"480"
 		"RightMargin"	"0"
-		"RightMargin_hidef"	"32"
-		"RightMargin_lodef"	"38"
+	//	"RightMargin_hidef"	"32"
+	//	"RightMargin_lodef"	"38"
 		"SmallBoxWide"	"72"
 		"SmallBoxTall"	"54"
 		"PlusStyleBoxWide"	"90"
@@ -219,14 +219,13 @@
 
 	CMainTargetID
 	{
-		"visible"		"0"
 		"xpos"			"c-126"
-		"ypos"			"285"
+		"ypos"			"250"
 		"wide"			"252"
 		"tall"			"35"
 		"tall_minmode"	"28"
+		"visible"		"0"
 		"priority"		"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -237,14 +236,13 @@
 
 	CSpectatorTargetID
 	{
-		"visible"		"0"
 		"xpos"			"c-126"
 		"ypos"			"250"
 		"wide"			"252"
 		"tall"			"35"
 		"tall_minmode"	"28"
+		"visible"		"0"
 		"priority"		"40"
-		"priority_lodef"	"35"
 
 		"x_offset"		"20"
 		"y_offset"		"20"
@@ -252,20 +250,20 @@
 
 	CSecondaryTargetID
 	{
-		"visible"		"0"
 		"xpos"			"c-126"
-		"ypos"			"335"
+		"ypos"			"300"
 		"wide"			"252"
 		"tall"			"35"
 		"tall_minmode"	"28"
+		"visible"		"0"
 		"priority"		"35"
+
 
 		if_vr
 		{
 			"ypos"		"330"
 			"x_offset"	"20"
 		}
-
 	}
 
 	BuildingStatus_Spy
@@ -281,11 +279,11 @@
 	BuildingStatus_Engineer
 	{
 		"xpos"			"0"
-		"xpos_hidef"	"32"
-		"xpos_lodef"	"40"
+	//	"xpos_hidef"	"32"
+	//	"xpos_lodef"	"40"
 		"ypos"			"0"
-		"ypos_hidef"	"16"
-		"ypos_lodef"	"25"
+	//	"ypos_hidef"	"16"
+	//	"ypos_lodef"	"25"
 		"wide"			"640"
 		"tall"			"480"
 
@@ -457,9 +455,9 @@
 
 	HudMenu
 	{
+		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"480"
-		"zpos"			"1"
 
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
@@ -468,11 +466,11 @@
 
 	HudSpellMenu
 	{
-		"wide"			"640"
-		"tall"			"480"
-		"zpos"			"2"
 		"xpos"			"130"
 		"ypos"			"r61"
+		"zpos"			"2"
+		"wide"			"640"
+		"tall"			"480"
 
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
@@ -551,7 +549,7 @@
 		"ypos"			"112"
 		"wide"			"96"
 		"tall"			"16"
-		"textAlignment"	"north"
+		"textalignment"	"north"
 	}
 
 	HudScope
@@ -677,11 +675,11 @@
 	WinPanel
 	{
 		"xpos"			"c-150"
-		"ypos"			"215"
+		"ypos"			"255"
+	//	"zpos"			"4"
 		"wide"			"300"
-		"tall"			"300"
-		"zpos"			"4"
-		"proportionaltoparent"	"1"
+		"tall"			"215"
+	//	"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -703,13 +701,13 @@
 	StatPanel
 	{
 		"xpos"			"c-133"
-		"xpos_lodef"	"c-190"
+	//	"xpos_lodef"	"c-190"
 		"ypos"			"270"
-		"ypos_lodef"	"250"
+	//	"ypos_lodef"	"250"
 		"wide"			"266"
-		"wide_lodef"	"400"
+	//	"wide_lodef"	"400"
 		"tall"			"120"
-		"tall_lodef"	"190"
+	//	"tall_lodef"	"190"
 	}
 
 	FreezePanel
@@ -799,8 +797,8 @@
 	{
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+	//	"ypos_hidef"	"c-42"
+	//	"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"paintbackgroundtype"	"0"
@@ -820,7 +818,7 @@
 	{
 		"xpos"			"c-160"
 		"ypos"			"65"
-		"ypos_lodef"	"75"
+	//	"ypos_lodef"	"75"
 		"wide"			"320"
 		"tall"			"100"
 	}
@@ -829,7 +827,7 @@
 	{
 		"xpos"			"c-160"
 		"ypos"			"15"
-		"ypos_lodef"	"75"
+	//	"ypos_lodef"	"75"
 		"wide"			"320"
 		"tall"			"300"
 	}
@@ -839,8 +837,8 @@
 		"visible"		"0"
 		"xpos"			"c-160"
 		"ypos"			"75"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"90"
+	//	"ypos_hidef"	"90"
+	//	"ypos_lodef"	"90"
 		"wide"			"320"
 		"tall"			"100"
 	}
@@ -850,8 +848,8 @@
 		"visible"		"0"
 		"xpos"			"c-160"
 		"ypos"			"75"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"90"
+	//	"ypos_hidef"	"90"
+	//	"ypos_lodef"	"90"
 		"wide"			"320"
 		"tall"			"150"
 	}
@@ -870,7 +868,7 @@
 		"visible"		"0"
 		"xpos"			"c-160"
 		"ypos"			"65"
-		"ypos_lodef"	"75"
+	//	"ypos_lodef"	"75"
 		"wide"			"320"
 		"tall"			"100"
 	}
@@ -880,7 +878,7 @@
 		"visible"		"0"
 		"xpos"			"c-125"
 		"ypos"			"5"
-		"ypos_lodef"	"75"
+	//	"ypos_lodef"	"75"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"80"
@@ -891,7 +889,7 @@
 		"visible"		"0"
 		"xpos"			"c-90"
 		"ypos"			"-70"
-		"ypos_lodef"	"75"
+	//	"ypos_lodef"	"75"
 		"wide"			"180"
 		"tall"			"65"
 	}
@@ -901,7 +899,7 @@
 		"xpos"			"c-160"
 		"ypos"			"5"
 		"ypos_minmode"	"15"
-		"ypos_lodef"	"75"
+	//	"ypos_lodef"	"75"
 		"wide"			"125"
 		"tall"			"70"
 	}
@@ -1093,8 +1091,8 @@
 	{
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+	//	"ypos_hidef"	"c-42"
+	//	"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"paintbackgroundtype"	"0"

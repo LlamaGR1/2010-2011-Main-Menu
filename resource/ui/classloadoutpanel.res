@@ -1,10 +1,14 @@
-#base "../../cfg/2010hud/chartauntsb.txt"
-#base "../../cfg/2010hud/passive.txt"
-#base "../../cfg/2010hud/pdaslot.txt"
+#base "../../../../cfg/2010hud/chartauntsb.txt"
+#base "../../../../cfg/2010hud/passive.txt"
+#base "../../../../cfg/2010hud/slot_pda.txt"
 
 #base "1/chartauntsb_h.res"
 #base "1/passive.res"
-#base "1/pdaslothide.res"
+#base "1/loadout/slot_pda_hide.res"
+
+//#base "1/loadout/slot_misc_hide.res"
+//#base "1/loadout/slot_misc_hat_hide.res"
+//#base "1/loadout/slot_misc_3_hide.res"
 
 "classloadoutpanel"
 {
@@ -368,7 +372,7 @@
 		"wide"			"140"
 		"tall"			"75"
 		"visible"		"0"
-		"border"		"ViviDarkGreyBG"
+		"border"		"ViviItemOptionsBG"
 	}
 
 	// "TauntsExplanation"
@@ -476,9 +480,9 @@
 	// 	}
 	// }
 
-	"ShowExplanationsButton"
+	"ShowExplanationsButton1"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c167"
 		"ypos"			"10"
 		"zpos"			"1100"
@@ -486,17 +490,6 @@
 		"tall"			"20"
 		"visible"		"0"
 		"labeltext"		"!"
-		"font"			"HudFontSmallBold"
-		"textalignment"	"center"
 		"command"		"reloadscheme"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-
-		"stay_armed_on_click"	"1"
-
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
 	}
 }

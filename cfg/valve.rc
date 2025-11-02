@@ -5,28 +5,31 @@ stuffcmds
 startupmenu
 sv_unlockedchapters 99
 
-
-
 con_enable 1
 wait 2; showconsole; incrementvar mat_aaquality 0 1 1; hideconsole
 
 vgui_cache_res_files 0
 tf_dashboard_slide_time 0.003
 tf_mm_dashboard_slide_panel_step 0
-tf_hud_target_id_alpha 255
-tf_hud_target_id_disable_floating_health 1
-tf_use_match_hud 0
-cl_hud_playerclass_use_playermodel 0
+//tf_hud_target_id_alpha 255
+//tf_hud_target_id_disable_floating_health 1
+//tf_use_match_hud 0
+//cl_hud_playerclass_use_playermodel 0
 
 alias 1q "toggle mat_aaquality"
-alias zz "maxplayers 101; mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest; tf_bot_add 1"
+alias zz "maxplayers 101; mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest"
 alias xx "sv_allow_point_servercommand always; map workshop/606778917"
 alias cc "sv_cheats 1; echo "addcond 56 (crits)"; echo "addcond 57 (uber)"
+alias vv "mp_waitingforplayers_cancel 1"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 alias "2010hud_folder" "ds_dir cfg/2010hud; ds_log 0; ds_record; ds_stop"
 2010hud_folder
+
+////////////////////////////////////////////////////////////////////////////////////////////////		RecommendedSettings
+
+alias recommendedsettings "tf_hud_target_id_alpha 255; tf_hud_target_id_disable_floating_health 1; tf_use_match_hud 0; cl_hud_playerclass_use_playermodel 0; cl_showbackpackrarities 0; tf_contract_progress_show 0; tf_contract_competitive_show 0; cl_disablehtmlmotd 1; glow_outline_effect_enable 0; tf_enable_glows_after_respawn 0; tf_dingalingaling_lasthit 0; tf_use_min_viewmodels 0"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		SUBBUTTONS
 
@@ -137,14 +140,16 @@ alias 331ci_unlog "con_logfile console.log"
 alias passivehide "331ci_clear; 331ci_log; exec passive.cfg; 331ci_unlog; toggle mat_aaquality"
 alias passive "331ci_clear; toggle mat_aaquality"
 
-////////////////////////////////////////////////////////////////////////////////////////////////		pdaslot
+////////////////////////////////////////////////////////////////////////////////////////////////		pda hat misc slot slots
 
-alias 311ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/pdaslot.txt"
-alias 311ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/pdaslot.txt"
-alias 311ci_unlog "con_logfile console.log"
+alias slot_pda_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/slot_pda.txt"
+alias slot_pda_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/slot_pda.txt"
+alias slot_pda_unlog "con_logfile console.log"
 
-alias pdaslot "311ci_clear; 311ci_log; exec pdaslot.cfg; 311ci_unlog; toggle mat_aaquality"
-alias pdaslothide "311ci_clear; toggle mat_aaquality"
+alias slot_pda "slot_pda_clear; slot_pda_log; exec slot_pda.cfg; slot_pda_unlog; toggle mat_aaquality"
+alias slot_pda_hide "slot_pda_clear; toggle mat_aaquality"
+alias slot_misc_hide "slot_pda_clear; slot_pda_log; exec slot_misc_hide.cfg; slot_pda_unlog; toggle mat_aaquality"
+alias slot_misc_hat_hide "slot_pda_clear; slot_pda_log; exec slot_misc_hat_hide.cfg; slot_pda_unlog; toggle mat_aaquality"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		clientscheme
 
@@ -220,3 +225,76 @@ alias startplaying_unlog "con_logfile console.log"
 
 alias startplayingcommunity "startplaying_clear; startplaying_log; exec startplaying.cfg; startplaying_unlog; toggle mat_aaquality"
 alias startplaying "startplaying_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		quality color borders
+
+alias qualitycolorborders_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/qualitycolorborders.txt"
+alias qualitycolorborders_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/qualitycolorborders.txt"
+alias qualitycolorborders_unlog "con_logfile console.log"
+
+alias qualitycolorborders "qualitycolorborders_clear; qualitycolorborders_log; exec qualitycolorborders.cfg; qualitycolorborders_unlog; toggle mat_aaquality"
+alias qualitycolorbordershide "qualitycolorborders_clear; cl_showbackpackrarities 0; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		quality icons
+
+alias qualityicons_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/qualityicons.txt"
+alias qualityicons_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/qualityicons.txt"
+alias qualityicons_unlog "con_logfile console.log"
+
+alias qualityicons_hide "qualityicons_clear; qualityicons_log; exec qualityicons.cfg; qualityicons_unlog; toggle mat_aaquality"
+alias qualityicons "qualityicons_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		loading screen
+
+alias loadingscreen_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/loadingscreen.txt"
+alias loadingscreen_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/loadingscreen.txt"
+alias loadingscreen_unlog "con_logfile console.log"
+
+alias loadingscreen2010 "loadingscreen_clear; loadingscreen_log; exec loadingscreen.cfg; loadingscreen_unlog"
+alias loadingscreen2011 "loadingscreen_clear"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		main menu borders
+
+alias mainmenuborders_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/mainmenuborders.txt"
+alias mainmenuborders_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/mainmenuborders.txt"
+alias mainmenuborders_unlog "con_logfile console.log"
+
+alias mainmenuborders_hide "mainmenuborders_clear; mainmenuborders_log; exec mainmenuborders_hide.cfg; mainmenuborders_unlog; toggle mat_aaquality"
+alias mainmenuborders_friends "mainmenuborders_clear; mainmenuborders_log; exec mainmenuborders_friends.cfg; mainmenuborders_unlog; toggle mat_aaquality"
+alias mainmenuborders "mainmenuborders_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - sentry
+
+alias buildingsui_sentry_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/buildingsui_sentry.txt"
+alias buildingsui_sentry_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_sentry.txt"
+alias buildingsui_sentry_unlog "con_logfile console.log"
+
+alias buildingsui_sentry2010 "buildingsui_sentry_clear; buildingsui_sentry_log; exec buildingsui_sentry.cfg; buildingsui_sentry_unlog"
+alias buildingsui_sentry2011 "buildingsui_sentry_clear"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - dispenser
+
+alias buildingsui_dispenser_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/buildingsui_dispenser.txt"
+alias buildingsui_dispenser_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_dispenser.txt"
+alias buildingsui_dispenser_unlog "con_logfile console.log"
+
+alias buildingsui_dispenser2010 "buildingsui_dispenser_clear; buildingsui_dispenser_log; exec buildingsui_dispenser.cfg; buildingsui_dispenser_unlog"
+alias buildingsui_dispenser2011 "buildingsui_dispenser_clear"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - teleporter
+
+alias buildingsui_teleporter_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/buildingsui_teleporter.txt"
+alias buildingsui_teleporter_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_teleporter.txt"
+alias buildingsui_teleporter_unlog "con_logfile console.log"
+
+alias buildingsui_teleporter2010 "buildingsui_teleporter_clear; buildingsui_teleporter_log; exec buildingsui_teleporter.cfg; buildingsui_teleporter_unlog"
+alias buildingsui_teleporter2011 "buildingsui_teleporter_clear"
+
+////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - disposable sentry
+
+alias buildingsui_sentry_disp_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/buildingsui_sentry_disp.txt"
+alias buildingsui_sentry_disp_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_sentry_disp.txt"
+alias buildingsui_sentry_disp_unlog "con_logfile console.log"
+
+alias buildingsui_sentry_disp2010 "buildingsui_sentry_disp_clear; buildingsui_sentry_disp_log; exec buildingsui_sentry_disp.cfg; buildingsui_sentry_disp_unlog"
+alias buildingsui_sentry_disp2011 "buildingsui_sentry_disp_clear"

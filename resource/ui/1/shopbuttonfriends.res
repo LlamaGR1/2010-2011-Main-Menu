@@ -1,8 +1,10 @@
-#base "../../../cfg/2010hud/resumegame.txt"
+#base "../../../../../cfg/2010hud/resumegame.txt"
 
-//#base "shopbutton.res"
+#base "../../../../../cfg/2010hud/mainmenuborders.txt"
 
-#base "mainmenu/replaysbutton_hide.res"
+//#base "mainmenu/replaysbutton_hide.res"		//		breaks linux & windows
+
+//#base "mainmenu/mainmenuborders.res"		//		breaks linux & windows
 
 "mainmenuoverride"
 {
@@ -19,24 +21,25 @@
 		"SteamFriendsList"
 		{
 			"controlname"	"CSteamFriendsListPanel"
-			"xpos"			"6"
-			"ypos"			"35"
+//			"xpos"			"6"
+//			"ypos"			"35"
 			"zpos"			"501"
-			"wide"			"116"
-			"tall"			"80"
-			"border"		"StoreItemBorderMouseOver"
+//			"wide"			"116"
+//			"tall"			"80"
+//			"border"		"StoreItemBorderMouseOver"
+		//	"border"		"TFFatLineBorderOpaque"			//				add customissaiton
 
 		//	"columns_count"	"1"
 			"inset_x"		"3"
-			"inset_y"		"5"
+//			"inset_y"		"5"
 		//	"column_gap"	"10"
 		//	"row_gap"		"5"
 			"restrict_width"	"0"
-			"bottom_buffer"	"4"
+//			"bottom_buffer"	"4"
 
 			"friendpanel_kv"
 			{
-				"wide"		"110"
+		//		"wide"		"110"
 				"tall"		"20"
 			}
 
@@ -56,7 +59,7 @@
 			}
 		}
 
-		"NewFeatureLabel"
+		"PlayWithFriendsLabel"
 		{
 			"controlname"	"Label"
 			"xpos"			"137"
@@ -68,7 +71,7 @@
 			"font"			"HudFontSmallestBold"
 		}
 
-		"ReplaysLabel"
+		"InviteLabel"
 		{
 			"controlname"	"Label"
 			"xpos"			"137"
@@ -81,7 +84,7 @@
 			"fgcolor_override"	"LightRed"
 		}
 
-		"ReplayBrowserButton"
+		"CreatePartyButton"
 		{
 			"controlname"	"CExButton"
 			"xpos"			"135"

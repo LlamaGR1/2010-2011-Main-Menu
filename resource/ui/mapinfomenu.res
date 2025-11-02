@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 
 #base "1/2011fix/shadedbar.res"
@@ -11,26 +11,6 @@
 		"controlname"	"Frame"
 		"wide"			"f0"
 		"tall"			"480"
-
-		"Background2"
-		{
-			"visible"		"0"
-		}
-
-		"Title"
-		{
-			"visible"		"0"
-		}
-
-		"MapAuthors"
-		{
-			"visible"		"0"
-		}
-
-		"MapLeaderboardTitle"
-		{
-			"visible"		"0"
-		}
 	}
 
 	"MapInfoTitle"
@@ -86,7 +66,7 @@
 		"controlname"	"CExButton"
 		"xpos"			"r190"
 		"ypos"			"r40"
-		"zpos"			"2546"
+		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
 		"labeltext"		"#TF_Continue"
@@ -128,7 +108,7 @@
 		"controlname"	"CExButton"
 		"xpos"			"40"
 		"ypos"			"r40"
-		"zpos"			"3121236"
+		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
 		"labeltext"		"#TF_Back"
@@ -146,7 +126,7 @@
 
 	// "eryt"
 	// {
-	// 	"ControlName"	"panel"
+	// 	"controlname"	"panel"
 	// 	"zpos"			"64"
 	// 	"bgcolor_override"	"0 0 0 255"
 	// 	"tall"		"f0"

@@ -11,8 +11,8 @@ Scheme
 		ReplayBrowser.Button.DepressedBgColor	"TFOrange"
 
 		Econ.Button.PresetDefaultColorFg	"LightRed"
-		Econ.Button.PresetArmedColorFg		"LighterRed"
-		Econ.Button.PresetDepressedColorFg	"LightRed"
+		Econ.Button.PresetArmedColorFg		"220 100 80 75"
+		Econ.Button.PresetDepressedColorFg	"220 100 80 75"
 
 		Econ.Button.FgColor					"TanLight"
 		Econ.Button.BgColor					"TanDark"
@@ -104,18 +104,6 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		// ViviTFOrangeTransBG
-		// {
-		// 	"bordertype"			"scalable_image"
-		// 	"color"					"152 60 45 205"
-
-		// 	"image"					"replay/thumbnails/borders/vivi_button"
-		// 	"src_corner_height"		"6"
-		// 	"src_corner_width"		"6"
-		// 	"draw_corner_width"		"2"
-		// 	"draw_corner_height"	"2"
-		// }
-
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
@@ -124,7 +112,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height"	"4"	
+			"draw_corner_height"	"4"
 		}
 	}
 }

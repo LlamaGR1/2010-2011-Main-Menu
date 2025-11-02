@@ -34,4 +34,12 @@
 	{
 		"xpos"			"185"
 	}
+
+	"MMDashboard"
+	{
+		"ToggleChatButton"
+		{
+			"xpos"			"60"
+		}
+	}
 }

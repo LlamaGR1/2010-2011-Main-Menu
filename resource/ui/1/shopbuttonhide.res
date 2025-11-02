@@ -1,6 +1,6 @@
-#base "../../../cfg/2010hud/resumegame.txt"
+#base "../../../../../cfg/2010hud/resumegame.txt"
 
-#base "mainmenu/replaysbutton_hide.res"
+//#base "mainmenu/replaysbutton_hide.res"		//		breaks linux & windows
 
 "mainmenuoverride"
 {

@@ -1,4 +1,4 @@
-#base "../../../cfg/2010hud/client20102011.txt"
+#base "../../../../../cfg/2010hud/client20102011.txt"
 
 
 #base "2011fix/loadouttaunt.res"
@@ -9,19 +9,19 @@
 	"CharacterLoadoutButton"
 	{
 		"controlname"	"CExImageButton"
-		"xpos"			"c245"
+		"xpos"			"c243"
 		"ypos"			"10"
-		"zpos"			"2222"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"0"
 		"labeltext"		""
-		"tooltiptext"	"#ValveEcon_RootUI_OpenLoadout"
 		"command"		"characterloadout"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"stay_armed_on_click"	"1"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
 
 		"border_default"	"ViviTanDarkBG"
 		"border_armed"		"ViviTFOrangeBG"
@@ -45,17 +45,17 @@
 		"controlname"	"CExImageButton"
 		"xpos"			"c267"
 		"ypos"			"10"
-		"zpos"			"2222"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"0"
 		"labeltext"		""
-		"tooltiptext"	"#TF_Taunt"
 		"command"		"tauntloadout"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"stay_armed_on_click"	"1"
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
 
 		"border_default"	"ViviTanDarkBG"
 		"border_armed"		"ViviTFOrangeBG"

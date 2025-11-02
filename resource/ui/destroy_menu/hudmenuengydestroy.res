@@ -22,7 +22,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"controlname"	"CExLabel"
 		"font"			"HudFontGiantBold"
 		"xpos"			"31"
@@ -35,7 +35,7 @@
 	}
 
 	"TitleLabelDropshadow"
-	{	
+	{
 		"controlname"	"CExLabel"
 		"xpos"			"32"
 		"ypos"			"7"
@@ -48,7 +48,7 @@
 	}
 
 	"CancelLabel"
-	{	
+	{
 		"controlname"	"CExLabel"
 		"xpos"			"218"
 		"ypos"			"39"
@@ -59,7 +59,7 @@
 		"font"			"SpectatorKeyHints"
 		"textalignment"	"east"
 	}
-	
+
 	"active_item_1"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -69,8 +69,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -80,8 +80,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -91,8 +91,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -103,7 +103,7 @@
 		"tall"			"124"
 		"visible"		"0"
 	}
-	
+
 	"inactive_item_1"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -112,8 +112,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
-	
+	}
+
 	"inactive_item_2"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -122,8 +122,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
-	
+	}
+
 	"inactive_item_3"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -132,8 +132,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
-	
+	}
+
 	"inactive_item_4"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -142,7 +142,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
+	}
 
 	"unavailable_item_1"
 	{
@@ -152,8 +152,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -162,8 +162,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"controlname"	"CEngyDestroyMenuItem"
@@ -172,8 +172,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"controlname"	"CEngyDestroyMenuItem"

@@ -1,4 +1,4 @@
-#base "../cfg/2010hud/startplaying.txt"
+#base "../../../cfg/2010hud/startplaying.txt"
 
 #base "ui/1/mainmenu/startplaying.res"
 
@@ -11,12 +11,32 @@
 		"onlyatmenu"	"1"
 	}
 
-	"HUDOptionsButton"
+	"CameraClick1"
 	{
-		"label"			"n"
-		"tooltip"		"#TF_OptionCategory_HUD"
-		"command"		"engine toggle cl_mainmenu_safemode"
+		"label"			"1"
+		"command"		"0"
+		"onlyatmenu"	"1"
 	}
+
+	"CameraClick2"
+	{
+		"label"			"2"
+		"command"		"0"
+		"onlyatmenu"	"1"
+	}
+
+	"CameraClick3"
+	{
+		"label"			"3"
+		"command"		"0"
+		"onlyatmenu"	"1"
+	}
+
+	// "HUDOptionsButton"
+	// {
+	// 	"label"			"n"
+	// 	"command"		"engine toggle cl_mainmenu_safemode"
+	// }
 
 	"ExplanationTooltipPanel1"
 	{
@@ -35,25 +55,39 @@
 	"ExplanationTooltipPanel3"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_6_ToolTip"
+		"tooltip"		"#Vote_RestartGame"
 		"command"		"0"
 	}
 
 	"ExplanationTooltipPanel4"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_10_ToolTip"
+		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_7_ToolTip"
+		"command"		"0"
+	}
+
+	"ExplanationTooltipPanel51"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_112_ToolTip"
 		"command"		"0"
 	}
 
 	"ExplanationTooltipPanel5"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_3_ToolTip"
+		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_11_ToolTip"
 		"command"		"0"
 	}
 
 	"ExplanationTooltipPanel6"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_4_ToolTip"
+		"command"		"0"
+	}
+
+	"ExplanationTooltipPanel7"
 	{
 		"label"			"?"
 		"tooltip"		"#Vivi_HUD_Options_Category_3_Title_2_ToolTip"
@@ -121,7 +155,7 @@
 	{
 		"label"			""
 		"tooltip"		"#MMenu_MutePlayers"
-		"command"		"OpenMutePlayerDialog"
+		"command"		"OpenPlayerListDialog"
 		"onlyingame"	"1"
 	}
 

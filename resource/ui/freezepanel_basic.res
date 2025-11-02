@@ -72,7 +72,7 @@
 	// 	}
 
 	// 	"ItemLabel"
-	// 	{	
+	// 	{
 	// 		"controlname"	"Label"
 	// 		"font"			"DefaultSmall"
 	// 		"xpos"			"10"

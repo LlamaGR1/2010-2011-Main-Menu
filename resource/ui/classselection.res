@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 
 #base "1/2011fix/shadedbar.res"
@@ -46,6 +46,8 @@
 		"labeltext"		"1"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 1"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -58,7 +60,6 @@
 		"image_default"	"class_sel_sm_scout_inactive"
 		"image_armed"	"class_sel_sm_scout_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -78,19 +79,17 @@
 		"labeltext"		"2"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 3"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_soldier_inactive"
 		"image_armed"	"class_sel_sm_soldier_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -110,19 +109,17 @@
 		"labeltext"		"3"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 7"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_pyro_inactive"
 		"image_armed"	"class_sel_sm_pyro_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -155,19 +152,17 @@
 		"labeltext"		"4"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 4"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_demo_inactive"
 		"image_armed"	"class_sel_sm_demo_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -187,19 +182,17 @@
 		"labeltext"		"5"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 6"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_heavy_inactive"
 		"image_armed"	"class_sel_sm_heavy_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -219,19 +212,17 @@
 		"labeltext"		"6"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 9"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_engineer_inactive"
 		"image_armed"	"class_sel_sm_engineer_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -264,19 +255,17 @@
 		"labeltext"		"7"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 5"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_medic_inactive"
 		"image_armed"	"class_sel_sm_medic_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -296,19 +285,17 @@
 		"labeltext"		"8"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 2"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_sniper_inactive"
 		"image_armed"	"class_sel_sm_sniper_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -328,19 +315,17 @@
 		"labeltext"		"9"
 		"font"			"MenuKeys"
 		"textalignment"	"south-west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		"command"		"select 8"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_spy_inactive"
 		"image_armed"	"class_sel_sm_spy_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -362,15 +347,11 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
-
 		"paintbackground"	"0"
 
 		"image_default"	"class_sel_sm_random_inactive"
 		"image_armed"	"class_sel_sm_random_inactive"
 
-		"image_drawcolor"	"255 255 255 180"
 		"subimage"
 		{
 			"wide"			"50"
@@ -878,28 +859,39 @@
 	{
 		"controlname"	"CTFPlayerModelPanel"
 		"zpos"			"6"
-		"wide"			"480"
+		"wide"			"f0"
 		"tall"			"480"
 
 		"render_texture"	"0"
-		"fov"				"25"
+		"fov"				"45"
 		"allow_rot"			"0"
 
 		"model"
 		{
-			"force_pos"	"1"
+			"force_pos"		"1"
 
-			"angles_y"	"180"
-			"origin_x"	"320"
-			"origin_y"	"10"
-			"origin_z"	"-49"
+			"angles_y"		"185"
+			"origin_x"		"320"
+			"origin_y"		"50"
+			"origin_z"		"-49"
+		}
+
+		"lights"
+		{
+			"spotlight"
+			{
+				"name"			"spot"
+				"color"			"0.8 0.8 0.8"
+				"attenuation"	"0.9"
+				"origin"		"0 0 250"
+			}
 		}
 	}
 
 	"ClassTipsPanel"
 	{
 		"controlname"	"CTFClassTipsPanel"
-		"xpos"			"c28"
+		"xpos"			"c30"
 		"ypos"			"c-84"
 		"zpos"			"7"
 		"wide"			"235"
@@ -914,7 +906,5 @@
 		"wide"			"f0"
 		"tall"			"50"
 		"tileimage"		"1"
-	//	"image"			"loadout_bottom_gradient"
-	//	"fillcolor"		"0 0 0 180"
 	}
 }

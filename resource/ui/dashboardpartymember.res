@@ -9,32 +9,6 @@
 		"scaleimage"	"1"
 	}
 
-	"EmptyMemberSlotBorder"
-	{
-		"controlname"	"Panel"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"62 62 62 255"
-		"mouseinputenabled"	"0"
-	}
-
-	"EmptyMemberSlot"
-	{
-		"controlname"	"ImagePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"2"
-		"wide"			"14"
-		"tall"			"14"
-		"proportionaltoparent"	"1"
-		"drawcolor"		"245 229 193 255"
-		"scaleimage"	"1"
-		"image"			"glyph_close_x"
-		"mouseinputenabled"	"0"
-	}
-
 	"LeaderIcon"
 	{
 		"controlname"	"ImagePanel"
@@ -130,7 +104,6 @@
 		"button_activation_type"	"2"
 
 		"defaultbgcolor_override"	"Blank"
-	//	"armedbgcolor_override"		"200 80 60 69"
 		"armedbgcolor_override"		"244 114 0 69"
 	}
 }

@@ -1,8 +1,8 @@
-#base "../../../cfg/2010hud/client20102011.txt"
-
+#base "../../../../../cfg/2010hud/client20102011.txt"
+#base "../../../../../cfg/2010hud/qualitycolorborders.txt"
 
 #base "../1/2011fix/searchfilter.res"
-
+#base "../1/loadout/qualitycolorborders_hide.res"
 
 "backpackpanel"
 {
@@ -12,7 +12,6 @@
 		"wide"			"f0"
 		"bgcolor_override"	"Black"
 
-		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"				"60"
@@ -181,18 +180,6 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"LightRed"
 	}
-
-	"ClassLabel"
-	{
-		"controlname"	"Label"
-		"xpos"			"c-273"
-		"ypos"			"3"
-		"wide"			"190"
-		"tall"			"50"
-		"labeltext"		"#ClassBeingEquipped"
-		"font"			"HudFontMediumSmallBold"
-		"wrap"			"1"
-	}
 	
 	// "tool_icon"
 	// {
@@ -209,34 +196,6 @@
 	// 	"tileVertically" "0"
 	// 	"drawcolor"		"112 176 74 255"
 	// }
-
-	"ShowBaseItemsCheckbox"
-	{
-		"controlname"	"CheckButton"
-		"xpos"			"c-83"
-		"ypos"			"12"
-		"zpos"			"1"
-		"wide"			"208"
-		"tall"			"20"
-		"labeltext"		"#ShowBaseItemsCheckBox"
-		"font"			"HudFontSmallestBold"
-	}
-
-	"ShowRarityComboBox"
-	{
-		"controlname"	"ComboBox"
-		"xpos"			"c-80"
-		"ypos"			"37"
-		"zpos"			"1"
-		"wide"			"205"
-		"tall"			"15"
-		"font"			"HudFontSmallestBold"
-		"editable"		"0"
-
-		"fgcolor_override"				"TanLight"
-		"selectiontextcolor_override"	"TanLight"
-		"selectioncolor_override"		"Blank"
-	}
 
 	"SortByComboBox"
 	{
@@ -906,7 +865,7 @@
 		"end_wide"		"300"
 		"end_tall"		"155"
 		"callout_inparents_x"	"c0"
-		"callout_inparents_y"	"30"
+	//	"callout_inparents_y"	"30"
 		"next_explanation"		"SortExplanation"
 
 		"TitleLabel"

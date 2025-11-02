@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/loadingscreen.txt"
 
 
 #base "1/2011fix/loadingmap.res"

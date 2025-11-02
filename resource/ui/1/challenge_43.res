@@ -1,17 +1,5 @@
 "mainmenuoverride"
 {
-	// "TopLeftDataPanel"
-	// {
-	// 	"wide"			"300"
-	// }
-
-	// "ViewAchievementsButton"
-	// {
-	// 	"xpos"			"10"
-	// 	"wide"			"90"
-	// 	"labeltext"		"#Achievements"
-	// }
-
 	"TopRightDataPanelBG"
 	{
 		"wide"			"300"

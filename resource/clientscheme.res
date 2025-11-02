@@ -1,4 +1,4 @@
-#base "../cfg/2010hud/client20102011.txt"
+#base "../../../cfg/2010hud/client20102011.txt"
 
 #base "clientscheme2011.res"
 
@@ -207,18 +207,18 @@ Scheme
 		Econ.Button.PresetDefaultColorBg	"Blank"
 		Econ.Button.PresetArmedColorBg		"Blank"
 		Econ.Button.PresetDepressedColorBg	"Blank"
- 
- 		Border.Bright						"Blank"
+
+		Border.Bright						"Blank"
 		Border.Dark							"Black"
 		Border.Selection					"Gray"
- 
+
 		Econ.Dialog.BgColor					"Blank"
 		Econ.Button.DepressedFgColor		"Black"
 
 		Button.DepressedTextColor			"Black"
 		Button.SelectedTextColor			"Black"
 
- 		CheckButton.TextColor				"Yellow"
+		CheckButton.TextColor				"Yellow"
 		CheckButton.SelectedTextColor		"Yellow"
 		CheckButton.BgColor					"TransparentBlack"
 		CheckButton.Border1					"Yellow"
@@ -255,7 +255,7 @@ Scheme
 
 		GraphPanel.FgColor					"Orange"
 		GraphPanel.BgColor					"TransparentBlack"
- 
+
 		label.TextDullColor					"TanDark"
 		label.TextColor						"TanLight"
 		label.TextBrightColor				"TanLight"
@@ -401,6 +401,153 @@ Scheme
 
 	Borders
 	{
+		BorderSourceDefault
+		{
+		//	"inset"					"0 0 0 0"
+			"proportional_scalar"	"0.5"
+			Left
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+			}
+		}
+
+		BorderSourceArmed
+		{
+		//	"inset"					"0 0 0 0"
+			"proportional_scalar"	"0.5"
+			Left
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+			}
+		}
+
+		BorderSourceDepressed
+		{
+			"inset"					"2 2 0 0"
+			"proportional_scalar"	"0.5"
+			Left
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"1 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"1 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+
+				"2"
+				{
+					"color"		"96 90 78 90"
+					"offset"	"0 0"
+				}
+			}
+		}
+
 		ViviTanDarkBG2
 		{
 			"bordertype"			"scalable_image"
@@ -412,18 +559,6 @@ Scheme
 			"draw_corner_width"		"2"
 			"draw_corner_height"	"2"
 		}
-
-		// ViviTFOrangeBG2
-		// {
-		// 	"bordertype"			"scalable_image"
-		// 	"color"					"TFOrange"
-
-		// 	"image"					"replay/thumbnails/borders/vivi_button"
-		// 	"src_corner_height"		"6"
-		// 	"src_corner_width"		"6"
-		// 	"draw_corner_width"		"2"
-		// 	"draw_corner_height"	"2"
-		// }
 
 		ViviBlackBG
 		{
@@ -437,19 +572,7 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviReallyBlackTransBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"0 0 0 200"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviBlack2BG
+		ViviBlackBG2
 		{
 			"bordertype"			"scalable_image"
 			"color"					"40 37 37 255"
@@ -461,7 +584,7 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviTrueBlackBG		//		used in: itemmodelpanel
+		ViviTrueBlackBG
 		{
 			"bordertype"			"scalable_image"
 			"color"					"0 0 0 255"
@@ -473,7 +596,7 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviDarkCyanBG		//		used in: itemmodelpanel		--		crate series number or smth idfk
+		ViviDarkCyanBG
 		{
 			"bordertype"			"scalable_image"
 			"color"					"0 40 30 255"
@@ -485,7 +608,7 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviDarkGreyBG		//		used in: classloadout		--		itemoption
+		ViviItemOptionsBG
 		{
 			"bordertype"			"scalable_image"
 			"color"					"69 64 63 255"
@@ -497,7 +620,7 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviTradingBG		//		used in trading
+		ViviTradingBG
 		{
 			"bordertype"			"scalable_image"
 			"color"					"0 0 0 69"
@@ -509,22 +632,10 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviStoreItemBG		//		used in store items
+		ViviStoreItemBG
 		{
 			"bordertype"			"scalable_image"
 			"color"					"51 47 46 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviYellowBG		//		used in item selection
-		{
-			"bordertype"			"scalable_image"
-			"color"					"Yellow"
 
 			"image"					"replay/thumbnails/borders/vivi_button"
 			"src_corner_height"		"6"
@@ -3899,9 +4010,9 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"	"0.75"
+			//	"scalex_lodef"	"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"	"0.75"
+			//	"scaley_lodef"	"0.75"
 			}
 		}
 
@@ -3912,9 +4023,9 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"	"0.75"
+			//	"scalex_lodef"	"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"	"0.75"
+			//	"scaley_lodef"	"0.75"
 			}
 		}
 
@@ -4228,6 +4339,17 @@ Scheme
 			//	"weight"	"0"
 				"symbol"	"1"
 			//	"range"		"0x0000 0x007F"
+			}
+		}
+
+		"MarlettSmallSource"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"yres"		"1 10000"
+				"symbol"	"1"
 			}
 		}
 
@@ -5839,6 +5961,26 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+
+		"DefaultSource"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"14"
+				"yres"		"1 10000"
+			}
+		}
+
+		"DefaultTitleSource"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"18"
+				"yres"		"1 10000"
+			}
+		}
 	}
 
 	CustomFontFiles
@@ -5991,13 +6133,13 @@ Scheme
 			}
 		}
 
-		"10"	"resource/linux_fonts/DejaVuSans.ttf"
-		"11"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"12"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"13"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"14"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"15"	"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"16"	"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"17"	"resource/linux_fonts/FiraSans-Regular.ttf"
+		"10"	"resource/linux_fonts/dejavusans.ttf"
+		"11"	"resource/linux_fonts/dejavusans-bold.ttf"
+		"12"	"resource/linux_fonts/dejavusans-boldoblique.ttf"
+		"13"	"resource/linux_fonts/dejavusans-oblique.ttf"
+		"14"	"resource/linux_fonts/liberationsans-regular.ttf"
+		"15"	"resource/linux_fonts/liberationsans-bold.ttf"
+		"16"	"resource/linux_fonts/liberationmono-regular.ttf"
+		"17"	"resource/linux_fonts/firasans-regular.ttf"
 	}
 }

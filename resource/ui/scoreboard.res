@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/scoreboardrank.txt"
+#base "../../../../cfg/2010hud/scoreboardrank.txt"
 
 #base "1/ingame/scoreboard_rank.res"
 
@@ -690,7 +690,7 @@
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
-		}		
+		}
 
 		"Assists1"
 		{

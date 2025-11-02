@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/misc/building_rockets"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+}

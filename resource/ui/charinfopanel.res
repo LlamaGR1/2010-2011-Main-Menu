@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/loadout20119.txt"
+#base "../../../../cfg/2010hud/loadout20119.txt"
 
 #base "1/12333.res"
 

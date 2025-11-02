@@ -1,3 +1,7 @@
+#base "../../../../../cfg/2010hud/qualityicons.txt"
+
+#base "../1/loadout/qualityicons.res"
+
 "itemmodelpanel"
 {
 	"mouseoveritempanel"
@@ -18,7 +22,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-	//	"paintborder"	"0"
 		"scaleimage"	"1"
 		"image"			"animated/tf2_logo_hourglass"
 	}
@@ -28,7 +31,7 @@
 		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"Blank"		//		0 0 0 0
+		"bgcolor_override"	"Blank"
 
 		"itemmodelpanel"
 		{
@@ -85,12 +88,9 @@
 		"equippedlabel"
 		{
 			"controlname"	"CExLabel"
-	//		"xpos"			"rs1-14"		//		37
-	//		"ypos"			"rs1-14"		//		28
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"10"
-	//		"proportionaltoparent"	"1"
 			"labeltext"		"#ItemPanelEquipped"
 			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
@@ -142,7 +142,6 @@
 		"matcheslabel"
 		{
 			"controlname"	"CExLabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -156,55 +155,7 @@
 			"border"		"ViviDarkCyanBG"
 		}
 
-		"vision_restriction_icon"
-		{
-			"controlname"	"ImagePanel"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"scaleimage"	"1"
-		}
-
-		"is_strange_icon"
-		{
-			"controlname"	"ImagePanel"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"scaleimage"	"1"
-		}
-
-		"is_unusual_icon"
-		{
-			"controlname"	"ImagePanel"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"scaleimage"	"1"
-		}
-
-		"is_loaner_icon"
-		{
-			"controlname"	"ImagePanel"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"scaleimage"	"1"
-		}
-
-		"contained_item_panel"
+		"contained_item_panel"		//		wtf is this for
 		{
 			"controlname"	"CItemModelPanel"
 			"xpos"			"32"

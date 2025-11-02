@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardSidePanel.res"
+"resource/ui/matchmakingdashboardsidepanel.res"
 {
 	"Shade"
 	{
@@ -90,12 +90,12 @@
 	// {
 	// 	"controlname"	"CExButton"
 	// 	"xpos"			"rs1"
-	// 	"labelText"		">"
+	// 	"labeltext"		">"
 
 	// 	if_left
 	// 	{
 	// 		"xpos"		"0"
-	// 		"labelText"		"<"
+	// 		"labeltext"		"<"
 	// 	}
 
 	// 	"ypos"			"0"
@@ -106,7 +106,7 @@
 	// 	"proportionaltoparent"	"1"
 	// 	"command"		"nav_close"
 
-	// 	"textAlignment"	"east"
+	// 	"textalignment"	"east"
 	// 	"font"			"HudFontSmallBold"
 
 	// 	"armedBgColor_override"	"0 0 0 0"
@@ -119,12 +119,12 @@
 	// {
 	// 	"controlname"	"CExButton"
 	// 	"xpos"			"3"
-	// 	"labelText"		"<"
+	// 	"labeltext"		"<"
 
 	// 	if_left
 	// 	{
 	// 		"xpos"	"rs1-3"
-	// 		"labelText"		">"
+	// 		"labeltext"		">"
 	// 	}
 
 	// 	"ypos"			"0"
@@ -134,9 +134,9 @@
 	// 	"visible"		"1"
 	// 	"proportionaltoparent"	"1"
 	// 	"command"		"nav_to"
-	// 	"labelText"		"<"
+	// 	"labeltext"		"<"
 
-	// 	"textAlignment"	"west"
+	// 	"textalignment"	"west"
 	// 	"font"			"HudFontSmallBold"
 
 	// 	"armedBgColor_override"	"0 0 0 0"

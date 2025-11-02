@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 #base "1/2011fix/1craftingpanel.res"
 
@@ -12,31 +12,30 @@
 		"tall"			"400"
 		"bgcolor_override"	"Black"
 
-		"item_ypos"						"85"
-		"output_item_ypos"				"255"
-		"item_crafting_offcenter_x"		"0"
-		"item_backpack_xdelta"			"2"
-		"item_backpack_ydelta"			"4"
+		"item_ypos"						"52"
+		"output_item_ypos"				"228"
+		"item_crafting_offcenter_x"		"10"
+		"item_backpack_xdelta"			"4"
+		"item_backpack_ydelta"			"3"
 
 		"button_xpos_offcenter"			"175"
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
-		"button_override_delete_xpos"	"0"
 
 		"modelpanels_kv"
 		{
 			"controlname"	"CItemModelPanel"
-			"wide"			"70"
-			"tall"			"45"
+			"wide"			"54"
+			"tall"			"42"
 			"visible"		"0"
 			"noitem_textcolor"	"TanDark"
 
+			"model_xpos"	"2"
 			"model_ypos"	"5"
+			"model_wide"	"50"
 			"model_tall"	"35"
-			"text_center"	"1"
+			"text_ypos"		"1945"
 			"name_only"		"1"
-			"text_forcesize"	"3"
-			"noitem_use_fullpanel"	"1"
 
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
@@ -60,7 +59,7 @@
 		{
 			"font"			"HudFontSmallestBold"
 			"zpos"			"1"
-			"wide"			"255"
+			"wide"			"280"
 			"tall"			"13"
 			"textinsetx"	"0"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -72,11 +71,11 @@
 
 			"defaultfgcolor_override"	"TanDark"
 			"armedfgcolor_override"		"TanLight"
-			"depressedfgcolor_override"	"Orange"		//		Orange
+			"depressedfgcolor_override"	"Orange"
 		}
 
-		"filter_xoffset"	"-290"
-		"filter_ypos"		"30"
+		"filter_xoffset"	"-280"
+		"filter_ypos"		"40"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
 
@@ -85,10 +84,7 @@
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"30"
-		//	"labeltext"		""
-		//	"textalignment"	"south-west"
 			"command"		""
-		//	"font"			"MenuKeys"
 			"scaleimage"	"1"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -97,7 +93,79 @@
 		}
 	}
 
-	"Step1Label"
+	"mouseoveritempanel"
+	{
+		"controlname"	"CItemModelPanel"
+		"zpos"			"1069"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+
+		"text_ypos"			"20"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+	}
+
+	"TooltipPanel"
+	{
+		"controlname"	"EditablePanel"
+		"zpos"			"777" // 99% of gamblers quit right before they win big
+		"visible"		"0"
+		"border"		"LoadoutItemPopupBorder"
+
+		"TipLabel"
+		{
+			"controlname"	"CExLabel"
+			"auto_wide_tocontents"	"1"
+			"labeltext"		"%tiptext%"
+			"font"			"HudFontSmallest"
+		}
+	}
+
+	"recipecontainerscroller"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c-280"
+		"ypos"			"75"
+		"zpos"			"5"
+		"wide"			"300"
+		"tall"			"240"
+		"fgcolor_override"	"59 54 48 255"
+
+		"VerticalScrollBar"
+		{
+			"controlname"	"ScrollBar"
+			"xpos"			"rs1"
+			"zpos"			"1069"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+
+			"UpButton"
+			{
+				"textinsetx"				"0"
+				"defaultfgcolor_override"	"59 54 48 255"
+				"armedfgcolor_override"		"59 54 48 255"
+			}
+
+			"DownButton"
+			{
+				"textinsetx"				"0"
+				"defaultfgcolor_override"	"59 54 48 255"
+				"armedfgcolor_override"		"59 54 48 255"
+			}
+		}
+	}
+
+	"recipecontainer"
+	{
+		"controlname"	"EditablePanel"
+		"zpos"			"5"
+		"wide"			"300"
+		"tall"			"240"
+	}
+
+	"Label1"
 	{
 		"controlname"	"Label"
 		"xpos"			"c-290"
@@ -109,60 +177,45 @@
 		"textalignment"	"south-west"
 	}
 
-	"SelectBlueprintLabel"
+	"Label1Title"
 	{
 		"controlname"	"Label"
 		"xpos"			"c-280"
 		"ypos"			"10"
 		"wide"			"240"
 		"tall"			"25"
-		"labeltext"		"#CraftRecipe"		//		CraftStep1
+		"labeltext"		"#CraftRecipe"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"north-west"
 		"fgcolor_override"	"HudOffWhite"
 	}
 
+	"Label1Explanation"
+	{
+		"controlname"	"Label"
+		"xpos"			"c-280"
+		"ypos"			"24"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"13"
+		"labeltext"		"#CraftStep1"
+		"font"			"ItemFontNameSmallest"
+		"textalignment"	"north-west"
+		"fgcolor_override"	"TanDark"
+	}
+
 	"selectedrecipecontainer"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c0"
-	//	"ypos"			"0"
+		"xpos"			"c40"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
-	//	"paintbackgroundtype"	"2"
-	//	"bgcolor_override"	"200 187 161 0"
 
-		"RecipeTitle"
+		"Label2"
 		{
 			"controlname"	"Label"
 			"ypos"			"10"
-			"wide"			"280"
-			"tall"			"30"
-			"labeltext"		"%recipetitle%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north-west"
-			"wrap"			"1"
-			"fgcolor_override"	"HudOffWhite"
-		}
-
-		"RecipeInputStringLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"42"
-			"wide"			"280"
-			"tall"			"25"
-			"labeltext"		"%recipeinputstring%"
-			"font"			"ItemFontAttribLarge"
-			"textalignment"	"north-west"
-			"wrap"			"1"
-			"fgcolor_override"	"TanDark"
-		}
-
-		"Step2Label"
-		{
-			"controlname"	"Label"
-			"ypos"			"68"
 			"wide"			"13"
 			"tall"			"14"
 			"labeltext"		"2. "
@@ -170,11 +223,11 @@
 			"textalignment"	"south-west"
 		}
 
-		"InputLabel"
+		"Label2Title"
 		{
 			"controlname"	"Label"
 			"xpos"			"10"
-			"ypos"			"68"
+			"ypos"			"10"
 			"wide"			"200"
 			"tall"			"15"
 			"labeltext"		"#Craft_Recipe_Inputs"
@@ -182,10 +235,25 @@
 			"fgcolor_override"	"HudOffWhite"
 		}
 
-		"Step3Label"
+		"Label2Explanation"
 		{
 			"controlname"	"Label"
-			"ypos"			"238"
+			"xpos"			"10"
+			"ypos"			"24"
+			"zpos"			"1"
+			"wide"			"215"
+			"tall"			"23"
+			"labeltext"		"%recipeinputstring%"
+			"font"			"ItemFontNameSmallest"
+			"textalignment"	"north-west"
+			"wrap"			"1"
+			"fgcolor_override"	"TanDark"
+		}
+
+		"Label3"
+		{
+			"controlname"	"Label"
+			"ypos"			"202"
 			"wide"			"13"
 			"tall"			"14"
 			"labeltext"		"3. "
@@ -193,11 +261,11 @@
 			"textalignment"	"south-west"
 		}
 
-		"OutputLabel"
+		"Label3Title"
 		{
 			"controlname"	"Label"
 			"xpos"			"10"
-			"ypos"			"238"
+			"ypos"			"202"
 			"wide"			"200"
 			"tall"			"15"
 			"labeltext"		"#Craft_Recipe_Outputs"
@@ -205,10 +273,24 @@
 			"fgcolor_override"	"HudOffWhite"
 		}
 
-		"Step4Label"
+		"Label3Explanation"
 		{
 			"controlname"	"Label"
-			"ypos"			"306"
+			"xpos"			"10"
+			"ypos"			"216"
+			"zpos"			"1"
+			"wide"			"240"
+			"tall"			"13"
+			"labeltext"		"#CraftTryYourLuck"
+			"font"			"ItemFontNameSmallest"
+			"textalignment"	"north-west"
+			"fgcolor_override"	"TanDark"
+		}
+
+		"Label4"
+		{
+			"controlname"	"Label"
+			"ypos"			"296"
 			"wide"			"13"
 			"tall"			"14"
 			"labeltext"		"4. "
@@ -216,11 +298,11 @@
 			"textalignment"	"south-west"
 		}
 
-		"ConfirmLabel"
+		"Label4Title"
 		{
 			"controlname"	"Label"
 			"xpos"			"10"
-			"ypos"			"306"
+			"ypos"			"296"
 			"wide"			"200"
 			"tall"			"15"
 			"labeltext"		"#GameUI_Confirm"
@@ -228,9 +310,24 @@
 			"fgcolor_override"	"HudOffWhite"
 		}
 
+		"Label4Explanation"
+		{
+			"controlname"	"Label"
+			"xpos"			"10"
+			"ypos"			"310"
+			"zpos"			"1"
+			"wide"			"240"
+			"tall"			"13"
+			"labeltext"		"#CraftStep4"
+			"font"			"ItemFontNameSmallest"
+			"textalignment"	"north-west"
+			"fgcolor_override"	"TanDark"
+		}
+
 		"CraftButton"
 		{
 			"controlname"	"CExButton"
+			"xpos"			"10"
 			"ypos"			"323"
 			"zpos"			"20"
 			"wide"			"100"
@@ -288,116 +385,6 @@
 		}
 	}
 
-	"recipecontainerscroller"
-	{
-		"controlname"	"EditablePanel"
-		"xpos"			"c-290"
-		"ypos"			"70"
-		"zpos"			"5"
-		"wide"			"280"
-		"tall"			"240"
-		"fgcolor_override"	"59 54 48 255"
-
-		"VerticalScrollBar"
-		{
-			"controlname"	"ScrollBar"
-			"xpos"			"rs1"
-			"zpos"			"1069"
-			"tall"			"f0"
-			"proportionaltoparent"	"1"
-
-			"UpButton"
-			{
-				"textinsetx"				"0"
-				"defaultfgcolor_override"	"59 54 48 255"
-				"armedfgcolor_override"		"59 54 48 255"
-			}
-
-			"DownButton"
-			{
-				"textinsetx"				"0"
-				"defaultfgcolor_override"	"59 54 48 255"
-				"armedfgcolor_override"		"59 54 48 255"
-			}
-		}
-	}
-
-	"recipecontainer"
-	{
-		"controlname"	"EditablePanel"
-		"zpos"			"5"
-		"wide"			"280"
-		"tall"			"240"
-	}
-
-	"mouseoveritempanel"
-	{
-		"controlname"	"CItemModelPanel"
-		"zpos"			"1069"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-	//	"padding_height"	"15"
-
-		// "attriblabel"
-		// {
-		// 	"ypos"			"30"
-		// 	"wide"			"140"
-		// 	"tall"			"60"
-		// 	"labeltext"		"%attriblist%"
-		// 	"font"			"ItemFontAttribLarge"
-		// 	"centerwrap"	"1"
-		// }
-	}
-
-	"mousedragitempanel"
-	{
-		"controlname"	"CItemModelPanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"54"
-		"tall"			"42"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"paintbackgroundtype"	"2"
-		"paintborder"	"1"
-
-		"model_ypos"	"5"
-		"model_tall"	"35"
-		"text_ypos"		"60"
-		"text_center"	"1"
-		"name_only"		"1"
-
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget"	"0"
-			"allow_rot"				"0"
-		}
-	}
-
-	"TooltipPanel"
-	{
-		"controlname"	"EditablePanel"
-		"zpos"			"777" // 99% of gamblers quit right before they win big
-		"visible"		"0"
-		"border"		"LoadoutItemPopupBorder"
-
-		"TipLabel"
-		{
-			"controlname"	"CExLabel"
-			"auto_wide_tocontents"	"1"
-			"labeltext"		"%tiptext%"
-			"font"			"HudFontSmallest"
-		}
-	}
-
 	"ShowExplanationsButton"
 	{
 		"controlname"	"CExButton"
@@ -406,11 +393,10 @@
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"0"
 		"labeltext"		"?"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
-		"command"		"reloadscheme"
+		"command"		"url https://wiki.teamfortress.com/wiki/Crafting"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -420,6 +406,19 @@
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
+	}
+
+	"reloadschemebutton"
+	{
+		"controlname"	"Button"
+		"xpos"			"c267"
+		"ypos"			"40"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		"labeltext"		"!"
+		"command"		"reloadscheme"
 	}
 
 	"BackButton"

@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 
 #base "1/2011fix/shadedbar.res"
@@ -8,7 +8,7 @@
 {
 	"intro"
 	{
-		"ControlName"	"CTFIntroMenu"
+		"controlname"	"CTFIntroMenu"
 		"wide"			"f0"
 		"tall"			"480"
 		"paintbackground"	"0"
@@ -16,7 +16,7 @@
 
 	"titlelabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 		"wide"			"f0"
 		"tall"			"70"
 		"visible"		"0"
@@ -25,15 +25,15 @@
 
 	"Skip"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"r190"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"labelText"		"#Button_SkipIntro"
+		"labeltext"		"#Button_SkipIntro"
 		"font"			"MenuSmallFont"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 		"command"		"skip"
 
 		"stay_armed_on_click"	"1"
@@ -46,16 +46,16 @@
 
 	"Continue"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"r190"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
 		"visible"		"0"
-		"labelText"		"#TF_Continue"
+		"labeltext"		"#TF_Continue"
 		"font"			"MenuSmallFont"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 		"command"		"skip"
 
 		"stay_armed_on_click"	"1"
@@ -68,15 +68,15 @@
 
 	"Back"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"40"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"labelText"		"#TF_Back"
+		"labeltext"		"#TF_Back"
 		"font"			"MenuSmallFont"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 		"command"		"back"
 
 		"stay_armed_on_click"	"1"
@@ -89,16 +89,16 @@
 
 	"ReplayVideo"
 	{
-		"ControlName"	"CExButton"
+		"controlname"	"CExButton"
 		"xpos"			"40"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
 		"visible"		"0"
-		"labelText"		"#TF_ReplayIntro"
+		"labeltext"		"#TF_ReplayIntro"
 		"font"			"MenuSmallFont"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 		"command"		"replayVideo"
 
 		"stay_armed_on_click"	"1"
@@ -111,7 +111,7 @@
 
 	"VideoPanel"
 	{
-		"ControlName"	"CTFVideoPanel"
+		"controlname"	"CTFVideoPanel"
 		"xpos"			"c-145"
 		"ypos"			"c-183"
 		"zpos"			"3"
@@ -123,7 +123,7 @@
 
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"controlname"	"CModelPanel"
 		"wide"			"f0"
 		"tall"			"480"
 		"fov"			"20"
@@ -159,15 +159,15 @@
 
 	"VideoCaption"
 	{
-		"ControlName"	"CExLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"c-145"
 		"ypos"			"c40"
 		"zpos"			"6"
 		"wide"			"295"
 		"tall"			"70"
 		"visible"		"0"
-	//	"labelText"		""
-		"textAlignment"	"center"
+	//	"labeltext"		""
+		"textalignment"	"center"
 		"font"			"IntroMenuCaption"
 		"fgcolor"		"White"
 		"wrap"			"1"

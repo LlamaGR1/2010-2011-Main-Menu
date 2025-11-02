@@ -34,5 +34,5 @@
 		"font"			"HudFontSmallBold"
 
 		"button_activation_type"	"1"
-	}	
+	}
 }

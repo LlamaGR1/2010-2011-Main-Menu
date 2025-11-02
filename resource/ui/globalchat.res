@@ -3,7 +3,7 @@
 	"partychat"
 	{
 		"zpos"			"-50"
-		"wide"			"248"
+		"wide"			"250"
 		"border"		"QuickplayBorder"
 
 		"log_font_small"	"ChatMiniFont"

@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 
 #base "1/2011fix/loadsavecasual.res"
@@ -18,7 +18,7 @@
 		"tall"			"220"		//		390
 		"proportionaltoparent"	"1"
 	//	"bgcolor_override"		"Orange"
-		"border"		"ViviBlack2BG"
+		"border"		"ViviBlackBG2"
 
 	//	"pinCorner"		"2"
 	//	"autoResize"	"1"
@@ -122,7 +122,7 @@
 			"wide"			"15"
 			"tall"			"15"
 			"proportionaltoparent"	"1"
-			"labelText"		""
+			"labeltext"		""
 			"Command"		"save_search_criteria"
 			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -156,9 +156,9 @@
 			"tall"			"15"
 			"visible"		"0"
 			"proportionaltoparent"	"1"
-			"labelText"		"?"
+			"labeltext"		"?"
 			"font"			"HudFontSmallBold"		//		HudFontMediumSmallBold
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"Command"		"show_explanations"
 			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -182,7 +182,7 @@
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
-			"textAlignment"	"east"
+			"textalignment"	"east"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"

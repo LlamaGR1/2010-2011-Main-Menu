@@ -13,19 +13,14 @@
 	"topbar"
 	{
 		"controlname"	"Panel"
-		"wide"			"f0"
 		"tall"			"84"
 		"tall_minmode"	"20"
+		"wide"			"f0"
 	}
 
 	"BottomBar"
 	{
 		"controlname"	"Frame"
-		"ypos"			"r70"
-		"ypos_minmode"	"r20"
-		"tall"			"70"
-		"tall_minmode"	"0"
-		"enabled"		"0"
 	}
 
 	"bottombarblank"
@@ -33,52 +28,37 @@
 		"controlname"	"Panel"
 		"ypos"			"r70"
 		"ypos_minmode"	"r0"
+		"tall"			"70"
+		"tall_minmode"	"0"
 		"wide"			"f0"
-		"tall"			"70"		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
+		"visible"		"1"
 		"visible_minmode"	"0"
 	}
 
 	"ReinforcementsLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"xpos_minmode"	"0"
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"3"		[$WIN32]
-	//	"ypos_hidef"	"79"
-	//	"ypos_lodef"	"85"
-		"wide"			"600"	[$WIN32]
+		"xpos"			"c-300"
+		"xpos_minmode"	"c-300"
+		"ypos"			"50"
+		"ypos_minmode"	"3"
+		"wide"			"600"
 		"wide_minmode"	"300"
 		"tall"			"18"
-	//	"tall_hidef"	"23"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"textAlignment_minmode"		"west"
-		"use_proportional_insets_minmode"	"1"
-		"textinsetx_minmode"				"5"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"			"HudFontSmall"
+		"labeltext"		"#game_respawntime_in_secs"
+		"font"			"HudfontMediumSmallSecondary"
+		"textalignment"	"center"
 	}
 
 	"BuyBackLabel"
 	{
 		"controlname"	"CExLabel"
-	//	"xpos"			"0"
-	//	"ypos"			"0"
 		"wide"			"400"
 		"tall"			"f0"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
 		"visible"		"0"
-	//	"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"labeltext"		""
+		"textalignment"	"center"
+		"font"			"HudfontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -86,165 +66,117 @@
 	"MapLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmall"
-	//	"font_hidef"	"HudFontMedium"
-		"xpos"			"r260"	[$WIN32]
-		"ypos"			"16"	[$WIN32]
-		"wide"			"240"	[$WIN32]
+		"font"			"HudfontSmall"
+		"xpos"			"r260"
+		"ypos"			"16"
+		"wide"			"240"
 		"tall"			"20"
-	//	"tall_hidef"	"30"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
 		"visible"		"1"
 		"visible_minmode"	"0"
-	//	"enabled"		"1"
-	//	"labelText"		"map: cp_bridge"
-		"textAlignment"	"east"
+		"textalignment"		"east"
 	}
 
 	"ClassOrTeamLabel"
 	{
 		"controlname"	"CExLabel"
 		"xpos"			"c-85"
-	//	"xpos_hidef"	"c-65"
-	//	"xpos_lodef"	"40"
 		"ypos"			"68"
-	//	"ypos_hidef"	"90"
-	//	"ypos_lodef"	"30"
 		"wide"			"170"
-	//	"wide_hidef"	"130"
-	//	"wide_lodef"	"220"
 		"tall"			"15"
-	//	"tall_lodef"	"25"
 		"zpos"			"2"
-	//	"autoResize"		"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-	//	"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"center"
-	//	"textAlignment_lodef"		"north-west"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"labeltext"		"#TF_Spectator_ChangeTeam"
 		"font"			"SpectatorKeyHints"
-	//	"font_hidef"	"HudFontSmallest"
-	//	"font_lodef"	"HudFontSmall"
-	//	"wrap_lodef"			"1"
+		"textalignment"	"center"
 	}
 
 	"SwitchCamModeKeyLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"60"
 		"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
 		"visible_minmode"	"0"
-	//	"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"	"east"
+		"labeltext"		"#TF_Spectator_ChangeTeam"
 		"font"			"SpectatorKeyHints"
+		"textalignment"	"east"
 	}
 
 	"SwitchCamModeLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"wide"			"125"	[$WIN32]
+		"xpos"			"80"
+		"ypos"			"10"
+		"wide"			"125"
 		"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
 		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
-		"textAlignment"	"west"
+		"labeltext"		"#TF_Spectator_SwitchCamMode"
 		"font"			"SpectatorKeyHints"
 	}
 
 	"CycleTargetFwdKeyLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"5"
+		"ypos"			"20"
+		"wide"			"60"
 		"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
 		"visible_minmode"	"0"
-	//	"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"	"east"
+		"labeltext"		"#TF_Spectator_ClassOrTeamKey"
 		"font"			"SpectatorKeyHints"
+		"textalignment"	"east"
 	}
 
 	"CycleTargetFwdLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"125"	[$WIN32]
+		"xpos"			"80"
+		"ypos"			"20"
+		"wide"			"125"
 		"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
 		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetFwd"
-		"textAlignment"	"west"
+		"labeltext"		"#TF_Spectator_CycleTargetFwd"
 		"font"			"SpectatorKeyHints"
 	}
 
 	"CycleTargetRevKeyLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"wide"			"60"	[$WIN32]
+		"xpos"			"5"
+		"ypos"			"30"
+		"wide"			"60"
 		"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
 		"visible_minmode"	"0"
-	//	"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"	"east"
+		"labeltext"		"#TF_Spectator_ClassOrTeamKey"
 		"font"			"SpectatorKeyHints"
+		"textalignment"	"east"
 	}
 
 	"CycleTargetRevLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"wide"			"125"	[$WIN32]
+		"xpos"			"80"
+		"ypos"			"30"
+		"wide"			"125"
 		"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"	[$WIN32]
 		"visible_minmode"	"0"
-	//	"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetRev"
-		"textAlignment"	"west"
+		"labeltext"		"#TF_Spectator_CycleTargetRev"
 		"font"			"SpectatorKeyHints"
 	}
 
 	"TipLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"15"
-		"ypos"			"r67"
-		"wide"			"145"
-		"tall"			"64"
-	//	"visible"		"1"
+		"xpos"			"20"
+		"ypos"			"r60"
+		"wide"			"130"
+		"tall"			"54"
 		"visible_minmode"	"0"
-		"labelText"		"%tip%"
-		"textAlignment"	"center"
+		"labeltext"		"%tip%"
 		"font"			"SpectatorKeyHints"
+		"textalignment"	"center"
 		"wrap"			"1"
 	}
 

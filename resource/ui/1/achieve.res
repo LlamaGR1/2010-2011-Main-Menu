@@ -54,9 +54,10 @@
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"85"
 		"ypos"			"75"
+		"zpos"			"-69"
 		"wide"			"20"
 		"tall"			"20"
-		"image"			"achievements/tf_soldier_achieve_progress3"
+		"image"			"achievements/tf_scout_kill_from_behind"
 	}
 
 	"AchievementImage2"
@@ -64,9 +65,20 @@
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"110"
 		"ypos"			"75"
+		"zpos"			"-69"
 		"wide"			"20"
 		"tall"			"20"
-		"image"			"achievements/tf_scout_kill_from_behind"
+		"image"			"achievements/tf_soldier_achieve_progress3"
+	}
+
+	"PartySlot1"
+	{
+		"controlname"	"CDashboardPartyMember"
+		"wide"			"20"
+		"tall"			"20"
+
+		"party_slot"	"1"
+		"pin_to_sibling" "AchievementImage2"
 	}
 
 	"AchievementImage3"
@@ -74,9 +86,20 @@
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"135"
 		"ypos"			"75"
+		"zpos"			"-69"
 		"wide"			"20"
 		"tall"			"20"
 		"image"			"achievements/tf_heavy_block_cart"
+	}
+
+	"PartySlot2"
+	{
+		"controlname"	"CDashboardPartyMember"
+		"wide"			"20"
+		"tall"			"20"
+
+		"party_slot"	"2"
+		"pin_to_sibling" "AchievementImage3"
 	}
 
 	"AchievementImage4"
@@ -84,9 +107,20 @@
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"160"
 		"ypos"			"75"
+		"zpos"			"-69"
 		"wide"			"20"
 		"tall"			"20"
 		"image"			"achievements/tf_engineer_taunt_kill"
+	}
+
+	"PartySlot3"
+	{
+		"controlname"	"CDashboardPartyMember"
+		"wide"			"20"
+		"tall"			"20"
+
+		"party_slot"	"3"
+		"pin_to_sibling" "AchievementImage4"
 	}
 
 	"AchievementImage5"
@@ -94,9 +128,20 @@
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"185"
 		"ypos"			"75"
+		"zpos"			"-69"
 		"wide"			"20"
 		"tall"			"20"
 		"image"			"achievements/tf_demoman_freezecam_smile"
+	}
+
+	"PartySlot4"
+	{
+		"controlname"	"CDashboardPartyMember"
+		"wide"			"20"
+		"tall"			"20"
+
+		"party_slot"	"4"
+		"pin_to_sibling" "AchievementImage5"
 	}
 
 	"AchievementImage6"
@@ -104,21 +149,31 @@
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"210"
 		"ypos"			"75"
+		"zpos"			"-69"
 		"wide"			"20"
 		"tall"			"20"
 		"image"			"achievements/tf_spy_backstab_disguised_spy"
+	}
+
+	"PartySlot5"
+	{
+		"controlname"	"CDashboardPartyMember"
+		"wide"			"20"
+		"tall"			"20"
+
+		"party_slot"	"5"
+		"pin_to_sibling" "AchievementImage6"
 	}
 
 	"MMDashboard"
 	{
 		"ToggleChatButton"
 		{
-			"controlname"	"CExImageButton"
+			"controlname"	"Button"
 			"xpos"			"85"
 			"ypos"			"75"
 			"wide"			"20"
 			"tall"			"20"
-			"visible"		"0"
 			"labeltext"		""
 			"command"		"toggle_chat"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -128,22 +183,8 @@
 			"stay_armed_on_click"		"1"
 			"button_activation_type"	"2"
 
-			"defaultbgcolor_override"	"62 62 62 255"
-		//	"armedbgcolor_override"		"120 68 61 255"
-			"armedbgcolor_override"		"143 81 54 255"
-
-			"image_drawcolor"	"245 229 193 255"
-		//	"image_armedcolor"	"233 202 169 255"
-			"image_armedcolor"	"245 206 167 255"
-			"subimage"
-			{
-				"xpos"			"3"
-				"ypos"			"3"
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"glyph_chat"
-			}
+			"defaultbgcolor_override"	"Blank"
+			"armedbgcolor_override"		"244 114 0 69"
 		}
 	}
 }

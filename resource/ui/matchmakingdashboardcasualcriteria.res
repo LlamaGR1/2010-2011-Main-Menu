@@ -1,4 +1,4 @@
-//#base "MatchMakingDashboardSidePanel.res"
+//#base "matchmakingdashboardsidepanel.res"
 
 "matchmakingdashboardcasualcriteria"
 {
@@ -34,7 +34,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"font"			"HudFontMediumBold"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 	}
 
 	"criteria"
@@ -84,7 +84,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 		"Command"		"find_game"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -111,9 +111,9 @@
 	// 	"wide"			"100"
 	// 	"tall"			"25"
 	// 	"proportionaltoparent"	"1"
-	// 	"labelText"		"#Cancel"
+	// 	"labeltext"		"#Cancel"
 	// 	"font"			"HudFontSmallBold"
-	// 	"textAlignment"	"center"
+	// 	"textalignment"	"center"
 	// 	"Command"		"nav_close"
 	// 	"sound_depressed"	"ui/buttonclick.wav"
 	// 	"sound_released"	"ui/buttonclickrelease.wav"

@@ -1,42 +1,44 @@
 "classpanel"
 {
-	"Image"
+	"Image"		//		bastard
 	{
 		"controlname"	"ImagePanel"
 		"scaleimage"	"1"
 	}
 
-	"SelectButton"
+	"SelectButton"		//		bastard
 	{
 		"controlname"	"CExButton"
 		"labeltext"		"%selectbuttontext%"
-		"font"			"HudFontSmallBold"
-		"textalignment"	"center"
+		"font"			"DefaultSource"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"3"
 		"command"		"%selectcommand%"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+		"ignorescheme"	"1"
 
-		"stay_armed_on_click"	"1"
+		"border_default"	"BorderSourceDefault"
+		"border_armed"		"BorderSourceArmed"
+		"border_selected"	"BorderSourceDepressed"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"border_selected"	"MainMenuButtonArmed"
-		"border_disabled"	"MainMenuButtonDisabled"
-		"paintbackground"	"0"
+		"defaultfgcolor_override"	"60 56 53 255"
+		"armedfgcolor_override"		"60 56 53 255"
+		"depressedfgcolor_override"	"60 56 53 255"
+		"selectedfgcolor_override"	"60 56 53 255"
 
-		"defaultfgcolor_override"	"Black"
-		"armedfgcolor_override"		"TanLight"
-		"disabledfgcolor2_override"	"Black"
+		"defaultbgcolor_override"	"201 188 162 150"
+		"armedbgcolor_override"		"236 227 203 150"
+		"depressedbgcolor_override"	"201 188 162 150"
+		"selectedbgcolor_override"	"236 227 203 150"
+		"disabledfgcolor2_override"	"131 121 104 255"
 	}
 
 	"ProgressLabel"
 	{
 		"controlname"	"CExLabel"
-		"ypos"			"241"
-		"wide"			"30"
-		"tall"			"15"
-		"font"			"HudFontSmallest"
+		"ypos"			"200"
+		"tall"			"10"
+		"font"			"DefaultSource"
 		"textalignment"	"center"
-		"fgcolor_override"	"LightRed"
+		"fgcolor_override"	"0 160 0 255"		//		LightRed
 	}
 }

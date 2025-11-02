@@ -6,7 +6,7 @@
 		"wide"			"300"		//		f0
 		"tall"			"220"		//		390
 		"proportionaltoparent"	"1"
-		"border"		"ViviBlack2BG"
+		"border"		"ViviBlackBG2"
 
 		"Title"
 		{

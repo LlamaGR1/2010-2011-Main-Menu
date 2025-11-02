@@ -1,4 +1,4 @@
-#base "../../cfg/2010hud/loadout2011.txt"
+#base "../../../../cfg/2010hud/loadout2011.txt"
 
 #base "1/hat2011.res"
 
@@ -109,7 +109,7 @@
 		"sound_released"	"ui/buttonclickrelease.wav"
 
 		"button_activation_type"	"2"
-	}	
+	}
 
 	"heavyweapons"
 	{

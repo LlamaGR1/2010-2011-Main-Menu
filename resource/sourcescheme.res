@@ -279,14 +279,14 @@ Scheme
 
 		DepressedBorder // keep
 		{
-			"inset" "0 0 1 1"
+			"inset"					"0 0 1 1"
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 1"
+					"color"		"Border.Dark"
+					"offset"	"0 1"
 				}
 			}
 
@@ -294,8 +294,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "1 0"
+					"color"		"Border.Bright"
+					"offset"	"1 0"
 				}
 			}
 
@@ -303,8 +303,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 
@@ -312,22 +312,22 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 0"
+					"color"		"Border.Bright"
+					"offset"	"0 0"
 				}
 			}
 		}
 
 		RaisedBorder
 		{
-			"inset" "0 0 1 1"
+			"inset"					"0 0 1 1"
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 1"
+					"color"		"Border.Bright"
+					"offset"	"0 1"
 				}
 			}
 
@@ -335,8 +335,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 
@@ -344,8 +344,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 1"
+					"color"		"Border.Bright"
+					"offset"	"0 1"
 				}
 			}
 
@@ -353,8 +353,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -376,15 +376,15 @@ Scheme
 
 		ScrollBarButtonBorder // keep
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset"					"2 2 0 0" [!$OSX]
+			"inset"					"-3 2 0 0" [$OSX]
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 1"
+					"color"		"Border.Bright"
+					"offset"	"0 1"
 				}
 			}
 
@@ -392,8 +392,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "1 0"
+					"color"		"Border.Dark"
+					"offset"	"1 0"
 				}
 			}
 
@@ -401,8 +401,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 0"
+					"color"		"Border.Bright"
+					"offset"	"0 0"
 				}
 			}
 
@@ -410,23 +410,23 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 		}
 		
 		ScrollBarButtonDepressedBorder // keep
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset"					"2 2 0 0" [!$OSX]
+			"inset"					"-3 2 0 0" [$OSX]
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 1"
+					"color"		"Border.Dark"
+					"offset"	"0 1"
 				}
 			}
 
@@ -434,8 +434,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "1 0"
+					"color"		"Border.Bright"
+					"offset"	"1 0"
 				}
 			}
 
@@ -443,8 +443,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 
@@ -452,8 +452,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 0"
+					"color"		"Border.Bright"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -527,14 +527,14 @@ Scheme
 
 		ToolTipBorder // keep
 		{
-			"inset" "0 0 1 0"
+			"inset"					"0 0 1 0"
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 
@@ -542,8 +542,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "1 0"
+					"color"		"Border.Dark"
+					"offset"	"1 0"
 				}
 			}
 
@@ -551,8 +551,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 
@@ -560,8 +560,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -569,72 +569,76 @@ Scheme
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder // keep
 		{
-			"inset" "0 0 1 1"
+			"inset"					"0 0 1 1"
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Selection"
-					"offset" "0 0"
+					"color"		"Border.Selection"
+					"offset"	"0 0"
 				}
+
 				"2"
 				{
-					"color" "Border.Bright"
-					"offset" "0 1"
+					"color"		"Border.Bright"
+					"offset"	"0 1"
 				}
 			}
 			Top
 			{
 				"1"
 				{
-					"color" "Border.Selection"
-					"offset" "0 0"
+					"color"		"Border.Selection"
+					"offset"	"0 0"
 				}
+
 				"2"
 				{
-					"color" "Border.Bright"
-					"offset" "1 0"
+					"color"		"Border.Bright"
+					"offset"	"1 0"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" "Border.Selection"
-					"offset" "0 0"
+					"color"		"Border.Selection"
+					"offset"	"0 0"
 				}
+
 				"2"
 				{
-					"color" "Border.Dark"
-					"offset" "1 0"
+					"color"		"Border.Dark"
+					"offset"	"1 0"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color" "Border.Selection"
-					"offset" "0 0"
+					"color"		"Border.Selection"
+					"offset"	"0 0"
 				}
+
 				"2"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 		}
 
 		ButtonDepressedBorder // keep
 		{
-			"inset" "2 1 1 1"
+			"inset"					"2 1 1 1"
 			"proportional_scalar"	"0.5"
 			Left
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 1"
+					"color"		"Border.Dark"
+					"offset"	"0 1"
 				}
 			}
 
@@ -642,8 +646,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "1 0"
+					"color"		"Border.Bright"
+					"offset"	"1 0"
 				}
 			}
 
@@ -651,8 +655,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
-					"offset" "0 0"
+					"color"		"Border.Dark"
+					"offset"	"0 0"
 				}
 			}
 
@@ -660,8 +664,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Bright"
-					"offset" "0 0"
+					"color"		"Border.Bright"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -732,13 +736,13 @@ Scheme
 			// }
 		}
 
-	// 	"10"	"resource/linux_fonts/DejaVuSans.ttf"
-	// 	"11"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
-	// 	"12"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-	// 	"13"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-	// 	"14"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-	// 	"15"	"resource/linux_fonts/LiberationSans-Bold.ttf"
-	// 	"16"	"resource/linux_fonts/LiberationMono-Regular.ttf"
-	// 	"17"	"resource/linux_fonts/FiraSans-Regular.ttf"
+	// 	"10"	"resource/linux_fonts/dejavusans.ttf"
+	// 	"11"	"resource/linux_fonts/dejavusans-bold.ttf"
+	// 	"12"	"resource/linux_fonts/dejavusans-boldoblique.ttf"
+	// 	"13"	"resource/linux_fonts/dejavusans-oblique.ttf"
+	// 	"14"	"resource/linux_fonts/liberationsans-regular.ttf"
+	// 	"15"	"resource/linux_fonts/liberationsans-bold.ttf"
+	// 	"16"	"resource/linux_fonts/liberationmono-regular.ttf"
+	// 	"17"	"resource/linux_fonts/firasans-regular.ttf"
 	}
 }

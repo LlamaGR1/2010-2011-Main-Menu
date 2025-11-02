@@ -1,17 +1,17 @@
 #base "tfhudoptionsdialog.res"
 
-#base "../../../cfg/2010hud/client20102011.txt"
+#base "../../../../cfg/2010hud/client20102011.txt"
 
 
-#base "../../cfg/2010hud/bgs.txt"
-#base "../../cfg/2010hud/subbuttons.txt"
-#base "../../cfg/2010hud/challenge.txt"
-#base "../../cfg/2010hud/contracts.txt"
-#base "../../cfg/2010hud/loadoutbb.txt"
-#base "../../cfg/2010hud/shop.txt"
-#base "../../cfg/2010hud/achieve.txt"
-#base "../../cfg/2010hud/resumegame.txt"
-#base "../../cfg/2010hud/quitgameconfirm.txt"
+#base "../../../../cfg/2010hud/bgs.txt"
+#base "../../../../cfg/2010hud/subbuttons.txt"
+#base "../../../../cfg/2010hud/challenge.txt"
+#base "../../../../cfg/2010hud/contracts.txt"
+#base "../../../../cfg/2010hud/loadoutbb.txt"
+#base "../../../../cfg/2010hud/shop.txt"
+#base "../../../../cfg/2010hud/achieve.txt"
+#base "../../../../cfg/2010hud/resumegame.txt"
+#base "../../../../cfg/2010hud/quitgameconfirm.txt"
 
 
 //#base "2011fix/subbuttonsfix2011.res"
@@ -25,6 +25,8 @@
 #base "1/achieve.res"
 #base "1/resumegame_hidden.res"
 #base "1/quitgameconfirmno.res"
+
+#base "1/mainmenu/playername_16_9.res"
 
 
 //#base "mainmenu_saxxyawards.res"
@@ -84,6 +86,21 @@
 		"controlname"	"EditablePanel"
 	}
 
+	"CameraClick1"
+	{
+		"controlname"	"EditablePanel"
+	}
+
+	"CameraClick2"
+	{
+		"controlname"	"EditablePanel"
+	}
+
+	"CameraClick3"
+	{
+		"controlname"	"EditablePanel"
+	}
+
 	"AvatarBGPanel"
 	{
 		"controlname"	"Panel"
@@ -103,15 +120,8 @@
 		"auto_wide_tocontents"	"1"
 		"tall"			"20"
 		"proportionaltoparent"	"1"
-		"labelText"		"#Vivi_WelcomeBack"
+		"labeltext"		"#Vivi_WelcomeBack"
 		"font"			"HudFontSmallBold"
-	//	"textAlignment"	"north-west"
-	//	"bgcolor_override"	"Orange"
-
-		// if_mini
-		// {
-		// 	"visible"		"0"
-		// }
 	}
 
 	"RankModelPanel"
@@ -122,28 +132,16 @@
 	"RankPanel"
 	{
 		"controlname"	"CPvPRankPanel"
-	//	"xpos"			"85"
-	//	"ypos"			"15"
 		"xpos"			"5"
-		"wide"			"260"
 		"tall"			"20"
-	//	"bgcolor_override"	"255 0 0 50"
-
 		"mouseinputenabled"	"0"
 
 		"show_model"	"0"
-	//	"show_progress"	"0"
 		"show_type"		"0"
 		"show_name"		"1"
 
 		"pin_to_sibling" "WelcomeLabel"
 		"pin_to_sibling_corner" "1"
-
-
-		// "matchgroup"	"MatchGroup_Casual_12v12"
-
-		// "show_model"	"0"
-		// "show_type"		"0"
 	}
 
 	"MOTD_ShowButtonPanel"
@@ -416,7 +414,7 @@
 		"ypos"			"102"
 		"zpos"			"1"
 		"wide"			"205"
-		"tall"			"130"
+		"tall"			"145"
 		"visible"		"0"
 		"border"		""
 
@@ -430,12 +428,10 @@
 			"border"		"MainMenuBGBorder"
 		}
 
-
 		"MOTD_CloseButton"
 		{
 			"controlname"	"CExImageButton"
 			"xpos"			"180"
-		//	"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"19"
 			"tall"			"20"
@@ -475,7 +471,6 @@
 			"wide"			"180"
 			"tall"			"135"
 			"fgcolor_override"	"TanDark"
-		//	"bgcolor_override"	"255 0 0 100"
 
 			"Notifications_Control"
 			{
@@ -483,7 +478,6 @@
 				"wide"			"220"
 				"tall"			"135"
 				"visible"		"1"
-			//	"bgcolor_override"	"255 255 0 100"
 			}
 		}
 	}
@@ -554,7 +548,6 @@
 		"tall"			"25"
 		"labeltext"		"#TF_Quit_Title"
 		"font"			"HudFontSmallBold"
-	//	"textalignment"	"west"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"35"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -588,7 +581,6 @@
 		"tall"			"25"
 		"labeltext"		"#GameUI_GameMenu_Disconnect"
 		"font"			"HudFontSmallBold"
-	//	"textalignment"	"west"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"35"
 		"command"		"engine disconnect"
@@ -703,17 +695,19 @@
 			"controlname"	"CExImageButton"
 			"wide"			"40"
 			"tall"			"40"
+			"labeltext"		"n"
 			"font"			"MarlettShadow"
 			"textalignment"	"center"
 			"use_proportional_insets"	"1"
 			"textinsetx"	"-1"
 			"command"		"engine toggle cl_mainmenu_safemode"
+			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
 			"roundedcorners"			"0"
 			"button_activation_type"	"2"
-			"stay_armed_on_click"		"1"
+		//	"stay_armed_on_click"		"1"
 
 			"defaultfgcolor_override"	"Blank"
 			"armedfgcolor_override"		"0 0 0 255"
@@ -722,16 +716,16 @@
 			"armedbgcolor_override"		"Blank"
 
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"235 226 202 255"
+		//	"image_armedcolor"	"235 226 202 255"
 			"subimage"
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"50"
+				"tall"			"50"
 				"proportionaltoparent"	"1"
 				"scaleimage"	"1"
-				"image"			"glyph_steamworkshop"
+				"image"			"../backpack/weapons/c_models/c_wrench/gold_wrench_large"
 			}
 		}
 	}
@@ -764,7 +758,6 @@
 		"xpos"			"85"
 		"ypos"			"37"
 		"zpos"			"1"
-		"wide"			"169"
 		"tall"			"20"
 		"labeltext"		"#TF_Dlg_Connecting"
 		"font"			"HudFontSmallBold"
@@ -785,7 +778,6 @@
 			"ypos"			"13"
 			"auto_wide_tocontents"	"1"
 			"auto_tall_tocontents"	"1"
-		//	"tall"			"30"
 			"labeltext"		"%tiptext%"
 			"font"			"HudFontSmallBold"
 		}
@@ -804,7 +796,7 @@
 	"ChatPin"
 	{
 		"controlname"	"Panel"
-		"xpos"			"c-299"
+		"xpos"			"c-300"
 	}
 
 	"partychat"

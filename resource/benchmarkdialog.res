@@ -4,15 +4,73 @@
 	{
 		"controlname"	"CBenchmarkDialog"
 		"wide"			"515"
-		"tall"			"370"
+		"tall"			"400"
 		"title"			"#Vivi_Utilities"
+	}
+
+	"RecommendedSettings"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"55"
+		"zpos"			"1"
+		"wide"			"385"
+		"tall"			"24"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 0"
+
+		"1"
+		{
+			"controlname"	"Label"
+		//	"wide"			"180"
+			"auto_wide_tocontents"	"1"
+			"tall"			"24"
+			"labeltext"		"#Vivi_RecommendedSettings"
+		}
+
+		"2"
+		{
+			"controlname"	"Label"
+			"wide"			"18"
+			"tall"			"24"
+			"labeltext"		"?"
+			"tooltiptext"	"#Vivi_RecommendedSettings_ToolTip"
+			"textalignment"	"center"
+			"dulltext"		"1"
+
+			"pin_to_sibling" "1"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"3"
+		{
+			"controlname"	"Button"
+			"xpos"			"rs1"
+			"wide"			"95"
+			"tall"			"24"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#GameUI_Apply"
+			"command"		"engine recommendedsettings"
+			"actionsignallevel"	"3"
+		}
+	}
+
+	"Divider1"
+	{
+		"controlname"	"Divider"
+		"xpos"			"cs-0.5"
+		"ypos"			"90"
+		"wide"			"385"
+		"tall"			"2"
+		"proportionaltoparent"	"1"
 	}
 
 	"Utilities1"
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"65"
+		"ypos"			"105"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -56,7 +114,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"100"
+		"ypos"			"140"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -88,7 +146,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"135"
+		"ypos"			"175"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -132,7 +190,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"170"
+		"ypos"			"210"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -164,7 +222,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"205"
+		"ypos"			"245"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -196,7 +254,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"240	"
+		"ypos"			"280"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -252,7 +310,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"275"
+		"ypos"			"315"
 		"zpos"			"1"
 		"wide"			"385"
 		"tall"			"24"
@@ -280,25 +338,36 @@
 		}
 	}
 
-	"Divider"
+	"Divider2"
 	{
 		"controlname"	"Divider"
 		"xpos"			"15"
 		"ypos"			"40"
 		"wide"			"485"
-		"tall"			"285"
+		"tall"			"315"
 	}
 
 	"RunButton"
 	{
 		"controlname"	"Button"
 		"xpos"			"15"
-		"ypos"			"335"
+		"ypos"			"365"
 		"wide"			"89"
 		"tall"			"24"
 		"labeltext"		"#GameUI_Console"
 		"command"		"engine toggleconsole"
 		"actionsignallevel"	"2"
+	}
+
+	"CloseButton"
+	{
+		"controlname"	"Button"
+		"xpos"			"411"
+		"ypos"			"365"
+		"wide"			"89"
+		"tall"			"24"
+		"labeltext"		"#GameUI_Close"
+		"command"		"Close"
 	}
 
 	"CloseButton2"
@@ -314,17 +383,6 @@
 		"controlname"	"Button"
 		"tall"			"0"
 		"labeltext"		"&e"
-		"command"		"Close"
-	}
-
-	"CloseButton"
-	{
-		"controlname"	"Button"
-		"xpos"			"411"
-		"ypos"			"335"
-		"wide"			"89"
-		"tall"			"24"
-		"labeltext"		"#GameUI_Close"
 		"command"		"Close"
 	}
 

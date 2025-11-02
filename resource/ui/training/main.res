@@ -2,10 +2,10 @@
 {
 	"TrainingDialog"
 	{
-		"controlname"	"CTrainingDialog"
+	//	"controlname"	"CTrainingDialog"
 		"wide"			"f0"
 		"tall"			"481"
-		"bgcolor_override"	"0 0 0 200"
+	//	"bgcolor_override"	"0 0 0 200"
 	}
 
 	"Container"
@@ -13,115 +13,168 @@
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"wide"			"450"
-		"tall"			"400"
+		"wide"			"300"
+		"tall"			"220"
 	//	"border"		"GrayDialogBorder"
-		"border"		"QuickplayBorder"
+	//	"border"		"QuickplayBorder"
+		"bgcolor_override"	"60 56 53 255"
+		"roundedcorners"	"15"
+		"paintbackgroundtype"	"2"
 
-		"GradientBgPanel"
-		{
-			"controlname"	"ImagePanel"
-			"xpos"			"10"
-			"ypos"			"135"
-			"zpos"			"1"
-			"wide"			"430"
-			"tall"			"400"
-			"scaleimage"	"1"
-			"image"			"training/gradient"
-		}
+		// "GradientBgPanel"
+		// {
+		// 	"controlname"	"ImagePanel"
+		// 	"xpos"			"10"
+		// 	"ypos"			"135"
+		// 	"zpos"			"1"
+		// 	"wide"			"430"
+		// 	"tall"			"400"
+		// 	"scaleimage"	"1"
+		// 	"image"			"training/gradient"
+		// }
 
 		"Background"
 		{
 			"controlname"	"Panel"
-			"wide"			"450"
-			"tall"			"400"
-			"bgcolor_override"	"40 37 37 255"
+			"xpos"			"cs-0.5"
+			"ypos"			"15"
+			"wide"			"290"
+			"tall"			"188"
+			"proportionaltoparent"	"1"
+			"border"		"BorderSourceDefault"
 		}
 
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"ypos"			"15"
+			"xpos"			"8"
 			"zpos"			"1"
-			"wide"			"450"
-			"tall"			"20"
+			"wide"			"300"
+			"tall"			"15"
 			"labeltext"		"%title%"
-			"font"			"HudFontMediumBold"
-			"textalignment"	"center"
+			"font"			"DefaultTitleSource"
+		//	"textalignment"	"center"
+			"fgcolor_override"	"236 227 203 150"
 		}
 
-		"SubTitleLabel"
-		{
-			"controlname"	"CExLabel"
-			"ypos"			"50"
-			"zpos"			"1"
-			"wide"			"450"
-			"tall"			"20"
-			"labeltext"		"%subtitle%"
-			"font"			"HudFontMediumSmall"
-			"textalignment"	"center"
-		}
+		// "SubTitleLabel"
+		// {
+		// 	"controlname"	"CExLabel"
+		// 	"xpos"			"78"
+		// 	"zpos"			"1"
+		// 	"wide"			"300"
+		// 	"tall"			"15"
+		// 	"labeltext"		"%subtitle%"
+		// 	"font"			"DefaultTitleSource"
+		// 	"fgcolor_override"	"236 227 203 150"
+		// }
 
-		"BackButton"
+		"BackButton1"
 		{
 			"controlname"	"CExButton"
+			"xpos"			"225"
+			"ypos"			"205"
 			"zpos"			"20"
-			"wide"			"100"
-			"tall"			"25"
-			"labeltext"		"#TF_BackCarat"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
+			"wide"			"32"
+			"tall"			"11"
+			"labeltext"		"#GameUI_Back"		//		TF_BackCarat
+			"font"			"DefaultSource"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"3"
 			"command"		"prevpage"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			"actionsignallevel"	"2"
 
-			"stay_armed_on_click"	"1"
+			"border_default"	"BorderSourceDefault"
+			"border_armed"		"BorderSourceArmed"
+			"border_selected"	"BorderSourceDepressed"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"defaultfgcolor_override"	"60 56 53 255"
+			"armedfgcolor_override"		"60 56 53 255"
+			"depressedfgcolor_override"	"60 56 53 255"
+			"selectedfgcolor_override"	"60 56 53 255"
+
+			"defaultbgcolor_override"	"201 188 162 150"
+			"armedbgcolor_override"		"236 227 203 150"
+			"depressedbgcolor_override"	"201 188 162 150"
+			"selectedbgcolor_override"	"236 227 203 150"
 		}
 
-		"CancelButton"
+		"CancelButton1"
 		{
 			"controlname"	"CExButton"
-			"ypos"			"366"
+			"xpos"			"260"
+			"ypos"			"205"
 			"zpos"			"20"
-			"wide"			"100"
-			"tall"			"25"
+			"wide"			"32"
+			"tall"			"11"
 			"labeltext"		"#Cancel"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
+			"font"			"DefaultSource"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"3"
 			"command"		"cancel"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			"actionsignallevel"	"2"
 
-			"stay_armed_on_click"	"1"
+			"border_default"	"BorderSourceDefault"
+			"border_armed"		"BorderSourceArmed"
+			"border_selected"	"BorderSourceDepressed"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
+			"defaultfgcolor_override"	"60 56 53 255"
+			"armedfgcolor_override"		"60 56 53 255"
+			"depressedfgcolor_override"	"60 56 53 255"
+			"selectedfgcolor_override"	"60 56 53 255"
+
+			"defaultbgcolor_override"	"201 188 162 150"
+			"armedbgcolor_override"		"236 227 203 150"
+			"depressedbgcolor_override"	"201 188 162 150"
+			"selectedbgcolor_override"	"236 227 203 150"
+		}
+
+		"CloseButton"
+		{
+			"controlname"	"CExButton"
+			"xpos"			"rs1"
+			"zpos"			"20"
+			"wide"			"15"
+			"tall"			"15"
+			"proportionaltoparent"	"1"
+			"labeltext"		"r"
+			"font"			"MarlettSmallSource"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"3"
+			"command"		"cancel"
+			"actionsignallevel"	"2"
+
 			"paintbackground"	"0"
+
+			"defaultfgcolor_override"	"236 227 203 150"
+			"armedfgcolor_override"		"236 227 203 150"
+			"depressedfgcolor_override"	"236 227 203 150"
+			"selectedfgcolor_override"	"236 227 203 150"
 		}
 
 		"ModeSelectionPanel"
 		{
 			"controlname"	"CModeSelectionPanel"
-			"ypos"			"80"
+			"xpos"			"cs-0.5"
+			"ypos"			"17"
 			"zpos"			"2"
-			"wide"			"500"
-			"tall"			"400"
+			"wide"			"287"
+			"tall"			"184"
+			"proportionaltoparent"	"1"
 			"TrainingTitle"	"#TF_Training_Title"
+			"bgcolor_override"	"39 36 34 255"
+			"border"		"BorderSourceDefault"
 		}
 
-		"BasicTraining_ClassSelectionPanel"
+		"BasicTraining_ClassSelectionPanel"		//		bastard
 		{
 			"controlname"	"CBasicTraining_ClassSelectionPanel"
-			"ypos"			"80"
+			"xpos"			"cs-0.5"
+			"ypos"			"-52"
 			"zpos"			"2"
-			"wide"			"450"
-			"tall"			"400"
+			"wide"			"307"
+			"tall"			"240"
+			"proportionaltoparent"	"1"
 			"visible"		"0"
 
 			"TrainingTitle"		"#TR_AttackDefense"
@@ -132,10 +185,10 @@
 			"Class2Token"	"#TF_Spy"
 			"Class3Token"	"#TF_Engineer"
 
-			"Class0Image"	"training/class_soldier"
-			"Class1Image"	"training/class_demoman"
-			"Class2Image"	"training/class_spy"
-			"Class3Image"	"training/class_engineer"
+			"Class0Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_soldier
+			"Class1Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_demoman
+			"Class2Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_spy
+			"Class3Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_engineer
 
 			"Class0command"	"basictraining_classselection_soldier"
 			"Class1command"	"basictraining_classselection_demoman"
@@ -146,20 +199,26 @@
 		"BasicTraining_ClassDetailsPanel"
 		{
 			"controlname"	"CBasicTraining_ClassDetailsPanel"
-			"ypos"			"80"
+			"xpos"			"cs-0.5"
+			"ypos"			"17"
 			"zpos"			"2"
-			"wide"			"450"
-			"tall"			"500"
+			"wide"			"287"
+			"tall"			"184"
+			"proportionaltoparent"	"1"
 			"visible"		"0"
 			"TrainingTitle"	"#TR_AttackDefense"
+		//	"bgcolor_override"	"39 36 34 255"
+		//	"border"		"BorderSourceDefault"
 		}
 
 		"OfflinePractice_ModeSelectionPanel"
 		{
 			"controlname"	"COfflinePractice_ModeSelectionPanel"
-			"ypos"			"50"
-			"wide"			"450"
-			"tall"			"500"
+			"xpos"			"cs-0.5"
+			"ypos"			"17"
+			"wide"			"287"
+			"tall"			"184"
+			"proportionaltoparent"	"1"
 			"visible"		"0"
 
 			"TrainingTitle"	"#TR_PracticeModeSelectTitle"
@@ -183,9 +242,11 @@
 		"OfflinePractice_MapSelectionPanel"
 		{
 			"controlname"	"COfflinePractice_MapSelectionPanel"
-			"ypos"			"50"
-			"wide"			"450"
-			"tall"			"500"
+			"xpos"			"cs-0.5"
+			"ypos"			"17"
+			"wide"			"287"
+			"tall"			"184"
+			"proportionaltoparent"	"1"
 			"visible"		"0"
 			"TrainingTitle"	"#TR_PracticeMapSelectTitle"
 		}

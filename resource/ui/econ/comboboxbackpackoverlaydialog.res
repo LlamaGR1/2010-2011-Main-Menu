@@ -4,7 +4,7 @@
 	{
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"wide"			"280"
+		"wide"			"220"
 		"tall"			"240"
 		"border"		"GrayDialogBorder"
 	}
@@ -12,7 +12,7 @@
 	"TitleLabel"
 	{
 		"controlname"	"Label"
-		"wide"			"280"
+		"wide"			"220"
 		"tall"			"45"
 		"labeltext"		"#TF_Item_SelectStyle"
 		"font"			"HudFontSmallBold"
@@ -22,7 +22,7 @@
 	"preview_model"
 	{
 		"controlname"	"CItemModelPanel"
-		"xpos"			"60"
+		"xpos"			"30"
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"160"
@@ -46,7 +46,7 @@
 	"ComboBox"
 	{
 		"controlname"	"ComboBox"
-		"xpos"			"60"
+		"xpos"			"30"
 		"ypos"			"170"
 		"zpos"			"1"
 		"wide"			"160"
@@ -61,7 +61,7 @@
 	"CancelButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"60"
+		"xpos"			"30"
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"70"
@@ -84,7 +84,7 @@
 	"OkButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"150"
+		"xpos"			"120"
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"70"
