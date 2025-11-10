@@ -1,7 +1,0 @@
-"mainmenuoverride"
-{
-	"QuitButton"
-	{
-		"command"		"quit"
-	}
-}
