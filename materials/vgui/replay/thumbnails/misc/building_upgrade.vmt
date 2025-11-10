@@ -1,6 +1,0 @@
-"unlitgeneric"
-{
-	"$basetexture"	"vgui/replay/thumbnails/misc/building_upgrade"
-	"$vertexalpha"	1
-	"$vertexcolor"	1
-}
