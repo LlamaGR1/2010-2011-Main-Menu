@@ -68,15 +68,11 @@
 			"model"
 			{
 				"force_pos"		"1"
-				"modelname"	""
-				"skin"		"0"
-				"angles_x"	"0"
-				"angles_y"	"180"
-				"angles_z"	"0"
+				"angles_y"		"180"
 				"origin_x"		"45"
 				"origin_y"		"0"
 				"origin_z"		"0"
-				"spotlight"	"1"
+				"spotlight"		"1"
 
 				if_mini
 				{
@@ -419,7 +415,7 @@
 						"progress"		"1"
 
 						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"bgcolor_override"	"Blank"
 					}
 
 					"ContinuousProgressBar"

@@ -1,4 +1,4 @@
 "unlitgeneric"
 {
-	"$basetexture"	"vgui/class_portraits/soldier"
+	$basetexture	vgui/class_portraits/soldier
 }

@@ -1,5 +1,5 @@
 "unlitgeneric"
 {
-	"$basetexture"	"vgui/class_portraits/spy"
-	"$translucent"	1
+	$basetexture	vgui/class_portraits/spy
+	$translucent	1
 }

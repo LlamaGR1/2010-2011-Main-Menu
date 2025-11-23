@@ -1,35 +1,26 @@
-#base "tfhudoptionsdialog.res"
+#base tfhudoptionsdialog.res
 
-#base "../../../../cfg/2010hud/client20102011.txt"
+#base ../../../../cfg/2010hud/client20102011.txt
+#base ../../../../cfg/2010hud/bgs.txt
+#base ../../../../cfg/2010hud/subbuttons.txt
+#base ../../../../cfg/2010hud/challenge.txt
+#base ../../../../cfg/2010hud/contracts.txt
+#base ../../../../cfg/2010hud/loadoutbb.txt
+#base ../../../../cfg/2010hud/shop.txt
+#base ../../../../cfg/2010hud/achieve.txt
+#base ../../../../cfg/2010hud/resumegame.txt
+#base ../../../../cfg/2010hud/quitgameconfirm.txt
 
-
-#base "../../../../cfg/2010hud/bgs.txt"
-#base "../../../../cfg/2010hud/subbuttons.txt"
-#base "../../../../cfg/2010hud/challenge.txt"
-#base "../../../../cfg/2010hud/contracts.txt"
-#base "../../../../cfg/2010hud/loadoutbb.txt"
-#base "../../../../cfg/2010hud/shop.txt"
-#base "../../../../cfg/2010hud/achieve.txt"
-#base "../../../../cfg/2010hud/resumegame.txt"
-#base "../../../../cfg/2010hud/quitgameconfirm.txt"
-
-
-//#base "2011fix/subbuttonsfix2011.res"
-
-#base "1/mainmenu/bgs_theme.res"
-#base "1/mainmenu/subbuttons_2011.res"
-#base "1/challenge.res"
-#base "1/contracts_hidden.res"
-#base "1/loadoutcc.res"
-#base "1/shopbutton.res"
-#base "1/achieve.res"
-#base "1/resumegame_hidden.res"
-#base "1/quitgameconfirmno.res"
-
-#base "1/mainmenu/playername_16_9.res"
-
-
-//#base "mainmenu_saxxyawards.res"
+#base 1/mainmenu/bgs_theme.res
+#base 1/mainmenu/subbuttons_2011.res
+#base 1/mainmenu/challenges.res
+#base 1/mainmenu/contracts_hide.res
+#base 1/mainmenu/loadout_label_2011.res
+#base 1/mainmenu/shop_button.res
+#base 1/achieve.res
+#base 1/mainmenu/resumegame_hide.res
+#base 1/mainmenu/quitgameconfirm_hide.res
+#base 1/mainmenu/playername_16_9.res
 
 "mainmenuoverride"
 {
@@ -38,43 +29,36 @@
 		"wide"			"f0"
 		"tall"			"480"
 
-		"button_x_offset"	"-370"
-		"button_y"			"5"
-		"button_y_delta"	"5"
-
 		"button_kv"
 		{
-			"ypos"			"150"
-			"wide"			"250"
-			"tall"			"26"
+			"wide"			"200"
+			"tall"			"17"
 
 			"subbutton"
 			{
 				"controlname"	"CExImageButton"
-				"wide"			"250"
-				"tall"			"26"
-				"font"			"HudFontSmallBold"
+				"wide"			"200"
+				"tall"			"17"
+				"font"			"FontStorePrice"
 				"use_proportional_insets"	"1"
-				"textinsetx"	"25"
-				"sound_armed"	"replay/replaydialog_warn.wav"
+				"textinsetx"	"15"
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
 
-				"border_default"	"MainMenuButtonGlow"
-				"border_armed"		"MainMenuButtonGlow2"
-				"border_selected"	"MainMenuButtonGlow2"
+				"stay_armed_on_click"		"1"
+				"button_activation_type"	"1"
+
 				"paintbackground"	"0"
 
 				"defaultfgcolor_override"	"255 255 255 255"
-				"armedfgcolor_override"		"255 255 255 255"
-				"depressedfgcolor_override"	"0 0 0 255"
-				"selectedfgcolor_override"	"0 0 0 255"
+				"armedfgcolor_override"		"117 107 94 255"
 
-				"image_selectedcolor"	"0 0 0 255"
+				"image_armedcolor"	"117 107 94 255"
 				"subimage"
 				{
-					"xpos"			"6"
-					"ypos"			"6"
-					"wide"			"14"
-					"tall"			"14"
+					"ypos"			"3"
+					"wide"			"11"
+					"tall"			"11"
 					"scaleimage"	"1"
 				}
 			}
@@ -176,7 +160,6 @@
 
 	"MOTD_Panel"
 	{
-		"controlname"	"EditablePanel"
 		"xpos"			"c0"
 		"ypos"			"102"
 		"zpos"			"2"
@@ -186,10 +169,11 @@
 
 		"MOTDBG"
 		{
-			"controlname"	"ScalableImagePanel"
+			"controlname"	"ImagePanel"
 			"zpos"			"-99"
 			"wide"			"300"
 			"tall"			"160"
+			"scaleimage"	"1"
 			"image"			"blog_sheet"
 		}
 
@@ -243,7 +227,6 @@
 
 		"MOTD_TextScroller"
 		{
-			"controlname"	"ScrollableEditablePanel"
 			"xpos"			"20"
 			"ypos"			"40"
 			"wide"			"260"
@@ -252,29 +235,27 @@
 
 			"VerticalScrollBar"
 			{
-				"controlname"	"ScrollBar"
-				"xpos"			"rs1-8"
+				"xpos"			"rs1-12"
 				"zpos"			"1069"
 				"proportionaltoparent"	"1"
 
 				"UpButton"
 				{
 					"textinsetx"				"0"
-					"defaultfgcolor_override"	"TanDark"
+					"defaultfgcolor_override"	"Black"
 					"armedfgcolor_override"		"TanDark"
 				}
 
 				"DownButton"
 				{
 					"textinsetx"				"0"
-					"defaultfgcolor_override"	"TanDark"
+					"defaultfgcolor_override"	"Black"
 					"armedfgcolor_override"		"TanDark"
 				}
 			}
 
 			"MOTD_TextPanel"
 			{
-				"controlname"	"EditablePanel"
 				"wide"			"250"
 				"tall"			"300"
 
@@ -313,7 +294,6 @@
 
 			"border_default"	"ViviBlackBG"
 			"border_armed"		"ViviTFOrangeBG"
-		//	"border_selected"	"ViviTFOrangeBG"
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"TanLight"
@@ -328,8 +308,6 @@
 			"wide"			"20"
 			"tall"			"20"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
 			"command"		"motd_prev"
 			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -341,11 +319,9 @@
 			"image_armedcolor"	"255 255 255 255"
 			"subimage"
 			{
-				"controlname"	"ImagePanel"
 				"wide"			"20"
 				"tall"			"20"
 				"scaleimage"	"1"
-				"image"			"blog_back"
 			}
 		}
 
@@ -368,11 +344,9 @@
 			"image_armedcolor"	"255 255 255 255"
 			"subimage"
 			{
-				"controlname"	"ImagePanel"
 				"wide"			"20"
 				"tall"			"20"
 				"scaleimage"	"1"
-				"image"			"blog_forward"
 			}
 		}
 	}
@@ -428,7 +402,7 @@
 			"border"		"MainMenuBGBorder"
 		}
 
-		"MOTD_CloseButton"
+		"Notifications_CloseButton"
 		{
 			"controlname"	"CExImageButton"
 			"xpos"			"180"
@@ -543,7 +517,6 @@
 		"controlname"	"CExImageButton"
 		"xpos"			"c-300"
 		"ypos"			"437"
-		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
 		"labeltext"		"#TF_Quit_Title"
@@ -576,7 +549,6 @@
 		"controlname"	"CExImageButton"
 		"xpos"			"c-300"
 		"ypos"			"437"
-		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
 		"labeltext"		"#GameUI_GameMenu_Disconnect"
@@ -610,7 +582,6 @@
 		"controlname"	"CExButton"
 		"xpos"			"c-300"
 		"ypos"			"437"
-		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
 		"labeltext"		"#GameUI_GameMenu_ExitReplay"
@@ -683,50 +654,38 @@
 
 	"HUDOptionsButton"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"CExImageButton"
 		"xpos"			"30"
 		"ypos"			"20"
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"40"
+		"labeltext"		"n"
+		"font"			"MarlettShadow"
+		"textalignment"	"center"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"-1"
+		"command"		"engine toggle cl_mainmenu_safemode"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"subbutton"
+		"button_activation_type"	"2"
+
+		"paintbackground"	"0"
+
+		"defaultfgcolor_override"	"Blank"
+		"armedfgcolor_override"		"82 55 7 255"
+
+		"image_drawcolor"	"0 0 0 0"
+		"subimage"
 		{
-			"controlname"	"CExImageButton"
-			"wide"			"40"
-			"tall"			"40"
-			"labeltext"		"n"
-			"font"			"MarlettShadow"
-			"textalignment"	"center"
-			"use_proportional_insets"	"1"
-			"textinsetx"	"-1"
-			"command"		"engine toggle cl_mainmenu_safemode"
-			"actionsignallevel"	"2"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"roundedcorners"			"0"
-			"button_activation_type"	"2"
-		//	"stay_armed_on_click"		"1"
-
-			"defaultfgcolor_override"	"Blank"
-			"armedfgcolor_override"		"0 0 0 255"
-
-			"defaultbgcolor_override"	"Blank"
-			"armedbgcolor_override"		"Blank"
-
-			"image_drawcolor"	"0 0 0 0"
-		//	"image_armedcolor"	"235 226 202 255"
-			"subimage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"50"
-				"tall"			"50"
-				"proportionaltoparent"	"1"
-				"scaleimage"	"1"
-				"image"			"../backpack/weapons/c_models/c_wrench/gold_wrench_large"
-			}
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"wide"			"48"
+			"tall"			"48"
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"image"			"../backpack/weapons/c_models/c_wrench/gold_wrench_large"
 		}
 	}
 

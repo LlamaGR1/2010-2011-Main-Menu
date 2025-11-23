@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/loadout20119.txt"
+#base ../../../../cfg/2010hud/loadout20119.txt
 
-#base "1/12333.res"
+#base 1/loadout/loadout_2011.res
 
 "charinfopanel"
 {

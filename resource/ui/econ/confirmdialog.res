@@ -16,7 +16,7 @@
 		"ypos"			"15"
 		"wide"			"325"
 		"tall"			"25"
-		"autoResize"	"1"
+		"autoresize"	"1"
 		"labeltext"		"#ConfirmTitle"
 		"font"			"EconFontMedium"
 		"textalignment"	"north"

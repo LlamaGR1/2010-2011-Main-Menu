@@ -1,9 +1,39 @@
-#base "../../../cfg/2010hud/startplaying.txt"
+#base ../../../cfg/2010hud/startplaying.txt
 
-#base "ui/1/mainmenu/startplaying.res"
+#base ui/1/mainmenu/startplaying.res
 
 "gamemenu"
 {
+	"ApplyButtonM"
+	{
+		"label"			"#GameUI_Apply"
+		"command"		"engine toggle mat_aaquality"
+		"onlyatmenu"	"1"
+	}
+
+	"ApplyButtonG"
+	{
+		"label"			"#GameUI_Apply"
+		"command"		"0"
+		"onlyingame"	"1"
+		"tooltip"		"#Vivi_HUD_Options_NoRestartGame"
+	}
+
+	// "RestartGameButtonM"
+	// {
+	// 	"label"			"#Vote_RestartGame"
+	// //	"command"		"engine gamemenucommand RestartWithNewLanguage"		//		resets language to english 🤣🤣🔥
+	// 	"command"		"engine _restart"									//		terrorist bomber hijacker
+	// 	"onlyatmenu"	"1"
+	// }
+
+	// "RestartGameButtonG"
+	// {
+	// 	"label"			"#Vote_RestartGame"
+	// 	"command"		"0"
+	// 	"onlyingame"	"1"
+	// }
+
 	"SaxxyAwards"
 	{
 		"label"			""
@@ -32,12 +62,6 @@
 		"onlyatmenu"	"1"
 	}
 
-	// "HUDOptionsButton"
-	// {
-	// 	"label"			"n"
-	// 	"command"		"engine toggle cl_mainmenu_safemode"
-	// }
-
 	"ExplanationTooltipPanel1"
 	{
 		"label"			"?"
@@ -48,14 +72,14 @@
 	"ExplanationTooltipPanel2"
 	{
 		"label"			"?"
-		"tooltip"		"#Vote_RestartGame"
+		"tooltip"		"#Vivi_HUD_Options_RestartGame"
 		"command"		"0"
 	}
 
 	"ExplanationTooltipPanel3"
 	{
 		"label"			"?"
-		"tooltip"		"#Vote_RestartGame"
+		"tooltip"		"#Vivi_HUD_Options_RestartGame"
 		"command"		"0"
 	}
 
@@ -94,6 +118,20 @@
 		"command"		"0"
 	}
 
+	"ExplanationTooltipPanel8"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category_3_Title_3_ToolTip"
+		"command"		"0"
+	}
+
+	// "ExplanationTooltipPanel9"
+	// {
+	// 	"label"			"?"
+	// 	"tooltip"		"#Vivi_HUD_Options_RestartGame"
+	// 	"command"		"0"
+	// }
+
 	"MainMenuBGPanel2"
 	{
 		"label"			""
@@ -123,7 +161,7 @@
 	"OfflinePracticeButton"
 	{
 		"label"			""
-		"tooltip"		"#GameUI_GameMenu_OfflinePractice"
+		"tooltip"		"#Gametype_Training"
 		"command"		"offlinepractice"
 		"onlyatmenu"	"1"
 	}

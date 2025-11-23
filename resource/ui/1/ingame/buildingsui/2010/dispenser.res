@@ -4,24 +4,24 @@
 	{
 		"RunningPanel"
 		{
-			"Ammo" // ok
+			"Ammo"
 			{
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
 			}
 
-			"UpgradeIcon" // ok
+			"UpgradeIcon"
 			{
 				"ypos"			"-1"
 				"wide"			"80"
 				"tall"			"18"
 				"scaleimage"	"1"
-				"iconColor"		"255 239 209 255"
+				"iconcolor"		"255 239 209 255"
 				"icon"			"building_upgrade_icon"
 			}
 
-			"Upgrade" //ok
+			"Upgrade"
 			{
 				"xpos"			"10"
 				"ypos"			"12"
@@ -29,7 +29,7 @@
 				"tall"			"2"
 			}
 
-			"AmmoIcon"	 // ok
+			"AmmoIcon"
 			{
 				"visible"		"0"
 			}

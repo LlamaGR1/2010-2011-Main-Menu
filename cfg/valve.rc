@@ -1,6 +1,9 @@
+//exec recommendedsettings.cfg
+
 r_decal_cullsize 1
 exec joystick.cfg
 exec autoexec.cfg
+//exec 2010hud/recommendedsettings.txt
 stuffcmds
 startupmenu
 sv_unlockedchapters 99
@@ -8,28 +11,51 @@ sv_unlockedchapters 99
 con_enable 1
 wait 2; showconsole; incrementvar mat_aaquality 0 1 1; hideconsole
 
+hostname Team Fortress 2
 vgui_cache_res_files 0
-tf_dashboard_slide_time 0.003
+vgui_ui_scale_factor 0
+tf_dashboard_slide_time 0.007
 tf_mm_dashboard_slide_panel_step 0
-//tf_hud_target_id_alpha 255
-//tf_hud_target_id_disable_floating_health 1
-//tf_use_match_hud 0
-//cl_hud_playerclass_use_playermodel 0
+tf_store_stamp_donation_add_timestamp 1939001945
+cl_hud_playerclass_playermodel_showed_confirm_dialog 1
+tf_scoreboard_ping_as_text 1
+tf_hud_target_id_alpha 255
+tf_hud_target_id_disable_floating_health 1
+tf_use_match_hud 0
+cl_hud_playerclass_use_playermodel 0
+cl_showbackpackrarities 0
+tf_contract_progress_show 0
+tf_contract_competitive_show 0
+cl_disablehtmlmotd 1
+glow_outline_effect_enable 0
+tf_enable_glows_after_respawn 0
+tf_dingalingaling_lasthit 0
+tf_use_min_viewmodels 0
 
 alias 1q "toggle mat_aaquality"
 alias zz "maxplayers 101; mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest"
 alias xx "sv_allow_point_servercommand always; map workshop/606778917"
-alias cc "sv_cheats 1; echo "addcond 56 (crits)"; echo "addcond 57 (uber)"
+alias cc "sv_cheats 1; echo "addcond 56 (crits)"; echo "addcond 57 (uber)"; echo "addcond 72 (fast attack & reload)"
 alias vv "mp_waitingforplayers_cancel 1"
+alias bb "sv_cheats 1; host_timescale 15"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 alias "2010hud_folder" "ds_dir cfg/2010hud; ds_log 0; ds_record; ds_stop"
 2010hud_folder
 
+////////////////////////////////////////////////////////////////////////////////////////////////		credits
+
+alias vivi_credits "snd_restart; play ui/gamestartup7.mp3"
+
 ////////////////////////////////////////////////////////////////////////////////////////////////		RecommendedSettings
 
-alias recommendedsettings "tf_hud_target_id_alpha 255; tf_hud_target_id_disable_floating_health 1; tf_use_match_hud 0; cl_hud_playerclass_use_playermodel 0; cl_showbackpackrarities 0; tf_contract_progress_show 0; tf_contract_competitive_show 0; cl_disablehtmlmotd 1; glow_outline_effect_enable 0; tf_enable_glows_after_respawn 0; tf_dingalingaling_lasthit 0; tf_use_min_viewmodels 0"
+//alias recommendedsettings_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/recommendedsettings.txt"
+//alias recommendedsettings_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/recommendedsettings.txt"
+//alias recommendedsettings_unlog "con_logfile console.log"
+
+//alias recommendedsettings "recommendedsettings_clear; recommendedsettings_log; exec recommendedsettings/list.cfg; recommendedsettings_unlog; exec 2010hud/recommendedsettings.txt"
+//alias recommendedsettings2 "recommendedsettings_clear; exec 2010hud/recommendedsettings.txt; exec autoexec.cfg"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		SUBBUTTONS
 
@@ -37,9 +63,9 @@ alias subbuttons_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/s
 alias subbuttons_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/subbuttons.txt"
 alias subbuttons_unlog "con_logfile console.log"
 
-alias subbuttons_2010 "subbuttons_clear; subbuttons_log; exec subbuttons_2010.cfg; subbuttons_unlog; toggle mat_aaquality"
-alias subbuttons_2011_adv_options "subbuttons_clear; subbuttons_log; exec subbuttons_2011_adv_options.cfg; subbuttons_unlog; toggle mat_aaquality"
-alias subbuttons_2011 "subbuttons_clear; toggle mat_aaquality"
+alias subbuttons_2010 "subbuttons_clear; subbuttons_log; exec subbuttons_2010.cfg; subbuttons_unlog"
+alias subbuttons_2011_adv_options "subbuttons_clear; subbuttons_log; exec subbuttons_2011_adv_options.cfg; subbuttons_unlog"
+alias subbuttons_2011 "subbuttons_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CHALLENGE
 
@@ -47,10 +73,10 @@ alias 2ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/challeng
 alias 2ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/challenge.txt"
 alias 2ci_unlog "con_logfile console.log"
 
-alias 2ci_vivi "2ci_clear; 2ci_log; exec challenge.cfg; 2ci_unlog; toggle mat_aaquality"
-alias 2bgs_vivi123123 "2ci_clear; 2ci_log; exec challenge_43.cfg; 2ci_unlog; toggle mat_aaquality"
-alias 2bgs_vivi122123 "2ci_clear; 2ci_log; exec challenge_1610.cfg; 2ci_unlog; toggle mat_aaquality"
-alias 2ci_tf2 "2ci_clear; toggle mat_aaquality"
+alias 2ci_vivi "2ci_clear; 2ci_log; exec challenge.cfg; 2ci_unlog"
+alias 2bgs_vivi123123 "2ci_clear; 2ci_log; exec challenge_43.cfg; 2ci_unlog"
+alias 2bgs_vivi122123 "2ci_clear; 2ci_log; exec challenge_1610.cfg; 2ci_unlog"
+alias 2ci_tf2 "2ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		FAKE ACHIEVEMENTS
 
@@ -58,21 +84,21 @@ alias 21ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/achieve
 alias 21ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/achieve.txt"
 alias 21ci_unlog "con_logfile console.log"
 
-alias 21ci_vivi "21ci_clear; 21ci_log; exec achieve.cfg; 21ci_unlog; toggle mat_aaquality"
-alias 21bgs_vivi123123 "21ci_clear; 21ci_log; exec achieve_43.cfg; 21ci_unlog; toggle mat_aaquality"
-alias 21bgs_vivi122123 "21ci_clear; 21ci_log; exec achieve_1610.cfg; 21ci_unlog; toggle mat_aaquality"
-alias 21bgs_vivi113123 "21ci_clear; 21ci_log; exec achieve_p43.cfg; 21ci_unlog; toggle mat_aaquality"
-alias 21bgs_vivi123173 "21ci_clear; 21ci_log; exec achieve_p1610.cfg; 21ci_unlog; toggle mat_aaquality"
-alias 21ci_tf2 "21ci_clear; toggle mat_aaquality"
+alias 21ci_vivi "21ci_clear; 21ci_log; exec achieve.cfg; 21ci_unlog"
+alias 21bgs_vivi123123 "21ci_clear; 21ci_log; exec achieve_43.cfg; 21ci_unlog"
+alias 21bgs_vivi122123 "21ci_clear; 21ci_log; exec achieve_1610.cfg; 21ci_unlog"
+alias 21bgs_vivi113123 "21ci_clear; 21ci_log; exec achieve_p43.cfg; 21ci_unlog"
+alias 21bgs_vivi123173 "21ci_clear; 21ci_log; exec achieve_p1610.cfg; 21ci_unlog"
+alias 21ci_tf2 "21ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CONTRACTS
 
-alias 3ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/contracts.txt"
-alias 3ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/contracts.txt"
-alias 3ci_unlog "con_logfile console.log"
+alias contracts_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/contracts.txt"
+alias contracts_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/contracts.txt"
+alias contracts_unlog "con_logfile console.log"
 
-alias 3ci_vivi "3ci_clear; 3ci_log; exec contracts.cfg; 3ci_unlog; toggle mat_aaquality"
-alias 3ci_tf2 "3ci_clear; toggle mat_aaquality"
+alias contracts_on "contracts_clear; contracts_log; exec mainmenu/contracts.cfg; contracts_unlog"
+alias contracts_off "contracts_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CHARACTER SETUP - MANAGE ITEMS
 
@@ -80,8 +106,8 @@ alias 4ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/loadoutb
 alias 4ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/loadoutbb.txt"
 alias 4ci_unlog "con_logfile console.log"
 
-alias 4ci_vivi "4ci_clear; 4ci_log; exec loadoutbb.cfg; 4ci_unlog; toggle mat_aaquality"
-alias 4ci_tf2 "4ci_clear; toggle mat_aaquality"
+alias loadout_button_2010 "4ci_clear; 4ci_log; exec loadout/loadout_label_2010.cfg; 4ci_unlog"
+alias loadout_button_2011 "4ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		LOADOUT
 
@@ -89,9 +115,9 @@ alias 5ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/loadout2
 alias 5ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/loadout2011.txt"
 alias 5ci_unlog "con_logfile console.log"
 
-alias 5ci_vivi "5ci_clear; 5ci_log; exec loadout2010.cfg; 5ci_unlog; toggle mat_aaquality"
-alias 5ci_vivi777 "5ci_clear; 5ci_log; exec loadout2017.cfg; 5ci_unlog; toggle mat_aaquality"
-alias 5ci_tf2 "5ci_clear; toggle mat_aaquality"
+alias 5ci_vivi "5ci_clear; 5ci_log; exec loadout/loadout2010.cfg; 5ci_unlog"
+alias 5ci_vivi777 "5ci_clear; 5ci_log; exec loadout/loadout2017.cfg; 5ci_unlog"
+alias 5ci_tf2 "5ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		LOADOUT 2
 
@@ -100,7 +126,7 @@ alias 6ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010h
 alias 6ci_unlog "con_logfile console.log"
 
 alias 5ci_vivi7771 "6ci_clear"
-alias 3223132132123 "6ci_clear; 6ci_log; exec loadouttitle.cfg; 6ci_unlog"
+alias 3223132132123 "6ci_clear; 6ci_log; exec loadout/loadout_2010.cfg; 6ci_unlog"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -108,9 +134,9 @@ alias 8ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/shop.txt
 alias 8ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/shop.txt"
 alias 8ci_unlog "con_logfile console.log"
 
-alias 8ci_vivi "8ci_clear; 8ci_log; exec shopbuttonhide.cfg; 8ci_unlog; toggle mat_aaquality"
-alias 8bgs_vivi123123 "8ci_clear; 8ci_log; exec shopbuttonfriends.cfg; 8ci_unlog; toggle mat_aaquality"
-alias 8ci_tf2 "8ci_clear; toggle mat_aaquality"
+alias 8ci_vivi "8ci_clear; 8ci_log; exec shopbuttonhide.cfg; 8ci_unlog"
+alias 8bgs_vivi123123 "8ci_clear; 8ci_log; exec shopbuttonfriends.cfg; 8ci_unlog"
+alias 8ci_tf2 "8ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		RESUME GAME - replays
 
@@ -118,9 +144,9 @@ alias 39ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/resumeg
 alias 39ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/resumegame.txt"
 alias 39ci_unlog "con_logfile console.log"
 
-alias resumegamehidden "39ci_clear; toggle mat_aaquality"
-alias resumegame "39ci_clear; 39ci_log; exec resumegame.cfg; 39ci_unlog; toggle mat_aaquality"
-alias resumegame_replays "39ci_clear; 39ci_log; exec resumegame_replays.cfg; 39ci_unlog; toggle mat_aaquality"
+alias resumegamehidden "39ci_clear"
+alias resumegame "39ci_clear; 39ci_log; exec resumegame.cfg; 39ci_unlog"
+alias resumegame_replays "39ci_clear; 39ci_log; exec resumegame_replays.cfg; 39ci_unlog"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CHARACTER LOADOUT - TAUNTS BUTTONS
 
@@ -128,8 +154,8 @@ alias 391ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/charta
 alias 391ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/chartauntsb.txt"
 alias 391ci_unlog "con_logfile console.log"
 
-alias chartauntsb "391ci_clear; 391ci_log; exec chartauntsb.cfg; 391ci_unlog; toggle mat_aaquality"
-alias chartauntsbhide "391ci_clear; toggle mat_aaquality"
+alias chartauntsb "391ci_clear; 391ci_log; exec loadout/loadout_taunts.cfg; 391ci_unlog"
+alias chartauntsbhide "391ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		PASSIVE ATTRIBS
 
@@ -137,8 +163,8 @@ alias 331ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/passiv
 alias 331ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/passive.txt"
 alias 331ci_unlog "con_logfile console.log"
 
-alias passivehide "331ci_clear; 331ci_log; exec passive.cfg; 331ci_unlog; toggle mat_aaquality"
-alias passive "331ci_clear; toggle mat_aaquality"
+alias passivehide "331ci_clear; 331ci_log; exec loadout/passive.cfg; 331ci_unlog"
+alias passive "331ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		pda hat misc slot slots
 
@@ -146,10 +172,10 @@ alias slot_pda_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/slo
 alias slot_pda_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/slot_pda.txt"
 alias slot_pda_unlog "con_logfile console.log"
 
-alias slot_pda "slot_pda_clear; slot_pda_log; exec slot_pda.cfg; slot_pda_unlog; toggle mat_aaquality"
-alias slot_pda_hide "slot_pda_clear; toggle mat_aaquality"
-alias slot_misc_hide "slot_pda_clear; slot_pda_log; exec slot_misc_hide.cfg; slot_pda_unlog; toggle mat_aaquality"
-alias slot_misc_hat_hide "slot_pda_clear; slot_pda_log; exec slot_misc_hat_hide.cfg; slot_pda_unlog; toggle mat_aaquality"
+alias slot_pda "slot_pda_clear; slot_pda_log; exec slot_pda.cfg; slot_pda_unlog"
+alias slot_pda_hide "slot_pda_clear"
+alias slot_misc_hide "slot_pda_clear; slot_pda_log; exec slot_misc_hide.cfg; slot_pda_unlog"
+alias slot_misc_hat_hide "slot_pda_clear; slot_pda_log; exec slot_misc_hat_hide.cfg; slot_pda_unlog"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		clientscheme
 
@@ -158,7 +184,6 @@ alias 341ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/201
 alias 341ci_unlog "con_logfile console.log"
 
 alias client2010 "341ci_clear; 341ci_log; exec client2010.cfg; 341ci_unlog"
-//alias client2011 "341ci_clear; 341ci_log; exec client2011.cfg; 341ci_unlog"
 alias client2011 "341ci_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		quit confirm
@@ -167,17 +192,17 @@ alias 36ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/quitgam
 alias 36ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/quitgameconfirm.txt"
 alias 36ci_unlog "con_logfile console.log"
 
-alias quitgameconfirm "36ci_clear; 36ci_log; exec quitgameconfirm.cfg; 36ci_unlog; toggle mat_aaquality"
-alias quitgameconfirmno "36ci_clear; toggle mat_aaquality"
+alias quitgameconfirm "36ci_clear; 36ci_log; exec mainmenu/quitgameconfirm.cfg; 36ci_unlog"
+alias quitgameconfirmno "36ci_clear"
 
-////////////////////////////////////////////////////////////////////////////////////////////////		scoreboard rank
+////////////////////////////////////////////////////////////////////////////////////////////////		rank medal
 
-alias 16ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/scoreboardrank.txt"
-alias 16ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/scoreboardrank.txt"
-alias 16ci_unlog "con_logfile console.log"
+alias rank_medal_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/rank_medal.txt"
+alias rank_medal_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/rank_medal.txt"
+alias rank_medal_unlog "con_logfile console.log"
 
-alias scoreboardrankhide "16ci_clear; 16ci_log; exec scoreboardrank.cfg; 16ci_unlog; hud_reloadscheme"
-alias scoreboardrank "16ci_clear; hud_reloadscheme"
+alias rank_medal "rank_medal_clear; rank_medal_log; exec ingame/rank_medal.cfg; rank_medal_unlog; hud_reloadscheme"
+alias rank_medal_hide "rank_medal_clear; hud_reloadscheme"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		backgrounds / theme
 
@@ -185,10 +210,11 @@ alias bgs_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/bgs.txt"
 alias bgs_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/bgs.txt"
 alias bgs_unlog "con_logfile console.log"
 
-alias bgs_saxxy "bgs_clear; bgs_log; exec bgs_saxxy.cfg; bgs_unlog; toggle mat_aaquality"
-alias bgs_hl2 "bgs_clear; bgs_log; exec bgs_hl2.cfg; bgs_unlog; toggle mat_aaquality"
-alias bgs_tf "bgs_clear; bgs_log; exec bgs_tf.cfg; bgs_unlog; toggle mat_aaquality"
-alias bgs_tf2 "bgs_clear; toggle mat_aaquality"
+alias bgs_saxxy "bgs_clear; bgs_log; exec mainmenu/theme_saxxy.cfg; bgs_unlog"
+alias bgs_hl2 "bgs_clear; bgs_log; exec mainmenu/theme_hl2.cfg; bgs_unlog"
+alias bgs_tf "bgs_clear; bgs_log; exec mainmenu/theme_tf.cfg; bgs_unlog"
+alias bgs_tf_ingame "bgs_clear; bgs_log; exec mainmenu/theme_tf_ingame.cfg; bgs_unlog"
+alias bgs_tf2 "bgs_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		killstreak
 
@@ -196,7 +222,7 @@ alias killstreak_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/k
 alias killstreak_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/killstreak.txt"
 alias killstreak_unlog "con_logfile console.log"
 
-alias killstreakdefault "killstreak_clear; killstreak_log; exec killstreak.cfg; killstreak_unlog; hud_reloadscheme"
+alias killstreakdefault "killstreak_clear; killstreak_log; exec ingame/killstreak.cfg; killstreak_unlog; hud_reloadscheme"
 alias killstreakwar "killstreak_clear; hud_reloadscheme"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		killstreak fix
@@ -205,7 +231,7 @@ alias killstreakfix_clear "sixense_clear_bindings; sixense_write_bindings 2010hu
 alias killstreakfix_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/killstreakfix.txt"
 alias killstreakfix_unlog "con_logfile console.log"
 
-alias killstreakdefaultfix "killstreakfix_clear; killstreakfix_log; exec killstreakfix.cfg; killstreakfix_unlog"
+alias killstreakdefaultfix "killstreakfix_clear; killstreakfix_log; exec ingame/killstreak_fix.cfg; killstreakfix_unlog"
 alias killstreakwarfix "killstreakfix_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		presets
@@ -214,8 +240,8 @@ alias presets_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/pres
 alias presets_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/presets.txt"
 alias presets_unlog "con_logfile console.log"
 
-alias presetshide "presets_clear; presets_log; exec presets.cfg; presets_unlog; toggle mat_aaquality"
-alias presets "presets_clear; toggle mat_aaquality"
+alias presetshide "presets_clear; presets_log; exec loadout/presets.cfg; presets_unlog"
+alias presets "presets_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		start playing command
 
@@ -223,8 +249,8 @@ alias startplaying_clear "sixense_clear_bindings; sixense_write_bindings 2010hud
 alias startplaying_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/startplaying.txt"
 alias startplaying_unlog "con_logfile console.log"
 
-alias startplayingcommunity "startplaying_clear; startplaying_log; exec startplaying.cfg; startplaying_unlog; toggle mat_aaquality"
-alias startplaying "startplaying_clear; toggle mat_aaquality"
+alias startplayingcommunity "startplaying_clear; startplaying_log; exec mainmenu/startplaying.cfg; startplaying_unlog"
+alias startplaying "startplaying_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		quality color borders
 
@@ -232,8 +258,8 @@ alias qualitycolorborders_clear "sixense_clear_bindings; sixense_write_bindings 
 alias qualitycolorborders_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/qualitycolorborders.txt"
 alias qualitycolorborders_unlog "con_logfile console.log"
 
-alias qualitycolorborders "qualitycolorborders_clear; qualitycolorborders_log; exec qualitycolorborders.cfg; qualitycolorborders_unlog; toggle mat_aaquality"
-alias qualitycolorbordershide "qualitycolorborders_clear; cl_showbackpackrarities 0; toggle mat_aaquality"
+alias qualitycolorborders "qualitycolorborders_clear; qualitycolorborders_log; exec loadout/qualitycolorborders.cfg; qualitycolorborders_unlog"
+alias qualitycolorbordershide "qualitycolorborders_clear; cl_showbackpackrarities 0"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		quality icons
 
@@ -241,8 +267,8 @@ alias qualityicons_clear "sixense_clear_bindings; sixense_write_bindings 2010hud
 alias qualityicons_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/qualityicons.txt"
 alias qualityicons_unlog "con_logfile console.log"
 
-alias qualityicons_hide "qualityicons_clear; qualityicons_log; exec qualityicons.cfg; qualityicons_unlog; toggle mat_aaquality"
-alias qualityicons "qualityicons_clear; toggle mat_aaquality"
+alias qualityicons_hide "qualityicons_clear; qualityicons_log; exec loadout/qualityicons.cfg; qualityicons_unlog"
+alias qualityicons "qualityicons_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		loading screen
 
@@ -259,9 +285,9 @@ alias mainmenuborders_clear "sixense_clear_bindings; sixense_write_bindings 2010
 alias mainmenuborders_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/mainmenuborders.txt"
 alias mainmenuborders_unlog "con_logfile console.log"
 
-alias mainmenuborders_hide "mainmenuborders_clear; mainmenuborders_log; exec mainmenuborders_hide.cfg; mainmenuborders_unlog; toggle mat_aaquality"
-alias mainmenuborders_friends "mainmenuborders_clear; mainmenuborders_log; exec mainmenuborders_friends.cfg; mainmenuborders_unlog; toggle mat_aaquality"
-alias mainmenuborders "mainmenuborders_clear; toggle mat_aaquality"
+alias mainmenuborders_hide "mainmenuborders_clear; mainmenuborders_log; exec mainmenuborders_hide.cfg; mainmenuborders_unlog"
+alias mainmenuborders_friends "mainmenuborders_clear; mainmenuborders_log; exec mainmenuborders_friends.cfg; mainmenuborders_unlog"
+alias mainmenuborders "mainmenuborders_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - sentry
 
@@ -269,7 +295,8 @@ alias buildingsui_sentry_clear "sixense_clear_bindings; sixense_write_bindings 2
 alias buildingsui_sentry_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_sentry.txt"
 alias buildingsui_sentry_unlog "con_logfile console.log"
 
-alias buildingsui_sentry2010 "buildingsui_sentry_clear; buildingsui_sentry_log; exec buildingsui_sentry.cfg; buildingsui_sentry_unlog"
+alias buildingsui_sentry2010 "buildingsui_sentry_clear; buildingsui_sentry_log; exec ingame/buildingsui_sentry.cfg; buildingsui_sentry_unlog"
+alias buildingsui_sentry2010_qhd "buildingsui_sentry_clear; buildingsui_sentry_log; exec ingame/buildingsui_sentry_qhd.cfg; buildingsui_sentry_unlog"
 alias buildingsui_sentry2011 "buildingsui_sentry_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - dispenser
@@ -278,7 +305,8 @@ alias buildingsui_dispenser_clear "sixense_clear_bindings; sixense_write_binding
 alias buildingsui_dispenser_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_dispenser.txt"
 alias buildingsui_dispenser_unlog "con_logfile console.log"
 
-alias buildingsui_dispenser2010 "buildingsui_dispenser_clear; buildingsui_dispenser_log; exec buildingsui_dispenser.cfg; buildingsui_dispenser_unlog"
+alias buildingsui_dispenser2010 "buildingsui_dispenser_clear; buildingsui_dispenser_log; exec ingame/buildingsui_dispenser.cfg; buildingsui_dispenser_unlog"
+alias buildingsui_dispenser2010_qhd "buildingsui_dispenser_clear; buildingsui_dispenser_log; exec ingame/buildingsui_dispenser_qhd.cfg; buildingsui_dispenser_unlog"
 alias buildingsui_dispenser2011 "buildingsui_dispenser_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - teleporter
@@ -287,7 +315,8 @@ alias buildingsui_teleporter_clear "sixense_clear_bindings; sixense_write_bindin
 alias buildingsui_teleporter_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_teleporter.txt"
 alias buildingsui_teleporter_unlog "con_logfile console.log"
 
-alias buildingsui_teleporter2010 "buildingsui_teleporter_clear; buildingsui_teleporter_log; exec buildingsui_teleporter.cfg; buildingsui_teleporter_unlog"
+alias buildingsui_teleporter2010 "buildingsui_teleporter_clear; buildingsui_teleporter_log; exec ingame/buildingsui_teleporter.cfg; buildingsui_teleporter_unlog"
+alias buildingsui_teleporter2010_qhd "buildingsui_teleporter_clear; buildingsui_teleporter_log; exec ingame/buildingsui_teleporter_qhd.cfg; buildingsui_teleporter_unlog"
 alias buildingsui_teleporter2011 "buildingsui_teleporter_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		buildings ui - disposable sentry
@@ -296,5 +325,5 @@ alias buildingsui_sentry_disp_clear "sixense_clear_bindings; sixense_write_bindi
 alias buildingsui_sentry_disp_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/buildingsui_sentry_disp.txt"
 alias buildingsui_sentry_disp_unlog "con_logfile console.log"
 
-alias buildingsui_sentry_disp2010 "buildingsui_sentry_disp_clear; buildingsui_sentry_disp_log; exec buildingsui_sentry_disp.cfg; buildingsui_sentry_disp_unlog"
+alias buildingsui_sentry_disp2010 "buildingsui_sentry_disp_clear; buildingsui_sentry_disp_log; exec ingame/buildingsui_sentry_disp.cfg; buildingsui_sentry_disp_unlog"
 alias buildingsui_sentry_disp2011 "buildingsui_sentry_disp_clear"

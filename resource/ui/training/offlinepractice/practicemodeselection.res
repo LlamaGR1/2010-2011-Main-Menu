@@ -9,16 +9,6 @@
 		"scaleimage"	"1"
 	}
 
-	// "GameModeImageBgPanel"
-	// {
-	// 	"controlname"	"ImagePanel"
-	// 	"xpos"			"60"
-	// 	"wide"			"330"
-	// 	"tall"			"255"
-	// 	"scaleimage"	"1"
-	// 	"image"			"illustrations/bg"
-	// }
-
 	"PrevButton"
 	{
 		"controlname"	"CExButton"

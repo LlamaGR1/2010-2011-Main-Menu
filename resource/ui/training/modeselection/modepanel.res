@@ -3,11 +3,8 @@
 	"ModeInfoContainer"
 	{
 		"controlname"	"EditablePanel"
-	//	"xpos"			"cs-0.5"
 		"wide"			"287"
 		"tall"			"184"
-	//	"proportionaltoparent"	"1"
-		"bgcolor_override"	"255 0 0 0"
 
 		"ModeNameLabel"
 		{

@@ -71,7 +71,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type" "1"
+			//	"inventory_image_type"	"1"		//		blurry weapon icons
 			}
 
 			"use_item_sounds"	"1"
@@ -86,8 +86,8 @@
 			"zpos"			"15"
 			"wide"			"16"
 			"tall"			"10"
-			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"autoresize"	"1"
+			"pincorner"		"0"	
 			"visible"		"0"
 			"enabled"		"1"
 			
@@ -115,7 +115,7 @@
 
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"padding_height"	"22"
 	}
 
 	"ReloadSchemeButton"
@@ -274,8 +274,8 @@
 		"zpos"			"100"
 		"wide"			"350"
 		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
+		"autoresize"	"1"
+		"pincorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 	}
@@ -302,7 +302,7 @@
 			"wide"			"200"
 			"tall"			"20"
 			"autoresize"	"1"
-			"pinCorner"		"0"
+			"pincorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 		}
@@ -318,7 +318,7 @@
 			"wide"			"200"
 			"tall"			"20"
 			"autoresize"	"1"
-			"pinCorner"		"0"
+			"pincorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 		}
@@ -334,7 +334,7 @@
 			"wide"			"200"
 			"tall"			"20"
 			"autoresize"	"1"
-			"pinCorner"		"0"
+			"pincorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 		}
@@ -410,8 +410,8 @@
 			"zpos"			"0"
 			"wide"			"335"
 			"tall"			"120"		//		100
-			"autoResize"	"3"
-			"pinCorner"		"0"
+			"autoresize"	"3"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -487,8 +487,8 @@
 			"zpos"			"2"
 			"wide"			"155"
 			"tall"			"60"
-			"autoResize"	"1"
-			"pinCorner"		"0"
+			"autoresize"	"1"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -548,8 +548,8 @@
 			"zpos"			"2"
 			"wide"			"155"
 			"tall"			"50"
-			"autoResize"	"1"
-			"pinCorner"		"0"
+			"autoresize"	"1"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -631,45 +631,6 @@
 		"border_selected"	"ViviTFOrangeBG"
 		"paintbackground"	"0"
 	}
-
-
-
-
-
-
-
-
-
-	// "featured_item_panel"
-	// {
-	// 	"controlname"	"CItemModelPanel"
-	// 	"xpos"			"c-195"
-	// 	"ypos"			"212"
-	// 	"zpos"			"1"
-	// 	"wide"			"140"
-	// 	"tall"			"80"
-	// 	"visible"		"1"
-	// 	"bgcolor_override"		"0 0 0 0"
-	// 	"noitem_textcolor"		"117 107 94 255"
-	// 	"paintbackgroundtype"	"2"
-	// 	"paintborder"	"1"
-		
-	// 	"model_xpos"	"0"
-	// 	"model_ypos"	"5"
-	// 	"model_wide"	"140"
-	// 	"model_tall"	"70"
-	// 	"model_only"	"1"
-		
-	// 	"inset_eq_x"	"2"
-	// 	"inset_eq_y"	"2"
-		
-	// 	"itemmodelpanel"
-	// 	{
-	// 		"inventory_image_type" "1"
-	// 		"use_item_rendertarget" "0"
-	// 		"allow_rot"				"0"
-	// 	}
-	// }
 
 	"FeaturedItemPanel"
 	{

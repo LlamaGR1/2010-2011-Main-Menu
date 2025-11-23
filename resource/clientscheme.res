@@ -1,6 +1,6 @@
-#base "../../../cfg/2010hud/client20102011.txt"
+#base ../../../cfg/2010hud/client20102011.txt
 
-#base "clientscheme2011.res"
+#base ui/1/2011fix/clientscheme2011.res
 
 Scheme
 {
@@ -204,10 +204,6 @@ Scheme
 		ReplayBrowser.Search.BgColor					"TanDark"
 		ReplayBrowser.Search.FgColor					"TanLight"
 
-		Econ.Button.PresetDefaultColorBg	"Blank"
-		Econ.Button.PresetArmedColorBg		"Blank"
-		Econ.Button.PresetDepressedColorBg	"Blank"
-
 		Border.Bright						"Blank"
 		Border.Dark							"Black"
 		Border.Selection					"Gray"
@@ -274,7 +270,7 @@ Scheme
 		Menu.BgColor						"TransparentBlack"
 		Menu.ArmedTextColor					"TanDark"
 		Menu.ArmedBgColor					"TanLight"
-		Menu.TextInset						"3"
+		Menu.TextInset						"2"
 
 		Chat.TypingText						"Orange"
 
@@ -289,9 +285,9 @@ Scheme
 		CircularProgressBar.FgColor			"White"
 		CircularProgressBar.BgColor			"White"
 
-		"BuildingHealthBar.BgColor"			"HealthBgGrey"
-		"BuildingHealthBar.Health"			"ProgressOffWhite"
-		"BuildingHealthBar.LowHealth"		"LowHealthRed"
+		BuildingHealthBar.BgColor			"HealthBgGrey"
+		BuildingHealthBar.Health			"ProgressOffWhite"
+		BuildingHealthBar.LowHealth			"LowHealthRed"
 
 		PropertySheet.TextColor				"Orange"
 		PropertySheet.SelectedTextColor		"Orange"
@@ -364,47 +360,41 @@ Scheme
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
-		"FgColor"					"Orange"
-		"BgColor"					"TransparentBlack"
+		FgColor						"Orange"
+		BgColor						"TransparentBlack"
 
-		"ViewportBG"				"Blank"
-		"TeamSpec"					"204 204 204 255"
-		"TeamRed"					"255 64 64 255"
-		"TeamBlue"					"153 204 255 255"
+		ViewportBG					"Blank"
+		TeamSpec					"204 204 204 255"
+		TeamRed						"255 64 64 255"
+		TeamBlue					"153 204 255 255"
 
-		"MapDescriptionText"		"Gray"
-		"HudIcon_Green"				"0 160 0 255"
-		"HudIcon_Red"				"160 0 0 255"
+		MapDescriptionText			"Gray"
+		HudIcon_Green				"0 160 0 255"
+		HudIcon_Red					"160 0 0 255"
 
-		"ItemColor"					"255 167 42 200"
-		"MenuColor"					"233 208 173 255"
-		"MenuBoxBg"					"0 0 0 100"
+		ItemColor					"255 167 42 200"
+		MenuColor					"233 208 173 255"
+		MenuBoxBg					"0 0 0 100"
 
-		"SelectionNumberFg"			"251 235 202 255"
-		"SelectionTextFg"			"251 235 202 255"
-		"SelectionEmptyBoxBg"		"0 0 0 80"
-		"SelectionBoxBg"			"0 0 0 80"
-		"SelectionSelectedBoxBg"	"0 0 0 190"
+		SelectionNumberFg			"251 235 202 255"
+		SelectionTextFg				"251 235 202 255"
+		SelectionEmptyBoxBg			"0 0 0 80"
+		SelectionBoxBg				"0 0 0 80"
+		SelectionSelectedBoxBg		"0 0 0 190"
 
-		"HintMessageFg"				"255 255 255 255"
-		"HintMessageBg"				"0 0 0 60"
+		HintMessageFg				"255 255 255 255"
+		HintMessageBg				"0 0 0 60"
 
-		"ProgressBarFg"				"255 30 13 255"
+		ProgressBarFg				"255 30 13 255"
 
-		"Main.Menu.X"				"32"
-		"Main.Menu.Y"				"248"
-
-		"Main.BottomBorder"			"32"
-
-		"VguiScreenCursor"			"255 208 64 255"
+		VguiScreenCursor			"255 208 64 255"
 	}
 
 	Borders
 	{
 		BorderSourceDefault
 		{
-		//	"inset"					"0 0 0 0"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -444,8 +434,7 @@ Scheme
 
 		BorderSourceArmed
 		{
-		//	"inset"					"0 0 0 0"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -486,7 +475,7 @@ Scheme
 		BorderSourceDepressed
 		{
 			"inset"					"2 2 0 0"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -668,6 +657,42 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
+		ViviSaleGreenBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"76 107 34 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviCreditsGreenBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"94 150 49 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviSourceFrameBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"60 56 53 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
 		NoBorder
 		{
 			Left
@@ -705,7 +730,7 @@ Scheme
 
 		TeamMenuBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -786,7 +811,7 @@ Scheme
 
 		ComboBoxBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -822,7 +847,7 @@ Scheme
 
 		DarkComboBoxBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -858,7 +883,7 @@ Scheme
 
 		SalePriceBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -894,7 +919,7 @@ Scheme
 
 		MainMenuSubButtonBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -914,7 +939,7 @@ Scheme
 
 		MainMenuSubButtonBorder2
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -1077,7 +1102,7 @@ Scheme
 
 		ToolTipBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -1113,7 +1138,7 @@ Scheme
 
 		OptionsCategoryBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Bottom
 			{
 				"1"
@@ -2327,7 +2352,7 @@ Scheme
 
 		StoreItemBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -2363,7 +2388,7 @@ Scheme
 
 		StoreItemBorderMouseOver
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -2399,7 +2424,7 @@ Scheme
 
 		StoreItemBorderSelected
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -2745,7 +2770,7 @@ Scheme
 
 		QuickplayBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -2781,7 +2806,7 @@ Scheme
 
 		SortCategoryBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Right
 			{
 				"1"
@@ -2793,7 +2818,7 @@ Scheme
 
 		SteamWorkshopBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -3114,7 +3139,7 @@ Scheme
 
 		CYOAPopupBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -3170,7 +3195,7 @@ Scheme
 
 		FriendHighlightBorder
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -3207,7 +3232,7 @@ Scheme
 
 		FriendHighlightBorderThick
 		{
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -4311,9 +4336,7 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"20"
-			//	"weight"	"0"
 				"symbol"	"1"
-			//	"range"		"0x0000 0x007F"
 			}
 		}
 
@@ -4323,10 +4346,8 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"40"
-			//	"weight"	"880"
 				"symbol"	"1"
-				"blur"		"10"
-			//	"range"		"0x0000 0x007F"
+				"blur"		"8"
 			}
 		}
 
@@ -4336,19 +4357,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-			//	"weight"	"0"
-				"symbol"	"1"
-			//	"range"		"0x0000 0x007F"
-			}
-		}
-
-		"MarlettSmallSource"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"yres"		"1 10000"
 				"symbol"	"1"
 			}
 		}
@@ -5216,10 +5224,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"tf2 secondary"
 				"tall"		"8"
-				"antialias"	"1"
 				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -5967,7 +5976,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"14"
+				"tall"		"16"
 				"yres"		"1 10000"
 			}
 		}
@@ -5979,6 +5988,17 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"18"
 				"yres"		"1 10000"
+			}
+		}
+
+		"MarlettSmallSource"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"yres"		"1 10000"
+				"symbol"	"1"
 			}
 		}
 	}

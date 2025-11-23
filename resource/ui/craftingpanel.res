@@ -1,7 +1,3 @@
-#base "../../../../cfg/2010hud/client20102011.txt"
-
-#base "1/2011fix/1craftingpanel.res"
-
 "craftingpanel"
 {
 	"crafting_panel"
@@ -101,10 +97,11 @@
 		"tall"			"300"
 		"visible"		"0"
 
-		"text_ypos"			"20"
 		"text_center"		"1"
+		"text_ypos"			"22"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
+		"padding_height"	"22"
 	}
 
 	"TooltipPanel"
@@ -112,11 +109,13 @@
 		"controlname"	"EditablePanel"
 		"zpos"			"777" // 99% of gamblers quit right before they win big
 		"visible"		"0"
-		"border"		"LoadoutItemPopupBorder"
+		"border"		"MainMenuBGBorder"
 
 		"TipLabel"
 		{
-			"controlname"	"CExLabel"
+			"controlname"	"Label"
+			"xpos"			"10"
+			"ypos"			"9"
 			"auto_wide_tocontents"	"1"
 			"labeltext"		"%tiptext%"
 			"font"			"HudFontSmallest"
@@ -281,7 +280,7 @@
 			"zpos"			"1"
 			"wide"			"240"
 			"tall"			"13"
-			"labeltext"		"#CraftTryYourLuck"
+			"labeltext"		"#CraftStep3"
 			"font"			"ItemFontNameSmallest"
 			"textalignment"	"north-west"
 			"fgcolor_override"	"TanDark"

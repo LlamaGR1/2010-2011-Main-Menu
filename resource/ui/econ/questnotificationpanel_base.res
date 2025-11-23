@@ -1,0 +1,3 @@
+"questnotificationpanel_base"
+{
+}

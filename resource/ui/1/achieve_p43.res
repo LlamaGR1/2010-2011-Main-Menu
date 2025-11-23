@@ -1,4 +1,4 @@
-#base "achieve_party.res"
+#base achieve_party.res
 
 "mainmenuoverride"
 {

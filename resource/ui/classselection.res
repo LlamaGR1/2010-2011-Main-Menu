@@ -1,8 +1,6 @@
-#base "../../../../cfg/2010hud/client20102011.txt"
+#base ../../../../cfg/2010hud/client20102011.txt
 
-
-#base "1/2011fix/shadedbar.res"
-
+#base 1/2011fix/shadedbar.res
 
 "classselection"
 {
@@ -51,9 +49,6 @@
 		"command"		"select 1"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
-
-	//	"stayselectedonclick"	"1"
-	//	"selectonhover"			"1"
 
 		"paintbackground"	"0"
 
@@ -429,7 +424,7 @@
 		"xpos"			"30"
 		"ypos"			"r40"
 		"zpos"			"5"
-		"wide"			"450"
+		"wide"			"400"
 		"tall"			"30"
 		"labeltext"		"#TF_SelectAClass"
 		"font"			"MenuMainTitle"
@@ -869,10 +864,9 @@
 		"model"
 		{
 			"force_pos"		"1"
-
 			"angles_y"		"185"
 			"origin_x"		"320"
-			"origin_y"		"50"
+			"origin_y"		"40"
 			"origin_z"		"-49"
 		}
 
@@ -888,14 +882,27 @@
 		}
 	}
 
+	"ClassTipsPanel2"
+	{
+		"controlname"	"Label"
+		"xpos"			"c35"
+		"ypos"			"c-81"
+		"zpos"			"7"
+		"wide"			"225"
+		"tall"			"25"
+		"labeltext"		"#Vivi_Class_Tips"
+		"font"			"ChalkboardTitleMedium"
+		"fgcolor_override"	"White"
+	}
+
 	"ClassTipsPanel"
 	{
 		"controlname"	"CTFClassTipsPanel"
 		"xpos"			"c30"
-		"ypos"			"c-84"
+		"ypos"			"c-50"
 		"zpos"			"7"
 		"wide"			"235"
-		"tall"			"165"
+		"tall"			"127"
 	}
 
 	"ShadedBar"

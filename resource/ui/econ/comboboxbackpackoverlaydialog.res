@@ -11,10 +11,9 @@
 
 	"TitleLabel"
 	{
-		"controlname"	"Label"
+		"controlname"	"CExLabel"
 		"wide"			"220"
 		"tall"			"45"
-		"labeltext"		"#TF_Item_SelectStyle"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
 	}

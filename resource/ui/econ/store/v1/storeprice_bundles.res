@@ -1,4 +1,4 @@
-#base "storeprice.res"
+#base storeprice.res
 
 "storeprice_bundles"
 {

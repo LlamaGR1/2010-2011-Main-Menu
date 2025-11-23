@@ -2,11 +2,6 @@
 {
 	"store_viewcart_panel"
 	{
-		"controlname"	"EditablePanel"
-		"wide"			"f0"
-		"tall"			"480"
-		"clientinsetx_override"	"0"
-
 		"item_entry_kv"
 		{
 			"wide"			"580"
@@ -144,9 +139,9 @@
 	"ClientArea"
 	{
 		"controlname"	"EditablePanel"
-		"ypos"			"55"
+		"ypos"			"45"
 		"wide"			"f0"
-		"tall"			"368"
+		"tall"			"378"
 		"bgcolor_override"	"Black"
 
 		"HeaderLine"
@@ -333,7 +328,7 @@
 	{
 		"controlname"	"CExButton"
 		"xpos"			"c-300"
-		"ypos"			"375"
+		"ypos"			"365"
 		"wide"			"200"
 		"tall"			"25"
 		"labeltext"		"#Store_ContinueShopping"
@@ -351,11 +346,29 @@
 		"paintbackground"	"0"
 	}
 
+	"CloseButton2"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&q"
+		"command"		"close"
+		"sound_released"	"ui/panel_open.wav"
+	}
+
+	"CloseButton3"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&e"
+		"command"		"close"
+		"sound_released"	"ui/panel_open.wav"
+	}
+
 	"CheckoutButton"
 	{
 		"controlname"	"CExButton"
 		"xpos"			"c200"
-		"ypos"			"375"
+		"ypos"			"365"
 		"wide"			"100"
 		"tall"			"25"
 		"labeltext"		"#Store_Checkout"

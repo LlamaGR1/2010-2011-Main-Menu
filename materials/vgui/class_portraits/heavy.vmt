@@ -1,4 +1,4 @@
 "unlitgeneric"
 {
-	"$basetexture"	"vgui/class_portraits/heavy"
+	$basetexture	vgui/class_portraits/heavy
 }

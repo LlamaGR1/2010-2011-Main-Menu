@@ -115,9 +115,6 @@
 		"textalignment"	"center"
 		"command"		"purchase"
 		"actionsignallevel"	"2"
-	//	"sound_armed"		"ui/item_info_mouseover.wav"
-	//	"sound_depressed"	"ui/buttonclick.wav"
-	//	"sound_released"	"ui/buttonclickrelease.wav"
 
 		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
@@ -146,9 +143,6 @@
 		"textalignment"	"center"
 		"command"		"market"
 		"actionsignallevel"	"2"
-	//	"sound_armed"		"ui/item_info_mouseover.wav"
-	//	"sound_depressed"	"ui/buttonclick.wav"
-	//	"sound_released"	"ui/buttonclickrelease.wav"
 
 		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"

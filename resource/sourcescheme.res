@@ -1,4 +1,4 @@
-#base "sourceschemebase.res"
+#base sourceschemebase.res
 
 Scheme
 {
@@ -75,8 +75,8 @@ Scheme
 		RadioButton.SelectedTextColor	"TFTextBright"
 		RadioButton.ArmedTextColor		"TFTextMedium"
 
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
+		Frame.BgColor					"Blank"
+		Frame.OutOfFocusBgColor			"Blank"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
@@ -98,10 +98,6 @@ Scheme
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 
-	//	MainMenu.TextColor				"TanLight"
-	//	MainMenu.ArmedTextColor			"117 107 94 255"
-	//	MainMenu.Inset					"32"
-
 		Menu.TextInset					"6"
 		Menu.FgColor					"TFTextLight"
 		Menu.BgColor					"ListBG"
@@ -116,8 +112,8 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
 		ScrollBarButton.DepressedBgColor	"TFTanLight"
 
-		ScrollBarSlider.BgColor			"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor			"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor			"TFTanMedium"
+		ScrollBarSlider.FgColor			"TFTanLight"
 
 		Slider.NobColor					"TFTanLight"
 		Slider.TextColor				"TFTextBright"
@@ -132,155 +128,37 @@ Scheme
 
 	Fonts
 	{
-		// "MainMenuFont"
-		// {
-		// 	"1"	//[!$OSX]
-		// 	{
-		// 		"name"		"tf2 build"
-		// 		"tall"		"40"
-		// 		"weight"	"500"
-		// 		"additive"	"0"
-		// 		"antialias" "1"
-		// 	}
-		// }
-
-		// "MenuLarge"
-		// {
-		// 	"1"	[$X360]
-		// 	{
-		// 		"tall_hidef"		"24"
-		// 	}
-		// }
-
 		"ServerBrowserTitle"
 		{
 			"1"
 			{
 				"name"		"tf2 build"
 				"tall"		"35"
-			//	"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-
-		"Default"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"14"
-				"weight"	"500"
-			}
-		}
-
-		// "ServerBrowserSmall"
-		// {
-		// 	"1"
-		// 	{
-		// 		"name"		"Tahoma"
-		// 		"tall"		"16"
-		// 		"weight"	"0"
-		// 		"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-		// 		"yres"	"480 599"
-		// 	}
-		// 	"2"
-		// 	{
-		// 		"name"		"Tahoma"
-		// 		"tall"		"16"
-		// 		"weight"	"0"
-		// 		"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-		// 		"yres"	"600 767"
-		// 	}
-		// 	"3"
-		// 	{
-		// 		"name"		"Tahoma"
-		// 		"tall"		"16"
-		// 		"weight"	"0"
-		// 		"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-		// 		"yres"	"768 1023"
-		// 		"antialias"	"1"
-		// 	}
-		// 	"4"
-		// 	{
-		// 		"name"		"Tahoma"
-		// 		"tall"		"19"
-		// 		"weight"	"0"
-		// 		"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-		// 		"yres"	"1024 1199"
-		// 		"antialias"	"1"
-		// 	}
-		// 	"5"
-		// 	{
-		// 		"name"		"Tahoma"
-		// 		"tall"		"19"
-		// 		"weight"	"0"
-		// 		"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-		// 		"yres"	"1200 6000"
-		// 		"antialias"	"1"
-		// 	}
-		// }
-
-		// AchievementItemTitle	[!$OSX]
-		// {
-		// 	"1"
-		// 	{
-		// 		"name"		"Arial" [!$OSX]
-		// 		"name"		"Verdana Bold" [$OSX]
-		// 		"weight"		"1500"
-		// 		"tall"			"16" [!$OSX]
-		// 		"tall"			"18" [$OSX]
-		// 		"antialias"		"1"
-		// 	}
-		// }
-
-		// AchievementItemTitleLarge	[!$OSX]
-		// {
-		// 	"1"
-		// 	{
-		// 		"name"		"Arial" [!$OSX]
-		// 		"name"		"Verdana Bold" [$OSX]
-		// 		"weight"		"1500"
-		// 		"tall"			"18" [!$OSX]
-		// 		"tall"			"19" [$OSX]
-		// 		"antialias"		"1"
-		// 	}
-		// }
-
-		// AchievementItemDescription	[!$OSX]
-		// {
-		// 	"1"
-		// 	{
-		// 		"name"		"Arial" [!$OSX]
-		// 		"name"		"Verdana" [$OSX]
-		// 		"weight"		"1000"
-		// 		"tall"			"14" [!$OSX]
-		// 		"tall"			"12" [$OSX]
-		// 		"antialias"		"1" [!$OSX]
-		// 	}
-		// }
 	}
 
 	Borders
 	{
-		// BaseBorder		DepressedBorder
-		// ButtonBorder	RaisedBorder
-		// ComboBoxBorder	DepressedBorder
-		// MenuBorder		RaisedBorder
-		// BrowserBorder	DepressedBorder
-		// PropertySheetBorder	RaisedBorder
+		FrameBorder
+		{
+			"bordertype"			"scalable_image"
+			"color"					"TFDarkBrown"
 
-		// FrameBorder
-		// {
-		// 	// rounded corners for frames
-		// 	"backgroundtype" "2"
-		// }
+			"image"					"replay/thumbnails/borders/vivi_button"		//		vivi_button_vgui
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
 
 		DepressedBorder // keep
 		{
 			"inset"					"0 0 1 1"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -321,7 +199,7 @@ Scheme
 		RaisedBorder
 		{
 			"inset"					"0 0 1 1"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -358,27 +236,11 @@ Scheme
 				}
 			}
 		}
-		
-		// TitleButtonBorder
-		// {
-		// 	"backgroundtype" "0"
-		// }
-
-		// TitleButtonDisabledBorder
-		// {
-		// 	"backgroundtype" "0"
-		// }
-
-		// TitleButtonDepressedBorder
-		// {
-		// 	"backgroundtype" "0"
-		// }
 
 		ScrollBarButtonBorder // keep
 		{
-			"inset"					"2 2 0 0" [!$OSX]
-			"inset"					"-3 2 0 0" [$OSX]
-			"proportional_scalar"	"0.5"
+			"inset"					"2 2 0 0"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -418,9 +280,8 @@ Scheme
 		
 		ScrollBarButtonDepressedBorder // keep
 		{
-			"inset"					"2 2 0 0" [!$OSX]
-			"inset"					"-3 2 0 0" [$OSX]
-			"proportional_scalar"	"0.5"
+			"inset"					"2 2 0 0"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -457,78 +318,11 @@ Scheme
 				}
 			}
 		}
-
-		// TabBorder
-		// {
-		// 	"inset" "0 0 1 1"
-		// 	"proportional_scalar"	"0.5"
-		// 	Left
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color" "Border.Bright"
-		// 			"offset" "0 1"
-		// 		}
-		// 	}
-
-		// 	Right
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color" "Border.Dark"
-		// 			"offset" "1 0"
-		// 		}
-		// 	}
-
-		// 	Top
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color" "Border.Bright"
-		// 			"offset" "0 0"
-		// 		}
-		// 	}
-
-		// }
-
-		// TabActiveBorder
-		// {
-		// 	"inset" "0 0 1 0"
-		// 	"proportional_scalar"	"0.5"
-		// 	Left
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color" "Border.Bright"
-		// 			"offset" "0 0"
-		// 		}
-		// 	}
-
-		// 	Right
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color" "Border.Dark"
-		// 			"offset" "1 0"
-		// 		}
-		// 	}
-
-		// 	Top
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color" "Border.Bright"
-		// 			"offset" "0 0"
-		// 		}
-		// 	}
-
-		// }
-
 
 		ToolTipBorder // keep
 		{
 			"inset"					"0 0 1 0"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -566,11 +360,10 @@ Scheme
 			}
 		}
 
-		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder // keep
 		{
 			"inset"					"0 0 1 1"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -585,6 +378,7 @@ Scheme
 					"offset"	"0 1"
 				}
 			}
+
 			Top
 			{
 				"1"
@@ -599,6 +393,7 @@ Scheme
 					"offset"	"1 0"
 				}
 			}
+
 			Right
 			{
 				"1"
@@ -613,6 +408,7 @@ Scheme
 					"offset"	"1 0"
 				}
 			}
+
 			Bottom
 			{
 				"1"
@@ -632,7 +428,7 @@ Scheme
 		ButtonDepressedBorder // keep
 		{
 			"inset"					"2 1 1 1"
-			"proportional_scalar"	"0.5"
+			"proportional_scalar"	"0"
 			Left
 			{
 				"1"
@@ -677,72 +473,6 @@ Scheme
 		{
 			"font"	"resource/tf2build.ttf"
 			"name"	"tf2 build"
-
-			// "turkish"
-			// {
-			// 	"range" "0x0000 0x015F"
-			// }
-			// "swedish"
-			// {
-			// 	"range" "0x0000 0x00F6"
-			// }
-			// "spanish"
-			// {
-			// 	"range" "0x0000 0x00FC"
-			// }
-			// "romanian"
-			// {
-			// 	"range" "0x0000 0x021B"
-			// }
-			// "polish"
-			// {
-			// 	"range" "0x0000 0x017C"
-			// }
-			// "norwegian"
-			// {
-			// 	"range" "0x0000 0x00F8"
-			// }
-			// "danish"
-			// {
-			// 	"range" "0x0000 0x00F8"
-			// }
-			// "hungarian"
-			// {
-			// 	"range" "0x0000 0x0171"
-			// }
-			// "german"
-			// {
-			// 	"range" "0x0000 0x00FC"
-			// }
-			// "french"
-			// {
-			// 	"range" "0x0000 0x0178"
-			// }
-			// "finnish"
-			// {
-			// 	"range" "0x0000 0x017E"
-			// }
-			// "czech"
-			// {
-			// 	"range" "0x0000 0x017E"
-			// }
-			// "bulgarian"
-			// {
-			// 	"range" "0x0000 0x0451"
-			// }
-			// "russian"
-			// {
-			// 	"range" "0x0000 0x0451"
-			// }
 		}
-
-	// 	"10"	"resource/linux_fonts/dejavusans.ttf"
-	// 	"11"	"resource/linux_fonts/dejavusans-bold.ttf"
-	// 	"12"	"resource/linux_fonts/dejavusans-boldoblique.ttf"
-	// 	"13"	"resource/linux_fonts/dejavusans-oblique.ttf"
-	// 	"14"	"resource/linux_fonts/liberationsans-regular.ttf"
-	// 	"15"	"resource/linux_fonts/liberationsans-bold.ttf"
-	// 	"16"	"resource/linux_fonts/liberationmono-regular.ttf"
-	// 	"17"	"resource/linux_fonts/firasans-regular.ttf"
 	}
 }

@@ -1,4 +1,4 @@
-#base "storepage.res"
+#base storepage.res
 
 "storepage"
 {

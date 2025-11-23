@@ -6,7 +6,6 @@
 		"zpos"			"1069"
 		"wide"			"f0"
 		"tall"			"480"
-
 		"datacenter_y"			"3"
 		"datacenter_y_space"	"1"
 

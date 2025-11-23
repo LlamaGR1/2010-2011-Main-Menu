@@ -4,7 +4,7 @@
 	{
 		"controlname"	"CStorePreviewItemPanel"
 		"xpos"			"c80"
-		"ypos"			"65"
+		"ypos"			"56"
 		"zpos"			"1000"
 		"wide"			"225"
 		"tall"			"305"
@@ -21,7 +21,7 @@
 
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"padding_height"	"22"
 	}
 
 	"DialogFrame"

@@ -1,6 +1,6 @@
-#base "../cfg/2010hud/bgs.txt"
+#base ../cfg/2010hud/bgs.txt
 
-#base "../resource/ui/1/mainmenu/bgs_tf2.res"
+#base ../resource/ui/1/mainmenu/bgs_tf2.res
 
 "chapters"
 {

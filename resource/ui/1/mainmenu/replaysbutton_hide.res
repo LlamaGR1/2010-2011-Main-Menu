@@ -17,6 +17,6 @@
 
 	"ChatPin"
 	{
-		"ypos"			"r71"
+		"ypos"			"r66"
 	}
 }

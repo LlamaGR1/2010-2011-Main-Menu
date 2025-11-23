@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	$basetexture	vgui/replay/thumbnails/borders/vivi_button
+	$vertexcolor	1
+	$alphatest		1
+	$allowalphatocoverage	1
+}

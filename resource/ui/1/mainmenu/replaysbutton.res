@@ -65,6 +65,6 @@
 
 	"ChatPin"
 	{
-		"ypos"			"r46"
+		"ypos"			"r41"
 	}
 }

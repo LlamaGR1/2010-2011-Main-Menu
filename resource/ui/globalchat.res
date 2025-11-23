@@ -43,7 +43,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 250"
 		"border"		"QuickplayBorder"
-		"pinCorner"		"3"
+		"pincorner"		"3"
 	}
 
 	"chatentry"

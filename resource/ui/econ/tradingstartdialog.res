@@ -1,4 +1,4 @@
-"resource/ui/tradingstartdialog.res"
+"tradingstartdialog"
 {
 	"TradingStartDialog"
 	{
@@ -185,7 +185,7 @@
 		"EmptyPlayerListLabel"
 		{
 			"controlname"	"Label"
-			"ypos"			"60"
+			"ypos"			"69"
 			"wide"			"400"
 			"tall"			"30"
 			"labeltext"		"#TF_TradeStartDialog_FriendsNone"
@@ -216,7 +216,7 @@
 		"EmptyPlayerListLabel"
 		{
 			"controlname"	"Label"
-			"ypos"			"60"
+			"ypos"			"69"
 			"wide"			"400"
 			"tall"			"30"
 			"labeltext"		"#TF_TradeStartDialog_ServerNone"

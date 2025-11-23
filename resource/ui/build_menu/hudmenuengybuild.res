@@ -1,4 +1,4 @@
-"resource/ui/build_menu/hudmenuengybuild.res"
+"hudmenuengybuild"
 {
 	"MainBackground"
 	{

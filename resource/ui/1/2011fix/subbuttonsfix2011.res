@@ -55,4 +55,23 @@
 	{
 		"image_drawcolor"	"235 226 202 255"
 	}
+
+	"NameFilterTextEntry"
+	{
+		"fgcolor_override"			"TanLight"
+		"selectioncolor_override"	"TFOrange"
+	}
+
+	"PlaylistBGPanel"
+	{
+		"RestoreCasualSearchCriteria"
+		{
+			"image_drawcolor"	"235 226 202 255"
+		}
+
+		"SaveCasualSearchCriteria"
+		{
+			"image_drawcolor"	"235 226 202 255"
+		}
+	}
 }

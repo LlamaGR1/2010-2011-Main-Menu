@@ -2208,7 +2208,7 @@
 
 		"ico_upgrade"
 		{
-			"file"		"vgui/replay/thumbnails/misc/building_upgrade"
+			"file"		"vgui/replay/thumbnails/ingame/building_upgrade"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"
@@ -2217,7 +2217,25 @@
 
 		"building_upgrade_icon"
 		{
-			"file"		"vgui/replay/thumbnails/misc/building_upgrade_icon"
+			"file"		"vgui/replay/thumbnails/ingame/building_upgrade_icon"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"64"
+		}
+
+		"ico_upgrade_qhd"
+		{
+			"file"		"vgui/replay/thumbnails/ingame/building_upgrade_qhd"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}
+
+		"building_upgrade_icon_qhd"
+		{
+			"file"		"vgui/replay/thumbnails/ingame/building_upgrade_icon_qhd"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"

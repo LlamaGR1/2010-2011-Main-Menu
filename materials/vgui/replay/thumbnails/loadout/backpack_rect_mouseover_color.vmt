@@ -1,6 +1,6 @@
 "unlitgeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/loadout/backpack_rect_mouseover_color"
-	"$translucent"	1
-	"$vertexcolor"	1
+	$basetexture	vgui/replay/thumbnails/loadout/backpack_rect_mouseover_color
+	$translucent	1
+	$vertexcolor	1
 }

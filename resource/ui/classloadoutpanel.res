@@ -1,14 +1,10 @@
-#base "../../../../cfg/2010hud/chartauntsb.txt"
-#base "../../../../cfg/2010hud/passive.txt"
-#base "../../../../cfg/2010hud/slot_pda.txt"
+#base ../../../../cfg/2010hud/chartauntsb.txt
+#base ../../../../cfg/2010hud/passive.txt
+#base ../../../../cfg/2010hud/slot_pda.txt
 
-#base "1/chartauntsb_h.res"
-#base "1/passive.res"
-#base "1/loadout/slot_pda_hide.res"
-
-//#base "1/loadout/slot_misc_hide.res"
-//#base "1/loadout/slot_misc_hat_hide.res"
-//#base "1/loadout/slot_misc_3_hide.res"
+#base 1/loadout/loadout_taunts_hide.res
+#base 1/loadout/passive.res
+#base 1/loadout/slot_pda_hide.res
 
 "classloadoutpanel"
 {
@@ -28,6 +24,8 @@
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
+		"tf2_icon_offset_x"	"15"
+
 		"button_xpos_offcenter"	"175"
 		"button_ypos"			"85"
 		"button_ydelta"			"80"
@@ -36,16 +34,11 @@
 		"modelpanels_kv"
 		{
 			"controlname"	"CItemModelPanel"
-			"xpos"			"c-70"
-			"ypos"			"270"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
-		//	"bgcolor_override"		"30 0 0 255"
-			"noitem_textcolor"		"TanDark"
-		//	"paintbackgroundtype"	"2"
-		//	"paintborder"	"1"
+			"noitem_textcolor"	"TanDark"
 
 			"model_center_x"	"1"
 			"model_ypos"		"5"
@@ -54,17 +47,12 @@
 			"text_ypos"			"54"
 			"text_center"		"1"
 			"name_only"			"1"
+			"tf2_icon_offset_x"	"15"
 
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
-			}
-
-			"itemmodelpanel"
-			{
-				"use_item_rendertarget"	"0"
-				"allow_rot"				"0"
 			}
 		}
 
@@ -125,41 +113,6 @@
 		"textalignment"	"center"
 	}
 
-	// "TauntCaratLabel"
-	// {
-	// 	"controlname"	"CExLabel"
-	// 	"xpos"			"c-150"
-	// 	"ypos"			"20"
-	// 	"wide"			"20"
-	// 	"tall"			"15"
-	// 	"labeltext"		">>"
-	// 	"font"			"HudFontSmallestBold"
-	// 	"fgcolor_override"	"LightRed"
-	// }
-
-	// "TauntLabel"
-	// {
-	// 	"controlname"	"CExLabel"
-	// 	"xpos"			"c-130"
-	// 	"ypos"			"15"
-	// 	"wide"			"240"
-	// 	"tall"			"25"
-	// 	"labeltext"		"#TF_Taunt"
-	// 	"font"			"HudFontMediumBold"
-	// }
-
-	// "TauntHintLabel"
-	// {
-	// 	"controlname"	"CExLabel"
-	// 	"xpos"			"c78"
-	// 	"ypos"			"24"
-	// 	"wide"			"225"
-	// 	"tall"			"15"
-	// 	"labeltext"		"#TF_ClassLoadoutTauntInputHint"
-	// 	"font"			"ItemFontAttribLarge"
-	// 	"textalignment"	"east"
-	// }
-
 	"TopLine"
 	{
 		"controlname"	"ImagePanel"
@@ -206,25 +159,16 @@
 		"tall"			"320"
 
 		"render_texture"	"0"
-		"fov"				"35"		//	30
+		"fov"				"35"
 		"allow_rot"			"1"
 
 		"model"
 		{
 			"force_pos"		"1"
-
-		//	"angles_x"		"0"
-			"angles_y"		"170"		//	
-		//	"angles_z"		"0"
-			"origin_x"		"190"	//	
+			"angles_y"		"170"
+			"origin_x"		"190"
 			"origin_y"		"0"
-			"origin_z"		"-36"	//				-
-		//	"frame_origin_x"	"0"
-		//	"frame_origin_y"	"0"
-		//	"frame_origin_z"	"0"
-		//	"spotlight"		"1"
-
-		//	"modelname"		""
+			"origin_z"		"-36"
 		}
 	}
 
@@ -236,15 +180,16 @@
 		"tall"			"300"
 		"visible"		"0"
 
+		"text_ypos"			"22"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"padding_height"	"22"
 	}
 
 	"LoadoutPresetPin"
 	{
 		"controlname"	"Panel"
-		"ypos"			"-22"
+		"ypos"			"-20"
 		"wide"			"0"
 	}
 
@@ -260,111 +205,6 @@
 		"pin_to_sibling_corner" "3"
 	}
 
-	// "PresetsExplanation"
-	// {
-	// 	"controlname"	"CExplanationPopup"
-	// 	"xpos"			"0"
-	// 	"ypos"			"0"
-	// 	"zpos"			"10069"
-	// 	"wide"			"250"
-	// 	"tall"			"160"
-	// 	"visible"		"0"
-	// 	"paintbackgroundtype"	"2"
-	// 	"paintbackground"	"0"
-	// 	"border"		"MainMenuHighlightBorder"
-
-	// 	"force_close"	"1"
-	// 	"end_x"			"c-200"
-	// 	"end_y"			"120"
-	// 	"end_wide"		"250"
-	// 	"end_tall"		"160"
-	// 	"callout_inparents_x"	"c0"
-	// 	"callout_inparents_y"	"75"
-	// 	"next_explanation"		""
-
-	// 	"TitleLabel"
-	// 	{
-	// 		"controlname"	"CExLabel"
-	// 		"font"			"HudFontSmallBold"
-	// 		"labeltext"		"#ItemPresetsExplanation_Title"
-	// 		"textalignment"	"north"
-	// 		"xpos"			"20"
-	// 		"ypos"			"10"
-	// 		"wide"			"210"
-	// 		"tall"			"30"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"wrap"			"1"
-	// 		"fgcolor_override"	"46 43 42 255"
-	// 	}
-
-	// 	"TextLabel"
-	// 	{
-	// 		"controlname"	"CExLabel"
-	// 		"font"			"HudFontSmall"
-	// 		"labeltext"		"#ClassLoadoutItemPresetsExplanation_Text"
-	// 		"textalignment"	"north-west"
-	// 		"xpos"			"20"
-	// 		"ypos"			"35"
-	// 		"wide"			"210"
-	// 		"tall"			"200"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"wrap"			"1"
-	// 		"fgcolor_override"	"46 43 42 255"
-	// 	}
-
-	// 	"CloseButton"
-	// 	{
-	// 		"controlname"	"CExImageButton"
-	// 		"xpos"			"230"
-	// 		"ypos"			"5"
-	// 		"zpos"			"10"
-	// 		"wide"			"14"
-	// 		"tall"			"14"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"tabPosition"	"0"
-	// 		"labeltext"		""
-	// 		"font"			"HudFontSmallBold"
-	// 		"textalignment"	"center"
-	// 		"dulltext"		"0"
-	// 		"brighttext"	"0"
-	// 		"default"		"0"
-	// 		"sound_depressed"	"ui/buttonclick.wav"
-	// 		"sound_released"	"ui/buttonclickrelease.wav"
-	// 		"command"		"close"
-
-	// 		"paintbackground"	"0"
-
-	// 		"defaultfgcolor_override"	"46 43 42 255"
-	// 		"armedfgcolor_override"		"235 226 202 255"
-	// 		"depressedfgcolor_override"	"46 43 42 255"
-
-	// 		"image_drawcolor"	"117 107 94 255"
-	// 		"image_armedcolor"	"200 80 60 255"
-	// 		"subimage"
-	// 		{
-	// 			"controlname"	"ImagePanel"
-	// 			"xpos"			"0"
-	// 			"ypos"			"0"
-	// 			"zpos"			"1"
-	// 			"wide"			"14"
-	// 			"tall"			"14"
-	// 			"visible"		"1"
-	// 			"enabled"		"1"
-	// 			"image"			"close_button"
-	// 			"scaleimage"	"1"
-	// 		}
-	// 	}
-	// }
-
 	"ItemOptionsPanel"
 	{
 		"controlname"	"CLoadoutParticleSlider"
@@ -373,123 +213,5 @@
 		"tall"			"75"
 		"visible"		"0"
 		"border"		"ViviItemOptionsBG"
-	}
-
-	// "TauntsExplanation"
-	// {
-	// 	"controlname"	"CExplanationPopup"
-	// 	"xpos"			"0"
-	// 	"ypos"			"0"
-	// 	"zpos"			"10069"
-	// 	"wide"			"250"
-	// 	"tall"			"160"
-	// 	"visible"		"0"
-	// 	"paintbackgroundtype"	"2"
-	// 	"paintbackground"	"0"
-	// 	"border"		"MainMenuHighlightBorder"
-		
-	// 	"force_close"	"1"
-	// 	"end_x"			"c-180"
-	// 	"end_y"			"150"
-	// 	"end_wide"		"250"
-	// 	"end_tall"		"140"
-	// 	"callout_inparents_x"	"c15"
-	// 	"callout_inparents_y"	"330"
-	// 	"next_explanation"		""
-
-	// 	"TitleLabel"
-	// 	{
-	// 		"controlname"	"CExLabel"
-	// 		"font"			"HudFontSmallBold"
-	// 		"labeltext"		"#TauntsExplanation_Title"
-	// 		"textalignment"	"north"
-	// 		"xpos"			"20"
-	// 		"ypos"			"10"
-	// 		"wide"			"210"
-	// 		"tall"			"30"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"wrap"			"1"
-	// 		"fgcolor_override"	"46 43 42 255"
-	// 	}
-
-	// 	"TextLabel"
-	// 	{
-	// 		"controlname"	"CExLabel"
-	// 		"font"			"HudFontSmall"
-	// 		"labeltext"		"#ClassLoadoutTauntsExplanation_Text"
-	// 		"textalignment"	"north-west"
-	// 		"xpos"			"20"
-	// 		"ypos"			"35"
-	// 		"wide"			"210"
-	// 		"tall"			"200"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"wrap"			"1"
-	// 		"fgcolor_override"	"46 43 42 255"
-	// 	}
-
-	// 	"CloseButton"
-	// 	{
-	// 		"controlname"	"CExImageButton"
-	// 		"xpos"			"230"
-	// 		"ypos"			"5"
-	// 		"zpos"			"10"
-	// 		"wide"			"14"
-	// 		"tall"			"14"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"tabPosition"	"0"
-	// 		"labeltext"		""
-	// 		"font"			"HudFontSmallBold"
-	// 		"textalignment"	"center"
-	// 		"dulltext"		"0"
-	// 		"brighttext"	"0"
-	// 		"default"		"0"
-	// 		"sound_depressed"	"ui/buttonclick.wav"
-	// 		"sound_released"	"ui/buttonclickrelease.wav"
-	// 		"command"		"close"
-
-	// 		"paintbackground"	"0"
-
-	// 		"defaultfgcolor_override"	"46 43 42 255"
-	// 		"armedfgcolor_override"		"235 226 202 255"
-	// 		"depressedfgcolor_override"	"46 43 42 255"
-
-	// 		"image_drawcolor"	"117 107 94 255"
-	// 		"image_armedcolor"	"200 80 60 255"
-	// 		"subimage"
-	// 		{
-	// 			"controlname"	"ImagePanel"
-	// 			"xpos"			"0"
-	// 			"ypos"			"0"
-	// 			"zpos"			"1"
-	// 			"wide"			"14"
-	// 			"tall"			"14"
-	// 			"visible"		"1"
-	// 			"enabled"		"1"
-	// 			"image"			"close_button"
-	// 			"scaleimage"	"1"
-	// 		}
-	// 	}
-	// }
-
-	"ShowExplanationsButton1"
-	{
-		"controlname"	"Button"
-		"xpos"			"c167"
-		"ypos"			"10"
-		"zpos"			"1100"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		"labeltext"		"!"
-		"command"		"reloadscheme"
 	}
 }

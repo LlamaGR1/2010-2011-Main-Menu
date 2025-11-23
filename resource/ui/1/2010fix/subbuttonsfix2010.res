@@ -83,4 +83,51 @@
 		"image_armedcolor"		"235 226 202 255"
 		"image_selectedcolor"	"235 226 202 255"
 	}
+
+	"NameFilterTextEntry"
+	{
+		"fgcolor_override"			"TanDark"
+		"selectioncolor_override"	"Orange"
+	}
+
+	"PlaylistBGPanel"
+	{
+		"RestoreCasualSearchCriteria"
+		{
+			"image_drawcolor"		"117 107 94 255"
+			"image_armedcolor"		"235 226 202 255"
+			"image_selectedcolor"	"235 226 202 255"
+		}
+
+		"SaveCasualSearchCriteria"
+		{
+			"image_drawcolor"		"117 107 94 255"
+			"image_armedcolor"		"235 226 202 255"
+			"image_selectedcolor"	"235 226 202 255"
+		}
+	}
+
+	"Container"
+	{
+		"ItemsContainer"
+		{
+			"EditButton"
+			{
+				"image_armedcolor"		"235 226 202 255"
+				"image_selectedcolor"	"235 226 202 255"
+			}
+
+			"ViewButton"
+			{
+				"image_armedcolor"		"235 226 202 255"
+				"image_selectedcolor"	"235 226 202 255"
+			}
+
+			"DeleteButton"
+			{
+				"image_armedcolor"		"235 226 202 255"
+				"image_selectedcolor"	"235 226 202 255"
+			}
+		}
+	}
 }

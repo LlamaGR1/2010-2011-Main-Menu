@@ -3,7 +3,6 @@
 	"FreezePanel"
 	{
 		"controlname"	"CTFFreezePanel"
-
 		"screenshot_move_panel_to_corner"	"1"
 	}
 
@@ -11,10 +10,9 @@
 	{
 		"controlname"	"CItemModelPanel"
 		"xpos"			"r270"
-		"ypos"			"-150"
 		"zpos"			"10"
 		"wide"			"270"
-		"tall"			"110"
+		"tall"			"100"
 
 		"model_xpos"	"10"
 		"model_center_y"	"1"
@@ -24,7 +22,6 @@
 		"text_xpos"		"90"
 		"text_wide"		"170"
 		"text_center"	"1"
-		"text_forcesize"	"2"
 
 		"ItemLabel"
 		{
@@ -37,59 +34,6 @@
 			"font"			"DefaultSmall"
 		}
 	}
-
-	// "itempanel"
-	// {
-	// 	"controlname"	"CItemModelPanel"
-	// 	"xpos"			"r200"
-	// 	"ypos"			"0"
-	// 	"zpos"			"10"
-	// 	"wide"			"190"
-	// 	"tall"			"100"
-	// 	"visible"		"0"
-	// 	"bgcolor_override"		"255 255 255 0"
-	// 	"paintbackgroundtype"	"0"
-
-	// 	"model_ypos"		"10"
-	// 	"model_center_x"	"1"
-	// 	"model_wide"		"90"
-	// 	"model_tall"		"60"
-
-	// 	"text_xpos"		"10"
-	// 	"text_ypos"		"10"
-	// 	"text_wide"		"170"
-	// 	"text_center"	"1"
-
-	// 	"max_text_height"	"100"
-	// 	"padding_height"	"10"
-	// 	"resize_to_text"	"1"
-	// 	"text_forcesize"	"2"
-
-	// 	"itemmodelpanel"
-	// 	{
-	// 		"use_item_rendertarget" "0"
-	// 		"useparentbg"		"1"
-	// 	}
-
-	// 	"ItemLabel"
-	// 	{
-	// 		"controlname"	"Label"
-	// 		"font"			"DefaultSmall"
-	// 		"xpos"			"10"
-	// 		"ypos"			"3"
-	// 		"zpos"			"1"
-	// 		"wide"			"270"
-	// 		"tall"			"9"
-	// 		"autoResize"	"0"
-	// 		"pinCorner"		"0"
-	// 		"visible"		"1"
-	// 		"enabled"		"1"
-	// 		"labeltext"		"#FreezePanel_Item"
-	// 		"textalignment"	"Left"
-	// 		"dulltext"		"0"
-	// 		"brighttext"	"0"
-	// 	}
-	// }
 
 	"FreezePanelBase"
 	{
@@ -110,7 +54,7 @@
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
 			"draw_corner_height"	"5"
-			"image"			"../hud/color_panel_blu"
+			"image"			""
 		}
 
 		"FreezeLabel"
@@ -166,7 +110,6 @@
 		"NemesisSubPanel"
 		{
 			"controlname"	"EditablePanel"
-			"xpos"			"0"		//		FIXME
 			"ypos"			"130"
 			"zpos"			"4"
 			"wide"			"306"

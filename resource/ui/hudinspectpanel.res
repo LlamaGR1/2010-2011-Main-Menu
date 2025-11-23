@@ -5,7 +5,7 @@
 		"controlname"	"CItemModelPanel"
 		"zpos"			"10"
 		"wide"			"270"
-		"tall"			"110"
+		"tall"			"100"
 
 		"model_xpos"	"10"
 		"model_center_y"	"1"

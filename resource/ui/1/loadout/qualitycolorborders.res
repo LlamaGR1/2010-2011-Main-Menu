@@ -1,4 +1,4 @@
-#base "qualitycolorborders_hide.res"
+#base qualitycolorborders_hide.res
 
 "backpackpanel"
 {

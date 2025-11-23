@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/client20102011.txt"
+#base ../../../../cfg/2010hud/client20102011.txt
 
-#base "1/2011fix/1charinfoarmorysubpanel.res"
+#base 1/2011fix/1charinfoarmorysubpanel.res
 
 "charinfoarmorysubpanel"
 {
@@ -29,7 +29,6 @@
 			"zpos"			"13"
 			"wide"			"70"
 			"tall"			"49"
-		//	"visible"		"0"
 			"paintborder"	"0"
 			"paintbackgroundtype"	"0"
 
@@ -160,7 +159,6 @@
 
 		"model_hide"	"1"
 		"text_center"	"1"
-	//	"resize_to_text"	"1"		//		removing this makes some items have default font
 	}
 
 	"SelectedItemImageModelPanel"
@@ -201,7 +199,6 @@
 		"border_default"	"ViviTanDarkBG"
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
 		"paintbackground"	"0"
 
 		"pin_to_sibling" "CurPageLabel"
@@ -250,7 +247,6 @@
 		"border_default"	"ViviTanDarkBG"
 		"border_armed"		"ViviTFOrangeBG"
 		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
 		"paintbackground"	"0"
 
 		"pin_to_sibling" "CurPageLabel"

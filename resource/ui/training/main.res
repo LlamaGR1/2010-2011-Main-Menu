@@ -2,10 +2,8 @@
 {
 	"TrainingDialog"
 	{
-	//	"controlname"	"CTrainingDialog"
 		"wide"			"f0"
 		"tall"			"481"
-	//	"bgcolor_override"	"0 0 0 200"
 	}
 
 	"Container"
@@ -15,23 +13,7 @@
 		"ypos"			"cs-0.5"
 		"wide"			"300"
 		"tall"			"220"
-	//	"border"		"GrayDialogBorder"
-	//	"border"		"QuickplayBorder"
-		"bgcolor_override"	"60 56 53 255"
-		"roundedcorners"	"15"
-		"paintbackgroundtype"	"2"
-
-		// "GradientBgPanel"
-		// {
-		// 	"controlname"	"ImagePanel"
-		// 	"xpos"			"10"
-		// 	"ypos"			"135"
-		// 	"zpos"			"1"
-		// 	"wide"			"430"
-		// 	"tall"			"400"
-		// 	"scaleimage"	"1"
-		// 	"image"			"training/gradient"
-		// }
+		"border"			"ViviSourceFrameBG"
 
 		"Background"
 		{
@@ -53,21 +35,9 @@
 			"tall"			"15"
 			"labeltext"		"%title%"
 			"font"			"DefaultTitleSource"
-		//	"textalignment"	"center"
+			"allcaps"		"1"
 			"fgcolor_override"	"236 227 203 150"
 		}
-
-		// "SubTitleLabel"
-		// {
-		// 	"controlname"	"CExLabel"
-		// 	"xpos"			"78"
-		// 	"zpos"			"1"
-		// 	"wide"			"300"
-		// 	"tall"			"15"
-		// 	"labeltext"		"%subtitle%"
-		// 	"font"			"DefaultTitleSource"
-		// 	"fgcolor_override"	"236 227 203 150"
-		// }
 
 		"BackButton1"
 		{
@@ -77,7 +47,7 @@
 			"zpos"			"20"
 			"wide"			"32"
 			"tall"			"11"
-			"labeltext"		"#GameUI_Back"		//		TF_BackCarat
+			"labeltext"		"#GameUI_Back"
 			"font"			"DefaultSource"
 			"use_proportional_insets"	"1"
 			"textinsetx"	"3"
@@ -185,10 +155,10 @@
 			"Class2Token"	"#TF_Spy"
 			"Class3Token"	"#TF_Engineer"
 
-			"Class0Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_soldier
-			"Class1Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_demoman
-			"Class2Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_spy
-			"Class3Image"	"replay/thumbnails/misc/shit"		//		replay/thumbnails/misc/class_engineer
+			"Class0Image"	"replay/thumbnails/misc/training"
+			"Class1Image"	"replay/thumbnails/misc/training"
+			"Class2Image"	"replay/thumbnails/misc/training"
+			"Class3Image"	"replay/thumbnails/misc/training"
 
 			"Class0command"	"basictraining_classselection_soldier"
 			"Class1command"	"basictraining_classselection_demoman"
@@ -207,8 +177,6 @@
 			"proportionaltoparent"	"1"
 			"visible"		"0"
 			"TrainingTitle"	"#TR_AttackDefense"
-		//	"bgcolor_override"	"39 36 34 255"
-		//	"border"		"BorderSourceDefault"
 		}
 
 		"OfflinePractice_ModeSelectionPanel"

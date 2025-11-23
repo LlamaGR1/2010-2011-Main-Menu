@@ -5,7 +5,7 @@
 		"zpos"			"-68"
 		"wide"			"f0"
 
-		"expanded_height"	"175"
+		"expanded_height"	"180"
 		"resize_time"		"0"
 	}
 
@@ -13,7 +13,7 @@
 	{
 		"controlname"	"EditablePanel"
 		"wide"			"f0"
-		"tall"			"30"
+		"tall"			"43"
 		"proportionaltoparent"	"1"
 
 		"QueueContainer"
@@ -25,133 +25,83 @@
 			"wide"			"220"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
-
-			"OuterShadow"
-			{
-				"controlname"	"Panel"
-				"wide"			"f0"
-				"tall"			"f0"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 200"
-				"border"		"QuickplayBorder"
-			}
-
-			"QueueLogoButton"
-			{
-				"controlname"	"Button"
-				"xpos"			"3"
-				"zpos"			"2"
-				"wide"			"o1"
-				"tall"			"f0"
-				"proportionaltoparent"	"1"
-				"labeltext"		""
-				"command"		"queue_logo_clicked"
-				"actionsignallevel"	"3"
-
-				"button_activation_type"	"1"
-
-				"paintbackground"	"0"
-			}
-
-			"CTFLogoPanel"
-			{
-				"controlname"	"CTFLogoPanel"
-				"xpos"			"3"
-				"zpos"			"1"
-				"wide"			"o1"
-				"tall"			"f0"
-				"proportionaltoparent"	"1"
-				"radius"		"10"
-				"velocity"		"80"
-			}
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 
 			"QueueText"
 			{
 				"controlname"	"CAutoFittingLabel"
-				"xpos"			"35"
-				"zpos"			"1"
-				"wide"			"161"
-				"tall"			"f0"
+				"ypos"			"4"
+				"wide"			"f0"
+				"tall"			"15"
 				"proportionaltoparent"	"1"
 				"labeltext"		"%queue_state%"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFontSmallBold"
+				"textalignment"	"center"
 				"mouseinputenabled"	"0"
 
 				"fonts"
 				{
-					"0"
-					{
-						"font"	"HudFontSmallestBold"
-					}
-					"1"
-					{
-						"font"	"StorePromotionsTitle"
-					}
-					"2"
-					{
-						"font"	"FontStorePrice"
-					}
+					"0"		"HudFontSmallestBold"
+					"1"		"StorePromotionsTitle"
+					"2"		"FontStorePrice"
 				}
 			}
 
 			"MultiQueuesManageButton"
 			{
 				"controlname"	"CExImageButton"
-				"xpos"			"rs1-7"
-				"ypos"			"cs-0.5"
-				"zpos"			"3"
-				"wide"			"14"
-				"tall"			"14"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-5"
+				"zpos"			"1"
+				"wide"			"150"
+				"tall"			"15"
 				"proportionaltoparent"	"1"
-				"labeltext"		""
+				"labeltext"		"#TF_Matchmaking_CancelSearch"
+				"font"			"HudFontSmallestBold"
+				"textalignment"	"center"
 				"command"		"manage_queues"
 				"actionsignallevel"	"3"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 
-				"button_activation_type"	"2"
+				"stay_armed_on_click"	"1"
 
+				"border_default"	"ViviTanDarkBG"
+				"border_armed"		"ViviTFOrangeBG"
+				"border_selected"	"ViviTFOrangeBG"
 				"paintbackground"	"0"
 
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"104 124 155 255"
-				"subimage"
-				{
-					"wide"			"14"
-					"tall"			"14"
-					"scaleimage"	"1"
-					"image"			"glyph_options"
-				}
+				"defaultfgcolor_override"	"TanLight"
+				"armedfgcolor_override"		"TanLight"
 			}
 
 			"CloseButton"
 			{
-				"controlname"	"CExImageButton"
-				"xpos"			"rs1-7"
-				"ypos"			"cs-0.5"
-				"zpos"			"3"
-				"wide"			"14"
-				"tall"			"14"
+				"controlname"	"CExButton"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-5"
+				"zpos"			"1"
+				"wide"			"150"
+				"tall"			"15"
 				"proportionaltoparent"	"1"
-				"labeltext"		""
+				"labeltext"		"#TF_Matchmaking_CancelSearch"
+				"font"			"HudFontSmallestBold"
+				"textalignment"	"center"
 				"command"		"leave_queue"
 				"actionsignallevel"	"3"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 
-				"button_activation_type"	"2"
+				"stay_armed_on_click"	"1"
 
+				"border_default"	"ViviTanDarkBG"
+				"border_armed"		"ViviTFOrangeBG"
+				"border_selected"	"ViviTFOrangeBG"
 				"paintbackground"	"0"
 
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"200 80 60 255"
-				"subimage"
-				{
-					"wide"			"14"
-					"tall"			"14"
-					"scaleimage"	"1"
-					"image"			"close_button"
-				}
+				"defaultfgcolor_override"	"TanLight"
+				"armedfgcolor_override"		"TanLight"
 			}
 		}
 
@@ -196,23 +146,25 @@
 				"zpos"			"2"
 				"wide"			"40"
 				"tall"			"15"
+				"proportionaltoparent"	"1"
+				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
+				"font"			"HudFontSmallestBold"
+				"textalignment"	"center"
+				"command"		"join_party_match"
+				"actionsignallevel"	"3"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+
+				"border_default"	"ViviTanDarkBG"
+				"border_armed"		"ViviTFOrangeBG"
+				"border_selected"	"ViviTFOrangeBG"
+				"paintbackground"	"0"
 
 				if_queued
 				{
 					"xpos"		"cs-0.5"
 					"wide"		"130"
 				}
-
-				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
-				"textalignment"	"center"
-				"font"			"HudFontSmallestBold"
-				"command"		"join_party_match"
-				"actionsignallevel"	"3"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-
-				"button_activation_type"	"2"
 			}
 		}
 

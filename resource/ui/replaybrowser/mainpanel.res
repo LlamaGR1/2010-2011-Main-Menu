@@ -5,6 +5,7 @@
 		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"480"
+		"titletextinsety"	"-9"
 		"clientinsetx_override"	"0"
 	}
 

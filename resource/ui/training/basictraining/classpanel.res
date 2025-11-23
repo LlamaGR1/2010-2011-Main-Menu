@@ -9,6 +9,7 @@
 	"SelectButton"		//		bastard
 	{
 		"controlname"	"CExButton"
+		"zpos"			"2"
 		"labeltext"		"%selectbuttontext%"
 		"font"			"DefaultSource"
 		"use_proportional_insets"	"1"
@@ -32,13 +33,28 @@
 		"disabledfgcolor2_override"	"131 121 104 255"
 	}
 
+	"NoProgressLabel"
+	{
+		"controlname"	"Label"
+		"xpos"			"14"
+		"ypos"			"195"
+		"tall"			"20"
+		"wide"			"49"
+		"labeltext"		"#TR_ProgressNotDone"
+		"font"			"DefaultSource"
+		"centerwrap"	"1"
+		"fgcolor_override"	"192 28 0 255"
+	}
+
 	"ProgressLabel"
 	{
 		"controlname"	"CExLabel"
-		"ypos"			"200"
-		"tall"			"10"
+		"zpos"			"1"
+		"ypos"			"195"
+		"tall"			"26"
 		"font"			"DefaultSource"
-		"textalignment"	"center"
-		"fgcolor_override"	"0 160 0 255"		//		LightRed
+		"centerwrap"	"1"
+		"fgcolor_override"	"0 160 0 255"
+		"bgcolor_override"	"60 56 53 255"
 	}
 }

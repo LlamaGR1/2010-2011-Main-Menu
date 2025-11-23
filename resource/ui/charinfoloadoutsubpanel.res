@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/loadout2011.txt"
+#base ../../../../cfg/2010hud/loadout2011.txt
 
-#base "1/hat2011.res"
+#base 1/loadout/hat2011.res
 
 "charinfoloadoutsubpanel"
 {
@@ -10,9 +10,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"bgcolor_override"	"Black"
-
-		"selectlabely_default"		"25"
-		"selectlabely_onchanges"	"15"
 
 		"class_ypos"			"40"
 		"class_xdelta"			"5"
@@ -35,7 +32,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&1"
 		"textinsetx"	"1945"
 		"command"		"loadout scout"
@@ -56,7 +53,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&2"
 		"textinsetx"	"1945"
 		"command"		"loadout soldier"
@@ -77,7 +74,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&3"
 		"textinsetx"	"1945"
 		"command"		"loadout pyro"
@@ -98,7 +95,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&4"
 		"textinsetx"	"1945"
 		"command"		"loadout demoman"
@@ -119,7 +116,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&5"
 		"textinsetx"	"1945"
 		"command"		"loadout heavy"
@@ -140,7 +137,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&6"
 		"textinsetx"	"1945"
 		"command"		"loadout engineer"
@@ -161,7 +158,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&7"
 		"textinsetx"	"1945"
 		"command"		"loadout medic"
@@ -182,7 +179,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&8"
 		"textinsetx"	"1945"
 		"command"		"loadout sniper"
@@ -203,7 +200,7 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"120"
-		"pinCorner"		"2"
+		"pincorner"		"2"
 		"labeltext"		"&9"
 		"textinsetx"	"1945"
 		"command"		"loadout spy"
@@ -216,20 +213,7 @@
 		"button_activation_type"	"2"
 	}
 
-	"2011123321"
-	{
-		"controlname"	"CExLabel"
-		"xpos"			"100"
-		"ypos"			"100"
-		"zpos"			"4444"
-		"wide"			"100"
-		"tall"			"50"
-		"labeltext"		"none selected"
-		"fgcolor_override"	"255 255 255 0"
-		"mouseinputenabled"	"0"
-	}
-
-	"ClassLabel"		//		ok
+	"ClassLabel"
 	{
 		"controlname"	"Label"
 		"ypos"			"200"
@@ -241,66 +225,66 @@
 		"textalignment"	"north"
 	}
 
-	"ItemsLabel"		//		ok
+	"ItemsLabel"
 	{
 		"controlname"	"CExLabel"
 		"ypos"			"215"
 		"zpos"			"1"
-		"wide"			"1945"	//	300
+		"wide"			"300"
 		"tall"			"30"
 		"visible"		"0"
 		"font"			"HudFontSmall"
 		"textalignment"	"north"
 		"centerwrap"	"1"
-		"bgcolor_override"	"Black"
 	}
 
-	"LoadoutChangesLabel"		//		ok
+	"SelectLabel"
+	{
+		"controlname"	"CExLabel"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"30"
+		"labeltext"		"#SelectClassLoadout"
+		"font"			"HudFontSmallBold"
+		"textalignment"	"north"
+	}
+
+	"LoadoutChangesLabel"
 	{
 		"controlname"	"Label"
-		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
 		"labeltext"		"#LoadoutChangesUpdate"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"north"
-		"fgcolor_override"	"LightRed"
 	}
 
-	"NoGCLabel"		//		ok
+	"NoGCLabel"
 	{
 		"controlname"	"Label"
-		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
-	//	"visible"		"0"
 		"labeltext"		"#NoGCNoItems"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"north"
-		"fgcolor_override"	"LightRed"
 	}
 
-	"NoSteamLabel"		//		ok
+	"NoSteamLabel"
 	{
 		"controlname"	"Label"
-		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
-	//	"visible"		"0"
 		"labeltext"		"#NoSteamNoItems"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"north"
-		"fgcolor_override"	"LightRed"
 	}
 
 	"class_loadout_panel"
 	{
 		"controlname"		"CClassLoadoutPanel"
-	//	"xpos"				"0"
-	//	"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"400"
 		"zpos"				"500"
@@ -310,8 +294,6 @@
 	"backpack_panel"
 	{
 		"controlname"		"CBackpackPanel"
-	//	"xpos"				"0"
-	//	"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"400"
 		"zpos"				"500"
@@ -366,7 +348,6 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"190"
 		"end_wide"		"300"
@@ -375,103 +356,8 @@
 		"callout_inparents_y"	"150"
 		"next_explanation"		"BackpackExplanation"
 
-		"TitleLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"255"
-			"tall"			"30"
-			"labeltext"		"#LoadoutExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"auto_tall_tocontents"	"1"
-			"labeltext"		"#LoadoutExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"rs1"
-			"wide"			"f0"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
-		}
-
-		"NextButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"nextexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_forward"
-			}
-		}
+		"res_file_controls"	"1"
+		"explanation_title"	"#LoadoutExplanation_Title"
+		"explanation_body"	"#LoadoutExplanation_Text"
 	}
 }

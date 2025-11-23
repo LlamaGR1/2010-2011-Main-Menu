@@ -25,7 +25,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%body%"
 		"font"			"HudFontSmall"
-		"textalignment"	"north-west"
+		"textalignment"	"north"
 		"wrap"			"1"
 		"fgcolor_override"	"Black"
 	}
@@ -83,6 +83,19 @@
 		}
 	}
 
+	"PositionLabel"
+	{
+		"controlname"	"CExLabel"
+		"xpos"			"cs-0.5"
+		"wide"			"30"
+		"tall"			"30"
+		"proportionaltoparent"	"1"
+		"labeltext"		"%explanationnumber%"
+		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
+		"fgcolor_override"	"LightRed"
+	}
+
 	"NextButton"
 	{
 		"controlname"	"CExImageButton"
@@ -106,18 +119,5 @@
 			"scaleimage"	"1"
 			"image"			"blog_forward"
 		}
-	}
-
-	"PositionLabel"
-	{
-		"controlname"	"CExLabel"
-		"xpos"			"cs-0.5"
-		"wide"			"30"
-		"tall"			"30"
-		"proportionaltoparent"	"1"
-		"labeltext"		"%explanationnumber%"
-		"font"			"HudFontSmallBold"
-		"textalignment"	"center"
-		"fgcolor_override"	"LightRed"
 	}
 }

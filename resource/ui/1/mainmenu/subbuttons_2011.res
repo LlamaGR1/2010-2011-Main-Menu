@@ -1,6 +1,6 @@
-#base "../../../../../../cfg/2010hud/client20102011.txt"
+#base ../../../../../../cfg/2010hud/client20102011.txt
 
-#base "../2011fix/subbuttonsfix2011.res"
+#base ../2011fix/subbuttonsfix2011.res
 
 "mainmenuoverride"
 {
@@ -130,7 +130,6 @@
 	"TF2SettingsButton"
 	{
 		"controlname"	"CExImageButton"
-		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"25"
 		"visible"		"0"
@@ -164,7 +163,7 @@
 	"OptionsDividerBorder"
 	{
 		"controlname"	"Panel"
-		"zpos"			"3"
+		"zpos"			"1"
 		"wide"			"1"
 		"tall"			"25"
 		"visible"		"0"
@@ -179,7 +178,6 @@
 		"controlname"	"CExImageButton"
 		"xpos"			"c150"
 		"ypos"			"437"
-		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
 		"labeltext"		"#GameUI_GameMenu_Options"

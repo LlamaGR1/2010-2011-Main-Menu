@@ -3,8 +3,6 @@
 	"BasicTrainingPanel"
 	{
 		"controlname"	"CModePanel"
-	//	"xpos"			"0"
-	//	"ypos"			"0"
 		"wide"			"287"
 		"tall"			"91"
 
@@ -17,7 +15,6 @@
 	"OfflinePracticePanel"
 	{
 		"controlname"	"CModePanel"
-	//	"xpos"			"0"
 		"ypos"			"91"
 		"wide"			"287"
 		"tall"			"91"

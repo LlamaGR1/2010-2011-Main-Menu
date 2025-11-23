@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/buildingsui_teleporter.txt"
+#base ../../../../cfg/2010hud/buildingsui_teleporter.txt
 
-#base "1/ingame/buildingsui/2011/teleporter.res"
+#base 1/ingame/buildingsui/2011/teleporter.res
 
 "hud_obj_tele_exit"
 {

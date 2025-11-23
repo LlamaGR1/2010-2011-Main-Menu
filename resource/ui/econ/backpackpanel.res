@@ -1,8 +1,8 @@
-#base "../../../../../cfg/2010hud/client20102011.txt"
-#base "../../../../../cfg/2010hud/qualitycolorborders.txt"
+#base ../../../../../cfg/2010hud/client20102011.txt
+#base ../../../../../cfg/2010hud/qualitycolorborders.txt
 
-#base "../1/2011fix/searchfilter.res"
-#base "../1/loadout/qualitycolorborders_hide.res"
+#base ../1/2011fix/subbuttonsfix2011.res
+#base ../1/loadout/qualitycolorborders_hide.res
 
 "backpackpanel"
 {
@@ -21,70 +21,6 @@
 		"item_backpack_offcenter_x"	"-288"
 		"item_backpack_xdelta"		"4"
 		"item_backpack_ydelta"		"3"
-
-		// "button_xpos_offcenter"	"175"		
-		// "button_ypos"	"85"
-		// "button_ydelta"	"80"
-		// "button_override_delete_xpos" "0"
-
-		// "page_button_y"	"288"
-		// "page_button_x_delta" "3"
-		// "page_button_y_delta" "3"
-		// "page_button_per_row" "20"
-		// "page_button_height" "13"
-
-		// "pagebuttons_kv"
-		// {
-		// 	"controlname"	"EditablePanel"
-		// 	"wide"			"10"
-		// 	"tall"			"10"
-		// 	"visible"		"0"
-		// 	"bgcolor_override"		"0 0 0 0"
-		// 	"noitem_textcolor"		"117 107 94 255"
-		// 	"paintbackgroundtype"	"2"
-		// 	"paintborder"	"1"
-
-		// 	"Button"
-		// 	{
-		// 		"controlname"	"CExButton"
-		// 		"wide"			"25"
-		// 		"tall"			"13"
-		// 		"visible"		"1"
-		// 		"bgcolor_override"		"0 0 0 0"
-		// 		"noitem_textcolor"		"117 107 94 255"
-		// 		"paintbackgroundtype"	"2"
-		// 		"paintborder"	"1"
-		// 		"textalignment"	"center"
-		// 		"labeltext"		"%page%"
-		// 		"font"				"HudFontSmallestBold"
-		// 		"sound_depressed"	"ui/buttonclick.wav"
-		// 		"sound_released"	"ui/buttonclickrelease.wav"
-		// 		"button_activation_type"	"2"
-		// 	}
-
-		// 	"New"
-		// 	{
-		// 		"controlname"	"CExLabel"
-		// 		"font"			"FontStorePrice"
-		// 		"textalignment"	"east"
-		// 		"ypos"			"0"
-		// 		"xpos"			"0"
-		// 		"zpos"			"0"
-		// 		"wide"			"f1"
-		// 		"tall"			"f-3"
-		// 		"textinsetx"	"8"
-		// 		"autoResize"	"1"
-		// 		"pinCorner"		"0"	
-		// 		"visible"		"0"
-		// 		"enabled"		"1"
-		// 		"labeltext"		"#Store_Price_New"
-		// 		"mouseinputenabled" "0"
-		// 		"paintbackground"	"0"
-		// 		"proportionaltoparent"	"1"
-		// 		"border"		"StoreNewBorder"
-		// 		"fgcolor"		"10 10 10 255"
-		// 	}
-		// }
 
 		"modelpanels_kv"
 		{
@@ -149,9 +85,10 @@
 		"tall"			"300"
 		"visible"		"0"
 
+		"text_ypos"			"22"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"padding_height"	"22"
 	}
 
 	"mousedragitempanel"
@@ -447,7 +384,6 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"95"
 		"end_wide"		"300"
@@ -456,104 +392,9 @@
 		"callout_inparents_y"	"c0"
 		"next_explanation"		"PagesExplanation"
 
-		"TitleLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"255"
-			"tall"			"30"
-			"labeltext"		"#BackpackItemsExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"auto_tall_tocontents"	"1"
-			"labeltext"		"#BackpackItemsExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"rs1"
-			"wide"			"f0"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
-		}
-
-		"NextButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"nextexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_forward"
-			}
-		}
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackItemsExplanation_Title"
+		"explanation_body"	"#BackpackItemsExplanation_Text"
 	}
 
 	"PagesExplanation"
@@ -565,7 +406,6 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"force_close"	"1"
 		"end_x"			"c-50"
 		"end_y"			"130"
 		"end_wide"		"300"
@@ -574,133 +414,9 @@
 		"callout_inparents_y"	"290"
 		"next_explanation"		"ContextExplanation"
 
-		"TitleLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"255"
-			"tall"			"30"
-			"labeltext"		"#BackpackPagesExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"auto_tall_tocontents"	"1"
-			"labeltext"		"#BackpackPagesExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PrevButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"prevexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_back"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"rs1"
-			"wide"			"f0"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
-		}
-
-		"NextButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"nextexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_forward"
-			}
-		}
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackPagesExplanation_Title"
+		"explanation_body"	"#BackpackPagesExplanation_Text"
 	}
 
 	"ContextExplanation"
@@ -712,7 +428,6 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"85"
 		"end_wide"		"300"
@@ -721,133 +436,9 @@
 		"callout_inparents_y"	"c0"
 		"next_explanation"		"StockExplanation"
 
-		"TitleLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"255"
-			"tall"			"30"
-			"labeltext"		"#BackpackContextExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"auto_tall_tocontents"	"1"
-			"labeltext"		"#BackpackContextExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PrevButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"prevexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_back"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"rs1"
-			"wide"			"f0"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
-		}
-
-		"NextButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"nextexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_forward"
-			}
-		}
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackContextExplanation_Title"
+		"explanation_body"	"#BackpackContextExplanation_Text"
 	}
 
 	"StockExplanation"
@@ -859,142 +450,16 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"95"
 		"end_wide"		"300"
 		"end_tall"		"155"
 		"callout_inparents_x"	"c0"
-	//	"callout_inparents_y"	"30"
 		"next_explanation"		"SortExplanation"
 
-		"TitleLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"255"
-			"tall"			"30"
-			"labeltext"		"#BackpackStockExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"auto_tall_tocontents"	"1"
-			"labeltext"		"#BackpackStockExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PrevButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"prevexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_back"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"rs1"
-			"wide"			"f0"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
-		}
-
-		"NextButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"nextexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_forward"
-			}
-		}
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackStockExplanation_Title"
+		"explanation_body"	"#BackpackStockExplanation_Text"
 	}
 
 	"SortExplanation"
@@ -1006,7 +471,6 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"force_close"	"1"
 		"end_x"			"c-50"
 		"end_y"			"95"
 		"end_wide"		"300"
@@ -1014,103 +478,8 @@
 		"callout_inparents_x"	"c190"
 		"callout_inparents_y"	"55"
 
-		"TitleLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"255"
-			"tall"			"30"
-			"labeltext"		"#BackpackSortExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"auto_tall_tocontents"	"1"
-			"labeltext"		"#BackpackSortExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"rs1-5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PrevButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"5"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"command"		"prevexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"subimage"
-			{
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_back"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"Label"
-			"ypos"			"rs1"
-			"wide"			"f0"
-			"tall"			"30"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
-		}
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackSortExplanation_Title"
+		"explanation_body"	"#BackpackSortExplanation_Text"
 	}
 }

@@ -1,6 +1,6 @@
-#base "../../../../../cfg/2010hud/qualityicons.txt"
+#base ../../../../../cfg/2010hud/qualityicons.txt
 
-#base "../1/loadout/qualityicons.res"
+#base ../1/loadout/qualityicons.res
 
 "itemmodelpanel"
 {
@@ -9,7 +9,7 @@
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
-		"text_ypos"				"15"
+		"text_ypos"				"22"	//	15
 		"text_forcesize"		"0"
 		"text_xpos"				"15"
 		"text_wide"				"270"
@@ -48,7 +48,7 @@
 			"start_framed"	"1"
 
 			"disable_manipulation"	"1"
-			"inventory_image_type"	"1"
+		//	"inventory_image_type"	"1"		//		blurry weapon icons
 
 			"model"
 			{

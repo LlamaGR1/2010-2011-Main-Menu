@@ -1,8 +1,6 @@
-#base "../../../../cfg/2010hud/client20102011.txt"
+#base ../../../../cfg/2010hud/client20102011.txt
 
-
-#base "1/2011fix/loadsavecasual.res"
-
+#base 1/2011fix/subbuttonsfix2011.res
 
 "matchmakingcasualcriteria"
 {
@@ -20,8 +18,8 @@
 	//	"bgcolor_override"		"Orange"
 		"border"		"ViviBlackBG2"
 
-	//	"pinCorner"		"2"
-	//	"autoResize"	"1"
+	//	"pincorner"		"2"
+	//	"autoresize"	"1"
 
 		"Title"
 		{
@@ -170,25 +168,6 @@
 			"border_armed"		"ViviTFOrangeBG"
 			"border_selected"	"ViviTFOrangeBG"
 			"paintbackground"	"0"
-		}
-
-		"QueueEstimation"
-		{
-			"controlname"		"Label"
-			"xpos"		"rs1-5"
-			"ypos"		"18"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_QueueEstimation"
-			"textalignment"	"east"
-			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanLight"
-			"textinsetx"	"5"
-			"visible"	"0"
-
-			"mouseinputenabled"	"0"
 		}
 
 		"PlayListDropShadow"

@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	$basetexture	vgui/gfx/vgui/trans_background
+	$vertexalpha	1
+}

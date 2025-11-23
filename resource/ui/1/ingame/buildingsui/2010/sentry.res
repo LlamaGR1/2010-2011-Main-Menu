@@ -2,9 +2,9 @@
 {
 	"BuiltPanel"
 	{
-		"RunningPanel"		//		MAKE DIFFERENT PNG FOR ROCKETS AND UPGRADE FOR LINUX
+		"RunningPanel"
 		{
-			"ShellsLabel" // ok
+			"ShellsLabel"
 			{
 				"controlname"	"Label"
 				"ypos"			"2"
@@ -15,46 +15,46 @@
 				"font"			"DefaultSmall"
 			}
 
-			"Shells" // ok
+			"Shells"
 			{
 				"xpos"			"0"
 				"ypos"			"12"
 				"wide"			"50"
 			}
 
-			"RocketIcon" // ok
+			"RocketIcon"
 			{
 				"ypos"			"16"
 				"wide"			"80"
 				"tall"			"18"
 				"drawcolor"		"255 239 209 255"
-				"image"			"replay/thumbnails/misc/building_rockets"
+				"image"			"replay/thumbnails/ingame/building_rockets"
 			}
 
-			"Rockets" // ok
+			"Rockets"
 			{
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
 			}
 
-			"UpgradeIcon" // ok
+			"UpgradeIcon"
 			{
 				"ypos"			"16"
 				"wide"			"40"
 				"tall"			"18"
-				"iconColor"		"255 239 209 255"
+				"iconcolor"		"255 239 209 255"
 				"icon"			"ico_upgrade"
 			}
 
-			"Upgrade" // ok
+			"Upgrade"
 			{
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
 			}
 
-			"KillsLabel" // ok
+			"KillsLabel"
 			{
 				"xpos"			"0"
 				"ypos"			"35"
@@ -62,12 +62,12 @@
 				"textalignment"	"west"
 			}
 
-			"ShellIcon"	 // ok
+			"ShellIcon"
 			{
 				"visible"		"0"
 			}
 
-			"KillIcon"	// ok
+			"KillIcon"
 			{
 				"visible"		"0"
 			}

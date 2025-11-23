@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/scoreboardrank.txt"
+#base ../../../../cfg/2010hud/rank_medal.txt
 
-#base "1/ingame/scoreboard_rank.res"
+#base 1/ingame/rank_medal_hide.res
 
 "scoreboard"
 {
@@ -12,6 +12,7 @@
 		"wide"			"600"
 		"tall"			"448"
 		"spacer"		"2"
+		"avatar_width"	"32"
 		"name_width"	"118"
 		"nemesis_width"	"20"
 		"class_width"	"26"
@@ -32,7 +33,7 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
@@ -48,7 +49,7 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
@@ -71,156 +72,156 @@
 	"BlueTeamLabel1"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardTeamNameLarge"
-		"labeltext"		"%blueteamname%"
 		"xpos"			"12"
 		"ypos"			"23"
 		"wide"			"140"
 		"tall"			"34"
+		"labeltext"		"%blueteamname%"
+		"font"			"ScoreboardTeamNameLarge"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"BlueTeamScore"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardTeamScore"
-		"labeltext"		"%blueteamscore%"
-		"textalignment"	"east"
 		"xpos"			"cs-0.5-50"
 		"ypos"			"9"
 		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"55"
 		"proportionaltoparent"	"1"
+		"labeltext"		"%blueteamscore%"
+		"font"			"ScoreboardTeamScore"
+		"textalignment"	"east"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"BlueTeamScoreDropshadow"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardTeamScore"
-		"fgcolor_override"	"Black"
-		"labeltext"		"%blueteamscore%"
-		"textalignment"	"east"
 		"xpos"			"cs-0.5-49"
 		"ypos"			"10"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"55"
 		"proportionaltoparent"	"1"
+		"labeltext"		"%blueteamscore%"
+		"font"			"ScoreboardTeamScore"
+		"textalignment"	"east"
+		"fgcolor_override"	"Black"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"BlueTeamPlayerCount"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardMedium"
-		"labeltext"		"%blueteamplayercount%"
 		"xpos"			"150"
 		"ypos"			"33"
 		"wide"			"130"
 		"tall"			"29"
+		"labeltext"		"%blueteamplayercount%"
+		"font"			"ScoreboardMedium"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"RedTeamLabel1"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardTeamNameLarge"
-		"labeltext"		"%redteamname%"
-		"textalignment"	"east"
 		"xpos"			"rs1-10"
 		"ypos"			"23"
 		"wide"			"140"
 		"tall"			"34"
 		"proportionaltoparent"	"1"
+		"labeltext"		"%redteamname%"
+		"font"			"ScoreboardTeamNameLarge"
+		"textalignment"	"east"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"RedTeamScore"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardTeamScore"
-		"labeltext"		"%redteamscore%"
 		"xpos"			"cs-0.5+53"
 		"ypos"			"9"
 		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"55"
 		"proportionaltoparent"	"1"
+		"labeltext"		"%redteamscore%"
+		"font"			"ScoreboardTeamScore"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"RedTeamScoreDropshadow"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardTeamScore"
-		"fgcolor_override"	"Black"
-		"labeltext"		"%redteamscore%"
 		"xpos"			"cs-0.5+54"
 		"ypos"			"10"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"55"
 		"proportionaltoparent"	"1"
+		"labeltext"		"%redteamscore%"
+		"font"			"ScoreboardTeamScore"
+		"fgcolor_override"	"Black"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"RedTeamPlayerCount"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardMedium"
-		"labeltext"		"%redteamplayercount%"
-		"textalignment"	"east"
 		"xpos"			"rs1-150"
 		"ypos"			"33"
 		"wide"			"130"
 		"tall"			"29"
 		"proportionaltoparent"	"1"
+		"labeltext"		"%redteamplayercount%"
+		"font"			"ScoreboardMedium"
+		"textalignment"	"east"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"ServerLabel"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardVerySmall"
-		"labeltext"		"%server%"
 		"xpos"			"11"
 		"ypos"			"60"
 		"wide"			"300"
 		"tall"			"20"
+		"labeltext"		"%server%"
+		"font"			"ScoreboardVerySmall"
 
 		if_mvm
 		{
@@ -231,17 +232,17 @@
 	"ServerTimeLeft"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardVerySmall"
-		"labeltext"		"%servertimeleft%"
-		"textalignment"	"east"
 		"xpos"			"285"
 		"ypos"			"60"
 		"wide"			"300"
 		"tall"			"20"
+		"labeltext"		"%servertimeleft%"
+		"font"			"ScoreboardVerySmall"
+		"textalignment"	"east"
 
 		if_mvm
 		{
-			"ypos"		"0"
+			"ypos"			"0"
 		}
 	}
 
@@ -257,7 +258,7 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
@@ -273,7 +274,7 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
@@ -289,20 +290,20 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"Spectators"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardVerySmall"
-		"labeltext"		"%spectators%"
 		"xpos"			"115"
 		"ypos"			"357"
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
+		"labeltext"		"%spectators%"
+		"font"			"ScoreboardVerySmall"
 
 		if_mvm
 		{
@@ -313,17 +314,17 @@
 	"SpectatorsInQueue"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardVerySmall"
-		"labeltext"		"%waitingtoplay%"
 		"xpos"			"115"
 		"ypos"			"348"
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
+		"labeltext"		"%waitingtoplay%"
+		"font"			"ScoreboardVerySmall"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
@@ -339,7 +340,7 @@
 
 		if_mvm
 		{
-			"visible"	"1"
+			"visible"		"1"
 		}
 	}
 
@@ -352,11 +353,10 @@
 		"wide"			"92"
 		"tall"			"92"
 		"scaleimage"	"1"
-		"image"			"../hud/class_scoutred"
 
 		if_mvm
 		{
-			"visible"	"1"
+			"visible"		"1"
 		}
 	}
 
@@ -373,15 +373,14 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 
 		"model"
 		{
-			"force_pos"	"1"
-
-			"angles_y"	"172"
-			"origin_z"	"-70"
+			"force_pos"		"1"
+			"angles_y"		"172"
+			"origin_z"		"-70"
 		}
 
 		"pin_to_sibling" "ShadedBar"
@@ -392,18 +391,18 @@
 	"PlayerNameLabel"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardMedium"
-		"labeltext"		"%playername%"
 		"xpos"			"115"
 		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
+		"labeltext"		"%playername%"
+		"font"			"ScoreboardMedium"
 
 		if_mvm
 		{
-			"visible"	"1"
-			"wide"		"175"
+			"wide"			"175"
+			"visible"		"1"
 		}
 	}
 
@@ -415,37 +414,34 @@
 		"zpos"			"3"
 		"wide"			"465"
 		"tall"			"1"
-	//	"fillcolor"		"127 127 127 153"
-	//	"paintbackgroundtype"	"0"
 
 		if_mvm
 		{
-			"visible"	"1"
+			"visible"		"1"
 		}
 	}
 
 	"MapName"
 	{
 		"controlname"	"Label"
-		"font"			"ScoreboardMedium"
-		"labeltext"		"%mapname%"
-		"textalignment"	"east"
 		"xpos"			"330"
 		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"20"
+		"labeltext"		"%mapname%"
+		"font"			"ScoreboardMedium"
+		"textalignment"	"east"
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 
 	"LocalPlayerDuelStatsPanel"
 	{
 		"controlname"	"EditablePanel"
-	//	"xpos"			"0"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -453,20 +449,20 @@
 
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 
 		"DuelingLabel"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardSmall"
-			"labeltext"		"#TF_ScoreBoard_Dueling"
-			"textalignment"	"center"
 			"xpos"			"250"
 			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_Dueling"
+			"font"			"ScoreboardSmall"
+			"textalignment"	"center"
 		}
 
 		"DuelingIcon"
@@ -485,7 +481,6 @@
 		{
 			"controlname"	"EditablePanel"
 			"xpos"			"75"
-		//	"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
 
@@ -505,40 +500,37 @@
 				"controlname"	"CAvatarImagePanel"
 				"xpos"			"159"
 				"ypos"			"9"
-			//	"zpos"			"0"
 				"wide"			"32"
 				"tall"			"32"
 				"scaleimage"	"1"
-				"image"			""
-				"color_outline"	"52 48 45 255"
+			//	"image"			""
+			//	"color_outline"	"52 48 45 255"
 			}
 
 			"AvatarTextLabel"
 			{
 				"controlname"	"Label"
-				"fgcolor"		"TanLight"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-			//	"wrap"			"0"
 				"labeltext"		"%playername%"
-				"textalignment"	"east"
 				"font"			"HudFontSmallest"
+				"textalignment"	"east"
 			}
 
 			"Score"
 			{
 				"controlname"	"Label"
-				"labeltext"		"%score%"
-				"textalignment"	"east"
 				"xpos"			"50"
 				"ypos"			"23"
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
+				"labeltext"		"%score%"
 				"font"			"ScoreboardMedium"
+				"textalignment"	"east"
 			}
 		}
 
@@ -546,7 +538,6 @@
 		{
 			"controlname"	"EditablePanel"
 			"xpos"			"325"
-		//	"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
 
@@ -566,24 +557,21 @@
 				"controlname"	"CAvatarImagePanel"
 				"xpos"			"9"
 				"ypos"			"9"
-			//	"zpos"			"0"
 				"wide"			"32"
 				"tall"			"32"
 				"scaleimage"	"1"
-				"image"			""
-				"color_outline"	"52 48 45 255"
+			//	"image"			""
+			//	"color_outline"	"52 48 45 255"
 			}
 
 			"AvatarTextLabel"
 			{
 				"controlname"	"Label"
-				"fgcolor"		"TanLight"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-			//	"wrap"			"0"
 				"labeltext"		"%playername%"
 				"font"			"HudFontSmallest"
 			}
@@ -591,12 +579,12 @@
 			"Score"
 			{
 				"controlname"	"Label"
-				"labeltext"		"%score%"
 				"xpos"			"50"
 				"ypos"			"23"
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
+				"labeltext"		"%score%"
 				"font"			"ScoreboardMedium"
 			}
 		}
@@ -605,7 +593,6 @@
 	"LocalPlayerStatsPanel"
 	{
 		"controlname"	"EditablePanel"
-	//	"xpos"			"0"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -613,425 +600,414 @@
 
 		if_mvm
 		{
-			"visible"	"1"
+			"visible"		"1"
 		}
 
 		"KillsLabel"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
+			"xpos"			"80"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
 			"labeltext"		"#TF_ScoreBoard_KillsLabel"
-			"textalignment"	"east"
-			"xpos"			"80"
-		//	"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"DeathsLabel"
-		{
-			"controlname"	"Label"
 			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_DeathsLabel"
 			"textalignment"	"east"
-			"xpos"			"80"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"AssistsLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_AssistsLabel"
-			"textalignment"	"east"
-			"xpos"			"80"
-			"ypos"			"20"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"DestructionLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_DestructionLabel"
-			"textalignment"	"east"
-			"xpos"			"80"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
 		}
 
 		"Kills1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%kills%"
 			"xpos"			"180"
-		//	"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%kills%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"DeathsLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"80"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_DeathsLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Deaths1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%deaths%"
 			"xpos"			"180"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%deaths%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"AssistsLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"80"
+			"ypos"			"20"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_AssistsLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Assists1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%assists%"
 			"xpos"			"180"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%assists%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"DestructionLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"80"
+			"ypos"			"30"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_DestructionLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Destruction1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%destruction%"
 			"xpos"			"180"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%destruction%"
+			"font"			"ScoreboardVerySmall"
 		}
 
 		"CapturesLabel"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
+			"xpos"			"200"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"20"
 			"labeltext"		"#TF_ScoreBoard_CapturesLabel"
-			"textalignment"	"east"
-			"xpos"			"200"
-		//	"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
-		}
-
-		"DefensesLabel"
-		{
-			"controlname"	"Label"
 			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_DefensesLabel"
 			"textalignment"	"east"
-			"xpos"			"200"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
-		}
-
-		"DominationLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_DominationLabel"
-			"textalignment"	"east"
-			"xpos"			"200"
-			"ypos"			"20"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
-		}
-
-		"RevengeLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_RevengeLabel"
-			"textalignment"	"east"
-			"xpos"			"200"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
 		}
 
 		"Captures1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%captures%"
 			"xpos"			"305"
-		//	"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%captures%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"DefensesLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"200"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_DefensesLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Defenses1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%defenses%"
 			"xpos"			"305"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%defenses%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"DominationLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"200"
+			"ypos"			"20"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_DominationLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Domination1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%dominations%"
 			"xpos"			"305"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%dominations%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"RevengeLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"200"
+			"ypos"			"30"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_RevengeLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Revenge1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%Revenge%"
 			"xpos"			"305"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%Revenge%"
+			"font"			"ScoreboardVerySmall"
 		}
 
 		"InvulnLabel"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
+			"xpos"			"326"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
 			"labeltext"		"#TF_ScoreBoard_InvulnLabel"
-			"textalignment"	"east"
-			"xpos"			"326"
-		//	"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"HeadshotsLabel"
-		{
-			"controlname"	"Label"
 			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textalignment"	"east"
-			"xpos"			"326"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"TeleportsLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_TeleportsLabel"
-			"textalignment"	"east"
-			"xpos"			"326"
-			"ypos"			"20"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"HealingLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_HealingLabel"
-			"textalignment"	"east"
-			"xpos"			"326"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
 		}
 
 		"Invuln1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%invulns%"
 			"xpos"			"425"
-		//	"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%invulns%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"HeadshotsLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"326"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_HeadshotsLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Headshots1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%headshots%"
 			"xpos"			"425"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%headshots%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"TeleportsLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"326"
+			"ypos"			"20"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_TeleportsLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Teleports1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%teleports%"
 			"xpos"			"425"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%teleports%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"HealingLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"326"
+			"ypos"			"30"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_HealingLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Healing1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%healing%"
 			"xpos"			"425"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%healing%"
+			"font"			"ScoreboardVerySmall"
 		}
 
 		"BackstabsLabel"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
+			"xpos"			"445"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
 			"labeltext"		"#TF_ScoreBoard_BackstabsLabel"
-			"textalignment"	"east"
-			"xpos"			"445"
-		//	"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"BonusLabel"
-		{
-			"controlname"	"Label"
 			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_ScoreBoard_BonusLabel"
 			"textalignment"	"east"
-			"xpos"			"445"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"SupportLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_Scoreboard_Support"
-			"textalignment"	"east"
-			"xpos"			"445"
-			"ypos"			"20"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-		}
-
-		"DamageLabel"
-		{
-			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"#TF_Scoreboard_Damage"
-			"textalignment"	"east"
-			"xpos"			"445"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
 		}
 
 		"Backstabs1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%backstabs%"
 			"xpos"			"545"
-		//	"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%backstabs%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"BonusLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"445"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_ScoreBoard_BonusLabel"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Bonus1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%bonus%"
 			"xpos"			"545"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%bonus%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"SupportLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"445"
+			"ypos"			"20"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_Scoreboard_Support"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Support1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%support%"
 			"xpos"			"545"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%support%"
+			"font"			"ScoreboardVerySmall"
+		}
+
+		"DamageLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"445"
+			"ypos"			"30"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"#TF_Scoreboard_Damage"
+			"font"			"ScoreboardVerySmall"
+			"textalignment"	"east"
 		}
 
 		"Damage1"
 		{
 			"controlname"	"Label"
-			"font"			"ScoreboardVerySmall"
-			"labeltext"		"%damage%"
 			"xpos"			"545"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
+			"labeltext"		"%damage%"
+			"font"			"ScoreboardVerySmall"
 		}
 	}
 
 	"MvMScoreboard"
 	{
 		"controlname"	"CTFHudMannVsMachineScoreboard"
-	//	"xpos"			"0"
-	//	"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-
 		"verbose"		"1"
 
 		if_mvm
 		{
-			"visible"	"1"
+			"visible"		"1"
 		}
 	}
 }

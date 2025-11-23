@@ -33,10 +33,11 @@
 				"fgcolor_override"	"LightRed"
 			}
 
-			"LeaveSafeModeButton"
+			"CloseButton"
 			{
 				"controlname"	"CExButton"
-				"xpos"			"cs-0.5-80"
+			//	"xpos"			"cs-0.5-130"
+				"xpos"			"cs-0.5-70"
 				"ypos"			"rs1-15"
 				"zpos"			"1"
 				"wide"			"100"
@@ -58,30 +59,115 @@
 				"paintbackground"	"0"
 			}
 
-			"RestartGameButton"
+			"ApplyButtonM"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"EditablePanel"
+			//	"xpos"			"cs-0.5-15"
 				"xpos"			"cs-0.5+70"
 				"ypos"			"rs1-15"
 				"zpos"			"1"
-				"wide"			"125"
+				"wide"			"100"
 				"tall"			"25"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#Vote_RestartGame"
-				"font"			"HudFontSmallBold"
-				"textalignment"	"center"
-				"command"		"engine _restart"
-				"actionsignallevel"	"3"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
 
-				"stay_armed_on_click"	"1"
+				"subbutton"
+				{
+					"controlname"	"CExImageButton"
+					"wide"			"100"
+					"tall"			"25"
+					"font"			"HudFontSmallBold"
+					"textalignment"	"center"
+					"actionsignallevel"	"3"
+					"sound_depressed"	"ui/buttonclick.wav"
+					"sound_released"	"ui/buttonclickrelease.wav"
 
-				"border_default"	"ViviTanDarkBG"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+					"stay_armed_on_click"	"1"
+
+					"border_default"	"ViviTanDarkBG"
+					"border_armed"		"ViviTFOrangeBG"
+					"border_selected"	"ViviTFOrangeBG"
+					"paintbackground"	"0"
+				}
 			}
+
+			"ApplyButtonG"
+			{
+				"controlname"	"EditablePanel"
+			//	"xpos"			"cs-0.5-15"
+				"xpos"			"cs-0.5+70"
+				"ypos"			"rs1-15"
+				"zpos"			"1"
+				"wide"			"100"
+				"tall"			"25"
+				"proportionaltoparent"	"1"
+
+				"subbutton"
+				{
+					"controlname"	"CExImageButton"
+					"wide"			"100"
+					"tall"			"25"
+					"enabled"		"0"
+					"font"			"HudFontSmallBold"
+					"textalignment"	"center"
+
+					"border_disabled"	"ViviTanDarkBG"
+					"paintbackground"	"0"
+				}
+			}
+
+			// "RestartGameButtonM"
+			// {
+			// 	"controlname"	"EditablePanel"
+			// 	"xpos"			"cs-0.5+115"
+			// 	"ypos"			"rs1-15"
+			// 	"zpos"			"1"
+			// 	"wide"			"130"
+			// 	"tall"			"25"
+			// 	"proportionaltoparent"	"1"
+
+			// 	"subbutton"
+			// 	{
+			// 		"controlname"	"CExImageButton"
+			// 		"wide"			"130"
+			// 		"tall"			"25"
+			// 		"font"			"HudFontSmallBold"
+			// 		"textalignment"	"center"
+			// 		"actionsignallevel"	"3"
+			// 		"sound_depressed"	"ui/buttonclick.wav"
+			// 		"sound_released"	"ui/buttonclickrelease.wav"
+
+			// 		"stay_armed_on_click"	"1"
+
+			// 		"border_default"	"ViviTanDarkBG"
+			// 		"border_armed"		"ViviTFOrangeBG"
+			// 		"border_selected"	"ViviTFOrangeBG"
+			// 		"paintbackground"	"0"
+			// 	}
+			// }
+
+			// "RestartGameButtonG"
+			// {
+			// 	"controlname"	"EditablePanel"
+			// 	"xpos"			"cs-0.5+115"
+			// 	"ypos"			"rs1-15"
+			// 	"zpos"			"1"
+			// 	"wide"			"130"
+			// 	"tall"			"25"
+			// 	"proportionaltoparent"	"1"
+
+			// 	"subbutton"
+			// 	{
+			// 		"controlname"	"CExImageButton"
+			// 		"wide"			"130"
+			// 		"tall"			"25"
+			// 		"enabled"		"0"
+			// 		"font"			"HudFontSmallBold"
+			// 		"textalignment"	"center"
+
+			// 		"border_disabled"	"ViviTanDarkBG"
+			// 		"paintbackground"	"0"
+			// 	}
+			// }
 
 			"PanelListPanel"
 			{
@@ -105,7 +191,7 @@
 					"controlname"	"EditablePanel"
 					"ypos"			"10"
 					"wide"			"f23"
-					"tall"			"395"
+					"tall"			"400"
 					"proportionaltoparent"	"1"
 					"bgcolor_override"	"255 0 0 0"
 
@@ -205,9 +291,9 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-90"
+						//	"xpos"			"rs1-105"
 							"zpos"			"1"
-							"wide"			"45"
+							"wide"			"34"
 							"tall"			"20"
 							"proportionaltoparent"	"1"
 							"labeltext"		"1"
@@ -224,6 +310,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -241,9 +330,9 @@
 						"Button3"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-45"
+						//	"xpos"			"rs1-70"
 							"zpos"			"1"
-							"wide"			"45"
+							"wide"			"34"
 							"tall"			"20"
 							"proportionaltoparent"	"1"
 							"labeltext"		"2"
@@ -256,6 +345,9 @@
 
 							"roundedcorners"		"0"
 							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button4"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder3"
@@ -273,12 +365,47 @@
 						"Button4"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1"
+						//	"xpos"			"rs1-35"
 							"zpos"			"1"
-							"wide"			"45"
+							"wide"			"34"
 							"tall"			"20"
 							"proportionaltoparent"	"1"
 							"labeltext"		"3"
+							"font"			"HudFontSmallestBold"
+							"textalignment"	"center"
+							"command"		"engine bgs_tf_ingame"
+							"actionsignallevel"	"6"
+							"sound_depressed"	"ui/buttonclick.wav"
+							"sound_released"	"ui/buttonclickrelease.wav"
+
+							"roundedcorners"		"0"
+							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button5"
+							"pin_corner_to_sibling" "1"
+						}
+
+						"OptionsDividerBorder4"
+						{
+							"controlname"	"Panel"
+							"zpos"			"2"
+							"wide"			"1"
+							"tall"			"25"
+							"border"		"MainMenuSubButtonBorder2"
+							"mouseinputenabled"	"0"
+
+							"pin_to_sibling" "Button5"
+						}
+
+						"Button5"
+						{
+							"controlname"	"CExButton"
+							"xpos"			"rs1"
+							"zpos"			"1"
+							"wide"			"34"
+							"tall"			"20"
+							"proportionaltoparent"	"1"
+							"labeltext"		"4"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
 							"command"		"engine bgs_hl2"
@@ -490,6 +617,7 @@
 							"paintbackground"	"0"
 						}
 					}
+
 					"FakeAchievements"
 					{
 						"controlname"	"EditablePanel"
@@ -517,7 +645,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-220"
+						//	"xpos"			"rs1-220"
 							"zpos"			"1"
 							"wide"			"55"
 							"tall"			"20"
@@ -536,6 +664,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -553,7 +684,7 @@
 						"Button3"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-180"
+						//	"xpos"			"rs1-180"
 							"zpos"			"1"
 							"wide"			"40"
 							"tall"			"20"
@@ -568,6 +699,9 @@
 
 							"roundedcorners"		"0"
 							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button4"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder2"
@@ -609,7 +743,7 @@
 						"Button233"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-80"
+						//	"xpos"			"rs1-80"
 							"zpos"			"1"
 							"wide"			"55"
 							"tall"			"20"
@@ -628,6 +762,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button323"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder122"
@@ -644,7 +781,7 @@
 						"Button323"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-40"
+						//	"xpos"			"rs1-40"
 							"zpos"			"1"
 							"wide"			"40"
 							"tall"			"20"
@@ -659,6 +796,9 @@
 
 							"roundedcorners"		"0"
 							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button411"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder212"
@@ -747,7 +887,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-80"
+						//	"xpos"			"rs1-80"
 							"zpos"			"1"
 							"wide"			"55"
 							"tall"			"20"
@@ -766,6 +906,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -783,7 +926,7 @@
 						"Button3"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-40"
+						//	"xpos"			"rs1-40"
 							"zpos"			"1"
 							"wide"			"40"
 							"tall"			"20"
@@ -798,6 +941,9 @@
 
 							"roundedcorners"		"0"
 							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button4"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder2"
@@ -887,7 +1033,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-95"
+						//	"xpos"			"rs1-95"
 							"zpos"			"1"
 							"wide"			"40"
 							"tall"			"20"
@@ -906,6 +1052,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -1093,7 +1242,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-80"
+						//	"xpos"			"rs1-80"
 							"zpos"			"1"
 							"wide"			"55"
 							"tall"			"20"
@@ -1112,6 +1261,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -1201,7 +1353,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-80"
+						//	"xpos"			"rs1-80"
 							"zpos"			"1"
 							"wide"			"55"
 							"tall"			"20"
@@ -1220,6 +1372,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -1293,7 +1448,7 @@
 							"labeltext"		"#GameUI_Enable"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
-							"command"		"engine 3ci_vivi"
+							"command"		"engine contracts_on"
 							"actionsignallevel"	"6"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
@@ -1317,7 +1472,7 @@
 							"labeltext"		"#GameUI_Disable"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
-							"command"		"engine 3ci_tf2"
+							"command"		"engine contracts_off"
 							"actionsignallevel"	"6"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
@@ -1383,7 +1538,7 @@
 						"Button1"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-90"
+						//	"xpos"			"rs1-90"
 							"zpos"			"1"
 							"wide"			"45"
 							"tall"			"20"
@@ -1402,6 +1557,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button2"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -1419,7 +1577,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-45"
+						//	"xpos"			"rs1-45"
 							"zpos"			"1"
 							"wide"			"45"
 							"tall"			"20"
@@ -1434,6 +1592,9 @@
 
 							"roundedcorners"		"0"
 							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder3"
@@ -1533,7 +1694,7 @@
 							"labeltext"		"2010"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
-							"command"		"engine 4ci_vivi"
+							"command"		"engine loadout_button_2010"
 							"actionsignallevel"	"6"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
@@ -1557,7 +1718,7 @@
 							"labeltext"		"2011"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
-							"command"		"engine 4ci_tf2"
+							"command"		"engine loadout_button_2011"
 							"actionsignallevel"	"6"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
@@ -1649,7 +1810,7 @@
 					"controlname"	"EditablePanel"
 					"ypos"			"415"
 					"wide"			"f23"
-					"tall"			"220"
+					"tall"			"225"
 					"proportionaltoparent"	"1"
 					"bgcolor_override"	"0 0 255 0"
 
@@ -1674,7 +1835,7 @@
 						"border"		"OptionsCategoryBorder"
 					}
 
-					"LoadoutCC"
+					"LoadoutLayout"
 					{
 						"controlname"	"EditablePanel"
 						"xpos"			"7"
@@ -1722,7 +1883,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-95"
+						//	"xpos"			"rs1-95"
 							"zpos"			"1"
 							"wide"			"40"
 							"tall"			"20"
@@ -1741,6 +1902,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -1789,7 +1953,7 @@
 						"proportionaltoparent"	"1"
 						"bgcolor_override"	"255 0 255 0"
 
-						"pin_to_sibling" "LoadoutCC"
+						"pin_to_sibling" "LoadoutLayout"
 						"pin_to_sibling_corner" "2"
 
 						"Explanation"
@@ -2096,7 +2260,7 @@
 						"Button2"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-90"
+						//	"xpos"			"rs1-90"
 							"zpos"			"1"
 							"wide"			"45"
 							"tall"			"20"
@@ -2115,6 +2279,9 @@
 							"border_armed"		"ViviTFOrangeBGCornersL"
 							"border_selected"	"ViviTFOrangeBGCornersL"
 							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button3"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder1"
@@ -2132,7 +2299,7 @@
 						"Button3"
 						{
 							"controlname"	"CExButton"
-							"xpos"			"rs1-45"
+						//	"xpos"			"rs1-45"
 							"zpos"			"1"
 							"wide"			"45"
 							"tall"			"20"
@@ -2147,6 +2314,9 @@
 
 							"roundedcorners"		"0"
 							"stay_armed_on_click"	"1"
+
+							"pin_to_sibling" "Button4"
+							"pin_corner_to_sibling" "1"
 						}
 
 						"OptionsDividerBorder3"
@@ -2336,7 +2506,7 @@
 					"controlname"	"EditablePanel"
 					"ypos"			"645"
 					"wide"			"f23"
-					"tall"			"107"
+					"tall"			"110"
 					"proportionaltoparent"	"1"
 					"bgcolor_override"	"0 255 0 0"
 
@@ -2361,7 +2531,7 @@
 						"border"		"OptionsCategoryBorder"
 					}
 
-					"ScoreboardRank"
+					"RankMedal"
 					{
 						"controlname"	"EditablePanel"
 						"xpos"			"7"
@@ -2393,7 +2563,7 @@
 							"labeltext"		"#GameUI_Enable"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
-							"command"		"engine scoreboardrank"
+							"command"		"engine rank_medal"
 							"actionsignallevel"	"6"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
@@ -2417,7 +2587,7 @@
 							"labeltext"		"#GameUI_Disable"
 							"font"			"HudFontSmallestBold"
 							"textalignment"	"center"
-							"command"		"engine scoreboardrankhide"
+							"command"		"engine rank_medal_hide"
 							"actionsignallevel"	"6"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
@@ -2440,7 +2610,7 @@
 						"proportionaltoparent"	"1"
 						"bgcolor_override"	"255 0 255 0"
 
-						"pin_to_sibling" "ScoreboardRank"
+						"pin_to_sibling" "RankMedal"
 						"pin_to_sibling_corner" "2"
 
 						"Explanation"
@@ -2551,7 +2721,73 @@
 							"fgcolor_override"	"TanDark"
 						}
 
+						"ExplanationTooltipPanel8"
+						{
+							"controlname"	"EditablePanel"
+							"zpos"			"1"
+							"wide"			"11"
+							"tall"			"11"
+							"proportionaltoparent"	"1"
+
+							"pin_to_sibling" "Explanation"
+							"pin_corner_to_sibling" "7"
+							"pin_to_sibling_corner" "5"
+
+							"subbutton"
+							{
+								"controlname"	"CExImageButton"
+								"wide"			"11"
+								"tall"			"11"
+								"enabled"		"0"
+								"font"			"ItemFontNameSmall"
+								"textalignment"	"center"
+
+								"paintbackground"	"0"
+
+								"disabledfgcolor2_override"	"Gray"
+							}
+						}
+
 						"Button1"
+						{
+							"controlname"	"CExButton"
+						//	"xpos"			"rs1-135"
+							"zpos"			"1"
+							"wide"			"40"
+							"tall"			"20"
+							"proportionaltoparent"	"1"
+							"labeltext"		"QHD"		//		localize
+							"font"			"HudFontSmallestBold"
+							"textalignment"	"center"
+							"command"		"engine buildingsui_sentry2010_qhd; buildingsui_dispenser2010_qhd; buildingsui_teleporter2010_qhd; buildingsui_sentry_disp2010; hud_reloadscheme"
+							"actionsignallevel"	"6"
+							"sound_depressed"	"ui/buttonclick.wav"
+							"sound_released"	"ui/buttonclickrelease.wav"
+
+							"stay_armed_on_click"	"1"
+
+							"border_default"	"ViviTanDarkBGCornersL"
+							"border_armed"		"ViviTFOrangeBGCornersL"
+							"border_selected"	"ViviTFOrangeBGCornersL"
+							"paintbackground"	"0"
+
+							"pin_to_sibling" "Button2"
+							"pin_corner_to_sibling" "1"
+						}
+
+						"OptionsDividerBorder1"
+						{
+							"controlname"	"Panel"
+							"zpos"			"2"
+							"wide"			"1"
+							"tall"			"25"
+							"border"		"MainMenuSubButtonBorder2"
+							"mouseinputenabled"	"0"
+
+							"pin_to_sibling" "Button2"
+						}
+
+						"Button2"
 						{
 							"controlname"	"CExButton"
 							"xpos"			"rs1-70"
@@ -2569,13 +2805,13 @@
 
 							"stay_armed_on_click"	"1"
 
-							"border_default"	"ViviTanDarkBG"
-							"border_armed"		"ViviTFOrangeBG"
-							"border_selected"	"ViviTFOrangeBG"
+							"border_default"	"ViviTanDarkBGCornersR"
+							"border_armed"		"ViviTFOrangeBGCornersR"
+							"border_selected"	"ViviTFOrangeBGCornersR"
 							"paintbackground"	"0"
 						}
 
-						"Button2"
+						"Button3"
 						{
 							"controlname"	"CExButton"
 							"xpos"			"rs1"

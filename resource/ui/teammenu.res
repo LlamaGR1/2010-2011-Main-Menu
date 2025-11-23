@@ -1,8 +1,6 @@
-#base "../../../../cfg/2010hud/client20102011.txt"
+#base ../../../../cfg/2010hud/client20102011.txt
 
-
-#base "1/2011fix/shadedbar.res"
-
+#base 1/2011fix/shadedbar.res
 
 "teammenu"
 {
@@ -141,7 +139,7 @@
 		"xpos"			"30"
 		"ypos"			"r40"
 		"zpos"			"6"
-		"wide"			"450"
+		"wide"			"400"
 		"tall"			"30"
 		"labeltext"		"#TF_SelectATeam"
 		"font"			"MenuMainTitle"

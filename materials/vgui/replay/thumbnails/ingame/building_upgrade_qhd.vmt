@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	$basetexture	vgui/replay/thumbnails/ingame/building_upgrade_qhd
+	$vertexalpha	1
+	$vertexcolor	1
+}

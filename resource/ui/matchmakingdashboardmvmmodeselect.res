@@ -1,4 +1,4 @@
-"resource/ui/matchmakingdashboardcasualcriteria.res"
+"matchmakingdashboardmvmmodeselect"
 {
 	"MVMModeSelect"
 	{

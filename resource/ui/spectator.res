@@ -185,7 +185,7 @@
 		"controlname"	"CItemModelPanel"
 		"zpos"			"10"
 		"wide"			"270"
-		"tall"			"110"
+		"tall"			"100"
 
 		"model_xpos"	"10"
 		"model_center_x"	"0"
@@ -198,6 +198,7 @@
 		"text_center"	"1"
 		"text_ypos"		""
 		"resize_to_text"	"0"
+		"text_forcesize"	"0"
 
 		"ItemLabel"
 		{

@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/buildingsui_sentry_disp.txt"
+#base ../../../../cfg/2010hud/buildingsui_sentry_disp.txt
 
-#base "1/ingame/buildingsui/2011/sentry_disp.res"
+#base 1/ingame/buildingsui/2011/sentry_disp.res
 
 "hud_obj_sentrygun_disp"
 {
@@ -59,6 +59,31 @@
 			"tall"			"15"
 		}
 
+		"BuildingPanel"
+		{
+			"xpos"			"60"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"0"
+
+			"BuildingLabel"
+			{
+				"controlname"	"Label"
+				"ypos"			"3"
+				"wide"			"200"
+				"tall"			"12"
+				"labeltext"		"#Building_hud_building"
+				"font"			"DefaultSmall"
+			}
+
+			"BuildingProgress"
+			{
+				"ypos"			"14"
+				"wide"			"50"
+				"tall"			"2"
+			}
+		}
+
 		"RunningPanel"
 		{
 			"xpos"			"60"
@@ -66,46 +91,15 @@
 			"tall"			"20"
 			"visible"		"0"
 
-			"Rockets" // ok
+			"Rockets"
 			{
-				"xpos"			"112"
-				"ypos"			"139"
-				"wide"			"0"
-				"tall"			"0"
+				"visible"		"0"
 			}
 
-			"Upgrade" // ok
+			"Upgrade"
 			{
-				"xpos"			"111"
-				"ypos"			"111"
-				"wide"			"0"
-				"tall"			"0"
+				"visible"		"0"
 			}
-
-			// "Shells" // ok
-			// {
-			// 	"xpos"			"11"
-			// 	"ypos"			"11"
-			// 	"wide"			"20"
-			// 	"tall"			"10"
-			// }
-
-			// "ShellsLabel"
-			// {
-			// 	"controlname"	"Label"
-			// 	"ypos"			"3"
-			// 	"wide"			"200"
-			// 	"tall"			"12"
-			// 	"labeltext"		"#Building_hud_sentry_shells"
-			// 	"font"			"DefaultSmall"
-			// }
-
-			// "Shells"
-			// {
-			// 	"ypos"			"14"
-			// 	"wide"			"50"
-			// 	"tall"			"2"
-			// }
 		}
 	}
 }

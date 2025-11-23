@@ -4,7 +4,7 @@
 	{
 		"controlname"	"CTFClassTipsItemPanel"
 		"wide"			"160"
-		"tall"			"30"
+		"tall"			"35"
 
 		"TipIcon"
 		{

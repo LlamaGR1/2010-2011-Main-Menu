@@ -35,14 +35,13 @@
 		"controlname"	"EditablePanel"
 		"wide"			"287"
 		"tall"			"184"
-	//	"border"		"ViviBlackBG2"
 
 		"ClassNameLabel"
 		{
 			"controlname"	"Label"
 			"xpos"			"112"
 			"ypos"			"10"
-			"wide"			"140"		//		replace all 130 with 140
+			"wide"			"140"
 			"tall"			"10"
 			"labeltext"		"%classname%"
 			"font"			"DefaultSource"
@@ -149,17 +148,6 @@
 			"fgcolor_override"	"236 227 203 150"
 		}
 	}
-
-	// "ClassImage"
-	// {
-	// 	"controlname"	"ImagePanel"
-	// 	"xpos"			"0"
-	// 	"ypos"			"0"
-	// 	"zpos"			"1"
-	// 	"wide"			"100"
-	// 	"tall"			"100"
-	// 	"scaleimage"	"1"
-	// }
 
 	"ClassIconImage"
 	{

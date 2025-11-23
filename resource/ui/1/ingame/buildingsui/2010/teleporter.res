@@ -48,11 +48,10 @@
 				"ypos"			"11"
 				"wide"			"40"
 				"tall"			"18"
-				"iconColor"		"255 239 209 255"
 				"icon"			"ico_upgrade"
 			}
 
-			"Upgrade" // ok
+			"Upgrade"
 			{
 				"xpos"			"0"
 				"ypos"			"24"

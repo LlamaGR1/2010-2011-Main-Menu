@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/buildingsui_dispenser.txt"
+#base ../../../../cfg/2010hud/buildingsui_dispenser.txt
 
-#base "1/ingame/buildingsui/2011/dispenser.res"
+#base 1/ingame/buildingsui/2011/dispenser.res
 
 "hud_obj_dispenser"
 {
@@ -162,18 +162,6 @@
 			"tall"			"31"
 			"visible"		"0"
 
-			// "AmmoIcon"
-			// {
-			// 	"xpos"			"9990"
-			// 	"ypos"			"5"
-			// 	"zpos"			"1"
-			// 	"wide"			"10"
-			// 	"tall"			"10"
-			// 	"scaleimage"	"1"
-			// 	"drawcolor"		"ProgressOffWhite"
-			// 	"image"			"../hud/hud_obj_status_ammo_64"
-			// }
-
 			"Ammo"
 			{
 				"tall"			"8"
@@ -183,14 +171,6 @@
 			{
 				"scaleimage"	"1"
 			}
-
-			// "Upgrade"
-			// {
-			// 	"xpos"			"10"
-			// 	"ypos"			"12"
-			// 	"wide"			"40"
-			// 	"tall"			"2"
-			// }
 		}
 	}
 }

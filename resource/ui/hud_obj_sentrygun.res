@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/buildingsui_sentry.txt"
+#base ../../../../cfg/2010hud/buildingsui_sentry.txt
 
-#base "1/ingame/buildingsui/2011/sentry.res"
+#base 1/ingame/buildingsui/2011/sentry.res
 
 "hud_obj_sentrygun"
 {

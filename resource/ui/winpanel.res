@@ -1,6 +1,6 @@
-#base "../../../../cfg/2010hud/scoreboardrank.txt"
+#base ../../../../cfg/2010hud/rank_medal.txt
 
-#base "1/ingame/scoreboard_rank.res"
+#base 1/ingame/rank_medal_hide.res
 
 "winpanel"
 {
@@ -246,10 +246,9 @@
 	"Player1Badge"
 	{
 		"controlname"	"CTFBadgePanel"
-		"xpos"			"11"
+		"xpos"			"13"
 		"ypos"			"130"
 		"zpos"			"3"
-	//	"visible"		"0"
 	}
 
 	"Player1Avatar"
@@ -300,10 +299,9 @@
 	"Player2Badge"
 	{
 		"controlname"	"CTFBadgePanel"
-		"xpos"			"11"
+		"xpos"			"13"
 		"ypos"			"152"
 		"zpos"			"3"
-	//	"visible"		"0"
 	}
 
 	"Player2Avatar"
@@ -354,10 +352,9 @@
 	"Player3Badge"
 	{
 		"controlname"	"CTFBadgePanel"
-		"xpos"			"11"
+		"xpos"			"13"
 		"ypos"			"174"
 		"zpos"			"3"
-	//	"visible"		"0"
 	}
 
 	"Player3Avatar"

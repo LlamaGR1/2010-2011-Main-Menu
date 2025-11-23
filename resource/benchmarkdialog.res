@@ -3,76 +3,18 @@
 	"BenchmarkDialog"
 	{
 		"controlname"	"CBenchmarkDialog"
-		"wide"			"515"
-		"tall"			"400"
+		"wide"			"475"
+		"tall"			"370"
 		"title"			"#Vivi_Utilities"
-	}
-
-	"RecommendedSettings"
-	{
-		"controlname"	"EditablePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"55"
-		"zpos"			"1"
-		"wide"			"385"
-		"tall"			"24"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-
-		"1"
-		{
-			"controlname"	"Label"
-		//	"wide"			"180"
-			"auto_wide_tocontents"	"1"
-			"tall"			"24"
-			"labeltext"		"#Vivi_RecommendedSettings"
-		}
-
-		"2"
-		{
-			"controlname"	"Label"
-			"wide"			"18"
-			"tall"			"24"
-			"labeltext"		"?"
-			"tooltiptext"	"#Vivi_RecommendedSettings_ToolTip"
-			"textalignment"	"center"
-			"dulltext"		"1"
-
-			"pin_to_sibling" "1"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
-		}
-
-		"3"
-		{
-			"controlname"	"Button"
-			"xpos"			"rs1"
-			"wide"			"95"
-			"tall"			"24"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#GameUI_Apply"
-			"command"		"engine recommendedsettings"
-			"actionsignallevel"	"3"
-		}
-	}
-
-	"Divider1"
-	{
-		"controlname"	"Divider"
-		"xpos"			"cs-0.5"
-		"ypos"			"90"
-		"wide"			"385"
-		"tall"			"2"
-		"proportionaltoparent"	"1"
 	}
 
 	"Utilities1"
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"105"
+		"ypos"			"65"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -105,6 +47,7 @@
 			"tall"			"24"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Utilities_Button_2"
+			"tooltiptext"	"#Vivi_Utilities_Button_2_ToolTip"
 			"command"		"engine toggle mat_aaquality; hud_reloadscheme"
 			"actionsignallevel"	"3"
 		}
@@ -114,9 +57,9 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -146,9 +89,9 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"175"
+		"ypos"			"135"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -190,9 +133,9 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"210"
+		"ypos"			"170"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -222,9 +165,9 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"245"
+		"ypos"			"205"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -254,9 +197,9 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"280"
+		"ypos"			"240"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -310,9 +253,9 @@
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"315"
+		"ypos"			"275"
 		"zpos"			"1"
-		"wide"			"385"
+		"wide"			"375"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -333,7 +276,7 @@
 			"tall"			"24"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Vote_Title"
-			"command"		"engine callvote"
+			"command"		"engine callvote; gameui_hide"
 			"actionsignallevel"	"3"
 		}
 	}
@@ -341,17 +284,17 @@
 	"Divider2"
 	{
 		"controlname"	"Divider"
-		"xpos"			"15"
+		"xpos"			"10"
 		"ypos"			"40"
-		"wide"			"485"
-		"tall"			"315"
+		"wide"			"455"
+		"tall"			"285"
 	}
 
 	"RunButton"
 	{
 		"controlname"	"Button"
 		"xpos"			"15"
-		"ypos"			"365"
+		"ypos"			"335"
 		"wide"			"89"
 		"tall"			"24"
 		"labeltext"		"#GameUI_Console"
@@ -359,11 +302,24 @@
 		"actionsignallevel"	"2"
 	}
 
+	"CreditsButton"
+	{
+		"controlname"	"Button"
+		"xpos"			"cs-0.5"
+		"ypos"			"335"
+		"wide"			"89"
+		"tall"			"24"
+		"proportionaltoparent"	"1"
+		"labeltext"		"#Vivi_Utilities_Button_8"
+		"command"		"engine bug; vivi_credits"
+		"actionsignallevel"	"2"
+	}
+
 	"CloseButton"
 	{
 		"controlname"	"Button"
-		"xpos"			"411"
-		"ypos"			"365"
+		"xpos"			"371"
+		"ypos"			"335"
 		"wide"			"89"
 		"tall"			"24"
 		"labeltext"		"#GameUI_Close"

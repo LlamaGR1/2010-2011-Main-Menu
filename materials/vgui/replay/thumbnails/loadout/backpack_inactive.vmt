@@ -1,5 +1,5 @@
 "unlitgeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/loadout/backpack_inactive"
-	"$vertexalpha"	1
+	$basetexture	vgui/replay/thumbnails/loadout/backpack_inactive
+	$vertexalpha	1
 }

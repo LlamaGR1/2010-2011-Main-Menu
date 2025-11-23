@@ -27,7 +27,7 @@
 				"ypos"			"16"
 				"wide"			"10"
 				"tall"			"10"
-				"iconColor"		"ProgressOffWhite"
+				"iconcolor"		"ProgressOffWhite"
 				"icon"			"ico_metal"
 			}
 

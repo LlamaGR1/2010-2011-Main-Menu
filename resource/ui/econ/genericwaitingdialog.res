@@ -17,7 +17,6 @@
 		"tall"			"42"
 		"labeltext"		"%updatetext%"
 		"font"			"HudFontSmallBold"
-		"textalignment"	"center"
 		"centerwrap"	"1"
 		"fgcolor_override"	"LightRed"
 	}

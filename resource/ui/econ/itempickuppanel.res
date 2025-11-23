@@ -18,6 +18,11 @@
 			"model_tall"	"200"
 
 			"text_forcesize"	"1"
+
+			"itemmodelpanel"
+			{
+				"inventory_image_type"	"1"
+			}
 		}
 	}
 
@@ -39,7 +44,6 @@
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"45"
-	//	"image"			"achievements/tf_demoman_freezecam_smile"
 		"scaleimage"	"1"
 	}
 

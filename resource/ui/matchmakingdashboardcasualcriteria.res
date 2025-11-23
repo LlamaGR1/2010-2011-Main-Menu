@@ -1,5 +1,3 @@
-//#base "matchmakingdashboardsidepanel.res"
-
 "matchmakingdashboardcasualcriteria"
 {
 	"CasualCriteria"
@@ -7,9 +5,17 @@
 		"xpos"			"r0"
 		"zpos"			"1002"
 		"wide"			"f0"
-		"tall"			"400"		//	395
-		"proportionaltoparent"	"1"
-	//	"bgcolor_override"		"255 0 0 255"
+		"tall"			"400"
+	}
+
+	"criteria"
+	{
+		"controlname"	"CCasualCriteriaPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"100"
+		"zpos"			"100"
+		"wide"			"410"
+		"tall"			"310"
 	}
 
 	"BGPanel"
@@ -31,33 +37,9 @@
 		"zpos"			"1"
 		"wide"			"440"
 		"tall"			"20"
-		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-	}
-
-	"criteria"
-	{
-		"controlname"	"CCasualCriteriaPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"100"
-		"zpos"			"100"
-		"wide"			"410"
-		"tall"			"310"		//	310
-		"proportionaltoparent"	"1"
-	}
-
-	"ToolTipButtonHack"
-	{
-		"controlname"	"EditablePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"340"
-		"zpos"			"106"
-		"wide"			"160"
-		"tall"			"35"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
 	}
 
 	"GradientBgPanel"
@@ -68,7 +50,6 @@
 		"zpos"			"1"
 		"wide"			"430"
 		"tall"			"400"
-		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"image"			"training/gradient"
 	}
@@ -77,11 +58,10 @@
 	{
 		"controlname"	"CExButton"
 		"xpos"			"cs-0.5"
-		"ypos"			"340"		//		rs1-50
+		"ypos"			"340"
 		"zpos"			"105"
-		"wide"			"160"		//		150
-		"tall"			"35"		//		30
-		"proportionaltoparent"	"1"
+		"wide"			"160"
+		"tall"			"35"
 		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
@@ -102,27 +82,85 @@
 		"disabledfgcolor2_override"	"Black"
 	}
 
-	// "CancelButton"
+	"ToolTipButtonHack"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"169"
+		"wide"			"320"
+		"tall"			"70"
+		"visible"		"0"
+		"bgcolor_override"	"0 0 0 245"
+		"paintbackgroundtype"	"0"
+		"mouseinputenabled"	"0"
+
+		"TitleLabel"
+		{
+			"controlname"	"Label"
+			"ypos"			"13"
+			"zpos"			"1"
+			"wide"			"320"
+			"tall"			"15"
+			"labeltext"		"#TF_MM_WaitDialog_Title_ShowServers"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"north"
+			"fgcolor_override"	"LightRed"
+		}
+
+		"ExplanationLabel"
+		{
+			"controlname"	"Label"
+			"xpos"			"20"
+			"ypos"			"35"
+			"zpos"			"1"
+			"wide"			"290"
+			"tall"			"30"
+			"labeltext"		"#TF_GameModeDesc_Quickplay"
+			"font"			"HudFontSmall"
+			"textalignment"	"north"
+			"wrap"			"1"
+			"fgcolor_override"	"TanDark"
+		}
+	}
+
+	// "ToolTipButtonHack"
 	// {
-	// 	"controlname"	"CExButton"
+	// 	"controlname"	"EditablePanel"
 	// 	"xpos"			"cs-0.5"
-	// 	"ypos"			"406"
-	// 	"zpos"			"105"
-	// 	"wide"			"100"
-	// 	"tall"			"25"
-	// 	"proportionaltoparent"	"1"
-	// 	"labeltext"		"#Cancel"
-	// 	"font"			"HudFontSmallBold"
-	// 	"textalignment"	"center"
-	// 	"Command"		"nav_close"
-	// 	"sound_depressed"	"ui/buttonclick.wav"
-	// 	"sound_released"	"ui/buttonclickrelease.wav"
+	// 	"ypos"			"cs-0.5"
+	// 	"zpos"			"169"
+	// 	"wide"			"250"
+	// 	"tall"			"120"
+	// 	"visible"		"0"
+	// 	"border"		"GrayDialogBorder"
+	// 	"mouseinputenabled"	"0"
 
-	//	"stay_armed_on_click"	"1"
+	// 	"TitleLabel"
+	// 	{
+	// 		"controlname"	"Label"
+	// 		"xpos"			"10"
+	// 		"ypos"			"23"
+	// 		"wide"			"230"
+	// 		"tall"			"40"
+	// 		"labeltext"		"#TF_MM_WaitDialog_Title_FeelingLucky"
+	// 		"font"			"HudFontSmallBold"
+	// 		"centerwrap"	"1"
+	// 		"fgcolor_override"	"LightRed"
+	// 	}
 
-	// 	"border_default"	"ViviTanDarkBG"
-	// 	"border_armed"		"ViviTFOrangeBG"
-	// 	"border_selected"	"ViviTFOrangeBG"
-	// 	"paintbackground"	"0"
+	// 	"LoadingImage"
+	// 	{
+	// 		"controlname"	"ImagePanel"
+	// 		"ypos"			"-5"
+	// 		"wide"			"40"
+	// 		"tall"			"40"
+	// 		"scaleimage"	"1"
+	// 		"image"			"animated/tf2_logo_hourglass"
+
+	// 		"pin_to_sibling" "TitleLabel"
+	// 		"pin_corner_to_sibling" "4"
+	// 		"pin_to_sibling_corner" "6"
+	// 	}
 	// }
 }

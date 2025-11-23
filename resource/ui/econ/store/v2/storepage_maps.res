@@ -1,12 +1,10 @@
-#base "storepage.res"
+#base storepage.res
 
 "storepage_maps"
 {
 	"StorePage"
 	{
 		"item_xpos"		"190"
-	//	"item_ypos"		"40"
-	//	"item_mod_wide"	"40"
 
 		"item_panels"		"8"
 		"item_columns"		"2"

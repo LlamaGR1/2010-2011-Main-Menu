@@ -15,7 +15,7 @@
 			"ypos"			"10"
 			"labeltext"		"%tiptext%"
 			"font"			"HudFontSmallest"
-			"wrap"			"1"
+			"centerwrap"	"1"
 		}
 	}
 }
