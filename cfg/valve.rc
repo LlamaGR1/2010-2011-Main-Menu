@@ -19,7 +19,10 @@ tf_mm_dashboard_slide_panel_step 0
 tf_store_stamp_donation_add_timestamp 1939001945
 tf_inspect_hint_count 11
 cl_hud_playerclass_playermodel_showed_confirm_dialog 1
-cl_vote_non_input_alpha 255							//				add to github wiki❌❌❌❌⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
+/////////////////////////////////
+
+cl_vote_non_input_alpha 255
 tf_scoreboard_ping_as_text 1
 tf_hud_target_id_alpha 255
 tf_hud_target_id_disable_floating_health 1
@@ -33,6 +36,8 @@ glow_outline_effect_enable 0
 tf_enable_glows_after_respawn 0
 tf_dingalingaling_lasthit 0
 tf_use_min_viewmodels 0
+
+/////////////////////////////////
 
 alias 1q "toggle mat_aaquality"
 alias zz "maxplayers 101; mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest"
