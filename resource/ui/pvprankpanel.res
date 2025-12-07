@@ -187,28 +187,6 @@
 			"wide"			"505"
 		}
 
-
-
-		// "WelcomeLabel"
-		// {
-		// 	"controlname"	"Label"
-		// 	"xpos"			"65"
-		// 	"ypos"			"5"
-		// 	"wide"			"f0"
-		// 	"zpos"			"100"
-		// 	"tall"			"20"
-		// 	"proportionaltoparent"	"1"
-		// 	"labeltext"		"#Vivi_WelcomeBack"
-		// 	"font"			"HudFontSmallishBold"
-		// 	"textalignment"	"north-west"
-
-		// 	if_mini
-		// 	{
-		// 		"visible"		"0"
-		// 	}
-		// }
-
-
 		"NameLabel"
 		{
 			"controlname"	"Label"
@@ -229,17 +207,6 @@
 		}
 
 
-
-		// "WelcomeLabel"
-		// {
-		// 	"controlname"	"Label"
-		// 	"ypos"			"5"
-		// 	"zpos"			"100"
-		// 	"auto_wide_tocontents"	"1"
-		// 	"tall"			"15"
-		// 	"labeltext"		"#Vivi_WelcomeBack"
-		// 	"font"			"HudFontSmallBold"
-		// }
 
 		// "NameLabel"
 		// {

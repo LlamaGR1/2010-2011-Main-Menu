@@ -62,10 +62,10 @@
 		"zpos"			"105"
 		"wide"			"160"
 		"tall"			"35"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
+		"labeltext"		"#Vivi_Start_Search_1"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
-		"Command"		"find_game"
+		"command"		"find_game"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 

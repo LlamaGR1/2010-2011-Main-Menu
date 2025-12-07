@@ -17,7 +17,9 @@ vgui_ui_scale_factor 0
 tf_dashboard_slide_time 0.007
 tf_mm_dashboard_slide_panel_step 0
 tf_store_stamp_donation_add_timestamp 1939001945
+tf_inspect_hint_count 11
 cl_hud_playerclass_playermodel_showed_confirm_dialog 1
+cl_vote_non_input_alpha 255							//				add to github wiki❌❌❌❌⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 tf_scoreboard_ping_as_text 1
 tf_hud_target_id_alpha 255
 tf_hud_target_id_disable_floating_health 1
@@ -38,6 +40,21 @@ alias xx "sv_allow_point_servercommand always; map workshop/606778917"
 alias cc "sv_cheats 1; echo "addcond 56 (crits)"; echo "addcond 57 (uber)"; echo "addcond 72 (fast attack & reload)"
 alias vv "mp_waitingforplayers_cancel 1"
 alias bb "sv_cheats 1; host_timescale 15"
+
+
+
+// manage the firstrun file
+alias chud_firstrun "exec hud_firstrun"
+exec 2010hud_has_run.txt
+chud_firstrun
+
+
+
+
+
+
+
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 

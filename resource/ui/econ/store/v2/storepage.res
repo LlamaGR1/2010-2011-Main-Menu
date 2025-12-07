@@ -522,7 +522,7 @@
 	"ShowExplanationsButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"c50"
+		"xpos"			"c51"
 		"ypos"			"12"
 		"zpos"			"100"
 		"wide"			"20"
@@ -551,12 +551,13 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"90"
 		"end_wide"		"300"
 		"end_tall"		"160"
 		"callout_inparents_x"	"c0"
-		"callout_inparents_y"	"c0"
+		"callout_inparents_y"	"c-50"
 		"next_explanation"		"TabsExplanation"
 
 		"res_file_controls"	"1"
@@ -573,6 +574,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-250"
 		"end_y"			"50"
 		"end_wide"		"300"
@@ -595,6 +597,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-190"
 		"end_y"			"90"
 		"end_wide"		"300"
@@ -617,6 +620,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-260"
 		"end_y"			"80"
 		"end_wide"		"300"
@@ -640,6 +644,7 @@
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"AddToCartExplanation"
 
+		"force_close"	"1"
 		"end_x"			"c0"
 		"end_y"			"80"
 		"end_wide"		"300"
@@ -661,11 +666,12 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-240"
 		"end_y"			"200"
 		"end_wide"		"300"
 		"end_tall"		"125"
-		"callout_inparents_x"	"c108"
+		"callout_inparents_x"	"c109"
 		"callout_inparents_y"	"290"
 		"next_explanation"		"CartStatusExplanation"
 
@@ -683,6 +689,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"170"
 		"end_wide"		"300"
@@ -706,7 +713,8 @@
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"HelpExplanation"
 
-		"end_x"			"c-160"
+		"force_close"	"1"
+		"end_x"			"c-150"
 		"end_y"			"200"
 		"end_wide"		"300"
 		"end_tall"		"145"
@@ -727,11 +735,12 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
 		"end_wide"		"300"
 		"end_tall"		"125"
-		"callout_inparents_x"	"c60"
+		"callout_inparents_x"	"c61"
 		"callout_inparents_y"	"34"
 
 		"res_file_controls"	"1"

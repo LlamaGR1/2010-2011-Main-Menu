@@ -4,7 +4,7 @@
 	{
 		"RecentAchievementsLabel"
 		{
-			"labeltext"		"#Vivi_Achievements"
+			"labeltext"		"#MMenu_NoRecentAchievements"
 		}
 	}
 

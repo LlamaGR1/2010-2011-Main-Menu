@@ -145,7 +145,7 @@
 		"labeltext"		"#TF_MvM_MannUp"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-		"Command"		"mannup"
+		"command"		"mannup"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -185,7 +185,7 @@
 		"labeltext"		"#TF_MvM_BootCamp"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-		"Command"		"bootcamp"
+		"command"		"bootcamp"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -273,7 +273,7 @@
 		"labeltext"		"#TF_Matchmaking_StartParty"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
-		"Command"		"url https://steamcommunity.com/chat/"
+		"command"		"url https://steamcommunity.com/chat/"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -345,7 +345,7 @@
 	// 	"labeltext"		"#TF_MvM_LearnMore"
 	// 	"font"			"HudFontSmallBold"
 	// 	"textalignment"	"center"
-	// 	"Command"		"url https://www.teamfortress.com/mvm/"
+	// 	"command"		"url https://www.teamfortress.com/mvm/"
 	// 	"sound_depressed"	"ui/buttonclick.wav"
 	// 	"sound_released"	"ui/buttonclickrelease.wav"
 

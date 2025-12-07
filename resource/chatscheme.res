@@ -211,18 +211,19 @@ Scheme
 
 	Borders
 	{
-		BaseBorder		DepressedBorder
-		ButtonBorder	RaisedBorder
-		ComboBoxBorder	DepressedBorder
-		MenuBorder		RaisedBorder
-		BrowserBorder	DepressedBorder
+		BaseBorder			DepressedBorder
+		ButtonBorder		RaisedBorder
+		ComboBoxBorder		DepressedBorder
+		MenuBorder			RaisedBorder
+		BrowserBorder		DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
 		RaisedBorder
 		{
 			"inset"					"0 0 1 1"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -231,7 +232,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -240,7 +241,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -249,7 +250,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -263,7 +264,8 @@ Scheme
 		{
 			"inset"					"2 2 0 0"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -272,7 +274,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -281,7 +283,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -290,7 +292,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -304,7 +306,8 @@ Scheme
 		{
 			"inset"					"2 2 0 0"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -313,7 +316,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -322,7 +325,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -331,7 +334,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -349,7 +352,8 @@ Scheme
 		{
 			"inset"					"0 0 1 1"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -358,7 +362,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -367,7 +371,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -376,48 +380,7 @@ Scheme
 				}
 			}
 
-			Bottom
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"0 0"
-				}
-			}
-		}
-
-		ButtonDepressedBorder
-		{
-			"inset"					"2 1 1 1"
-			"proportional_scalar"	"0"
-			Left
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 0"
-				}
-			}
-
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -431,7 +394,8 @@ Scheme
 		{
 			"inset"					"2 1 1 1"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -440,7 +404,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -449,7 +413,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -458,7 +422,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -472,7 +436,8 @@ Scheme
 		{
 			"inset"					"2 1 1 1"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -481,7 +446,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -490,7 +455,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -499,7 +464,49 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
+			{
+				"1"
+				{
+					"color"		"Border.Bright"
+					"offset"	"0 0"
+				}
+			}
+		}
+
+		ButtonDepressedBorder
+		{
+			"inset"					"2 1 1 1"
+			"proportional_scalar"	"0"
+
+			left
+			{
+				"1"
+				{
+					"color"		"Border.Dark"
+					"offset"	"0 1"
+				}
+			}
+
+			right
+			{
+				"1"
+				{
+					"color"		"Border.Bright"
+					"offset"	"1 0"
+				}
+			}
+
+			top
+			{
+				"1"
+				{
+					"color"		"Border.Dark"
+					"offset"	"0 0"
+				}
+			}
+
+			bottom
 			{
 				"1"
 				{

@@ -281,7 +281,7 @@
 		}
 	}
 
-	"Divider2"
+	"Divider"
 	{
 		"controlname"	"Divider"
 		"xpos"			"10"

@@ -3,7 +3,7 @@
 	"VotePassed"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"10"
+		"xpos"			"6"
 		"ypos"			"r315"
 		"wide"			"150"
 		"tall"			"67"
@@ -31,7 +31,7 @@
 			"labeltext"		"#GameUI_vote_passed"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"PassedResult"
@@ -45,7 +45,7 @@
 			"textalignment"	"north-west"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 			"noshortcutsyntax"	"1"
 		}
 	}
@@ -53,7 +53,7 @@
 	"VoteActive"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"10"
+		"xpos"			"6"
 		"ypos"			"r315"
 		"wide"			"150"
 		"tall"			"144"
@@ -68,8 +68,8 @@
 			"wide"			"130"
 			"tall"			"20"
 			"labeltext"		"%header%"
-			"textalignment"	"north-west"
 			"font"			"ScoreboardVerySmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -79,30 +79,16 @@
 			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"22"
-			"wide"			"120"
+			"wide"			"130"
 			"tall"			"40"
 			"labeltext"		"%voteissue%"
-			"textalignment"	"north-west"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"textalignment"	"north-west"
 			"wrap"			"1"
+			"fgcolor_override"	"HudWhite"
 			"noshortcutsyntax"	"1"
 		}
 
-		"TargetAvatarImage"
-		{
-			"controlname"	"CAvatarImagePanel"
-			"xpos"			"10"
-			"ypos"			"23"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"image"			""
-			"scaleimage"	"1"
-			"color_outline"	"52 48 45 255"
-		}
-
-		// divider
 		"Divider"
 		{
 			"controlname"	"ImagePanel"
@@ -111,10 +97,7 @@
 			"wide"			"130"
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
-			"zpos"			"0"
 		}
-
-		// Temp UI
 
 		"LabelOption1"
 		{
@@ -124,10 +107,8 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
-			"labeltext"		""
-			"textalignment"	"left"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"Option1Background_Selected"
@@ -135,9 +116,9 @@
 			"controlname"	"ImagePanel"
 			"xpos"			"10"
 			"ypos"			"57"
+			"zpos"			"1"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 		}
 
@@ -146,13 +127,13 @@
 			"controlname"	"Label"
 			"xpos"			"28"
 			"ypos"			"113"
+			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
-			"zpos"			"2"
-			"labeltext"		"Yes"
+			"labeltext"		"#GameUI_Yes"
 			"textalignment"	"center"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"LabelOption2"
@@ -160,13 +141,11 @@
 			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"73"
+			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"2"
-			"labeltext"		""
-			"textalignment"	"left"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"Option2Background_Selected"
@@ -174,24 +153,24 @@
 			"controlname"	"ImagePanel"
 			"xpos"			"10"
 			"ypos"			"73"
+			"zpos"			"1"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"1"
 			"fillcolor"		"88 119 140 180"
 		}
 
 		"Option2CountLabel"
 		{
 			"controlname"	"Label"
-			"xpos"			"74"
+			"xpos"			"64"
 			"ypos"			"113"
+			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
-			"zpos"			"2"
-			"labeltext"		"No"
+			"labeltext"		"#GameUI_No"
 			"textalignment"	"center"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"LabelOption3"
@@ -199,13 +178,11 @@
 			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"89"
+			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"2"
-			"labeltext"		""
-			"textalignment"	"left"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"Option3Background_Selected"
@@ -213,11 +190,11 @@
 			"controlname"	"ImagePanel"
 			"xpos"			"10"
 			"ypos"			"89"
+			"zpos"			"1"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
+			"fillcolor"		"88 119 140 180"
 		}
 
 		"LabelOption4"
@@ -225,13 +202,11 @@
 			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"105"
+			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"2"
-			"labeltext"		""
-			"textalignment"	"left"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"Option4Background_Selected"
@@ -239,11 +214,11 @@
 			"controlname"	"ImagePanel"
 			"xpos"			"10"
 			"ypos"			"105"
+			"zpos"			"1"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
+			"fillcolor"		"88 119 140 180"
 		}
 
 		"LabelOption5"
@@ -251,15 +226,11 @@
 			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"121"
+			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"2"
-			"labeltext"		""
-			"textalignment"	"left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudWhite"
 		}
 
 		"Option5Background_Selected"
@@ -267,14 +238,13 @@
 			"controlname"	"ImagePanel"
 			"xpos"			"10"
 			"ypos"			"121"
+			"zpos"			"1"
 			"wide"			"130"
 			"tall"			"16"
-			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
+			"fillcolor"		"88 119 140 180"
 		}
 
-		// divider
 		"Divider2"
 		{
 			"controlname"	"ImagePanel"
@@ -298,15 +268,14 @@
 			"fgcolor_override"	"128 128 128 255"
 		}
 
-		// vote bar
 		"VoteBar"
 		{
 			"controlname"	"Panel"
 			"xpos"			"11"
 			"ypos"			"113"
+			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"18"
-			"zpos"			"2"
 			"box_size"		"16"
 			"spacer"		"6"
 			"box_inset"		"1"
@@ -315,12 +284,11 @@
 		}
 	}
 
-	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"10"
-		"ypos"			"c-80"
+		"xpos"			"6"
+		"ypos"			"r315"
 		"wide"			"150"
 		"tall"			"67"
 		"visible"		"0"
@@ -361,14 +329,14 @@
 			"textalignment"	"north-west"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
+			"fgcolor_override"	"HudWhite"
 		}
 	}
 
-	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"10"
+		"xpos"			"6"
 		"ypos"			"r315"
 		"wide"			"150"
 		"tall"			"67"
@@ -388,13 +356,11 @@
 
 		"FailedTitle"
 		{
-			"controlname"	"Label"
+			"controlname"	"CExLabel"
 			"xpos"			"32"
 			"ypos"			"10"
 			"wide"			"98"
 			"tall"			"17"
-		//	"labeltext"		"#GameUI_vote_failed"
-		//	"textalignment"	"west"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
@@ -402,15 +368,15 @@
 
 		"FailedReason"
 		{
-			"controlname"	"Label"
+			"controlname"	"CExLabel"
 			"xpos"			"10"
 			"ypos"			"29"
 			"wide"			"130"
 			"tall"			"40"
-		//	"labeltext"		""
 			"font"			"ScoreboardVerySmall"
 			"textalignment"	"north-west"
 			"wrap"			"1"
+			"fgcolor_override"	"HudWhite"
 		}
 	}
 
@@ -421,25 +387,11 @@
 		"ypos"				"cs-0.5"
 		"wide"				"415"
 		"tall"				"310"
-	//	"autoresize"		"0"
-	//	"pincorner"			"0"
-	//	"visible"			"1"
-	//	"enabled"			"1"
-	//	"tabPosition"		"0"
-	//	"settitlebarvisible"	"0"
 		"border"			"TFFatLineBorderOpaque"
-	//	"bgcolor_override"	"Blank"
 		"paintbackground"	"0"
 
-	//	"header_font"		"ItemFontNameLarge"
-	//	"player_font"		"Default"
-	//	"header_fgcolor"	"Orange"
 		"issue_font"		"Default"
-
-	//	"issue_width"		"180"
-	//	"issue_font"		"ItemFontNameSmall"
 		"issue_fgcolor"		"Orange"
-
 		"parameter_width"	"240"
 
 		"TitleLabel"
@@ -506,24 +458,6 @@
 			"selectioncolor_override"		"Blank"
 		}
 
-		"CallVoteButtonCorners"
-		{
-			"controlname"	"ScalableImagePanel"
-			"xpos"			"185"
-			"ypos"			"275"
-			"zpos"			"1"
-			"wide"			"100"
-			"tall"			"24"
-			"proportionaltoparent"	"1"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"55 51 50 255"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
-		}
-
 		"CallVoteButton"
 		{
 			"controlname"	"Button"
@@ -535,16 +469,16 @@
 			"labeltext"		"#TF_call_vote"
 			"font"			"HudFontSmallBold"
 			"textalignment"	"center"
-			"Command"		"CallVote"
+			"command"		"CallVote"
 
 			"roundedcorners"		"0"
 			"stay_armed_on_click"	"1"
 		}
 
-		"Button1Corners"
+		"CallVoteButtonCorners"
 		{
 			"controlname"	"ScalableImagePanel"
-			"xpos"			"290"
+			"xpos"			"185"
 			"ypos"			"275"
 			"zpos"			"1"
 			"wide"			"100"
@@ -569,10 +503,28 @@
 			"labeltext"		"#GameUI_Close"
 			"font"			"HudFontSmallBold"
 			"textalignment"	"center"
-			"Command"		"Close"
+			"command"		"Close"
 
 			"roundedcorners"		"0"
 			"stay_armed_on_click"	"1"
+		}
+
+		"Button1Corners"
+		{
+			"controlname"	"ScalableImagePanel"
+			"xpos"			"290"
+			"ypos"			"275"
+			"zpos"			"1"
+			"wide"			"100"
+			"tall"			"24"
+			"proportionaltoparent"	"1"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+			"drawcolor"		"55 51 50 255"
+			"image"			"replay/thumbnails/borders/vivi_button_corners"
+			"mouseinputenabled"	"0"
 		}
 	}
 }

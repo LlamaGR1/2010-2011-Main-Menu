@@ -26,3 +26,9 @@ event SurveyShowSequence
 {
  RunEventChild Survey SurveyDelete 0
 }
+
+event QuestMap_Start
+{
+ FireCommand 0 "switch_off"
+ FireCommand 0 "switch_on"
+}

@@ -214,7 +214,7 @@
 			"tall"			"15"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_test0"
+			"command"		"item_test0"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -236,7 +236,7 @@
 			"labeltext"		"#IT_Item_Remove"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_remove0"
+			"command"		"item_remove0"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -283,7 +283,7 @@
 			"tall"			"15"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_test1"
+			"command"		"item_test1"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -305,7 +305,7 @@
 			"labeltext"		"#IT_Item_Remove"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_remove1"
+			"command"		"item_remove1"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -352,7 +352,7 @@
 			"tall"			"15"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_test2"
+			"command"		"item_test2"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -374,7 +374,7 @@
 			"labeltext"		"#IT_Item_Remove"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_remove2"
+			"command"		"item_remove2"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -421,7 +421,7 @@
 			"tall"			"15"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_test3"
+			"command"		"item_test3"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -443,7 +443,7 @@
 			"labeltext"		"#IT_Item_Remove"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"item_remove3"
+			"command"		"item_remove3"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -511,7 +511,7 @@
 			"labeltext"		"#IT_Bot_Add"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"bot_add"
+			"command"		"bot_add"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -554,7 +554,7 @@
 			"labeltext"		"#IT_Bot_RemoveAll"
 			"font"			"HudfontSmallestBold"
 			"textalignment"	"center"
-			"Command"		"bot_removeall"
+			"command"		"bot_removeall"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -586,7 +586,7 @@
 		"labeltext"		"#IT_ExportLoadout"
 		"font"			"HudfontSmallBold"
 		"textalignment"	"center"
-		"Command"		"export"
+		"command"		"export"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -608,7 +608,7 @@
 		"labeltext"		"#IT_ImportLoadout"
 		"font"			"HudfontSmallBold"
 		"textalignment"	"center"
-		"Command"		"import"
+		"command"		"import"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -630,7 +630,7 @@
 		"labeltext"		"#IT_ImportLast"
 		"font"			"HudfontSmallBold"
 		"textalignment"	"center"
-		"Command"		"importrecent"
+		"command"		"importrecent"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -652,7 +652,7 @@
 		"labeltext"		"#Cancel"
 		"font"			"HudfontSmallBold"
 		"textalignment"	"center"
-		"Command"		"cancel"
+		"command"		"cancel"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -674,7 +674,7 @@
 		"labeltext"		"#IT_Ok"
 		"font"			"HudfontSmallBold"
 		"textalignment"	"center"
-		"Command"		"ok"
+		"command"		"ok"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 

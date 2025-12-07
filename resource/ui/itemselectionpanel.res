@@ -39,6 +39,7 @@
 			"wide"			"54"
 			"tall"			"42"
 			"visible"		"0"
+			"paintborder"	"0"
 
 			"model_xpos"	"2"
 			"model_ypos"	"5"
@@ -47,6 +48,16 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
+
+			"modelpanels_kvBorder"
+			{
+				"controlname"	"Panel"
+				"zpos"			"-1"
+				"wide"			"98"
+				"tall"			"70"
+				"border"		"ViviItemSelectionBG"
+				"mouseinputenabled"	"0"
+			}
 		}
 
 		"duplicatelabels_kv"
@@ -98,11 +109,11 @@
 
 	"ItemSlotLabel"
 	{
-		"controlname"	"CExLabel"
-		"font"			"HudFontMediumBold"
+		"controlname"	"Label"
 		"xpos"			"10"
 		"wide"			"375"
 		"tall"			"25"
+		"font"			"HudFontMediumBold"
 
 		"pin_to_sibling" "ClassLabel"
 		"pin_to_sibling_corner" "1"
@@ -162,9 +173,8 @@
 		"xpos"			"r473"
 		"ypos"			"335"
 		"zpos"			"10"
-		"wide"			"350"
+		"wide"			"350"		//		fix
 		"tall"			"25"
-		"visible"		"0"
 		"labeltext"		"#NoItemsToEquip"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"east"

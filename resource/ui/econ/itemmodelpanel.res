@@ -9,7 +9,7 @@
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
-		"text_ypos"				"22"	//	15
+		"text_ypos"				"22"
 		"text_forcesize"		"0"
 		"text_xpos"				"15"
 		"text_wide"				"270"
@@ -48,7 +48,6 @@
 			"start_framed"	"1"
 
 			"disable_manipulation"	"1"
-		//	"inventory_image_type"	"1"		//		blurry weapon icons
 
 			"model"
 			{
@@ -153,41 +152,6 @@
 			"textalignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"border"		"ViviDarkCyanBG"
-		}
-
-		"contained_item_panel"		//		wtf is this for
-		{
-			"controlname"	"CItemModelPanel"
-			"xpos"			"32"
-			"ypos"			"20"
-			"zpos"			"4"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"117 107 94 255"
-			"paintbackgroundtype"	"2"
-			"paintborder"	"0"
-			"useparentbg"	"0"
-
-			"model_xpos"	"1"
-			"model_ypos"	"1"
-			"model_wide"	"16"
-			"model_tall"	"16"
-			"text_ypos"		"60"
-			"text_center"	"1"
-			"model_only"	"1"
-
-			"inset_eq_x"	"2"
-			"inset_eq_y"	"2"
-
-			"itemmodelpanel"
-			{
-				"use_item_rendertarget"	"0"
-				"allow_rot"				"0"
-			}
-
-			"use_item_sounds"	"1"
 		}
 	}
 }

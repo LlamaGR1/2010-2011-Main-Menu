@@ -467,16 +467,19 @@
 		"wide"			"640"
 		"tall"			"480"
 	}
+
 	HudAnimationInfo
 	{
 		"wide"			"640"
 		"tall"			"480"
 	}
+
 	CBudgetPanel
 	{
 		"wide"			"640"
 		"tall"			"480"
 	}
+
 	CTextureBudgetPanel
 	{
 		"wide"			"640"
@@ -488,7 +491,6 @@
 		"wide"			"1280"
 		"tall"			"1024"
 	}
-
 
 	HudLocation
 	{

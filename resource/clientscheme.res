@@ -195,131 +195,124 @@ Scheme
 
 	BaseSettings
 	{
-		Replay.RenderDialog.BgColor			"LighterDarkBrown"
-		ReplayBrowser.BgColor							"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor	"LightRed"
-		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
-		ReplayBrowser.Warning.FgColor					"TanLight"
-		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
-		ReplayBrowser.Search.BgColor					"TanDark"
-		ReplayBrowser.Search.FgColor					"TanLight"
+		Replay.RenderDialog.BgColor			LighterDarkBrown
+		ReplayBrowser.BgColor							DarkBrown
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor	LightRed
+		ReplayBrowser.CollectionTitle.FgColor			LightRed
+		ReplayBrowser.Warning.FgColor					TanLight
+		ReplayBrowser.ScrollBar.SliderButton.FgColor	TransparentYellow
+		ReplayBrowser.Search.BgColor					TanDark
+		ReplayBrowser.Search.FgColor					TanLight
 
-		Border.Bright						"Blank"
-		Border.Dark							"Black"
-		Border.Selection					"Gray"
+		Border.Bright						Blank
+		Border.Dark							Black
+		Border.Selection					Gray
 
-		Econ.Dialog.BgColor					"Blank"
-		Econ.Button.DepressedFgColor		"Black"
+		Econ.Dialog.BgColor					Blank
+		Econ.Button.DepressedFgColor		Black
 
-		Button.DepressedTextColor			"Black"
-		Button.SelectedTextColor			"Black"
+		Button.DepressedTextColor			Black
+		Button.SelectedTextColor			Black
 
-		CheckButton.TextColor				"Yellow"
-		CheckButton.SelectedTextColor		"Yellow"
-		CheckButton.BgColor					"TransparentBlack"
-		CheckButton.Border1					"Yellow"
-		CheckButton.Border2					"Yellow"
-		CheckButton.Check					"Yellow"
-		CheckButton.HighlightFgColor		"Yellow"
-		CheckButton.DisabledFgColor			"TanDark"
-		CheckButton.DisabledBgColor			"TransparentBlack"
+		CheckButton.TextColor				Yellow
+		CheckButton.SelectedTextColor		Yellow
+		CheckButton.BgColor					TransparentBlack
+		CheckButton.Border1					Yellow
+		CheckButton.Border2					Yellow
+		CheckButton.Check					Yellow
+		CheckButton.HighlightFgColor		Yellow
+		CheckButton.DisabledFgColor			TanDark
+		CheckButton.DisabledBgColor			TransparentBlack
 
-		ComboBoxButton.ArrowColor			"TanLight"
-		ComboBoxButton.ArmedArrowColor		"TanLight"
-		ComboBoxButton.BgColor				"Blank"
-		ComboBoxButton.DisabledBgColor		"Blank"
+		ComboBoxButton.ArrowColor			TanLight
+		ComboBoxButton.ArmedArrowColor		TanLight
+		ComboBoxButton.BgColor				Blank
+		ComboBoxButton.DisabledBgColor		Blank
 
-		Frame.BgColor						"TransparentBlack"
-		Frame.OutOfFocusBgColor				"TransparentBlack"
-		Frame.FocusTransitionEffectTime		"0"
-		Frame.TransitionEffectTime			"0"
-		Frame.AutoSnapRange					"0"
-		FrameGrip.Color1					"Blank"
-		FrameGrip.Color2					"Blank"
-		FrameTitleButton.FgColor			"Blank"
-		FrameTitleButton.BgColor			"Blank"
-		FrameTitleButton.DisabledFgColor	"Blank"
-		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor			"Blank"
-		FrameSystemButton.BgColor			"Blank"
+		FrameTitleButton.FgColor			Blank
+		FrameTitleButton.BgColor			Blank
+		FrameTitleButton.DisabledFgColor	Blank
+		FrameTitleButton.DisabledBgColor	Blank
+		FrameSystemButton.FgColor			Blank
+		FrameSystemButton.BgColor			Blank
 		FrameSystemButton.Icon				""
 		FrameSystemButton.DisabledIcon		""
-		FrameTitleBar.TextColor				"Blank"
-		FrameTitleBar.BgColor				"Blank"
-		FrameTitleBar.DisabledTextColor		"Blank"
-		FrameTitleBar.DisabledBgColor		"Blank"
+		FrameTitleBar.TextColor				Blank
+		FrameTitleBar.BgColor				Blank
+		FrameTitleBar.DisabledTextColor		Blank
+		FrameTitleBar.DisabledBgColor		Blank
 
-		GraphPanel.FgColor					"Orange"
-		GraphPanel.BgColor					"TransparentBlack"
+		GraphPanel.FgColor					Orange
+		GraphPanel.BgColor					TransparentBlack
 
-		label.TextDullColor					"TanDark"
-		label.TextColor						"TanLight"
-		label.TextBrightColor				"TanLight"
-		label.SelectedTextColor				"White"
-		label.BgColor						"Blank"
-		label.DisabledFgColor1				"Blank"
+		label.TextDullColor					TanDark
+		label.TextColor						TanLight
+		label.TextBrightColor				TanLight
+		label.SelectedTextColor				White
+		label.BgColor						Blank
+		label.DisabledFgColor1				Blank
 
-		ListPanel.TextColor					"Orange"
-		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Red"
-		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.TextColor					Orange
+		ListPanel.BgColor					TransparentBlack
+		ListPanel.SelectedTextColor			Black
+		ListPanel.SelectedBgColor			Red
+		ListPanel.SelectedOutOfFocusBgColor	Red
+		ListPanel.EmptyListInfoTextColor	Orange
 
-		Menu.TextColor						"TanLight"
-		Menu.BgColor						"TransparentBlack"
-		Menu.ArmedTextColor					"TanDark"
-		Menu.ArmedBgColor					"TanLight"
-		Menu.TextInset						"2"
+		Menu.TextColor						TanLight
+		Menu.BgColor						TransparentBlack
+		Menu.ArmedTextColor					TanDark
+		Menu.ArmedBgColor					TanLight
+		Menu.TextInset						2
 
-		Chat.TypingText						"Orange"
+		Chat.TypingText						Orange
 
-		Panel.FgColor						"Gray"
-		Panel.BgColor						"Blank"
+		Panel.FgColor						Gray
+		Panel.BgColor						Blank
 
-		HTML.BgColor						"Blank"
+		HTML.BgColor						Blank
 
-		ProgressBar.FgColor					"ProgressOffWhite"
-		ProgressBar.BgColor					"ProgressBackground"
+		ProgressBar.FgColor					ProgressOffWhite
+		ProgressBar.BgColor					ProgressBackground
 
-		CircularProgressBar.FgColor			"White"
-		CircularProgressBar.BgColor			"White"
+		CircularProgressBar.FgColor			White
+		CircularProgressBar.BgColor			White
 
-		BuildingHealthBar.BgColor			"HealthBgGrey"
-		BuildingHealthBar.Health			"ProgressOffWhite"
-		BuildingHealthBar.LowHealth			"LowHealthRed"
+		BuildingHealthBar.BgColor			HealthBgGrey
+		BuildingHealthBar.Health			ProgressOffWhite
+		BuildingHealthBar.LowHealth			LowHealthRed
 
-		PropertySheet.TextColor				"Orange"
-		PropertySheet.SelectedTextColor		"Orange"
+		PropertySheet.TextColor				Orange
+		PropertySheet.SelectedTextColor		Orange
 		PropertySheet.TransitionEffectTime	"0.25"
 
-		RadioButton.TextColor				"Orange"
-		RadioButton.SelectedTextColor		"Orange"
+		RadioButton.TextColor				Orange
+		RadioButton.SelectedTextColor		Orange
 
-		RichText.TextColor					"Gray"
-		RichText.BgColor					"Blank"
-		RichText.SelectedTextColor			"Gray"
-		RichText.SelectedBgColor			"Red"
+		RichText.TextColor					Gray
+		RichText.BgColor					Blank
+		RichText.SelectedTextColor			Gray
+		RichText.SelectedBgColor			Red
 
-		ScrollBarButton.FgColor				"Gray"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Gray"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Black"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.FgColor				Gray
+		ScrollBarButton.BgColor				Blank
+		ScrollBarButton.ArmedFgColor		Gray
+		ScrollBarButton.ArmedBgColor		Blank
+		ScrollBarButton.DepressedFgColor	Black
+		ScrollBarButton.DepressedBgColor	Blank
 
-		ScrollBarSlider.FgColor				"Gray"
-		ScrollBarSlider.BgColor				"Blank"
+		ScrollBarSlider.FgColor				Gray
+		ScrollBarSlider.BgColor				Blank
 
-		SectionedListPanel.HeaderTextColor	"Orange"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor	"Black"
-		SectionedListPanel.SelectedBgColor		"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.HeaderTextColor	Orange
+		SectionedListPanel.HeaderBgColor	Blank
+		SectionedListPanel.DividerColor		Black
+		SectionedListPanel.TextColor		Orange
+		SectionedListPanel.BrightTextColor	Orange
+		SectionedListPanel.BgColor			TransparentLightBlack
+		SectionedListPanel.SelectedTextColor	Black
+		SectionedListPanel.SelectedBgColor		Red
+		SectionedListPanel.OutOfFocusSelectedTextColor	Black
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
 		Slider.NobColor					"108 108 108 255"
@@ -328,47 +321,47 @@ Scheme
 		Slider.DisabledTextColor1		"117 117 117 255"
 		Slider.DisabledTextColor2		"30 30 30 255"
 
-		TextEntry.TextColor				"Gray"
-		TextEntry.BgColor				"Blank"
-		TextEntry.CursorColor			"Gray"
-		TextEntry.DisabledTextColor		"Gray"
-		TextEntry.SelectedTextColor		"TanLight"
-		TextEntry.SelectedBgColor		"Gray"
+		TextEntry.TextColor				Gray
+		TextEntry.BgColor				Blank
+		TextEntry.CursorColor			Gray
+		TextEntry.DisabledTextColor		Gray
+		TextEntry.SelectedTextColor		TanLight
+		TextEntry.SelectedBgColor		Gray
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor	Orange
 
-		Tooltip.TextColor				"TransparentBlack"
-		Tooltip.BgColor					"Red"
+		Tooltip.TextColor				TransparentBlack
+		Tooltip.BgColor					Red
 
-		TreeView.BgColor				"TransparentBlack"
+		TreeView.BgColor				TransparentBlack
 
-		WizardSubPanel.BgColor			"Blank"
+		WizardSubPanel.BgColor			Blank
 
-		TimerProgress.Active			"HudTimerProgressActive"
-		TimerProgress.InActive			"HudTimerProgressInActive"
-		TimerProgress.Warning			"HudTimerProgressWarning"
+		TimerProgress.Active			HudTimerProgressActive
+		TimerProgress.InActive			HudTimerProgressInActive
+		TimerProgress.Warning			HudTimerProgressWarning
 
-		HudObjectives.FgColor			"HudPanelForeground"
-		HudObjectives.BgColor			"HudPanelBackground"
-		HudObjectives.BorderColor		"HudPanelBorder"
+		HudObjectives.FgColor			HudPanelForeground
+		HudObjectives.BgColor			HudPanelBackground
+		HudObjectives.BorderColor		HudPanelBorder
 
-		HudProgressBar.Active			"HudProgressBarActive"
-		HudProgressBar.InActive			"HudProgressBarInActive"
+		HudProgressBar.Active			HudProgressBarActive
+		HudProgressBar.InActive			HudProgressBarInActive
 
-		HudCaptureIcon.Active			"HudProgressBarActive"
-		HudCaptureIcon.InActive			"HudProgressBarInActive"
-		HudCaptureProgressBar.Active	"HudProgressBarActive"
-		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
+		HudCaptureIcon.Active			HudProgressBarActive
+		HudCaptureIcon.InActive			HudProgressBarInActive
+		HudCaptureProgressBar.Active	HudProgressBarActive
+		HudCaptureProgressBar.InActive	HudProgressBarInActive
 
-		FgColor						"Orange"
-		BgColor						"TransparentBlack"
+		FgColor						Orange
+		BgColor						TransparentBlack
 
-		ViewportBG					"Blank"
+		ViewportBG					Blank
 		TeamSpec					"204 204 204 255"
 		TeamRed						"255 64 64 255"
 		TeamBlue					"153 204 255 255"
 
-		MapDescriptionText			"Gray"
+		MapDescriptionText			Gray
 		HudIcon_Green				"0 160 0 255"
 		HudIcon_Red					"160 0 0 255"
 
@@ -395,7 +388,8 @@ Scheme
 		BorderSourceDefault
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -404,7 +398,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -413,7 +407,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -422,7 +416,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -435,7 +429,8 @@ Scheme
 		BorderSourceArmed
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -444,7 +439,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -453,7 +448,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -462,7 +457,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -476,7 +471,8 @@ Scheme
 		{
 			"inset"					"2 2 0 0"
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -491,7 +487,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -506,7 +502,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -521,7 +517,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -681,6 +677,18 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
+		ViviItemSelectionBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"LighterDarkBrown"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
 		ViviSourceFrameBG
 		{
 			"bordertype"			"scalable_image"
@@ -691,97 +699,6 @@ Scheme
 			"src_corner_width"		"6"
 			"draw_corner_width"		"2"
 			"draw_corner_height"	"2"
-		}
-
-		NoBorder
-		{
-			Left
-			{
-				"1"
-				{
-					"color"		"Blank"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color"		"Blank"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color"		"Blank"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color"		"Blank"
-				}
-			}
-		}
-
-		TeamMenuBorder
-		{
-			"proportional_scalar"	"0"
-			Left
-			{
-				"1"
-				{
-					"color"		"Black"
-				}
-
-				"2"
-				{
-					"color"		"Black"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color"		"Black"
-				}
-
-				"2"
-				{
-					"color"		"Black"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color"		"Black"
-				}
-
-				"2"
-				{
-					"color"		"Black"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color"		"Black"
-				}
-
-				"2"
-				{
-					"color"		"Black"
-				}
-			}
 		}
 
 		ScrollBarButtonBorder
@@ -809,10 +726,103 @@ Scheme
 			"backgroundtype"	"2"
 		}
 
+		NoBorder
+		{
+			left
+			{
+				"1"
+				{
+					"color"		"Blank"
+				}
+			}
+
+			right
+			{
+				"1"
+				{
+					"color"		"Blank"
+				}
+			}
+
+			top
+			{
+				"1"
+				{
+					"color"		"Blank"
+				}
+			}
+
+			bottom
+			{
+				"1"
+				{
+					"color"		"Blank"
+				}
+			}
+		}
+
+		TeamMenuBorder
+		{
+			"proportional_scalar"	"0"
+
+			left
+			{
+				"1"
+				{
+					"color"		"Black"
+				}
+
+				"2"
+				{
+					"color"		"Black"
+				}
+			}
+
+			right
+			{
+				"1"
+				{
+					"color"		"Black"
+				}
+
+				"2"
+				{
+					"color"		"Black"
+				}
+			}
+
+			top
+			{
+				"1"
+				{
+					"color"		"Black"
+				}
+
+				"2"
+				{
+					"color"		"Black"
+				}
+			}
+
+			bottom
+			{
+				"1"
+				{
+					"color"		"Black"
+				}
+
+				"2"
+				{
+					"color"		"Black"
+				}
+			}
+		}
+
 		ComboBoxBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -820,7 +830,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -828,7 +838,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -836,7 +846,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -848,7 +858,8 @@ Scheme
 		DarkComboBoxBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -856,7 +867,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -864,7 +875,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -872,7 +883,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -884,7 +895,8 @@ Scheme
 		SalePriceBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -892,7 +904,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -900,7 +912,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -908,7 +920,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -920,7 +932,8 @@ Scheme
 		MainMenuSubButtonBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -928,7 +941,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -940,7 +953,8 @@ Scheme
 		MainMenuSubButtonBorder2
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -1103,7 +1117,8 @@ Scheme
 		ToolTipBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -1111,7 +1126,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -1119,7 +1134,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -1127,7 +1142,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -1139,7 +1154,8 @@ Scheme
 		OptionsCategoryBorder
 		{
 			"proportional_scalar"	"0"
-			Bottom
+
+			bottom
 			{
 				"1"
 				{
@@ -2353,7 +2369,8 @@ Scheme
 		StoreItemBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -2361,7 +2378,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -2369,7 +2386,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -2377,7 +2394,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -2389,7 +2406,8 @@ Scheme
 		StoreItemBorderMouseOver
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -2397,7 +2415,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -2405,7 +2423,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -2413,7 +2431,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -2425,7 +2443,8 @@ Scheme
 		StoreItemBorderSelected
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -2433,7 +2452,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -2441,7 +2460,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -2449,7 +2468,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -2771,7 +2790,8 @@ Scheme
 		QuickplayBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -2779,7 +2799,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -2787,7 +2807,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -2795,7 +2815,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -2807,7 +2827,8 @@ Scheme
 		SortCategoryBorder
 		{
 			"proportional_scalar"	"0"
-			Right
+
+			right
 			{
 				"1"
 				{
@@ -2819,7 +2840,8 @@ Scheme
 		SteamWorkshopBorder
 		{
 			"proportional_scalar"	"0"
-			Left
+
+			left
 			{
 				"1"
 				{
@@ -2827,7 +2849,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -2835,7 +2857,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -2843,7 +2865,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -3034,7 +3056,7 @@ Scheme
 
 		CYOANodeViewBorder_Active
 		{
-			Left
+			left
 			{
 				"1"
 				{
@@ -3042,7 +3064,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -3050,7 +3072,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -3058,7 +3080,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -3069,7 +3091,7 @@ Scheme
 
 		CYOANodeViewBorder_Inactive
 		{
-			Left
+			left
 			{
 				"1"
 				{
@@ -3077,7 +3099,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -3085,7 +3107,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -3093,7 +3115,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -3104,7 +3126,7 @@ Scheme
 
 		CYOANodeViewBorder_TurnIn
 		{
-			Left
+			left
 			{
 				"1"
 				{
@@ -3112,7 +3134,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -3120,7 +3142,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -3128,7 +3150,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -3139,8 +3161,7 @@ Scheme
 
 		CYOAPopupBorder
 		{
-			"proportional_scalar"	"0"
-			Left
+			left
 			{
 				"1"
 				{
@@ -3153,7 +3174,7 @@ Scheme
 				}
 			}
 
-			Right
+			right
 			{
 				"1"
 				{
@@ -3166,7 +3187,7 @@ Scheme
 				}
 			}
 
-			Top
+			top
 			{
 				"1"
 				{
@@ -3179,7 +3200,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			bottom
 			{
 				"1"
 				{
@@ -3189,99 +3210,6 @@ Scheme
 				"2"
 				{
 					"color"		"QuestMap_ActiveOrange"
-				}
-			}
-		}
-
-		FriendHighlightBorder
-		{
-			"proportional_scalar"	"0"
-			Left
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-			}
-		}
-
-		FriendHighlightBorderThick
-		{
-			"proportional_scalar"	"0"
-			Left
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-
-				"2"
-				{
-					"color"		"CreditsGreen"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-
-				"2"
-				{
-					"color"		"CreditsGreen"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-
-				"2"
-				{
-					"color"		"CreditsGreen"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color"		"CreditsGreen"
-				}
-
-				"2"
-				{
-					"color"		"CreditsGreen"
 				}
 			}
 		}
@@ -5582,7 +5510,7 @@ Scheme
 			}
 		}
 
-		"AdFont_AdText"
+		"AdFont_AdText"		//		cyoa stars and blood money
 		{
 			"1"
 			{

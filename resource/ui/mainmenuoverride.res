@@ -104,7 +104,7 @@
 		"auto_wide_tocontents"	"1"
 		"tall"			"20"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#Vivi_WelcomeBack"
+		"labeltext"		"#WelcomeBack"
 		"font"			"HudFontSmallBold"
 	}
 
@@ -213,18 +213,6 @@
 			"fgcolor_override"	"Black"
 		}
 
-		"MOTD_Label"
-		{
-			"controlname"	"Label"
-			"ypos"			"140"
-			"wide"			"300"
-			"tall"			"10"
-			"labeltext"		"%motddate%"
-			"font"			"HudFontSmallestBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"Black"
-		}
-
 		"MOTD_TextScroller"
 		{
 			"xpos"			"20"
@@ -298,6 +286,18 @@
 
 			"defaultfgcolor_override"	"TanLight"
 			"armedfgcolor_override"		"TanLight"
+		}
+
+		"MOTD_Label"
+		{
+			"controlname"	"Label"
+			"ypos"			"140"
+			"wide"			"300"
+			"tall"			"10"
+			"labeltext"		"%motddate%"
+			"font"			"HudFontSmallestBold"
+			"textalignment"	"center"
+			"fgcolor_override"	"Black"
 		}
 
 		"MOTD_PrevButton"

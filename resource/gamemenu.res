@@ -107,7 +107,7 @@
 	"ExplanationTooltipPanel6"
 	{
 		"label"			"?"
-		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_4_ToolTip"
+		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_5_ToolTip"
 		"command"		"0"
 	}
 

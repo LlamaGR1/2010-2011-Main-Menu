@@ -39,6 +39,8 @@
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
+			"use_item_sounds"	"1"
+
 			"New"
 			{
 				"controlname"	"CExLabel"
@@ -52,12 +54,10 @@
 				"labeltext"		"#Store_Price_New"
 				"font"			"FontStorePrice"
 				"textalignment"	"center"
-				"fgcolor"		"Black"
+				"fgcolor"		"0 0 0 255"
 				"border"		"StoreNewBorder"
 				"mouseinputenabled"	"0"
 			}
-
-			"use_item_sounds"	"1"
 		}
 	}
 
@@ -384,6 +384,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"95"
 		"end_wide"		"300"
@@ -406,6 +407,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-50"
 		"end_y"			"130"
 		"end_wide"		"300"
@@ -428,6 +430,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"85"
 		"end_wide"		"300"
@@ -450,6 +453,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"95"
 		"end_wide"		"300"
@@ -471,6 +475,7 @@
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
+		"force_close"	"1"
 		"end_x"			"c-50"
 		"end_y"			"95"
 		"end_wide"		"300"

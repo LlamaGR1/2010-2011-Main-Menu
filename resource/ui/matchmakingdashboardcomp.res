@@ -77,7 +77,7 @@
 		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
-		"Command"		"find_game"
+		"command"		"find_game"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 

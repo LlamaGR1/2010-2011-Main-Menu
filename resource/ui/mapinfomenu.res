@@ -122,38 +122,6 @@
 		"paintbackground"	"0"
 	}
 
-	// "eryt"
-	// {
-	// 	"controlname"	"panel"
-	// 	"zpos"			"64"
-	// 	"bgcolor_override"	"0 0 0 255"
-	// 	"tall"		"f0"
-	// 	"wide"		"f0"
-	// }
-
-
-	// "m_pSaxxyModelPanel"
-	// {
-	// 	"controlname"	"CModelPanel"
-	// 	"zpos"			"65"
-	// 	"wide"			"f0"
-	// 	"tall"			"480"
-	// 	"fov"			"16"
-	// 	"allow_rot"	"1"
-
-
-	// 	"model"
-	// 	{
-	// 		"modelname"		"models/weapons/c_models/c_saxxy/c_saxxy.mdl"
-	// 		"origin_y"		"7"
-	// 	//	"origin_x"		"0"
-	// 		"origin_z"		"-3"
-	// 		"angles_y"		"35"
-	// 		"angles_z"		"0"
-	// 		"spotlight"		"1"
-	// 	}
-	// }
-
 	"MenuBG"
 	{
 		"controlname"	"CModelPanel"

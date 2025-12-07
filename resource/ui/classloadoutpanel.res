@@ -47,7 +47,6 @@
 			"text_ypos"			"54"
 			"text_center"		"1"
 			"name_only"			"1"
-			"tf2_icon_offset_x"	"15"
 
 			"attriblabel"
 			{
@@ -76,6 +75,20 @@
 			"border_selected"	"ViviTFOrangeBG"
 			"paintbackground"	"0"
 		}
+	}
+
+	"mouseoveritempanel"
+	{
+		"controlname"	"CItemModelPanel"
+		"zpos"			"1069"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+
+		"text_ypos"			"22"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"22"
 	}
 
 	"CaratLabel"
@@ -170,20 +183,6 @@
 			"origin_y"		"0"
 			"origin_z"		"-36"
 		}
-	}
-
-	"mouseoveritempanel"
-	{
-		"controlname"	"CItemModelPanel"
-		"zpos"			"1069"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-
-		"text_ypos"			"22"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"22"
 	}
 
 	"LoadoutPresetPin"

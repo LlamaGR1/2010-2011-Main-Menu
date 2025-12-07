@@ -166,23 +166,6 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-
-			// 	"RechargeLabel"
-			// 	{
-			// 		"controlname"	"Label"
-			// 		"ypos"			"1"
-			// 		"wide"			"200"
-			// 		"tall"			"12"
-			// 		"labeltext"		"#Building_hud_tele_charging"
-			// 		"font"			"DefaultSmall"
-			// 	}
-
-			// 	"Recharge"
-			// 	{
-			// 		"ypos"			"11"
-			// 		"wide"			"50"
-			// 		"tall"			"5"
-			// 	}
 			}
 
 			"FullyChargedPanel"
@@ -203,13 +186,6 @@
 			{
 				"scaleimage"	"1"
 			}
-
-			// "Upgrade"
-			// {
-			// 	"ypos"			"24"
-			// 	"wide"			"50"
-			// 	"tall"			"2"
-			// }
 		}
 	}
 }

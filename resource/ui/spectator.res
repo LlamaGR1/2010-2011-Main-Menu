@@ -39,7 +39,6 @@
 	{
 		"controlname"	"CExLabel"
 		"xpos"			"c-300"
-		"xpos_minmode"	"c-300"
 		"ypos"			"50"
 		"ypos_minmode"	"3"
 		"wide"			"600"

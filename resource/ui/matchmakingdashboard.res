@@ -57,7 +57,7 @@
 				"wide"			"150"
 				"tall"			"15"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_Matchmaking_CancelSearch"
+				"labeltext"		"#Vivi_Cancel_Search"
 				"font"			"HudFontSmallestBold"
 				"textalignment"	"center"
 				"command"		"manage_queues"
@@ -71,9 +71,6 @@
 				"border_armed"		"ViviTFOrangeBG"
 				"border_selected"	"ViviTFOrangeBG"
 				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
 			}
 
 			"CloseButton"
@@ -85,7 +82,7 @@
 				"wide"			"150"
 				"tall"			"15"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_Matchmaking_CancelSearch"
+				"labeltext"		"#Vivi_Cancel_Search"
 				"font"			"HudFontSmallestBold"
 				"textalignment"	"center"
 				"command"		"leave_queue"
@@ -99,9 +96,6 @@
 				"border_armed"		"ViviTFOrangeBG"
 				"border_selected"	"ViviTFOrangeBG"
 				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
 			}
 		}
 

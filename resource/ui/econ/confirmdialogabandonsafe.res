@@ -5,34 +5,39 @@
 		"controlname"	"Frame"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"wide"			"325"
+		"wide"			"300"
 		"tall"			"200"
-		"border"		"GrayDialogBorder"
 	}
 
 	"TitleLabel"
 	{
 		"controlname"	"CExLabel"
 		"ypos"			"15"
-		"wide"			"325"
+		"wide"			"300"
 		"tall"			"25"
-		"autoresize"	"1"
-		"labeltext"		"#ConfirmTitle"
 		"font"			"EconFontMedium"
 		"textalignment"	"north"
-	//	"fgcolor_override"	"LightRed"
+	}
+
+	"AbandonIcon"
+	{
+		"controlname"	"ImagePanel"
+		"xpos"			"10"
+		"ypos"			"52"
+		"wide"			"40"
+		"tall"			"40"
+		"scaleimage"	"1"
+		"image"			"pve/mvm_timeout_active_large"
 	}
 
 	"ExplanationLabel"
 	{
-		"controlname"	"CExLabel"
-		"xpos"			"40"
+		"controlname"	"Label"
+		"xpos"			"60"
 		"ypos"			"50"
-		"wide"			"245"
-		"tall"			"170"
+		"wide"			"220"
 		"labeltext"		"%text%"
 		"font"			"EconFontSmall"
-		"textalignment"	"north"
 		"centerwrap"	"1"
 		"fgcolor_override"	"LightRed"
 	}
@@ -41,14 +46,12 @@
 	{
 		"controlname"	"CExButton"
 		"xpos"			"190"
-		"ypos"			"165"
 		"zpos"			"1"
-		"wide"			"124"
+		"wide"			"100"
 		"tall"			"25"
-		"labeltext"		"#GameUI_Cancel"
 		"font"			"EconFontSmall"
 		"textalignment"	"center"
-		"Command"		"cancel"
+		"command"		"cancel"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -64,14 +67,12 @@
 	{
 		"controlname"	"CExButton"
 		"xpos"			"10"
-		"ypos"			"165"
 		"zpos"			"1"
 		"wide"			"175"
 		"tall"			"25"
-		"labeltext"		"#ConfirmButtonText1"
 		"font"			"EconFontSmall"
 		"textalignment"	"center"
-		"Command"		"confirm"
+		"command"		"confirm"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 

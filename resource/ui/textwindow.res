@@ -54,6 +54,23 @@
 		"paintborder"	"0"
 	}
 
+	"ok"
+	{
+		"controlname"	"CExButton"
+		"xpos"			"r190"
+		"ypos"			"r40"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"labeltext"		"#TF_Continue"
+		"font"			"MenuSmallFont"
+		"textalignment"	"center"
+		"command"		"okay"
+
+		"roundedcorners"		"0"
+		"stay_armed_on_click"	"1"
+	}
+
 	"okCorners"
 	{
 		"controlname"	"ScalableImagePanel"
@@ -70,23 +87,6 @@
 	//	"drawcolor"		"57 52 47 255"
 		"image"			"replay/thumbnails/borders/vivi_button_corners"
 		"mouseinputenabled"	"0"
-	}
-
-	"ok"
-	{
-		"controlname"	"CExButton"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"labeltext"		"#TF_Continue"
-		"font"			"MenuSmallFont"
-		"textalignment"	"center"
-		"command"		"okay"
-
-		"roundedcorners"		"0"
-		"stay_armed_on_click"	"1"
 	}
 
 	"MenuBG"
@@ -121,7 +121,5 @@
 		"wide"			"f0"
 		"tall"			"50"
 		"tileimage"		"1"
-	//	"image"			"loadout_bottom_gradient"
-	//	"fillcolor"		"0 0 0 180"
 	}
 }

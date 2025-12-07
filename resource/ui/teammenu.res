@@ -58,7 +58,9 @@
 		"command"		"jointeam blue"
 		"associated_model"	"bluedoor"
 		"hover"			"2.0"
-		"team"			"3"		//		team blue
+		"team"			"3"
+
+		"button_activation_type"	"2"
 	}
 
 	"teambutton1"
@@ -76,7 +78,9 @@
 		"command"		"jointeam red"
 		"associated_model"	"reddoor"
 		"hover"			"2.0"
-		"team"			"2"		//		team red
+		"team"			"2"
+
+		"button_activation_type"	"2"
 	}
 
 	"teambutton2"
@@ -93,6 +97,8 @@
 		"fgcolor"		"TanLight"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
+
+		"button_activation_type"	"2"
 	}
 
 	"teambutton3"
@@ -109,6 +115,8 @@
 		"fgcolor"		"TanLight"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"
+
+		"button_activation_type"	"2"
 	}
 
 	"CancelButton"
@@ -119,8 +127,6 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-	//	"visible"		"0"
-	//	"labeltext"		"#TF_Cancel"
 		"font"			"MenuSmallFont"
 		"textalignment"	"center"
 		"command"		"cancelmenu"

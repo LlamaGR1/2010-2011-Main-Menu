@@ -6,7 +6,6 @@
 		"zpos"			"10069"
 		"wide"			"f0"
 		"tall"			"480"
-		"bgcolor_override"	"Black"
 
 		"modelpanels_width"		"450"
 		"modelpanels_height"	"260"
@@ -24,6 +23,15 @@
 				"inventory_image_type"	"1"
 			}
 		}
+	}
+
+	"Background"
+	{
+		"controlname"	"Panel"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"480"
+		"bgcolor_override"	"Black"
 	}
 
 	"classimageoutline"
