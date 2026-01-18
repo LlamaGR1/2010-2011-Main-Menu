@@ -92,7 +92,6 @@
 		"tall"			"70"
 		"visible"		"0"
 		"bgcolor_override"	"0 0 0 245"
-		"paintbackgroundtype"	"0"
 		"mouseinputenabled"	"0"
 
 		"TitleLabel"
@@ -123,44 +122,4 @@
 			"fgcolor_override"	"TanDark"
 		}
 	}
-
-	// "ToolTipButtonHack"
-	// {
-	// 	"controlname"	"EditablePanel"
-	// 	"xpos"			"cs-0.5"
-	// 	"ypos"			"cs-0.5"
-	// 	"zpos"			"169"
-	// 	"wide"			"250"
-	// 	"tall"			"120"
-	// 	"visible"		"0"
-	// 	"border"		"GrayDialogBorder"
-	// 	"mouseinputenabled"	"0"
-
-	// 	"TitleLabel"
-	// 	{
-	// 		"controlname"	"Label"
-	// 		"xpos"			"10"
-	// 		"ypos"			"23"
-	// 		"wide"			"230"
-	// 		"tall"			"40"
-	// 		"labeltext"		"#TF_MM_WaitDialog_Title_FeelingLucky"
-	// 		"font"			"HudFontSmallBold"
-	// 		"centerwrap"	"1"
-	// 		"fgcolor_override"	"LightRed"
-	// 	}
-
-	// 	"LoadingImage"
-	// 	{
-	// 		"controlname"	"ImagePanel"
-	// 		"ypos"			"-5"
-	// 		"wide"			"40"
-	// 		"tall"			"40"
-	// 		"scaleimage"	"1"
-	// 		"image"			"animated/tf2_logo_hourglass"
-
-	// 		"pin_to_sibling" "TitleLabel"
-	// 		"pin_corner_to_sibling" "4"
-	// 		"pin_to_sibling_corner" "6"
-	// 	}
-	// }
 }

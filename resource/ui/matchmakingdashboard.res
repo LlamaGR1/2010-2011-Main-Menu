@@ -50,14 +50,14 @@
 
 			"MultiQueuesManageButton"
 			{
-				"controlname"	"CExImageButton"
+				"controlname"	"Button"
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"150"
 				"tall"			"15"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#Vivi_Cancel_Search"
+				"labeltext"		"#Vivi_Cancel_Search_2"
 				"font"			"HudFontSmallestBold"
 				"textalignment"	"center"
 				"command"		"manage_queues"
@@ -67,22 +67,22 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 
 			"CloseButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"150"
 				"tall"			"15"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#Vivi_Cancel_Search"
+				"labeltext"		"#Vivi_Cancel_Search_1"
 				"font"			"HudFontSmallestBold"
 				"textalignment"	"center"
 				"command"		"leave_queue"
@@ -92,10 +92,10 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 		}
 
@@ -134,7 +134,7 @@
 
 			"JoinNowButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"rs1-7"
 				"ypos"			"cs-0.5"
 				"zpos"			"2"
@@ -149,10 +149,16 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 
-				"border_default"	"ViviTanDarkBG"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"GreenSolid"
+				"armedfgcolor_override"		"TanLight"
+				"armedbgcolor_override"		"CreditsGreen"
+				"depressedbgcolor_override"	"GreenSolid"
 
 				if_queued
 				{

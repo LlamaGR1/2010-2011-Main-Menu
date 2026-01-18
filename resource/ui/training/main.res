@@ -13,7 +13,14 @@
 		"ypos"			"cs-0.5"
 		"wide"			"300"
 		"tall"			"220"
-		"border"			"ViviSourceFrameBG"
+		"bgcolor_override"	"60 56 53 255"
+
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"Background"
 		{
@@ -101,7 +108,7 @@
 
 		"CloseButton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"xpos"			"rs1"
 			"zpos"			"20"
 			"wide"			"15"

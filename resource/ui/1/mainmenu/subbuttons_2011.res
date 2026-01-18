@@ -19,10 +19,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"subimage"
 		{
@@ -52,6 +52,11 @@
 
 		"border_default"	"MainMenuSubButtonBorder"
 
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
 		"subimage"
 		{
 			"xpos"			"5"
@@ -79,6 +84,11 @@
 		"stay_armed_on_click"	"1"
 
 		"border_default"	"MainMenuSubButtonBorder"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"subimage"
 		{
@@ -110,10 +120,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"subimage"
 			{
@@ -140,13 +150,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBGCornersL"
-		"border_armed"		"ViviTFOrangeBGCornersL"
-		"border_selected"	"ViviTFOrangeBGCornersL"
-		"paintbackground"	"0"
-
-		"pin_to_sibling" "OptionsButton"
-		"pin_corner_to_sibling" "1"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/white"
+		"texture3"		"vgui/white"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"subimage"
 		{
@@ -158,6 +165,9 @@
 			"scaleimage"	"1"
 			"image"			"glyph_options"
 		}
+
+		"pin_to_sibling" "OptionsButton"
+		"pin_corner_to_sibling" "1"
 	}
 
 	"OptionsDividerBorder"
@@ -190,10 +200,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"subimage"
 		{

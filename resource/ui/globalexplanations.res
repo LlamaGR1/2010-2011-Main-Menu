@@ -77,7 +77,7 @@
 			}
 		}
 
-		"SubButton"
+		"Subbutton"
 		{
 			"controlname"	"CExButton"
 			"xpos"			"10"

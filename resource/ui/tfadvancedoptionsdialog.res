@@ -37,8 +37,8 @@
 
 	"CancelButton"
 	{
-		"controlname"	"CExButton"
-		"xpos"			"cs-0.5-70"
+		"controlname"	"Button"
+		"xpos"			"cs-0.5-75"
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
@@ -53,16 +53,16 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"OkButton"
 	{
-		"controlname"	"CExButton"
-		"xpos"			"cs-0.5+70"
+		"controlname"	"Button"
+		"xpos"			"cs-0.5+75"
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
@@ -77,10 +77,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"TooltipPanel"

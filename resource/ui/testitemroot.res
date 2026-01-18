@@ -1,3 +1,7 @@
+#base ../../../../cfg/2010hud/client20102011.txt
+
+#base 1/2011fix/subbuttonsfix2011.res
+
 "testitemroot"
 {
 	"TestItemRoot"
@@ -27,7 +31,13 @@
 		"wide"			"400"
 		"tall"			"95"
 		"bgcolor_override"	"0 0 0 128"
+
 		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"ClassUsageLabel"
 		{
@@ -36,7 +46,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			"labeltext"		"#IT_ClassUsage"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 		}
 
 		"ClassCheckBox0"
@@ -47,7 +57,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#IT_Classes_All"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -59,7 +70,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Scout"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -71,7 +83,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Sniper"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -83,7 +96,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Soldier"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -95,7 +109,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Demoman"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -107,7 +122,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Medic"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -119,7 +135,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_HWGuy"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -131,7 +148,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Pyro"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -143,7 +161,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Spy"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -155,7 +174,8 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labeltext"		"#TF_Class_Name_Engineer"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 	}
@@ -168,7 +188,13 @@
 		"wide"			"400"
 		"tall"			"105"
 		"bgcolor_override"	"0 0 0 128"
+
 		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"CurrentlyTestingLabel"
 		{
@@ -177,7 +203,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			"labeltext"		"#IT_CurrentlyTesting"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 		}
 
 		"TestingWeaponLabel"
@@ -187,7 +213,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Weapon"
-			"font"			"HudfontSmallest"
+			"font"			"HudFontSmallest"
 			"textalignment"	"east"
 		}
 
@@ -199,7 +225,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Empty"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 			"bgcolor_override"	"24 24 24 128"
@@ -212,7 +238,7 @@
 			"ypos"			"20"
 			"wide"			"90"
 			"tall"			"15"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_test0"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -220,10 +246,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"RemoveItemButton0"
@@ -234,7 +260,7 @@
 			"wide"			"20"
 			"tall"			"15"
 			"labeltext"		"#IT_Item_Remove"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_remove0"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -242,11 +268,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"border_disabled"	"ViviTanDarkBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"TestingHeadgearLabel"
@@ -256,7 +281,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Headgear"
-			"font"			"HudfontSmallest"
+			"font"			"HudFontSmallest"
 			"textalignment"	"east"
 		}
 
@@ -268,7 +293,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Empty"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 			"bgcolor_override"	"24 24 24 128"
@@ -281,7 +306,7 @@
 			"ypos"			"40"
 			"wide"			"90"
 			"tall"			"15"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_test1"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -289,10 +314,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"RemoveItemButton1"
@@ -303,7 +328,7 @@
 			"wide"			"20"
 			"tall"			"15"
 			"labeltext"		"#IT_Item_Remove"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_remove1"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -311,11 +336,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"border_disabled"	"ViviTanDarkBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"TestingMisc1Label"
@@ -325,7 +349,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Misc1"
-			"font"			"HudfontSmallest"
+			"font"			"HudFontSmallest"
 			"textalignment"	"east"
 		}
 
@@ -337,7 +361,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Empty"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 			"bgcolor_override"	"24 24 24 128"
@@ -350,7 +374,7 @@
 			"ypos"			"60"
 			"wide"			"90"
 			"tall"			"15"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_test2"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -358,10 +382,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"RemoveItemButton2"
@@ -372,7 +396,7 @@
 			"wide"			"20"
 			"tall"			"15"
 			"labeltext"		"#IT_Item_Remove"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_remove2"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -380,11 +404,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"border_disabled"	"ViviTanDarkBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"TestingMisc2Label"
@@ -394,7 +417,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Misc2"
-			"font"			"HudfontSmallest"
+			"font"			"HudFontSmallest"
 			"textalignment"	"east"
 		}
 
@@ -406,7 +429,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			"labeltext"		"#IT_TestingSlot_Empty"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 			"bgcolor_override"	"24 24 24 128"
@@ -419,7 +442,7 @@
 			"ypos"			"80"
 			"wide"			"90"
 			"tall"			"15"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_test3"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -427,10 +450,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"RemoveItemButton3"
@@ -441,7 +464,7 @@
 			"wide"			"20"
 			"tall"			"15"
 			"labeltext"		"#IT_Item_Remove"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"item_remove3"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -449,11 +472,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"border_disabled"	"ViviTanDarkBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 
@@ -465,7 +487,13 @@
 		"wide"			"200"
 		"tall"			"95"
 		"bgcolor_override"	"0 0 0 128"
+
 		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"TitleLabel"
 		{
@@ -474,7 +502,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			"labeltext"		"#IT_BotControl_Title"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 		}
 
 		"AutoAddBotsCheckBox"
@@ -485,7 +513,8 @@
 			"wide"			"90"
 			"tall"			"20"
 			"labeltext"		"#IT_Bot_AutoAdd"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -497,7 +526,8 @@
 			"wide"			"90"
 			"tall"			"20"
 			"labeltext"		"#IT_Bot_BlueTeam"
-			"font"			"ItemfontAttribSmall"
+			"font"			"ItemFontAttribSmall"
+			"textinsetx"	"6"
 			"disabledfgcolor2_override"	"TanDark"
 		}
 
@@ -509,7 +539,7 @@
 			"wide"			"70"
 			"tall"			"15"
 			"labeltext"		"#IT_Bot_Add"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"bot_add"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -517,10 +547,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"BotSelectionComboBox"
@@ -530,7 +560,7 @@
 			"ypos"			"45"
 			"wide"			"100"
 			"tall"			"15"
-			"font"			"HudfontSmallest"
+			"font"			"HudFontSmallest"
 			"editable"		"0"
 			"fgcolor_override"				"TanLight"
 			"disabledfgcolor_override"		"Black"
@@ -552,7 +582,7 @@
 			"wide"			"120"
 			"tall"			"15"
 			"labeltext"		"#IT_Bot_RemoveAll"
-			"font"			"HudfontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
 			"command"		"bot_removeall"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -560,10 +590,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 
@@ -574,11 +604,16 @@
 		"wide"			"200"
 		"tall"			"200"
 		"bgcolor_override"	"0 0 0 128"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ExportButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"10"
 		"ypos"			"400"
 		"wide"			"200"
@@ -592,15 +627,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ImportButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"220"
 		"ypos"			"400"
 		"wide"			"200"
@@ -614,15 +649,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ImportRecentButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"430"
 		"ypos"			"400"
 		"wide"			"200"
@@ -636,18 +671,18 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
-	"CancelButton"
+	"CloseButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"10"
+		"xpos"			"150"
 		"ypos"			"430"
-		"wide"			"200"
+		"wide"			"100"
 		"tall"			"25"
 		"labeltext"		"#Cancel"
 		"font"			"HudfontSmallBold"
@@ -658,16 +693,16 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"OkButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"220"
+		"xpos"			"300"
 		"ypos"			"430"
 		"wide"			"200"
 		"tall"			"25"
@@ -680,31 +715,39 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"SteamWorkshopButtonSubButton"
 	{
-		"controlname"	"CExButton"
-		"xpos"			"430"
+		"controlname"	"CExImageButton"
+		"xpos"			"10"
 		"ypos"			"430"
-		"wide"			"200"
-		"tall"			"26"
-		"labeltext"		"#GameUI_Workshop_Title"
-		"font"			"HudfontSmallBold"
-		"textalignment"	"center"
+		"wide"			"30"
+		"tall"			"15"
+		"labeltext"		""
 		"command"		"steamworkshop"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+		"subimage"
+		{
+			"xpos"			"9"
+			"ypos"			"2"
+			"wide"			"11"
+			"tall"			"11"
+			"scaleimage"	"1"
+			"image"			"glyph_steamworkshop"
+		}
 	}
 }

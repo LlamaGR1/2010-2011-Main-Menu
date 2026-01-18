@@ -26,27 +26,9 @@
 		"border"		"QuickplayBorder"
 	}
 
-	"CloseReturnButtonsCorners"
-	{
-		"controlname"	"ScalableImagePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"406"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"25"
-		"proportionaltoparent"	"1"
-		"src_corner_height"		"6"
-		"src_corner_width"		"6"
-		"draw_corner_width"		"2"
-		"draw_corner_height"	"2"
-		"drawcolor"		"40 37 37 255"
-		"image"			"replay/thumbnails/borders/vivi_button_corners"
-		"mouseinputenabled"	"0"
-	}
-
 	"CloseButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"cs-0.5"
 		"ypos"			"406"
 		"zpos"			"2"
@@ -60,27 +42,35 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ReturnButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"cs-0.5"
 		"ypos"			"406"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"25"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_BackCarat"
+		"labeltext"		"#GameUI_Back"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
 		"command"		"nav_to"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }

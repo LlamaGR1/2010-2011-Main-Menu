@@ -1,18 +1,14 @@
-#base ../../../../../cfg/2010hud/qualityicons.txt
-
-#base ../1/loadout/qualityicons.res
-
 "itemmodelpanel"
 {
 	"mouseoveritempanel"
 	{
-		"collection_list_xpos"	"250"
+	//	"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
-		"text_ypos"				"22"
+	//	"text_ypos"				"22"
 		"text_forcesize"		"0"
 		"text_xpos"				"15"
-		"text_wide"				"270"
+	//	"text_wide"				"270"
 	}
 
 	"LoadingSpinner"
@@ -31,7 +27,7 @@
 		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"Blank"
+	//	"bgcolor_override"	"Blank"
 
 		"itemmodelpanel"
 		{
@@ -94,7 +90,14 @@
 			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor"		"LightRed"
-			"border"		"ViviTrueBlackBG"
+			"bgcolor_override"	"0 0 0 255"
+
+			"paintbackgroundtype"	"2"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"paint_icon"
@@ -104,6 +107,17 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
+	
+			"pin_to_sibling" "paint_icon_Pin"
+			"pin_corner_to_sibling" "1"
+			"pin_to_sibling_corner" "1"
+		}
+
+		"paint_icon_Pin"
+		{
+			"controlname"	"Panel"
+			"xpos"			"-8"
+			"ypos"			"6"
 		}
 
 		"quantitylabel"
@@ -119,39 +133,14 @@
 			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor"		"LightRed"
-			"border"		"ViviTrueBlackBG"
-		}
+			"bgcolor_override"	"0 0 0 255"
 
-		"serieslabel"
-		{
-			"controlname"	"CExLabel"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"14"
-			"tall"			"10"
-			"visible"		"0"
-			"labeltext"		""
-			"font"			"ItemFontAttribSmall"
-			"textalignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"border"		"ViviDarkCyanBG"
-		}
+			"paintbackgroundtype"	"2"
 
-		"matcheslabel"
-		{
-			"controlname"	"CExLabel"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"10"
-			"visible"		"0"
-			"labeltext"		""
-			"font"			"ItemFontAttribSmall"
-			"textalignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"border"		"ViviDarkCyanBG"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 }

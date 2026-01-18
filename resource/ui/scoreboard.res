@@ -11,15 +11,15 @@
 		"ypos"			"31"
 		"wide"			"600"
 		"tall"			"448"
-		"spacer"		"2"
-		"avatar_width"	"32"
+		"avatar_width"	"28"
 		"name_width"	"118"
+		"killstreak_width"	"15"
+		"killstreak_image_width"	"12"
 		"nemesis_width"	"20"
-		"class_width"	"26"
 		"score_width"	"20"
+		"class_width"	"26"
 		"ping_width"	"26"
-		"killstreak_width"	"18"
-		"killstreak_image_width"	"15"
+		"spacer"		"6"
 	}
 
 	"BlueScoreBG"
@@ -64,8 +64,8 @@
 
 		if_mvm
 		{
-			"ypos"		"0"
-			"tall"		"448"
+			"ypos"			"0"
+			"tall"			"448"
 		}
 	}
 
@@ -225,7 +225,7 @@
 
 		if_mvm
 		{
-			"ypos"		"0"
+			"ypos"			"0"
 		}
 	}
 
@@ -307,7 +307,7 @@
 
 		if_mvm
 		{
-			"ypos"		"428"
+			"ypos"			"428"
 		}
 	}
 
@@ -354,10 +354,10 @@
 		"tall"			"92"
 		"scaleimage"	"1"
 
-		if_mvm
-		{
-			"visible"		"1"
-		}
+	//	if_mvm
+	//	{
+	//		"visible"		"1"
+	//	}
 	}
 
 	"classmodelpanel"
@@ -392,7 +392,7 @@
 	{
 		"controlname"	"Label"
 		"xpos"			"115"
-		"ypos"			"375"
+		"ypos"			"376"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
@@ -402,7 +402,7 @@
 		if_mvm
 		{
 			"wide"			"175"
-			"visible"		"1"
+		//	"visible"		"1"
 		}
 	}
 
@@ -415,17 +415,17 @@
 		"wide"			"465"
 		"tall"			"1"
 
-		if_mvm
-		{
-			"visible"		"1"
-		}
+	//	if_mvm										remove all
+	//	{
+	//		"visible"		"1"
+	//	}
 	}
 
 	"MapName"
 	{
 		"controlname"	"Label"
 		"xpos"			"330"
-		"ypos"			"375"
+		"ypos"			"417"		//		417
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"20"
@@ -433,11 +433,54 @@
 		"font"			"ScoreboardMedium"
 		"textalignment"	"east"
 
+	//	if_mvm
+	//	{
+	//		"visible"		"1"
+	//	}
+	}
+
+	"GameType"
+	{
+		"controlname"	"Label"
+		"xpos"			"330"
+		"ypos"			"427"		//		417
+		"zpos"			"3"
+		"wide"			"250"
+		"tall"			"20"
+		"labeltext"		"Team Fortress 2"
+		"font"			"ScoreboardVerySmall"
+		"textalignment"	"east"
+		"fgcolor_override"	"185 177 153 255"
+
 		if_mvm
 		{
-			"visible"		"0"
+			"labeltext"		"#Gametype_MVM"
 		}
 	}
+
+
+	// "GameType"
+	// {
+	// 	"ControlName"	"Label"
+	// 	"xpos"			"330"
+	// 	"ypos"			"425"		//		417
+
+
+	// 	"font"			"ScoreboardVerySmall"
+	// 	"labelText"		"%gametype%"
+	// 	"textAlignment"		"east"
+	// 	"xpos"			"435"
+	// 	"xpos_lodef"	"105"
+	// 	"ypos"			"32"
+	// 	"zpos"			"3"
+	// 	"wide"			"145"
+	// 	"tall"			"20"
+	// 	"autoResize"	"0"
+	// 	"pinCorner"		"0"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"fgcolor"		"185 177 153 255"
+	// }
 
 	"LocalPlayerDuelStatsPanel"
 	{
@@ -492,7 +535,14 @@
 				"zpos"			"-1"
 				"wide"			"36"
 				"tall"			"36"
-				"border"		"ViviTanDarkBG2"
+				"bgcolor_override"	"TanDark"
+
+				"paintbackgroundtype"	"2"
+
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 
 			"AvatarImage"
@@ -503,8 +553,6 @@
 				"wide"			"32"
 				"tall"			"32"
 				"scaleimage"	"1"
-			//	"image"			""
-			//	"color_outline"	"52 48 45 255"
 			}
 
 			"AvatarTextLabel"
@@ -549,7 +597,14 @@
 				"zpos"			"-1"
 				"wide"			"36"
 				"tall"			"36"
-				"border"		"ViviTanDarkBG2"
+				"bgcolor_override"	"TanDark"
+
+				"paintbackgroundtype"	"2"
+
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 
 			"AvatarImage"
@@ -560,8 +615,6 @@
 				"wide"			"32"
 				"tall"			"32"
 				"scaleimage"	"1"
-			//	"image"			""
-			//	"color_outline"	"52 48 45 255"
 			}
 
 			"AvatarTextLabel"
@@ -593,20 +646,21 @@
 	"LocalPlayerStatsPanel"
 	{
 		"controlname"	"EditablePanel"
-		"ypos"			"395"
+		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"
 
-		if_mvm
-		{
-			"visible"		"1"
-		}
+	//	if_mvm
+	//	{
+	//		"visible"		"1"
+	//	}
 
 		"KillsLabel"
 		{
 			"controlname"	"Label"
 			"xpos"			"80"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -619,6 +673,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"180"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -630,7 +685,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"80"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -643,7 +698,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"180"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -655,7 +710,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"80"
-			"ypos"			"20"
+			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -668,7 +723,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"180"
-			"ypos"			"20"
+			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -680,7 +735,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"80"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -693,7 +748,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"180"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -705,6 +760,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"200"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -717,6 +773,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"305"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -728,7 +785,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"200"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -741,7 +798,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"305"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -753,7 +810,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"200"
-			"ypos"			"20"
+			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -766,7 +823,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"305"
-			"ypos"			"20"
+			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -778,7 +835,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"200"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -791,7 +848,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"305"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -803,6 +860,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"326"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -815,6 +873,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"425"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -826,7 +885,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"326"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -839,7 +898,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"425"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -851,7 +910,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"326"
-			"ypos"			"20"
+			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -864,7 +923,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"425"
-			"ypos"			"20"
+			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -876,7 +935,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"326"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -889,7 +948,7 @@
 		{
 			"controlname"	"Label"
 			"xpos"			"425"
-			"ypos"			"30"
+			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -900,7 +959,8 @@
 		"BackstabsLabel"
 		{
 			"controlname"	"Label"
-			"xpos"			"445"
+			"xpos"			"460"
+			"ypos"			"19"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -912,7 +972,8 @@
 		"Backstabs1"
 		{
 			"controlname"	"Label"
-			"xpos"			"545"
+			"xpos"			"560"
+			"ypos"			"19"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -920,36 +981,58 @@
 			"font"			"ScoreboardVerySmall"
 		}
 
-		"BonusLabel"
+		// "BonusLabel"
+		// {
+		// 	"controlname"	"Label"
+		// 	"xpos"			"445"
+		// 	"ypos"			"10"
+		// 	"zpos"			"3"
+		// 	"wide"			"95"
+		// 	"tall"			"20"
+		// 	"labeltext"		"#TF_ScoreBoard_BonusLabel"
+		// 	"font"			"ScoreboardVerySmall"
+		// 	"textalignment"	"east"
+		// }
+
+		// "Bonus1"
+		// {
+		// 	"controlname"	"Label"
+		// 	"xpos"			"545"
+		// 	"ypos"			"10"
+		// 	"zpos"			"3"
+		// 	"wide"			"35"
+		// 	"tall"			"20"
+		// 	"labeltext"		"%bonus%"
+		// 	"font"			"ScoreboardVerySmall"
+		// }
+
+
+
+		"Bonus2"
 		{
 			"controlname"	"Label"
-			"xpos"			"445"
-			"ypos"			"10"
+			"xpos"			"330"
+			"ypos"			"1"
 			"zpos"			"3"
-			"wide"			"95"
+			"wide"			"250"
 			"tall"			"20"
-			"labeltext"		"#TF_ScoreBoard_BonusLabel"
-			"font"			"ScoreboardVerySmall"
+			"labeltext"		"#TF_ScoreBoard_Points"
+			"font"			"ScoreboardMedium"
 			"textalignment"	"east"
+
+			if_mvm
+			{
+				"visible"		"0"
+			}
 		}
 
-		"Bonus1"
-		{
-			"controlname"	"Label"
-			"xpos"			"545"
-			"ypos"			"10"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"labeltext"		"%bonus%"
-			"font"			"ScoreboardVerySmall"
-		}
+
 
 		"SupportLabel"
 		{
 			"controlname"	"Label"
-			"xpos"			"445"
-			"ypos"			"20"
+			"xpos"			"460"
+			"ypos"			"29"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -961,8 +1044,8 @@
 		"Support1"
 		{
 			"controlname"	"Label"
-			"xpos"			"545"
-			"ypos"			"20"
+			"xpos"			"560"
+			"ypos"			"29"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -970,30 +1053,30 @@
 			"font"			"ScoreboardVerySmall"
 		}
 
-		"DamageLabel"
-		{
-			"controlname"	"Label"
-			"xpos"			"445"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
-			"labeltext"		"#TF_Scoreboard_Damage"
-			"font"			"ScoreboardVerySmall"
-			"textalignment"	"east"
-		}
+		// "DamageLabel"
+		// {
+		// 	"controlname"	"Label"
+		// 	"xpos"			"445"
+		// 	"ypos"			"30"
+		// 	"zpos"			"3"
+		// 	"wide"			"95"
+		// 	"tall"			"20"
+		// 	"labeltext"		"#TF_Scoreboard_Damage"
+		// 	"font"			"ScoreboardVerySmall"
+		// 	"textalignment"	"east"
+		// }
 
-		"Damage1"
-		{
-			"controlname"	"Label"
-			"xpos"			"545"
-			"ypos"			"30"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"labeltext"		"%damage%"
-			"font"			"ScoreboardVerySmall"
-		}
+		// "Damage1"
+		// {
+		// 	"controlname"	"Label"
+		// 	"xpos"			"545"
+		// 	"ypos"			"30"
+		// 	"zpos"			"3"
+		// 	"wide"			"35"
+		// 	"tall"			"20"
+		// 	"labeltext"		"%damage%"
+		// 	"font"			"ScoreboardVerySmall"
+		// }
 	}
 
 	"MvMScoreboard"

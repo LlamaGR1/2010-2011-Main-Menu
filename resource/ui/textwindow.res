@@ -56,7 +56,7 @@
 
 	"ok"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"r190"
 		"ypos"			"r40"
 		"zpos"			"6"
@@ -67,26 +67,12 @@
 		"textalignment"	"center"
 		"command"		"okay"
 
-		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
-	}
 
-	"okCorners"
-	{
-		"controlname"	"ScalableImagePanel"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"7"
-		"wide"			"150"
-		"tall"			"30"
-		"proportionaltoparent"	"1"
-		"src_corner_height"		"6"
-		"src_corner_width"		"6"
-		"draw_corner_width"		"2"
-		"draw_corner_height"	"2"
-	//	"drawcolor"		"57 52 47 255"
-		"image"			"replay/thumbnails/borders/vivi_button_corners"
-		"mouseinputenabled"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"MenuBG"

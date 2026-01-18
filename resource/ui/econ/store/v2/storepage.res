@@ -1,3 +1,7 @@
+#base ../../../../../../../cfg/2010hud/client20102011.txt	
+
+#base ../../../2bitch/mouseoveritempanel_2011.res
+
 "storepage"
 {
 	"StorePage"
@@ -47,9 +51,13 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
-			"paintbackgroundtype"	"0"
 			"paintborder"	"0"
-						
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"	
+
 			"model_xpos"	"18"
 			"model_ypos"	"5"
 			"model_wide"	"53"
@@ -75,23 +83,7 @@
 			//	"inventory_image_type"	"1"		//		blurry weapon icons
 			}
 
-			"use_item_sounds"	"1"		
-
-			"modelpanels_kvCorners"
-			{
-				"controlname"	"ScalableImagePanel"
-				"zpos"			"6"
-				"wide"			"87"
-				"tall"			"49"
-				"proportionaltoparent"	"1"
-				"src_corner_height"		"6"
-				"src_corner_width"		"6"
-				"draw_corner_width"		"2"
-				"draw_corner_height"	"2"
-				"drawcolor"		"Black"
-				"image"			"replay/thumbnails/borders/vivi_button_corners"
-				"mouseinputenabled"	"0"
-			}
+			"use_item_sounds"	"1"				//		re-organize
 		}
 		
 		"modelpanel_labels_kv"
@@ -113,17 +105,22 @@
 		"cart_modelpanels_kv"
 		{
 			"controlname"	"CItemModelPanel"
-			"xpos"			"c-70"
-			"ypos"			"270"
+		//	"xpos"			"c-70"
+		//	"ypos"			"270"
 			"zpos"			"13"
 			"wide"			"32"
 			"tall"			"25"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
-			"paintbackgroundtype"	"0"
-			"paintborder"	"0"
-			
+		//	"bgcolor_override"		"0 0 0 255"
+		//	"noitem_textcolor"		"117 107 94 255"
+		//	"paintbackgroundtype"	"0"
+		//	"paintborder"	"0"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -142,22 +139,6 @@
 			}
 
 			"use_item_sounds"	"1"		
-
-			"cart_modelpanels_kvCorners"
-			{
-				"controlname"	"ScalableImagePanel"
-				"zpos"			"6"
-				"wide"			"32"
-				"tall"			"25"
-				"proportionaltoparent"	"1"
-				"src_corner_height"		"6"
-				"src_corner_width"		"6"
-				"draw_corner_width"		"2"
-				"draw_corner_height"	"2"
-				"drawcolor"		"Black"
-				"image"			"replay/thumbnails/borders/vivi_button_corners"
-				"mouseinputenabled"	"0"
-			}
 		}
 		
 		"cart_labels_kv"
@@ -185,9 +166,11 @@
 		"tall"			"300"
 		"visible"		"0"
 
+	//	"text_ypos"			"80"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"22"
+		"text_wide"			"270"
+	//	"padding_height"	"80"
 	}
 
 	"ItemDetailsButton1"
@@ -202,7 +185,7 @@
 
 		"subbutton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"wide"			"110"
 			"tall"			"20"
 			"labeltext"		"#Store_DetailsItem"
@@ -210,6 +193,8 @@
 			"textalignment"	"center"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"stay_armed_on_click"	"1"
 
 			"paintbackground"	"0"
 
@@ -230,19 +215,16 @@
 
 		"subbutton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"wide"			"110"
 			"tall"			"20"
 			"enabled"		"0"
 			"labeltext"		"#Store_PreviewItem"
 			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
 
 			"paintbackground"	"0"
 
-			"armedfgcolor_override"		"LightRed"
 			"disabledfgcolor2_override"	"Black"
 		}
 	}
@@ -270,7 +252,7 @@
 
 		"subbutton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"wide"			"165"
 			"tall"			"20"
 			"enabled"		"0"
@@ -347,11 +329,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -396,11 +377,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "0"
@@ -415,9 +395,6 @@
 		"command"		"nextpage"
 		"sound_released"	"ui/panel_open.wav"
 	}
-
-
-
 
 	"BackpackSpaceLabel"
 	{
@@ -444,24 +421,6 @@
 		"image"			"replay/thumbnails/icons/icon_store"
 	}
 
-	"CartButtonCorners"
-	{
-		"controlname"	"ScalableImagePanel"
-		"zpos"			"13"
-		"wide"			"56"
-		"tall"			"25"
-		"proportionaltoparent"	"1"
-		"src_corner_height"		"6"
-		"src_corner_width"		"6"
-		"draw_corner_width"		"2"
-		"draw_corner_height"	"2"
-		"drawcolor"		"Black"
-		"image"			"replay/thumbnails/borders/vivi_button_corners"
-		"mouseinputenabled"	"0"
-
-		"pin_to_sibling" "CartButton"
-	}
-
 	"CartButton"
 	{
 		"controlname"	"CExButton"
@@ -479,8 +438,12 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"CheckoutButton"
@@ -500,28 +463,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
-	}
-
-	"reloadscheme"
-	{
-		"controlname"	"Button"
-		"xpos"			"c20"
-		"ypos"			"12"
-		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		"labeltext"		"!"
-		"command"		"reloadscheme"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ShowExplanationsButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c51"
 		"ypos"			"12"
 		"zpos"			"100"
@@ -536,10 +486,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"StartExplanation"

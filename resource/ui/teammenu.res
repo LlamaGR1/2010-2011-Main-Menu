@@ -11,15 +11,6 @@
 		"tall"			"480"
 	}
 
-	"SysMenu"		//		???
-	{
-		"controlname"	"Menu"
-		"wide"			"64"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
 	"MapInfo"
 	{
 		"controlname"	"HTML"
@@ -133,10 +124,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"TeamMenuSelect"

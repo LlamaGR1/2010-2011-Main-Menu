@@ -58,7 +58,7 @@
 
 			"AbandonButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"rs1-10"
 				"ypos"			"rs1-5"
 				"zpos"			"100"
@@ -75,18 +75,15 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 
 			"SmallJoinButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"10"
 				"ypos"			"rs1-5"
 				"zpos"			"100"
@@ -103,13 +100,16 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviSaleGreenBG"
-				"border_armed"		"ViviCreditsGreenBG"
-				"border_selected"	"ViviSaleGreenBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"GreenSolid"
 				"armedfgcolor_override"		"TanLight"
+				"armedbgcolor_override"		"CreditsGreen"
+				"depressedbgcolor_override"	"GreenSolid"
 
 				if_expected
 				{
@@ -120,7 +120,7 @@
 
 			"WideJoinButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-5"
 				"zpos"			"100"
@@ -137,13 +137,17 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviSaleGreenBG"
-				"border_armed"		"ViviCreditsGreenBG"
-				"border_selected"	"ViviSaleGreenBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"GreenSolid"
 				"armedfgcolor_override"		"TanLight"
+				"armedbgcolor_override"		"CreditsGreen"
+				"depressedbgcolor_override"	"GreenSolid"
+
 			}
 
 			"JoiningLabel"

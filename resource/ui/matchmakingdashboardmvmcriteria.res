@@ -21,16 +21,6 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"BackgroundColor"
-	{
-		"controlname"	"EditablePanel"
-		"ypos"			"51"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"p0.8"
-		"bgcolor_override"	"Black"
-	}
-
 	"BackgroundHeader"
 	{
 		"controlname"	"ImagePanel"
@@ -40,35 +30,52 @@
 		"image"			"loadout_header"
 	}
 
-	"HeaderLine"
+	"Sheet"
 	{
-		"controlname"	"ImagePanel"
-		"ypos"			"c-191"
-		"zpos"			"2"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
-		"tall"			"10"
-		"scaleimage"	"1"
-		"image"			"loadout_solid_line"
-	}
+		"tall"			"480"
 
-	"Tab"
-	{
-		"controlname"	"CExImageButton"
-		"xpos"			"80"
-		"ypos"			"18"
-		"zpos"			"3"
-		"wide"			"128"
-		"tall"			"34"
-		"labeltext"		"#TF_MvM_HeaderCoop"
-		"font"			"HudFontMediumBold"
-		"use_proportional_insets"	"1"
-		"textinsetx"	"18"
-		"mouseinputenabled"	"0"
+		"HeaderLine"
+		{
+			"controlname"	"ImagePanel"
+			"ypos"			"45"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"10"
+			"scaleimage"	"1"
+			"image"			"loadout_solid_line"
+		}
 
-		"border_default"	"OutlinedGreyBox"
-		"paintbackground"	"0"
+		"tabskv"
+		{
+			"controlname"	"CExImageButton"
+			"xpos"			"80"
+			"ypos"			"13"
+			"zpos"			"3"
+			"wide"			"118"
+			"tall"			"35"
+			"labeltext"		"#TF_MvM_HeaderCoop"
+			"font"			"HudFontMediumBold"
+			"textinsetx"	"13"
+			"use_proportional_insets" "1"
 
-		"defaultfgcolor_override"	"HudOffWhite"
+			"border_default"	"OutlinedGreyBox"
+			"paintbackground"	"0"
+
+			"defaultfgcolor_override"	"HudOffWhite"
+
+			"mouseinputenabled"	"0"
+		}
+
+		"Background"
+		{
+			"controlname"	"Panel"
+			"ypos"			"46"
+			"wide"			"f0"
+			"tall"			"p0.8"
+			"bgcolor_override"	"Black"
+		}
 	}
 
 	"BackgroundFooter"
@@ -113,6 +120,7 @@
 		"tall"			"20"
 		"labeltext"		"#TF_Matchmaking_JoinInProgress"
 		"font"			"HudFontSmall"
+		"fgcolor_override"	"Yellow"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -165,25 +173,25 @@
 
 	"StartPartyButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c+110"
 		"ypos"			"310"
-		"zpos"			"105"
+		"zpos"			"100"
 		"wide"			"180"
 		"tall"			"25"
 		"labeltext"		"#TF_Matchmaking_StartParty"
 		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
-		"command"		"url https://steamcommunity.com/chat"
+		"command"		"url https://steamcommunity.com/chat/"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"MannUpToolTipButtonHack"
@@ -213,11 +221,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -247,16 +254,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"NextButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c110"
 		"ypos"			"437"
 		"zpos"			"769"
@@ -271,16 +277,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"CloseButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-300"
 		"ypos"			"437"
 		"zpos"			"769"
@@ -295,15 +300,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"LearnMoreButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-100"
 		"ypos"			"437"
 		"zpos"			"105"
@@ -318,9 +323,9 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }

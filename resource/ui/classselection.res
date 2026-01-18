@@ -11,15 +11,6 @@
 		"tall"			"480"
 	}
 
-	"SysMenu"		//		???
-	{
-		"controlname"	"Menu"
-		"wide"			"64"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
 	"Offense"
 	{
 		"controlname"	"Label"
@@ -370,15 +361,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"CancelButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"r190"
 		"ypos"			"r40"
 		"zpos"			"6"
@@ -391,15 +382,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ResetButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"r470"
 		"ypos"			"r40"
 		"zpos"			"6"
@@ -412,10 +403,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ClassMenuSelect"
@@ -449,21 +440,6 @@
 			"origin_y"		"0"
 			"origin_z"		"-40"
 		}
-	}
-
-	"Hint"		//		???
-	{
-		"controlname"	"CExLabel"
-		"xpos"			"c-300"
-		"ypos"			"95"
-		"zpos"			"2"
-		"wide"			"600"
-		"tall"			"50"
-		"visible"		"0"
-		"labeltext"		"%hint%"
-		"font"			"HudFontMediumSmallSecondary"
-		"wrap"			"1"
-		"fgcolor"		"HudTrainingHint"
 	}
 
 	"localPlayerImage"

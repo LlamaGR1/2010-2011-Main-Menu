@@ -13,79 +13,12 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"roundedcorners"	"0"
-		}
+			"stay_armed_on_click"	"1"
 
-		"presetbutton_kvCorners0"
-		{
-			"controlname"	"ScalableImagePanel"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"Black"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
-
-			"pin_to_sibling" "LoadPresetButton0"
-		}
-
-		"presetbutton_kvCorners1"
-		{
-			"controlname"	"ScalableImagePanel"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"Black"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
-
-			"pin_to_sibling" "LoadPresetButton1"
-		}
-
-		"presetbutton_kvCorners2"
-		{
-			"controlname"	"ScalableImagePanel"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"Black"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
-
-			"pin_to_sibling" "LoadPresetButton2"
-		}
-
-		"presetbutton_kvCorners3"
-		{
-			"controlname"	"ScalableImagePanel"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"proportionaltoparent"	"1"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"Black"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
-
-			"pin_to_sibling" "LoadPresetButton3"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 }

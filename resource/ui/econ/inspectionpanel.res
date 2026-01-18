@@ -99,7 +99,6 @@
 		{
 			"wide"			"19"
 			"tall"			"19"
-			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -334,8 +333,12 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"roundedcorners"		"0"
 			"stay_armed_on_click"	"1"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"fixed_item"
 			{
@@ -351,23 +354,6 @@
 			{
 				"visible"		"0"
 			}
-		}
-
-		"NewSeedButtonCorners"
-		{
-			"controlname"	"ScalableImagePanel"
-			"xpos"			"8"
-			"ypos"			"75"
-			"zpos"			"11"
-			"wide"			"70"
-			"tall"			"20"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"43 39 35 255"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
 		}
 
 		"SeedTextEntry"
@@ -382,7 +368,11 @@
 			"NumericInputOnly"	"1"
 			"actionsignallevel"	"2"
 			"bgcolor_override"	"0 0 0 200"
-			"paintbackgroundtype"	"0"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"fixed_item"
 			{
@@ -398,23 +388,6 @@
 			{
 				"visible"		"0"
 			}
-		}
-
-		"SeedTextEntryCorners"
-		{
-			"controlname"	"ScalableImagePanel"
-			"xpos"			"90"
-			"ypos"			"75"
-			"zpos"			"11"
-			"wide"			"115"
-			"tall"			"20"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"43 39 35 255"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
 		}
 
 		"MarketButton"
@@ -457,7 +430,7 @@
 
 	"BackButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-288"
 		"ypos"			"323"
 		"zpos"			"2"
@@ -473,10 +446,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"fixed_paintkit"
 		{

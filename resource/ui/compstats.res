@@ -6,7 +6,14 @@
 		"wide"			"300"
 		"tall"			"220"
 		"proportionaltoparent"	"1"
-		"border"		"ViviBlackBG2"
+		"bgcolor_override"	"40 37 37 255"
+
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"Title"
 		{
@@ -34,8 +41,12 @@
 				"ypos"			"25"
 				"wide"			"280"
 				"tall"			"204"
-				"border"		"ViviBlackBG"
-				"mouseinputenabled"	"0"
+				"bgcolor_override"	"Black"
+
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 
 			"MatchHistoryCategories"

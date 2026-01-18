@@ -18,7 +18,7 @@
 
 		"EntryToggleButton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"wide"			"f0"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"

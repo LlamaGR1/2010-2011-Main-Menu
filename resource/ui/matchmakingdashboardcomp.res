@@ -104,7 +104,6 @@
 		"tall"			"70"
 		"visible"		"0"
 		"bgcolor_override"	"0 0 0 245"
-		"paintbackgroundtype"	"0"
 		"mouseinputenabled"	"0"
 
 		"TitleLabel"

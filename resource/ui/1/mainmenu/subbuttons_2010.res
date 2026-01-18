@@ -11,10 +11,7 @@
 		"xpos"			"c20"
 		"wide"			"25"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"border_default"	""
 
 		"subimage"
 		{
@@ -28,10 +25,7 @@
 		"wide"			"25"
 		"labeltext"		""
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"border_default"	""
 
 		"subimage"
 		{
@@ -43,22 +37,16 @@
 	{
 		"xpos"			"c80"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"border_default"	""
 	}
 
-	"MutePlayersButton1"
+	"MutePlayersButton_TF"
 	{
 		"xpos"			"c80"
 
 		"subbutton"
 		{
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"border_default"	""
 		}
 	}
 

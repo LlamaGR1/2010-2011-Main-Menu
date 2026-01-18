@@ -24,6 +24,8 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
+			"stay_armed_on_click"	"1"
+
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"TanLight"

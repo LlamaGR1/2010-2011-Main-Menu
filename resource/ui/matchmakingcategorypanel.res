@@ -97,8 +97,6 @@
 			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"smallcheckimage"	"1"
-
-			"button_activation_type"	"1"
 		}
 
 		"Title"

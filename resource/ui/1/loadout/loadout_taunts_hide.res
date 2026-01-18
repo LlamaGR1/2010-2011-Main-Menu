@@ -1,14 +1,10 @@
-#base ../../../../../../cfg/2010hud/client20102011.txt
-
-#base ../2011fix/loadouttaunt.res
-
 "classloadoutpanel"
 {
 	"CharacterLoadoutButton"
 	{
 		"controlname"	"CExImageButton"
-		"xpos"			"c243"
-		"ypos"			"10"
+		"xpos"			"c260"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -18,31 +14,30 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"stay_armed_on_click"		"1"
-		"button_activation_type"	"2"
+		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"subimage"
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"wide"			"13"
-			"tall"			"13"
+			"wide"			"15"
+			"tall"			"15"
 			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
-			"image"			"glyph_achievements"
+			"image"			"replay/thumbnails/loadout/ico_loadout"
 		}
 	}
 
 	"TauntLoadoutButton"
 	{
 		"controlname"	"CExImageButton"
-		"xpos"			"c267"
-		"ypos"			"10"
+		"xpos"			"c283"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -52,13 +47,12 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"stay_armed_on_click"		"1"
-		"button_activation_type"	"2"
+		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"subimage"
 		{

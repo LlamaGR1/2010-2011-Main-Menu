@@ -7,20 +7,17 @@
 	"PlaylistBGPanel"
 	{
 		"controlname"	"EditablePanel"
-	//	"xpos"			"cs-0.5"
-	//	"ypos"			"0"
-	//	"zpos"			"-1"
-	//	"wide"			"p0.98"
-	//	"tall"			"p1"
-		"wide"			"300"		//		f0
-		"tall"			"220"		//		390
+		"wide"			"300"
+		"tall"			"220"
 		"proportionaltoparent"	"1"
-	//	"bgcolor_override"		"Orange"
-		"border"		"ViviBlackBG2"
+		"bgcolor_override"	"40 37 37 255"
 
-	//	"pincorner"		"2"
-	//	"autoresize"	"1"
+		"paintbackgroundtype"	"2"
 
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		"Title"
 		{
 			"controlname"	"Label"
@@ -44,40 +41,6 @@
 		//	"bgcolor_override"	"Orange"
 		}
 
-		// "RankImage"
-		// {
-		// 	"controlname"	"CTFLocalPlayerBadgePanel"
-		// 	"xpos"			"4"
-		// 	"ypos"			"-8"
-		// 	"zpos"			"110"
-		// 	"wide"			"o1"
-		// 	"tall"			"60"
-		// 	"visible"		"1"
-		// 	"enabled"		"1"
-		// 	"proportionaltoparent"	"1"
-		// 	"mouseinputenabled"	"0"
-
-		// 	"matchgroup"	"MatchGroup_Casual_12v12"
-		// }
-
-		// "RankPanel"
-		// {
-		// 	"controlname"	"CPvPRankPanel"
-		// 	"xpos"			"-70"
-		// 	"ypos"			"-35"
-		// 	"zpos"			"100"
-		// 	"wide"			"330"
-		// 	"tall"			"92"
-		// 	"visible"		"1"
-		// 	"proportionaltoparent"	"1"
-		// 	"mouseinputenabled"	"0"
-
-		// 	"matchgroup"	"MatchGroup_Casual_12v12"
-
-		// 	"show_model"	"0"
-		// 	"show_name"		"0"
-		// }
-
 		"RestoreCasualSearchCriteria"
 		{
 			"controlname"	"CExImageButton"
@@ -95,10 +58,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"subimage"
 			{
@@ -128,10 +91,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"subimage"
 			{
@@ -142,32 +105,6 @@
 				"scaleimage"	"1"
 				"image"			"button_save"
 			}
-		}
-
-		"ShowExplanationsButton"
-		{
-			"controlname"	"CExButton"
-			"xpos"			"rs1-10"
-			"ypos"			"2"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"0"
-			"proportionaltoparent"	"1"
-			"labeltext"		"?"
-			"font"			"HudFontSmallBold"		//		HudFontMediumSmallBold
-			"textalignment"	"center"
-			"command"		"show_explanations"
-			"actionsignallevel"	"2"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"stay_armed_on_click"	"1"
-
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
 		}
 
 		"PlayListDropShadow"
@@ -195,9 +132,12 @@
 			"tall"			"172"		//		f65
 			"proportionaltoparent"	"1"
 			"restrict_width"	"0"
+			"bgcolor_override"	"Black"
 
-		//	"border"		"MainMenuBGBorder"
-			"border"		"ViviBlackBG"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"ScrollBar"
 			{

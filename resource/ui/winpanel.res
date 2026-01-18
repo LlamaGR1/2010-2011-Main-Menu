@@ -12,6 +12,28 @@
 		"wide"			"480"
 		"tall"			"60"
 
+		"BlueScoreBG_TF"
+		{
+			"controlname"	"ImagePanel"
+			"xpos"			"0"
+			"ypos"			"10"
+			"wide"			"241"
+			"tall"			"50"
+			"scaleimage"	"1"
+			"image"			"../hud/winpanel_blue_bg_team"
+		}
+
+		"RedScoreBG_TF"
+		{
+			"controlname"	"ImagePanel"
+			"xpos"			"141"
+			"ypos"			"10"
+			"wide"			"241"
+			"tall"			"50"
+			"scaleimage"	"1"
+			"image"			"../hud/winpanel_red_bg_team"
+		}
+
 		"BlueScoreBG"
 		{
 			"controlname"	"EditablePanel"
@@ -19,6 +41,7 @@
 			"ypos"			"15"
 			"wide"			"140"
 			"tall"			"40"
+			"visible"		"0"
 		}
 
 		"RedScoreBG"
@@ -28,6 +51,7 @@
 			"ypos"			"15"
 			"wide"			"140"
 			"tall"			"40"
+			"visible"		"0"
 		}
 
 		"BlueTeamLabel"

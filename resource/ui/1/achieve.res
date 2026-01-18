@@ -8,7 +8,14 @@
 		"zpos"			"-69"
 		"wide"			"406"
 		"tall"			"65"
-		"border"		"ViviBlackBG"
+		"bgcolor_override"	"Black"
+
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"RecentAchievementsLabel"
 		{
@@ -25,7 +32,7 @@
 
 	"ViewAchievementsButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"-10"
 		"ypos"			"-8"
 		"wide"			"90"
@@ -39,10 +46,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "TopLeftDataPanel"
 		"pin_corner_to_sibling" "3"

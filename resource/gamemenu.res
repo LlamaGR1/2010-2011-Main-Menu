@@ -104,6 +104,13 @@
 		"command"		"0"
 	}
 
+	"ExplanationTooltipPanelREAL5"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_1_ToolTip"
+		"command"		"0"
+	}
+
 	"ExplanationTooltipPanel6"
 	{
 		"label"			"?"
@@ -212,7 +219,7 @@
 		"command"		"openbenchmarkdialog"
 	}
 
-	"MutePlayersButton1"
+	"MutePlayersButton_TF"
 	{
 		"label"			""
 		"tooltip"		"#MMenu_MutePlayers"

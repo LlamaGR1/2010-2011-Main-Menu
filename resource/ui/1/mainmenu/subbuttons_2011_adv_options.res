@@ -12,8 +12,7 @@
 
 	"OptionsButton"
 	{
-		"border_default"	"ViviTanDarkBGCornersR"
-		"border_armed"		"ViviTFOrangeBGCornersR"
-		"border_selected"	"ViviTFOrangeBGCornersR"
+		"texture1"		"vgui/white"
+		"texture4"		"vgui/white"
 	}
 }

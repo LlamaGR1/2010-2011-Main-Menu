@@ -75,6 +75,7 @@
 		"tall"			"20"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"font"			"HudFontSmallBold"
+		"textinsetx"	"6"
 		"cvar_name"		"tf_party_ignore_invites"
 	}
 
@@ -88,16 +89,17 @@
 		"tall"			"20"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"font"			"HudFontSmallBold"
+		"textinsetx"	"6"
 		"cvar_name"		"tf_mm_custom_ping_enabled"
 	}
 
 	"DescLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c-92"
+		"xpos"			"c-96"
 		"ypos"			"130"
 		"zpos"			"2"
-		"wide"			"210"
+		"wide"			"214"
 		"tall"			"45"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textalignment"	"north-west"

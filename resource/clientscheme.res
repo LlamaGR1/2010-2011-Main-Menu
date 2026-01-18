@@ -72,7 +72,7 @@ Scheme
 		"HudProgressBarActive"		"240 207 78 255"
 		"HudProgressBarInActive"	"140 120 73 255"
 		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"	
+		"HudProgressBarInActiveLow"	"240 30 30 99"
 
 		"HudTimerProgressActive"	"251 235 202 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
@@ -104,7 +104,7 @@ Scheme
 
 		"MatchmakingDialogTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemBackground"			"46 43 42 255"
-		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
+		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 
@@ -531,174 +531,6 @@ Scheme
 					"offset"	"0 0"
 				}
 			}
-		}
-
-		ViviTanDarkBG2
-		{
-			"bordertype"			"scalable_image"
-			"color"					"TanDark"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviBlackBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"Black"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviBlackBG2
-		{
-			"bordertype"			"scalable_image"
-			"color"					"40 37 37 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviTrueBlackBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"0 0 0 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviDarkCyanBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"0 40 30 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviItemOptionsBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"69 64 63 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviTradingBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"0 0 0 69"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviStoreItemBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"51 47 46 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviSaxxyBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"56 74 94 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviSaxxyBG2
-		{
-			"bordertype"			"scalable_image"
-			"color"					"67 89 113 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviSaleGreenBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"76 107 34 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviCreditsGreenBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"94 150 49 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviItemSelectionBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"LighterDarkBrown"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
-
-		ViviSourceFrameBG
-		{
-			"bordertype"			"scalable_image"
-			"color"					"60 56 53 255"
-
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
 		}
 
 		ScrollBarButtonBorder
@@ -2516,7 +2348,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/borders/test/vivi_button_bg"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
@@ -2549,7 +2381,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_central"
+			"image"					"replay/thumbnails/borders/test/vivi_button"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
@@ -2560,7 +2392,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_central_hover"
+			"image"					"replay/thumbnails/borders/test/vivi_button_armed"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
@@ -2571,7 +2403,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_central_disabled"
+			"image"					"replay/thumbnails/borders/test/vivi_button_disabled"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
@@ -2582,7 +2414,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_central_adv"
+			"image"					"replay/thumbnails/borders/test/vivi_button_mini"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"1"
@@ -2593,7 +2425,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_central_adv_hover"
+			"image"					"replay/thumbnails/borders/test/vivi_button_mini_armed"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"1"
@@ -2604,7 +2436,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/borders/test/vivi_button_bg"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
@@ -2615,7 +2447,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_holder_central_alpha"
+			"image"					"replay/thumbnails/borders/test/vivi_button_bg_alpha"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
@@ -2648,7 +2480,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/borders/test/vivi_button_bg"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"

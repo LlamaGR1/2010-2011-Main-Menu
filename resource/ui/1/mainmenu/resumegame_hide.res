@@ -440,6 +440,11 @@
 
 		"border_default"	"MainMenuSubButtonBorder"
 
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
 		"subimage"
 		{
 			"xpos"			"5"
@@ -451,7 +456,7 @@
 		}
 	}
 
-	"MutePlayersButton1"
+	"MutePlayersButton_TF"
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"c65"
@@ -471,6 +476,11 @@
 			"stay_armed_on_click"	"1"
 
 			"border_default"	"MainMenuSubButtonBorder"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"subimage"
 			{
