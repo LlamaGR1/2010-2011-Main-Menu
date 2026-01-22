@@ -295,7 +295,7 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_disabledcolor"	"46 43 42 255"
-				"SubImage"
+				"subimage"
 				{
 					"xpos"			"5"
 					"ypos"			"5"
@@ -335,7 +335,7 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_disabledcolor"	"46 43 42 255"
-				"SubImage"
+				"subimage"
 				{
 					"xpos"			"5"
 					"ypos"			"5"
@@ -375,7 +375,7 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_disabledcolor"	"46 43 42 255"
-				"SubImage"
+				"subimage"
 				{
 					"xpos"			"5"
 					"ypos"			"5"

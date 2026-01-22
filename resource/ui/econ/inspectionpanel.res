@@ -95,7 +95,7 @@
 		"auto_layout"	"1"
 		"auto_layout_vertical_buffer"	"-4"
 
-		"ButtonSettings"
+		"buttonsettings"
 		{
 			"wide"			"19"
 			"tall"			"19"

@@ -82,7 +82,7 @@
 		"display_vertically"	"1"
 		"auto_layout"			"1"
 
-		"ButtonSettings"
+		"buttonsettings"
 		{
 			"wide"			"100"
 			"tall"			"15"

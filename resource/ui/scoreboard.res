@@ -461,22 +461,19 @@
 
 	// "GameType"
 	// {
-	// 	"ControlName"	"Label"
+	// 	"controlname"	"Label"
 	// 	"xpos"			"330"
 	// 	"ypos"			"425"		//		417
 
 
 	// 	"font"			"ScoreboardVerySmall"
-	// 	"labelText"		"%gametype%"
-	// 	"textAlignment"		"east"
+	// 	"labeltext"		"%gametype%"
+	// 	"textalignment"		"east"
 	// 	"xpos"			"435"
-	// 	"xpos_lodef"	"105"
 	// 	"ypos"			"32"
 	// 	"zpos"			"3"
 	// 	"wide"			"145"
 	// 	"tall"			"20"
-	// 	"autoResize"	"0"
-	// 	"pinCorner"		"0"
 	// 	"visible"		"1"
 	// 	"enabled"		"1"
 	// 	"fgcolor"		"185 177 153 255"

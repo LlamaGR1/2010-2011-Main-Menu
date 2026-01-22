@@ -1,18 +1,23 @@
 #base tfhudoptionsdialog.res
 
 #base ../../../../cfg/2010hud/client20102011.txt
-#base ../../../../cfg/2010hud/theme.txt							//		✔
 #base ../../../../cfg/2010hud/subbuttons.txt
-#base ../../../../cfg/2010hud/challenges.txt
 #base ../../../../cfg/2010hud/contracts.txt
 #base ../../../../cfg/2010hud/loadoutbb.txt
 #base ../../../../cfg/2010hud/shop.txt
-#base ../../../../cfg/2010hud/achieve.txt
 #base ../../../../cfg/2010hud/resumegame.txt
 #base ../../../../cfg/2010hud/quitgameconfirm.txt
 
+
+
+#base ../../../../cfg/2010hud/theme.txt							//		✔
+#base ../../../../cfg/2010hud/top_left_data.txt
+#base ../../../../cfg/2010hud/top_right_data.txt
+
+
 #base 2bitch/main_menu/theme_2011.res
-#base 2bitch/main_menu/challenges_hidden.res
+#base 2bitch/main_menu/top_left_data_party_16_9.res
+#base 2bitch/main_menu/top_right_data_hidden.res
 
 
 
@@ -25,7 +30,6 @@
 #base 1/mainmenu/contracts_hide.res
 #base 1/mainmenu/loadout_label_2011.res
 #base 1/mainmenu/shop_button.res
-#base 1/achieve.res
 #base 1/mainmenu/resumegame_hide.res
 #base 1/mainmenu/quitgameconfirm_hide.res
 #base 1/mainmenu/playername_16_9.res
@@ -632,20 +636,22 @@
 
 	"BackgroundHeader"
 	{
-		"controlname"	"ScalableImagePanel"
+		"controlname"	"ImagePanel"
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"100"
+		"scaleimage"	"1"
 		"image"			"loadout_bottom_gradient"
 	}
 
 	"HeaderLine"
 	{
-		"controlname"	"ScalableImagePanel"
+		"controlname"	"ImagePanel"
 		"ypos"			"100"
 		"zpos"			"-99"
 		"wide"			"f0"
 		"tall"			"10"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
@@ -662,11 +668,12 @@
 
 	"FooterLine"
 	{
-		"controlname"	"ScalableImagePanel"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"-49"
 		"wide"			"f0"
 		"tall"			"10"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
@@ -773,13 +780,8 @@
 		}
 	}
 
-	"DashboardDimmer"		//		after start up or adv reload hud you need to click anywhere, wide 0 & tall 0 fixes
+	"DashboardDimmer"
 	{
-	//	"xpos"			"-2"
-	//	"ypos"			"-2"
-	//	"wide"			"1939"
-	//	"tall"			"1945"
-	//	"paintbackground"	"0"
 		"visible"		"0"
 	}
 

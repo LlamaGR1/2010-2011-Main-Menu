@@ -449,7 +449,7 @@
 			"zpos"			"1"
 			"wide"			"155"
 			"tall"			"24"
-			"Font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallestBold"
 			"editable"		"0"
 
 			"fgcolor_override"				"TanDark"

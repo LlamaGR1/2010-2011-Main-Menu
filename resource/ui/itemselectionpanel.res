@@ -65,6 +65,7 @@
 		//	"tall"			"42"
 			"visible"		"0"
 			"paintborder"	"0"
+			"noitem_textcolor"	"TanDark"
 
 			"model_xpos"	"2"
 		//	"model_ypos"	"5"

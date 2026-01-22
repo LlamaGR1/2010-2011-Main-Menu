@@ -79,19 +79,6 @@ alias subbuttons_2010 "subbuttons_clear; subbuttons_log; exec subbuttons_2010.cf
 alias subbuttons_2011_adv_options "subbuttons_clear; subbuttons_log; exec subbuttons_2011_adv_options.cfg; subbuttons_unlog"
 alias subbuttons_2011 "subbuttons_clear"
 
-////////////////////////////////////////////////////////////////////////////////////////////////		FAKE ACHIEVEMENTS
-
-alias 21ci_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/achieve.txt"
-alias 21ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/achieve.txt"
-alias 21ci_unlog "con_logfile console.log"
-
-alias 21ci_vivi "21ci_clear; 21ci_log; exec achieve.cfg; 21ci_unlog"
-alias 21bgs_vivi123123 "21ci_clear; 21ci_log; exec achieve_43.cfg; 21ci_unlog"
-alias 21bgs_vivi122123 "21ci_clear; 21ci_log; exec achieve_1610.cfg; 21ci_unlog"
-alias 21bgs_vivi113123 "21ci_clear; 21ci_log; exec achieve_p43.cfg; 21ci_unlog"
-alias 21bgs_vivi123173 "21ci_clear; 21ci_log; exec achieve_p1610.cfg; 21ci_unlog"
-alias 21ci_tf2 "21ci_clear"
-
 ////////////////////////////////////////////////////////////////////////////////////////////////		CONTRACTS
 
 alias contracts_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/contracts.txt"

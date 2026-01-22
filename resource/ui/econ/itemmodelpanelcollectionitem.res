@@ -12,7 +12,6 @@
 		"model_tall"	"1"
 
 
-		// "fieldName"			"mouseoveritempanel"
 		// "collection_list_xpos"	"200"
 		// "is_mouseover"		"1"
 		// "text_xpos_collection"	"15"
@@ -27,40 +26,34 @@
 	
 	// "LoadingSpinner"
 	// {
-	// 	"ControlName"	"ImagePanel"
-	// 	"fieldName"		"LoadingSpinner"
+	// 	"controlname"	"ImagePanel"
 	// 	"xpos"			"0"
 	// 	"ypos"			"0"
 	// 	"zpos"			"1"		
 	// 	"wide"			"f0"
 	// 	"tall"			"f0"
-	// 	"autoResize"	"0"
-	// 	"pinCorner"		"0"
 	// 	"visible"		"0"
 	// 	"enabled"		"1"
 	// 	"paintborder"	"0"
 	// 	"image"			"animated/tf2_logo_hourglass"
-	// 	"scaleImage"	"1"
+	// 	"scaleimage"	"1"
 	// }
 
 	"MainContentsContainer"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"f0"
 		
 		// "itemmodelpanel"
 		// {
-		// 	"ControlName"		"CEmbeddedItemModelPanel"
-		// 	"fieldName"		"itemmodelpanel"
+		// 	"controlname"		"CEmbeddedItemModelPanel"
 	
 		// 	"xpos"			"0"
 		// 	"ypos"			"0"
 		// 	"zpos"			"1"		
 		// 	"wide"			"140"
 		// 	"tall"			"100"
-		// 	"autoResize"		"0"
-		// 	"pinCorner"		"0"
 		// 	"visible"		"1"
 		// 	"enabled"		"1"
 		// 	"useparentbg"		"1"
@@ -130,7 +123,7 @@
 		
 		// "contained_item_panel"
 		// {
-		// 	"ControlName"	"CItemModelPanel"
+		// 	"controlname"	"CItemModelPanel"
 		// 	"xpos"			"32"
 		// 	"ypos"			"20"
 		// 	"zpos"			"4"
@@ -139,7 +132,7 @@
 		// 	"visible"		"0"
 		// 	"bgcolor_override"		"0 0 0 200"
 		// 	"noitem_textcolor"		"117 107 94 255"
-		// 	"PaintBackgroundType"	"2"
+		// 	"paintbackgroundtype"	"2"
 		// 	"paintborder"	"0"
 		// 	"useparentbg"	"0"
 		
