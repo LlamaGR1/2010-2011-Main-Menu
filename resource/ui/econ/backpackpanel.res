@@ -86,6 +86,15 @@
 	//	"padding_height"	"80"
 	}
 
+	"43rrt3"
+	{
+		"ControlName"	"Button"
+		"command"		"reloadscheme"
+		"zpos"			"55"
+		"wide"			"50"
+		"tall"			"35"
+	}
+
 	"mousedragitempanel"
 	{
 		"controlname"	"CItemModelPanel"
@@ -404,34 +413,11 @@
 		"end_tall"		"155"
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"c0"
-		"next_explanation"		"PagesExplanation"
+		"next_explanation"		"ContextExplanation"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#BackpackItemsExplanation_Title"
 		"explanation_body"	"#BackpackItemsExplanation_Text"
-	}
-
-	"PagesExplanation"
-	{
-		"controlname"	"CExplanationPopup"
-		"zpos"			"10069"
-		"wide"			"300"
-		"tall"			"115"
-		"visible"		"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"force_close"	"1"
-		"end_x"			"c-50"
-		"end_y"			"130"
-		"end_wide"		"300"
-		"end_tall"		"115"
-		"callout_inparents_x"	"c240"
-		"callout_inparents_y"	"290"
-		"next_explanation"		"ContextExplanation"
-
-		"res_file_controls"	"1"
-		"explanation_title"	"#BackpackPagesExplanation_Title"
-		"explanation_body"	"#BackpackPagesExplanation_Text"
 	}
 
 	"ContextExplanation"
@@ -450,55 +436,55 @@
 		"end_tall"		"170"
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"c0"
-		"next_explanation"		"StockExplanation"
+		"next_explanation"		"PagesExplanation"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#BackpackContextExplanation_Title"
 		"explanation_body"	"#BackpackContextExplanation_Text"
 	}
 
-	"StockExplanation"
+	"PagesExplanation"
 	{
 		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"wide"			"300"
-		"tall"			"155"
-		"visible"		"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"force_close"	"1"
-		"end_x"			"c-150"
-		"end_y"			"95"
-		"end_wide"		"300"
-		"end_tall"		"155"
-		"callout_inparents_x"	"c0"
-		"callout_inparents_y"	"51"
-		"next_explanation"		"SortExplanation"
-
-		"res_file_controls"	"1"
-		"explanation_title"	"#BackpackStockExplanation_Title"
-		"explanation_body"	"#BackpackStockExplanation_Text"
-	}
-
-	"SortExplanation"
-	{
-		"controlname"	"CExplanationPopup"
-		"zpos"			"10069"
-		"wide"			"300"
-		"tall"			"155"
+		"tall"			"115"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
 		"force_close"	"1"
 		"end_x"			"c-50"
-		"end_y"			"95"
+		"end_y"			"130"
 		"end_wide"		"300"
-		"end_tall"		"155"
-		"callout_inparents_x"	"c190"
-		"callout_inparents_y"	"55"
+		"end_tall"		"115"
+		"callout_inparents_x"	"c240"
+		"callout_inparents_y"	"290"
+		"next_explanation"		"SearchExplanation"
 
 		"res_file_controls"	"1"
-		"explanation_title"	"#BackpackSortExplanation_Title"
-		"explanation_body"	"#BackpackSortExplanation_Text"
+		"explanation_title"	"#BackpackPagesExplanation_Title"
+		"explanation_body"	"#BackpackPagesExplanation_Text"
+	}
+
+	"SearchExplanation"
+	{
+		"controlname"	"CExplanationPopup"
+		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"170"
+		"visible"		"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"force_close"	"1"
+		"end_x"			"c-150"
+		"end_y"			"105"
+		"end_wide"		"300"
+		"end_tall"		"170"
+		"callout_inparents_x"	"c225"
+		"callout_inparents_y"	"323"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#Vivi_Backpack_Explanation_Search_Title"
+		"explanation_body"	"#Vivi_Backpack_Explanation_Search_Text"
 	}
 }

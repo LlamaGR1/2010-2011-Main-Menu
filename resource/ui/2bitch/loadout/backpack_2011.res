@@ -76,4 +76,107 @@
 		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
 		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
+
+
+
+	"SearchExplanation"
+	{
+		"next_explanation"		"BorderColorsExplanation"
+	}
+
+	"BorderColorsExplanation"
+	{
+		"controlname"	"CExplanationPopup"
+		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"170"
+		"visible"		"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"force_close"	"1"
+		"end_x"			"c-150"
+		"end_y"			"105"
+		"end_wide"		"300"
+		"end_tall"		"170"
+		"callout_inparents_x"	"c105"
+		"callout_inparents_y"	"323"
+		"next_explanation"		"ReloadExplanation"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#Vivi_Backpack_Explanation_BorderColors_Title"
+		"explanation_body"	"#Vivi_Backpack_Explanation_BorderColors_Text"
+	}
+
+	"ReloadExplanation"
+	{
+		"controlname"	"CExplanationPopup"
+		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"170"
+		"visible"		"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"force_close"	"1"
+		"end_x"			"c-150"
+		"end_y"			"105"
+		"end_wide"		"300"
+		"end_tall"		"170"
+		"callout_inparents_x"	"c-30"
+		"callout_inparents_y"	"323"
+		"next_explanation"		"StockExplanation"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#Vivi_Backpack_Explanation_Reload_Title"
+		"explanation_body"	"#Vivi_Backpack_Explanation_Reload_Text"
+	}
+
+
+
+
+
+
+	"StockExplanation"
+	{
+		"controlname"	"CExplanationPopup"
+		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"155"
+		"visible"		"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"force_close"	"1"
+		"end_x"			"c-150"
+		"end_y"			"95"
+		"end_wide"		"300"
+		"end_tall"		"155"
+		"callout_inparents_x"	"c0"
+		"callout_inparents_y"	"51"
+		"next_explanation"		"SortExplanation"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackStockExplanation_Title"
+		"explanation_body"	"#BackpackStockExplanation_Text"
+	}
+
+	"SortExplanation"
+	{
+		"controlname"	"CExplanationPopup"
+		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"155"
+		"visible"		"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"force_close"	"1"
+		"end_x"			"c-50"
+		"end_y"			"95"
+		"end_wide"		"300"
+		"end_tall"		"155"
+		"callout_inparents_x"	"c190"
+		"callout_inparents_y"	"55"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#BackpackSortExplanation_Title"
+		"explanation_body"	"#BackpackSortExplanation_Text"
+	}
 }

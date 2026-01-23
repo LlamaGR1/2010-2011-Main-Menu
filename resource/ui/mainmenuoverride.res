@@ -1,7 +1,6 @@
 #base tfhudoptionsdialog.res
 
 #base ../../../../cfg/2010hud/client20102011.txt
-#base ../../../../cfg/2010hud/subbuttons.txt
 #base ../../../../cfg/2010hud/contracts.txt
 #base ../../../../cfg/2010hud/loadoutbb.txt
 #base ../../../../cfg/2010hud/shop.txt
@@ -13,11 +12,13 @@
 #base ../../../../cfg/2010hud/theme.txt							//		✔
 #base ../../../../cfg/2010hud/top_left_data.txt
 #base ../../../../cfg/2010hud/top_right_data.txt
+#base ../../../../cfg/2010hud/sub_buttons.txt
 
 
 #base 2bitch/main_menu/theme_2011.res
 #base 2bitch/main_menu/top_left_data_party_16_9.res
 #base 2bitch/main_menu/top_right_data_hidden.res
+#base 2bitch/main_menu/sub_buttons_2011.res
 
 
 
@@ -25,8 +26,6 @@
 
 
 
-
-#base 1/mainmenu/subbuttons_2011.res
 #base 1/mainmenu/contracts_hide.res
 #base 1/mainmenu/loadout_label_2011.res
 #base 1/mainmenu/shop_button.res

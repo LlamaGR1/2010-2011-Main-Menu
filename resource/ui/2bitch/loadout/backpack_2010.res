@@ -19,4 +19,9 @@
 	{
 		"visible"		"0"
 	}
+
+	"SearchExplanation"
+	{
+		"next_explanation"		"MyAss"
+	}
 }

@@ -69,15 +69,7 @@ alias vivi_credits "snd_restart; play ui/gamestartup7.mp3"
 //alias recommendedsettings "recommendedsettings_clear; recommendedsettings_log; exec recommendedsettings/list.cfg; recommendedsettings_unlog; exec 2010hud/recommendedsettings.txt"
 //alias recommendedsettings2 "recommendedsettings_clear; exec 2010hud/recommendedsettings.txt; exec autoexec.cfg"
 
-////////////////////////////////////////////////////////////////////////////////////////////////		SUBBUTTONS
 
-alias subbuttons_clear "sixense_clear_bindings; sixense_write_bindings 2010hud/subbuttons.txt"
-alias subbuttons_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/2010hud/subbuttons.txt"
-alias subbuttons_unlog "con_logfile console.log"
-
-alias subbuttons_2010 "subbuttons_clear; subbuttons_log; exec subbuttons_2010.cfg; subbuttons_unlog"
-alias subbuttons_2011_adv_options "subbuttons_clear; subbuttons_log; exec subbuttons_2011_adv_options.cfg; subbuttons_unlog"
-alias subbuttons_2011 "subbuttons_clear"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////		CONTRACTS
 
