@@ -10,16 +10,6 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"ModeBackground"
-	{
-		"controlname"	"EditablePanel"
-		"ypos"			"51"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"p0.8"
-		"bgcolor_override"	"46 43 42 255"
-	}
-
 	"BackgroundHeader"
 	{
 		"controlname"	"ImagePanel"
@@ -29,35 +19,51 @@
 		"image"			"loadout_header"
 	}
 
-	"HeaderLine"
+	"Sheet"
 	{
-		"controlname"	"ImagePanel"
-		"ypos"			"c-191"
-		"zpos"			"2"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
-		"tall"			"10"
-		"scaleimage"	"1"
-		"image"			"loadout_solid_line"
-	}
+		"tall"			"480"
 
-	"Tab"
-	{
-		"controlname"	"CExImageButton"
-		"xpos"			"80"
-		"ypos"			"18"
-		"zpos"			"3"
-		"wide"			"128"
-		"tall"			"34"
-		"labeltext"		"#TF_MvM_HeaderCoop"
-		"font"			"HudFontMediumBold"
-		"textinsetx"	"18"
-		"use_proportional_insets" "1"
-		"mouseinputenabled"	"0"
+		"HeaderLine"
+		{
+			"controlname"	"ImagePanel"
+			"ypos"			"45"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"10"
+			"scaleimage"	"1"
+			"image"			"loadout_solid_line"
+		}
 
-		"border_default"	"OutlinedGreyBox"
-		"paintbackground"	"0"
+		"tabskv"
+		{
+			"controlname"	"CExImageButton"
+			"xpos"			"80"
+			"ypos"			"13"
+			"zpos"			"3"
+			"wide"			"118"
+			"tall"			"35"
+			"labeltext"		"#TF_MvM_HeaderCoop"
+			"font"			"HudFontMediumBold"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"13"
+			"mouseinputenabled"	"0"
 
-		"defaultFgColor_override"	"HudOffWhite"
+			"border_default"	"OutlinedGreyBox"
+			"paintbackground"	"0"
+
+			"defaultfgcolor_override"	"HudOffWhite"
+		}
+
+		"Background"
+		{
+			"controlname"	"Panel"
+			"ypos"			"46"
+			"wide"			"f0"
+			"tall"			"p0.8"
+			"bgcolor_override"	"Black"
+		}
 	}
 
 	"BackgroundFooter"
@@ -102,23 +108,21 @@
 			"tall"			"25"
 			"labeltext"		"#TF_MvM_HeaderMannVsMachine"
 			"font"			"HudFontMediumBold"
-			"fgcolor_override"	"201 79 57 255"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			"fgcolor_override"	"LightRed"
 		}
 
 		"MannVsMachineExplanation"
 		{
 			"controlname"	"Label"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labeltext"		"#TF_MvM_MannVsMachineExplaination"
-			"textalignment"	"north-west"
 			"xpos"			"15"
 			"ypos"			"30"
 			"wide"			"400"
 			"tall"			"40"
+			"labeltext"		"#TF_MvM_MannVsMachineExplaination"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
+			"fgcolor_override"	"89 81 71 255"
 		}
 
 		"ModeImage"
@@ -130,7 +134,6 @@
 			"tall"			"190"
 			"scaleimage"	"1"
 			"image"			"illustrations/gamemode_mvm"
-			"mouseinputenabled" "0"
 		}
 	}
 
@@ -162,16 +165,16 @@
 
 	"PlayForBraggingRightsExplanation"
 	{
-		"controlname"	"CExLabel"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"89 81 71 255"
-		"labeltext"		"#TF_MvM_BraggingRightsExplaination"
+		"controlname"	"Label"
 		"xpos"			"c-290"
 		"ypos"			"336"
 		"zpos"			"21"
 		"wide"			"170"
 		"tall"			"60"
+		"labeltext"		"#TF_MvM_BraggingRightsExplaination"
+		"font"			"HudFontSmall"
 		"wrap"			"1"
+		"fgcolor_override"	"89 81 71 255"
 	}
 
 	"PracticeButton"
@@ -202,16 +205,16 @@
 
 	"PlayOnCommunityServerExplanation"
 	{
-		"controlname"	"CExLabel"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"89 81 71 255"
-		"labeltext"		"#TF_MvM_PracticeExplaination"
+		"controlname"	"Label"
 		"xpos"			"c-91"
 		"ypos"			"329"
 		"zpos"			"21"
 		"wide"			"170"
 		"tall"			"60"
+		"labeltext"		"#TF_MvM_PracticeExplaination"
+		"font"			"HudFontSmall"
 		"wrap"			"1"
+		"fgcolor_override"	"89 81 71 255"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -227,13 +230,13 @@
 
 		"PlayWithFriendsExplanationTitle"
 		{
-			"controlname"	"CExLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#TF_Matchmaking_PlayWithFriends"
-			"textalignment"	"center"
+			"controlname"	"Label"
 			"zpos"			"10"
 			"wide"			"200"
 			"tall"			"32"
+			"labeltext"		"#TF_Matchmaking_PlayWithFriends"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 		}
 
 		"FriendsImage"
@@ -249,22 +252,22 @@
 
 		"PlayWithFriendsExplanationLabel"
 		{
-			"controlname"	"CExLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#TF_MvM_PlayWithFriendsExplanation"
-			"textalignment"	"north-west"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"130"
 			"zpos"			"10"
 			"wide"			"180"
 			"tall"			"150"
+			"labeltext"		"#TF_MvM_PlayWithFriendsExplanation"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 		}
 	}
 
 	"StartPartyButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c+110"
 		"ypos"			"310"
 		"zpos"			"100"
@@ -279,15 +282,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"CloseButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-300"
 		"ypos"			"437"
 		"zpos"			"105"
@@ -302,15 +305,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"LearnMoreButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-100"
 		"ypos"			"437"
 		"zpos"			"105"
@@ -325,29 +328,9 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }
-
-
-
-	// "LearnMoreButton"
-	// {
-	// 	"controlname"	"CExButton"
-	// 	"xpos"			"c106"
-	// 	"ypos"			"385"
-	// 	"zpos"			"8"
-	// 	"wide"			"195"
-	// 	"tall"			"25"
-	// 	"labeltext"		"#TF_MvM_LearnMore"
-	// 	"font"			"HudFontSmallBold"
-	// 	"textalignment"	"center"
-	// 	"command"		"url https://www.teamfortress.com/mvm/"
-	// 	"sound_depressed"	"ui/buttonclick.wav"
-	// 	"sound_released"	"ui/buttonclickrelease.wav"
-
-	// 	"button_activation_type"	"2"
-	// }

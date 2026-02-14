@@ -62,6 +62,13 @@
 		"onlyatmenu"	"1"
 	}
 
+	"HelpButton"
+	{
+		"label"			""
+		"tooltip"		"#Vivi_HUD_Options_HelpConfig"
+		"command"		"url https://github.com/LlamaGR1/2010-2011-Main-Menu/wiki/Remove-forced-configs"
+	}
+
 	"ExplanationTooltipPanel1"
 	{
 		"label"			"?"
@@ -101,6 +108,13 @@
 	{
 		"label"			"?"
 		"tooltip"		"#Vivi_HUD_Options_Category_1_Title_11_ToolTip"
+		"command"		"0"
+	}
+
+	"ExplanationTooltipPanelREAL5"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_HUD_Options_Category_2_Title_1_ToolTip"
 		"command"		"0"
 	}
 
@@ -212,7 +226,7 @@
 		"command"		"openbenchmarkdialog"
 	}
 
-	"MutePlayersButton1"
+	"MutePlayersButton_TF"
 	{
 		"label"			""
 		"tooltip"		"#MMenu_MutePlayers"

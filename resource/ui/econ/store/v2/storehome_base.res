@@ -1,3 +1,7 @@
+#base ../../../../../../../cfg/2010hud/client20102011.txt	
+
+#base ../../../2bitch/mouseoveritempanel_2011.res
+
 "storehome_base"
 {
 	"StorePage"
@@ -59,9 +63,11 @@
 		"tall"			"300"
 		"visible"		"0"
 
+	//	"text_ypos"			"80"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"22"
+		"text_wide"			"270"
+	//	"padding_height"	"80"
 	}
 
 	"ItemCategoryTabs"
@@ -71,12 +77,12 @@
 		"ypos"			"241"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"55"
+		"tall"			"75"
 
 		"display_vertically"	"1"
 		"auto_layout"			"1"
 
-		"ButtonSettings"
+		"buttonsettings"
 		{
 			"wide"			"100"
 			"tall"			"15"
@@ -85,12 +91,10 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"button_activation_type"	"2"
-
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 
@@ -101,10 +105,10 @@
 		"ypos"			"241"
 		"zpos"			"4"
 		"wide"			"10"
-		"tall"			"20"
+		"tall"			"17"
 		"enabled"		"0"
 		"labeltext"		"<"
-		"font"			"ItemFontNameLarge"
+		"font"			"StorePromotionsTitle"
 		"textalignment"	"center"
 		"command"		"prevpage"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -112,11 +116,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"PrevPageButton2"
@@ -141,9 +144,9 @@
 		"ypos"			"241"
 		"zpos"			"4"
 		"wide"			"10"
-		"tall"			"20"
+		"tall"			"17"
 		"labeltext"		">"
-		"font"			"ItemFontNameLarge"
+		"font"			"StorePromotionsTitle"
 		"textalignment"	"center"
 		"command"		"nextpage"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -151,11 +154,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"border_disabled"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"NextPageButton2"
@@ -472,7 +474,7 @@
 
 	"BrowseTheStoreButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c100"
 		"ypos"			"319"
 		"wide"			"200"
@@ -486,10 +488,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"FeaturedItemPanel"

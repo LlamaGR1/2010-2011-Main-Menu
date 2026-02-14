@@ -3,7 +3,7 @@
 	"SaxxyAwards"
 	{
 		"controlname"	"EditablePanel"
-		"zpos"			"-199"
+		"zpos"			"-197"
 		"wide"			"f0"
 		"tall"			"480"
 
@@ -41,36 +41,9 @@
 			"fgcolor_override"	"220 220 220 255"
 		}
 
-		"SubmitButton"
-		{
-			"controlname"	"CExButton"
-			"xpos"			"c40"
-			"ypos"			"385"
-			"zpos"			"-195"
-			"wide"			"95"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"0"
-			"labeltext"		"#Replay_Contest_SubmitEntry"
-			"font"			"HudFontSmallestBold"
-			"textalignment"	"center"
-			"command"		"submit"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"stay_armed_on_click"	"1"
-
-			"border_default"	"ViviSaxxyBG"
-			"border_armed"		"ViviSaxxyBG2"
-			"border_selected"	"ViviSaxxyBG"
-			"paintbackground"	"0"
-
-			"disabledfgcolor2_override"	"Black"
-		}
-
 		"DetailsButton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"xpos"			"c140"
 			"ypos"			"385"
 			"zpos"			"-195"
@@ -79,19 +52,22 @@
 			"labeltext"		"#Replay_Contest_Details"
 			"font"			"HudFontSmallestBold"
 			"textalignment"	"center"
-			"command"		"url https://www.teamfortress.com/saxxyawards2011"		//		viewdetails
+			"command"		"url https://www.teamfortress.com/saxxyawards2011"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviSaxxyBG"
-			"border_armed"		"ViviSaxxyBG2"
-			"border_selected"	"ViviSaxxyBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"defaultfgcolor_override"	"TanLight"
+			"defaultbgcolor_override"	"56 74 94 255"
 			"armedfgcolor_override"		"TanLight"
+			"armedbgcolor_override"		"67 89 113 255"
+			"depressedbgcolor_override"	"56 74 94 255"
 		}
 
 		"StageBackground"

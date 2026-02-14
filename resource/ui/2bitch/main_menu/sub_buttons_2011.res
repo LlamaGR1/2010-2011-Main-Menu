@@ -1,0 +1,218 @@
+#base ../../../../../../cfg/2010hud/client20102011.txt
+
+#base ../../1/2011fix/subbuttonsfix2011.res
+
+"mainmenuoverride"
+{
+	"NewUserForumsButton"
+	{
+		"controlname"	"CExImageButton"
+		"xpos"			"c-10"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"25"
+		"labeltext"		""
+		"command"		"view_newuser_forums"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+		"subimage"
+		{
+			"xpos"			"4"
+			"ypos"			"4"
+			"wide"			"18"
+			"tall"			"18"
+			"scaleimage"	"1"
+			"image"			"glyph_tutorial"
+		}
+	}
+
+	"CommentaryButton"
+	{
+		"controlname"	"CExImageButton"
+		"xpos"			"c15"
+		"ypos"			"437"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"25"
+		"labeltext"		""
+		"command"		"OpenLoadSingleplayerCommentaryDialog"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"border_default"	"MainMenuSubButtonBorder"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+		"subimage"
+		{
+			"xpos"			"5"
+			"ypos"			"6"
+			"wide"			"15"
+			"tall"			"15"
+			"scaleimage"	"1"
+			"image"			"glyph_forums"
+		}
+	}
+
+	"WorkshopButton"
+	{
+		"controlname"	"CExImageButton"
+		"xpos"			"c40"
+		"ypos"			"437"
+		"zpos"			"4"
+		"wide"			"30"
+		"tall"			"25"
+		"labeltext"		""
+		"command"		"engine OpenSteamWorkshopDialog"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"border_default"	"MainMenuSubButtonBorder"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+		"subimage"
+		{
+			"xpos"			"5"
+			"ypos"			"5"
+			"wide"			"15"
+			"tall"			"15"
+			"scaleimage"	"1"
+			"image"			"glyph_commentary"
+		}
+	}
+
+	"UtilitiesButton"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"c85"
+		"ypos"			"437"
+		"zpos"			"1"
+		"wide"			"30"
+		"tall"			"25"
+
+		"subbutton"
+		{
+			"controlname"	"CExImageButton"
+			"wide"			"30"
+			"tall"			"25"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"stay_armed_on_click"	"1"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+			"subimage"
+			{
+				"xpos"			"10"
+				"ypos"			"5"
+				"wide"			"15"
+				"tall"			"15"
+				"scaleimage"	"1"
+				"image"			"glyph_bug"
+			}
+		}
+	}
+
+	"TF2SettingsButton"
+	{
+		"controlname"	"CExImageButton"
+		"wide"			"20"
+		"tall"			"25"
+		"visible"		"0"
+		"labeltext"		""
+		"command"		"opentf2options"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/white"
+		"texture3"		"vgui/white"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+		"subimage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"6"
+			"wide"			"14"
+			"tall"			"14"
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"image"			"glyph_options"
+		}
+
+		"pin_to_sibling" "OptionsButton"
+		"pin_corner_to_sibling" "1"
+	}
+
+	"OptionsDividerBorder"
+	{
+		"controlname"	"Panel"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"25"
+		"visible"		"0"
+		"border"		"MainMenuSubButtonBorder2"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "OptionsButton"
+	}
+
+	"OptionsButton"
+	{
+		"controlname"	"CExImageButton"
+		"xpos"			"c150"
+		"ypos"			"437"
+		"wide"			"150"
+		"tall"			"25"
+		"labeltext"		"#GameUI_GameMenu_Options"
+		"font"			"HudFontSmallBold"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"35"
+		"command"		"OpenOptionsDialog"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+
+		"subimage"
+		{
+			"xpos"			"16"
+			"ypos"			"6"
+			"wide"			"14"
+			"tall"			"14"
+			"scaleimage"	"1"
+			"image"			"glyph_options"
+		}
+	}
+}

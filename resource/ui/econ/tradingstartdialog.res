@@ -27,10 +27,10 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 			}
 
 			"avatar"
@@ -66,7 +66,12 @@
 		"wide"			"380"
 		"tall"			"162"
 		"fgcolor_override"	"TanDark"
-		"border"		"ViviTradingBG"
+		"bgcolor_override"	"0 0 0 64"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"PlayerList"
 		{
@@ -111,10 +116,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"subbutton1"
@@ -134,10 +139,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"subbutton2"
@@ -157,10 +162,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 
@@ -293,9 +298,16 @@
 			"tall"			"25"
 			"font"			"HudFontSmall"
 			"fgcolor_override"	"TanLight"
-			"border"		"ViviTradingBG"
+			"bgcolor_override"	"0 0 0 64"
 			"editable"		"1"
 			"maxchars"		"256"
+
+			"paintbackgroundtype"	"0"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"subbutton0"
@@ -315,11 +327,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"border_disabled"	"ViviTanDarkBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 
@@ -339,9 +350,9 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }

@@ -1,10 +1,21 @@
-#base ../../../../cfg/2010hud/chartauntsb.txt
-#base ../../../../cfg/2010hud/passive.txt
+
 #base ../../../../cfg/2010hud/slot_pda.txt
 
-#base 1/loadout/loadout_taunts_hide.res
-#base 1/loadout/passive.res
+
 #base 1/loadout/slot_pda_hide.res
+
+
+
+
+#base ../../../../cfg/2010hud/client20102011.txt
+#base ../../../../cfg/2010hud/loadout_passive_attribs.txt
+#base ../../../../cfg/2010hud/loadout_loadout_taunts.txt
+
+#base 2bitch/mouseoveritempanel_2011.res
+#base 2bitch/loadout/loadout_loadout_taunts_hidden.res
+#base 2bitch/loadout/passive_attribs_enabled.res
+
+
 
 "classloadoutpanel"
 {
@@ -17,7 +28,7 @@
 		"item_xpos_offcenter_a"	"-305"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"				"60"
-		"item_ydelta"			"75"
+		"item_ydelta"			"80"
 		"item_mod_wide"			"40"
 
 		"item_backpack_offcenter_x"		"-288"
@@ -36,28 +47,53 @@
 			"controlname"	"CItemModelPanel"
 			"zpos"			"2"
 			"wide"			"140"
-			"tall"			"70"
+			"tall"			"75"
 			"visible"		"0"
 			"noitem_textcolor"	"TanDark"
 
 			"model_center_x"	"1"
-			"model_ypos"		"5"
-			"model_tall"		"55"
-			"model_wide"		"82"
-			"text_ypos"			"54"
-			"text_center"		"1"
-			"name_only"			"1"
+			"model_ypos"	"5"
+			"model_tall"	"55"
+			"model_wide"	"82"
+			"text_ypos"		"60"
+			"text_center"	"1"
+			"name_only"		"1"
 
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
+
+			"modelpanel9"
+			{
+				"tall"			"50"
+				"model_tall"	"35"
+				"text_ypos"		"35"
+			}
+
+
+
+
+
+			"modelpanel14"
+			{
+				"tall"			"50"
+				"model_tall"	"35"
+				"text_ypos"		"35"
+			}
+
+			"modelpanel18"
+			{
+				"tall"			"50"
+				"model_tall"	"35"
+				"text_ypos"		"35"
+			}
 		}
 
 		"itemoptionpanels_kv"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"zpos"			"69"
 			"wide"			"14"
 			"tall"			"14"
@@ -70,10 +106,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 
@@ -81,14 +117,15 @@
 	{
 		"controlname"	"CItemModelPanel"
 		"zpos"			"1069"
-		"wide"			"300"
+		"wide"			"250"
 		"tall"			"300"
 		"visible"		"0"
 
-		"text_ypos"			"22"
+	//	"text_ypos"			"80"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"22"
+		"text_wide"			"220"
+	//	"padding_height"	"80"
 	}
 
 	"CaratLabel"
@@ -140,7 +177,7 @@
 
 	"BackButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-288"
 		"ypos"			"323"
 		"zpos"			"1"
@@ -156,24 +193,23 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"classmodelpanel"
 	{
 		"controlname"	"CTFPlayerModelPanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"45"
+		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"330"
-		"tall"			"320"
+		"wide"			"270"
+		"tall"			"340"
 
-		"render_texture"	"0"
-		"fov"				"35"
-		"allow_rot"			"1"
+		"fov"			"30"
+		"allow_rot"		"1"
 
 		"model"
 		{
@@ -211,6 +247,13 @@
 		"wide"			"140"
 		"tall"			"75"
 		"visible"		"0"
-		"border"		"ViviItemOptionsBG"
+		"bgcolor_override"	"69 64 63 255"
+
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }

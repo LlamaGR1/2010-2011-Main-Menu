@@ -24,6 +24,50 @@
 			"controlname"	"Label"
 			"wide"			"180"
 			"tall"			"24"
+			"labeltext"		"#Vivi_Utilities_Title_3"
+		}
+
+		"2"
+		{
+			"controlname"	"Button"
+			"xpos"			"rs1-105"
+			"wide"			"95"
+			"tall"			"24"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#Vivi_Utilities_Button_3"
+			"command"		"engine demoui"
+			"actionsignallevel"	"3"
+		}
+
+		"3"
+		{
+			"controlname"	"Button"
+			"xpos"			"rs1"
+			"wide"			"95"
+			"tall"			"24"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#MMenu_Replays"
+			"command"		"engine replay_reloadbrowser"
+			"actionsignallevel"	"3"
+		}
+	}
+
+	"Utilities2"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"100"
+		"zpos"			"1"
+		"wide"			"375"
+		"tall"			"24"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 0"
+
+		"1"
+		{
+			"controlname"	"Label"
+			"wide"			"180"
+			"tall"			"24"
 			"labeltext"		"#Vivi_Utilities_Title_1"
 		}
 
@@ -48,16 +92,16 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Utilities_Button_2"
 			"tooltiptext"	"#Vivi_Utilities_Button_2_ToolTip"
-			"command"		"engine toggle mat_aaquality; hud_reloadscheme"
+			"command"		"engine toggle mat_aaquality"
 			"actionsignallevel"	"3"
 		}
 	}
 
-	"Utilities2"
+	"Utilities3"
 	{
 		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"100"
+		"ypos"			"135"
 		"zpos"			"1"
 		"wide"			"375"
 		"tall"			"24"
@@ -81,50 +125,6 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Utilities_Button_1"
 			"command"		"engine snd_restart"
-			"actionsignallevel"	"3"
-		}
-	}
-
-	"Utilities3"
-	{
-		"controlname"	"EditablePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"135"
-		"zpos"			"1"
-		"wide"			"375"
-		"tall"			"24"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-
-		"1"
-		{
-			"controlname"	"Label"
-			"wide"			"180"
-			"tall"			"24"
-			"labeltext"		"#Vivi_Utilities_Title_3"
-		}
-
-		"2"
-		{
-			"controlname"	"Button"
-			"xpos"			"rs1-105"
-			"wide"			"95"
-			"tall"			"24"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_Replays"
-			"command"		"engine replay_reloadbrowser"
-			"actionsignallevel"	"3"
-		}
-
-		"3"
-		{
-			"controlname"	"Button"
-			"xpos"			"rs1"
-			"wide"			"95"
-			"tall"			"24"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#Vivi_Utilities_Button_3"
-			"command"		"engine demoui"
 			"actionsignallevel"	"3"
 		}
 	}
@@ -209,6 +209,38 @@
 			"controlname"	"Label"
 			"wide"			"180"
 			"tall"			"24"
+			"labeltext"		"#MMenu_CallVote"
+		}
+
+		"2"
+		{
+			"controlname"	"Button"
+			"xpos"			"rs1"
+			"wide"			"95"
+			"tall"			"24"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#TF_Vote_Title"
+			"command"		"engine callvote; gameui_hide"
+			"actionsignallevel"	"3"
+		}
+	}
+
+	"Utilities7"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"275"
+		"zpos"			"1"
+		"wide"			"375"
+		"tall"			"24"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 0"
+
+		"1"
+		{
+			"controlname"	"Label"
+			"wide"			"180"
+			"tall"			"24"
 			"labeltext"		"#Vivi_Utilities_Title_6"
 		}
 
@@ -245,38 +277,6 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Utilities_Button_7"
 			"command"		"engine next_map_vote 2"
-			"actionsignallevel"	"3"
-		}
-	}
-
-	"Utilities7"
-	{
-		"controlname"	"EditablePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"275"
-		"zpos"			"1"
-		"wide"			"375"
-		"tall"			"24"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-
-		"1"
-		{
-			"controlname"	"Label"
-			"wide"			"180"
-			"tall"			"24"
-			"labeltext"		"#MMenu_CallVote"
-		}
-
-		"2"
-		{
-			"controlname"	"Button"
-			"xpos"			"rs1"
-			"wide"			"95"
-			"tall"			"24"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Vote_Title"
-			"command"		"engine callvote; gameui_hide"
 			"actionsignallevel"	"3"
 		}
 	}

@@ -727,12 +727,14 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"ds_dir"
+	"ds_dir_TF"
 	{
 		"#TF_DemoSupport_Dir"
 		"#TF_DemoSupport_Dir_ToolTip"
-		{ STRING }
-		{ "Demos" }
+		{ LIST
+			"cfg/2010hud"		"0"
+		}
+		{ "0" }
 	}
 
 	"ds_prefix"

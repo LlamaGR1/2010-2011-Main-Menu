@@ -141,11 +141,11 @@ Scheme
 			"bordertype"			"scalable_image"
 			"color"					"TFDarkBrown"
 
-			"image"					"replay/thumbnails/borders/vivi_button"
+			"image"					"replay/thumbnails/borders/vivi_corners"
 			"src_corner_height"		"6"
 			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
+			"draw_corner_width"		"3"
+			"draw_corner_height"	"3"
 		}
 
 		DepressedBorder

@@ -1,14 +1,12 @@
 #base ../../../../cfg/2010hud/client20102011.txt
 
-#base 1/2011fix/subbuttonsfix2011.res
-
 "steamworkshopdialog"
 {
 	"SteamWorkshopDialog"
 	{
 		"controlname"	"CSteamWorkshopDialog"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"481"
 		"bgcolor_override"	"0 0 0 240"
 	}
 
@@ -84,7 +82,7 @@
 
 			"LearnMoreButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"175"
 				"ypos"			"165"
 				"zpos"			"20"
@@ -99,12 +97,13 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
 			}
 		}
@@ -170,8 +169,8 @@
 
 			"PrevPageButton"
 			{
-				"controlname"	"CExButton"
-				"xpos"			"381"
+				"controlname"	"Button"
+				"xpos"			"435"
 				"ypos"			"215"
 				"zpos"			"5"
 				"wide"			"25"
@@ -185,71 +184,21 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
-			}
-
-			"PrevPageSkipButton"
-			{
-				"controlname"	"CExButton"
-				"xpos"			"353"
-				"ypos"			"215"
-				"zpos"			"5"
-				"wide"			"25"
-				"tall"			"25"
-				"labeltext"		"<<"
-				"font"			"HudFontSmallBold"
-				"textalignment"	"center"
-				"command"		"prevpageskip"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-
-				"stay_armed_on_click"	"1"
-
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
-			}
-
-			"SkipToStartButton"
-			{
-				"controlname"	"CExButton"
-				"xpos"			"324"
-				"ypos"			"215"
-				"zpos"			"5"
-				"wide"			"25"
-				"tall"			"25"
-				"labeltext"		"|<"
-				"font"			"HudFontSmallBold"
-				"textalignment"	"center"
-				"command"		"skiptostart"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-
-				"stay_armed_on_click"	"1"
-
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
+				"disabledfgcolor2_override"	"Black"
 			}
 
 			"CurPageLabel"
 			{
 				"controlname"	"CExLabel"
-				"xpos"			"406"
+				"xpos"			"460"
 				"ypos"			"215"
 				"zpos"			"5"
 				"wide"			"50"
@@ -262,8 +211,8 @@
 
 			"NextPageButton"
 			{
-				"controlname"	"CExButton"
-				"xpos"			"456"
+				"controlname"	"Button"
+				"xpos"			"510"
 				"ypos"			"215"
 				"zpos"			"5"
 				"wide"			"25"
@@ -277,70 +226,20 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
-			}
-
-			"NextPageSkipButton"
-			{
-				"controlname"	"CExButton"
-				"xpos"			"484"
-				"ypos"			"215"
-				"zpos"			"5"
-				"wide"			"25"
-				"tall"			"25"
-				"labeltext"		">>"
-				"font"			"HudFontSmallBold"
-				"textalignment"	"center"
-				"command"		"nextpageskip"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-
-				"stay_armed_on_click"	"1"
-
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
-			}
-
-			"SkipToEndButton"
-			{
-				"controlname"	"CExButton"
-				"xpos"			"512"
-				"ypos"			"215"
-				"zpos"			"5"
-				"wide"			"25"
-				"tall"			"25"
-				"labeltext"		">|"
-				"font"			"HudFontSmallBold"
-				"textalignment"	"center"
-				"command"		"skiptoend"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-
-				"stay_armed_on_click"	"1"
-
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
-
-				"defaultfgcolor_override"	"TanLight"
-				"armedfgcolor_override"		"TanLight"
+				"disabledfgcolor2_override"	"Black"
 			}
 
 			"ViewPublishedButton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"xpos"			"435"
 				"ypos"			"15"
 				"zpos"			"20"
@@ -355,12 +254,13 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
 			}
 
@@ -381,18 +281,19 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
 				"disabledfgcolor2_override"	"Black"
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_disabledcolor"	"46 43 42 255"
-				"SubImage"
+				"subimage"
 				{
 					"xpos"			"5"
 					"ypos"			"5"
@@ -406,7 +307,7 @@
 			"ViewButton"
 			{
 				"controlname"	"CExImageButton"
-				"xpos"			"118"
+				"xpos"			"125"
 				"ypos"			"215"
 				"wide"			"100"
 				"tall"			"25"
@@ -420,18 +321,19 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
 				"disabledfgcolor2_override"	"Black"
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_disabledcolor"	"46 43 42 255"
-				"SubImage"
+				"subimage"
 				{
 					"xpos"			"5"
 					"ypos"			"5"
@@ -445,7 +347,7 @@
 			"DeleteButton"
 			{
 				"controlname"	"CExImageButton"
-				"xpos"			"221"
+				"xpos"			"235"
 				"ypos"			"215"
 				"wide"			"100"
 				"tall"			"25"
@@ -459,18 +361,19 @@
 
 				"stay_armed_on_click"	"1"
 
-				"border_default"	"ViviTanDarkBG2"
-				"border_armed"		"ViviTFOrangeBG"
-				"border_selected"	"ViviTFOrangeBG"
-				"paintbackground"	"0"
+				"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+				"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+				"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+				"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 				"defaultfgcolor_override"	"TanLight"
+				"defaultbgcolor_override"	"TanDark"
 				"armedfgcolor_override"		"TanLight"
 				"disabledfgcolor2_override"	"Black"
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_disabledcolor"	"46 43 42 255"
-				"SubImage"
+				"subimage"
 				{
 					"xpos"			"5"
 					"ypos"			"5"
@@ -564,7 +467,7 @@
 
 		"LearnMore2Button"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"xpos"			"235"
 			"ypos"			"365"
 			"zpos"			"20"
@@ -580,15 +483,15 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"ViewLegalAgreementButton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"xpos"			"390"
 			"ypos"			"365"
 			"zpos"			"20"
@@ -603,15 +506,15 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"CancelButton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"xpos"			"10"
 			"ypos"			"365"
 			"zpos"			"20"
@@ -626,10 +529,10 @@
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"ViviTanDarkBG"
-			"border_armed"		"ViviTFOrangeBG"
-			"border_selected"	"ViviTFOrangeBG"
-			"paintbackground"	"0"
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 	}
 }

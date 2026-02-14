@@ -105,27 +105,9 @@
 		"textalignment"	"north-west"
 	}
 
-	"NextButtonCorners"
-	{
-		"controlname"	"ScalableImagePanel"
-		"xpos"			"c+170"
-		"ypos"			"350"
-		"zpos"			"2"
-		"wide"			"70"
-		"tall"			"30"
-		"proportionaltoparent"	"1"
-		"src_corner_height"		"6"
-		"src_corner_width"		"6"
-		"draw_corner_width"		"2"
-		"draw_corner_height"	"2"
-		"drawcolor"		"Black"
-		"image"			"replay/thumbnails/borders/vivi_button_corners"
-		"mouseinputenabled"	"0"
-	}
-
 	"NextButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c+170"
 		"ypos"			"350"
 		"zpos"			"1"
@@ -138,31 +120,17 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
-	}
 
-	"PrevButtonCorners"
-	{
-		"controlname"	"ScalableImagePanel"
-		"xpos"			"c-240"
-		"ypos"			"350"
-		"zpos"			"2"
-		"wide"			"70"
-		"tall"			"30"
-		"proportionaltoparent"	"1"
-		"src_corner_height"		"6"
-		"src_corner_width"		"6"
-		"draw_corner_width"		"2"
-		"draw_corner_height"	"2"
-		"drawcolor"		"Black"
-		"image"			"replay/thumbnails/borders/vivi_button_corners"
-		"mouseinputenabled"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"PrevButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-240"
 		"ypos"			"350"
 		"zpos"			"1"
@@ -175,8 +143,12 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"		"0"
 		"stay_armed_on_click"	"1"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"CloseButton"
@@ -196,15 +168,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"OpenLoadoutButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c50"
 		"ypos"			"420"
 		"zpos"			"6"
@@ -219,10 +191,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"DiscardButton"
@@ -243,13 +215,14 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"armedfgcolor_override"		"Econ.Button.FgColor"
 		"depressedfgcolor_override"	"Econ.Button.FgColor"
+		"selectedfgcolor_override"	"Econ.Button.FgColor"
 
 		"image_drawcolor"		"200 80 60 255"
 		"image_armedcolor"		"200 80 60 255"
@@ -278,6 +251,6 @@
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
 		"fgcolor_override"	"LightRed"
-		"border"		"ViviBlackBG"
+		"bgcolor_override"	"Black"
 	}
 }

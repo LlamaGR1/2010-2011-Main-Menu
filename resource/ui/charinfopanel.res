@@ -1,6 +1,6 @@
-#base ../../../../cfg/2010hud/loadout20119.txt
+#base ../../../../cfg/2010hud/loadout_title.txt
 
-#base 1/loadout/loadout_2011.res
+#base 2bitch/loadout/loadout_title_disabled.res
 
 "charinfopanel"
 {
@@ -77,7 +77,7 @@
 
 	"BackButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c200"
 		"ypos"			"437"
 		"zpos"			"2"
@@ -92,10 +92,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"BackButton2"

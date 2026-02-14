@@ -1,7 +1,3 @@
-#base ../../../../cfg/2010hud/client20102011.txt
-
-#base 1/2011fix/1charinfoarmorysubpanel.res
-
 "charinfoarmorysubpanel"
 {
 	"armory_panel"
@@ -30,7 +26,11 @@
 			"wide"			"70"
 			"tall"			"49"
 			"paintborder"	"0"
-			"paintbackgroundtype"	"0"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 			"model_xpos"	"7"
 			"model_ypos"	"5"
@@ -47,22 +47,6 @@
 			{
 				"use_item_rendertarget"	"0"
 				"allow_rot"				"0"
-			}
-
-			"thumbnail_modelpanels_kvCorners"
-			{
-				"controlname"	"ScalableImagePanel"
-				"zpos"			"6"
-				"wide"			"70"
-				"tall"			"49"
-				"proportionaltoparent"	"1"
-				"src_corner_height"		"6"
-				"src_corner_width"		"6"
-				"draw_corner_width"		"2"
-				"draw_corner_height"	"2"
-				"drawcolor"		"Black"
-				"image"			"replay/thumbnails/borders/vivi_button_corners"
-				"mouseinputenabled"	"0"
 			}
 		}
 	}
@@ -166,24 +150,64 @@
 		"visible"		"0"
 	}
 
+	// "mouseoveritempanel"										saxxy awards
+	// {
+	// 	"controlname"	"CItemModelPanel"
+	// 	"xpos"			"c-70"
+	// 	"ypos"			"270"
+	// 	"zpos"			"10000"
+	// 	"wide"			"250"
+	// 	"tall"			"180"
+	// 	"visible"		"0"
+	// 	"bgcolor_override"		"0 0 0 0"
+	// 	"noitem_textcolor"		"117 107 94 255"
+	// 	"paintbackgroundtype"	"2"
+	// 	"paintborder"	"1"
+		
+	// 	"text_ypos"			"20"
+	// 	"text_center"		"1"
+	// 	"model_hide"		"0"
+	// 	"resize_to_text"	"0"
+	// 	"padding_height"	"15"
+	// 	"name_only"			"1"
+		
+	// 	"model_ypos"	"40"
+	// 	"model_tall"	"120"
+		
+	// 	"text_forcesize"	"1"
+		
+	// 	"itemmodelpanel"
+	// 	{
+	// 		"use_item_rendertarget" "0"
+	// 		"use_large_inventory_images" "1"
+	// 		"allow_rot"				"0"
+	// 	}
+	// }
+
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
 		"zpos"			"1069"
+		"wide"			"250"
+		"tall"			"180"
 		"visible"		"0"
 
+		"text_ypos"		"20"			//		re-organize
 		"text_center_x"	"1"
 		"text_wide"		"180"
 		"name_only"		"1"
 
 		"model_center_x"	"1"
-		"model_wide"	"150"
-		"model_tall"	"100"
+		"model_ypos"	"40"
+		"model_wide"	"170"
+		"model_tall"	"120"
+
+		"is_mouseover"	"0"
 	}
 
 	"PrevPageButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -196,10 +220,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -231,7 +255,7 @@
 
 	"NextPageButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -244,10 +268,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "0"
@@ -265,7 +289,7 @@
 
 	"WikiButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c130"
 		"ypos"			"290"
 		"zpos"			"20"
@@ -280,10 +304,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ViewSetButton"
@@ -303,10 +327,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"StoreButton"
@@ -326,15 +350,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"BackButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-288"
 		"ypos"			"323"
 		"zpos"			"2"
@@ -349,22 +373,9 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
-	}
-
-	"ReloadSchemeButton"
-	{
-		"controlname"	"Button"
-		"xpos"			"c-270"
-		"ypos"			"290"
-		"zpos"			"25"
-		"wide"			"100"
-		"tall"			"15"
-		"visible"		"0"
-		"labeltext"		"RELOADSCHEME"
-		"command"		"reloadscheme"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }

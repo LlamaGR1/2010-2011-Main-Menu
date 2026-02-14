@@ -16,7 +16,14 @@
 		"zpos"			"-1"
 		"wide"			"36"
 		"tall"			"36"
-		"border"		"ViviTanDarkBG2"
+		"bgcolor_override"	"TanDark"
+
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"AvatarImage"

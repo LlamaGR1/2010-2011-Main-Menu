@@ -1,10 +1,5 @@
 "shadedbar"
 {
-	"okCorners"
-	{
-		"drawcolor"		"112 107 104 255"
-	}
-
 	"ShadedBar"
 	{
 		"image"			""

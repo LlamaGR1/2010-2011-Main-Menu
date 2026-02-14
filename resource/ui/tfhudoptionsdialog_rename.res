@@ -76,6 +76,11 @@
 				"controlname"	"EditablePanel"
 			}
 
+			"ExplanationTooltipPanelREAL5"
+			{
+				"controlname"	"EditablePanel"
+			}
+
 			"ExplanationTooltipPanel6"
 			{
 				"controlname"	"EditablePanel"

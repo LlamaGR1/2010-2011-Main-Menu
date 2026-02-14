@@ -348,6 +348,48 @@ Scheme
 		{
 		}
 
+		ButtonDepressedBorder
+		{
+			"inset"					"2 1 1 1"
+			"proportional_scalar"	"0"
+
+			left
+			{
+				"1"
+				{
+					"color"		"Border.Dark"
+					"offset"	"0 1"
+				}
+			}
+
+			right
+			{
+				"1"
+				{
+					"color"		"Border.Bright"
+					"offset"	"1 0"
+				}
+			}
+
+			top
+			{
+				"1"
+				{
+					"color"		"Border.Dark"
+					"offset"	"0 0"
+				}
+			}
+
+			bottom
+			{
+				"1"
+				{
+					"color"		"Border.Bright"
+					"offset"	"0 0"
+				}
+			}
+		}
+
 		ButtonKeyFocusBorder
 		{
 			"inset"					"0 0 1 1"
@@ -376,132 +418,6 @@ Scheme
 				"1"
 				{
 					"color"		"Border.Bright"
-					"offset"	"0 0"
-				}
-			}
-
-			bottom
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"0 0"
-				}
-			}
-		}
-
-		ButtonDepressedBorder
-		{
-			"inset"					"2 1 1 1"
-			"proportional_scalar"	"0"
-
-			left
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 1"
-				}
-			}
-
-			right
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"1 0"
-				}
-			}
-
-			top
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 0"
-				}
-			}
-
-			bottom
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"0 0"
-				}
-			}
-		}
-
-		ButtonDepressedBorder
-		{
-			"inset"					"2 1 1 1"
-			"proportional_scalar"	"0"
-
-			left
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 1"
-				}
-			}
-
-			right
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"1 0"
-				}
-			}
-
-			top
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 0"
-				}
-			}
-
-			bottom
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"0 0"
-				}
-			}
-		}
-
-		ButtonDepressedBorder
-		{
-			"inset"					"2 1 1 1"
-			"proportional_scalar"	"0"
-
-			left
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
-					"offset"	"0 1"
-				}
-			}
-
-			right
-			{
-				"1"
-				{
-					"color"		"Border.Bright"
-					"offset"	"1 0"
-				}
-			}
-
-			top
-			{
-				"1"
-				{
-					"color"		"Border.Dark"
 					"offset"	"0 0"
 				}
 			}

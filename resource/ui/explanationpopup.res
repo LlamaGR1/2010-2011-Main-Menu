@@ -41,12 +41,13 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"button_activation_type"	"2"
+		"stay_armed_on_click"	"1"
 
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"		"117 107 94 255"
+		"image_armedcolor"		"200 80 60 255"
+		"image_selectedcolor"	"200 80 60 255"
 		"subimage"
 		{
 			"ypos"			"4"
@@ -68,7 +69,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"button_activation_type"	"2"
+		"stay_armed_on_click"	"1"
 
 		"paintbackground"	"0"
 
@@ -107,7 +108,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"button_activation_type"	"2"
+		"stay_armed_on_click"	"1"
 
 		"paintbackground"	"0"
 

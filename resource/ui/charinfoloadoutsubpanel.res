@@ -1,6 +1,6 @@
-#base ../../../../cfg/2010hud/loadout2011.txt
+#base ../../../../cfg/2010hud/loadout_layout.txt
 
-#base 1/loadout/hat2011.res
+#base 2bitch/loadout/loadout_2011.res
 
 "charinfoloadoutsubpanel"
 {
@@ -300,25 +300,9 @@
 		"visible"			"0"
 	}
 
-	"reloadscheme"
-	{
-		"controlname"	"Button"
-		"xpos"			"c240"
-		"ypos"			"10"
-		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		"labeltext"		"!"
-		"command"		"reloadscheme"
-		"button_activation_type"	"1"
-		"defaultbgcolor_override"	"LightRed"
-		"armedbgcolor_override"		"TFOrange"
-	}
-
 	"ShowExplanationsButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c267"
 		"ypos"			"10"
 		"zpos"			"100"
@@ -333,10 +317,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"StartExplanation"

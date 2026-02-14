@@ -49,7 +49,7 @@
 		"image_selectedcolor"	"235 226 202 255"
 	}
 
-	"MutePlayersButton1"
+	"MutePlayersButton_TF"
 	{
 		"subbutton"
 		{
@@ -82,12 +82,6 @@
 		"image_drawcolor"		"117 107 94 255"
 		"image_armedcolor"		"235 226 202 255"
 		"image_selectedcolor"	"235 226 202 255"
-	}
-
-	"NameFilterTextEntry"
-	{
-		"fgcolor_override"			"TanDark"
-		"selectioncolor_override"	"Orange"
 	}
 
 	"PlaylistBGPanel"
@@ -129,5 +123,12 @@
 				"image_selectedcolor"	"235 226 202 255"
 			}
 		}
+	}
+
+	"SteamWorkshopButtonSubButton"
+	{
+		"image_drawcolor"		"117 107 94 255"
+		"image_armedcolor"		"235 226 202 255"
+		"image_selectedcolor"	"235 226 202 255"
 	}
 }

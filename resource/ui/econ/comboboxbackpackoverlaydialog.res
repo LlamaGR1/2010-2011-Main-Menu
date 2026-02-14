@@ -47,22 +47,22 @@
 		"controlname"	"ComboBox"
 		"xpos"			"30"
 		"ypos"			"170"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"15"
 		"editable"		"0"
 
-		"fgcolor_override"				"TanLight"
+		"fgcolor_override"				"TanDark"
 		"selectioncolor_override"		"Blank"
-		"selectiontextcolor_override"	"TanLight"
+		"selectiontextcolor_override"	"TanDark"
 	}
 
 	"CancelButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"30"
 		"ypos"			"200"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"70"
 		"tall"			"25"
 		"labeltext"		"#Cancel"
@@ -74,18 +74,18 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"OkButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"120"
 		"ypos"			"200"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"70"
 		"tall"			"25"
 		"labeltext"		"#TF_OK"
@@ -97,9 +97,9 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 }

@@ -1,6 +1,6 @@
-#base ../../../../cfg/2010hud/loadingscreen.txt
+#base ../../../../cfg/2010hud/map_loading_screen.txt
 
-#base 1/2011fix/loadingmap.res
+#base 2bitch/main_menu/map_loading_screen_2011.res
 
 "statsummary"
 {

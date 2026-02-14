@@ -1,8 +1,18 @@
-#base ../../../../../cfg/2010hud/client20102011.txt
-#base ../../../../../cfg/2010hud/qualitycolorborders.txt
+#base ../../../../../cfg/2010hud/loadout_backpack.txt	
 
-#base ../1/2011fix/subbuttonsfix2011.res
-#base ../1/loadout/qualitycolorborders_hide.res
+#base ../2bitch/loadout/backpack_2011.res
+
+
+
+
+#base ../../../../../cfg/2010hud/client20102011.txt	
+
+#base ../2bitch/mouseoveritempanel_2011.res
+
+
+
+
+
 
 "backpackpanel"
 {
@@ -61,22 +71,6 @@
 		}
 	}
 
-	"reloadscheme"
-	{
-		"controlname"	"Button"
-		"xpos"			"c240"
-		"ypos"			"10"
-		"zpos"			"7769"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		"labeltext"		"!"
-		"command"		"reloadscheme"
-		"button_activation_type"	"1"
-		"defaultbgcolor_override"	"LightRed"
-		"armedbgcolor_override"		"TFOrange"
-	}
-
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
@@ -85,10 +79,11 @@
 		"tall"			"300"
 		"visible"		"0"
 
-		"text_ypos"			"22"
+	//	"text_ypos"			"80"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"22"
+		"text_wide"			"270"
+	//	"padding_height"	"80"
 	}
 
 	"mousedragitempanel"
@@ -117,27 +112,36 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"LightRed"
 	}
-	
-	// "tool_icon"
-	// {
-	// 	"controlname"	"ScalableImagePanel"
-	// 	"xpos"			"10"
-	// 	"ypos"			"10"
-	// 	"zpos"			"2"
-	// 	"wide"			"16"
-	// 	"tall"			"16"
-	// 	"visible"		"0"
-	// 	"enabled"		"1"
-	// 	"image"			"backpack_jewel_modify_target_b_g"
-	// 	"tileimage"		"0"
-	// 	"tileVertically" "0"
-	// 	"drawcolor"		"112 176 74 255"
-	// }
+
+	"ClassLabel"
+	{
+		"controlname"	"Label"
+		"xpos"			"c-273"
+		"ypos"			"3"
+		"wide"			"525"
+		"tall"			"50"
+		"labeltext"		"#ClassBeingEquipped"
+		"font"			"HudFontMediumSmallBold"
+		"wrap"			"1"
+	}
+
+	"ShowBaseItemsCheckbox"
+	{
+		"controlname"	"CheckButton"
+		"xpos"			"c-50"
+		"ypos"			"34"
+		"zpos"			"1"
+		"wide"			"183"
+	//	"tall"			"20"
+		"labeltext"		"#ShowBaseItemsCheckBox"
+		"font"			"HudFontSmallestBold"
+		"textinsetx"	"6"
+	}
 
 	"SortByComboBox"
 	{
 		"controlname"	"ComboBox"
-		"xpos"			"c137"
+	//	"xpos"			"c137"
 		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"150"
@@ -164,10 +168,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -212,10 +216,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "0"
@@ -239,14 +243,14 @@
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"35"
-	//	"visible"		"0"
 		"labeltext"		">"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-	//	"command"		""
 
-		"border_default"	"ViviTanDarkBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"DragToPrevPageButton"
@@ -257,15 +261,15 @@
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"35"
-	//	"visible"		"0"
 		"labeltext"		"<"
 		"font"			"HudFontMediumBold"
 		"textalignment"	"center"
-	//	"command"		""
 
-		"border_default"	"ViviTanDarkBG"
-		"paintbackground"	"0"
-	}
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
+	}			
 
 	"NameFilterTextBG"
 	{
@@ -275,7 +279,14 @@
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"25"
-		"border"		"ViviTanDarkBG"
+		"bgcolor_override"	"Econ.Button.BgColor"
+
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"NameFilterLabel"
 		{
@@ -298,7 +309,9 @@
 		"font"			"HudFontSmallBold"
 		"editable"		"1"
 		"maxchars"		"25"
+		"fgcolor_override"				"Econ.Button.FgColor"
 		"selectiontextcolor_override"	"Black"
+		"selectioncolor_override"		"Econ.Button.ArmedBgColor"
 
 		"pin_to_sibling" "NameFilterTextBG"
 		"pin_corner_to_sibling" "2"
@@ -322,15 +335,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"BackButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c-288"
 		"ypos"			"323"
 		"zpos"			"2"
@@ -346,15 +359,15 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"ShowExplanationsButton"
 	{
-		"controlname"	"CExButton"
+		"controlname"	"Button"
 		"xpos"			"c267"
 		"ypos"			"10"
 		"zpos"			"100"
@@ -369,10 +382,10 @@
 
 		"stay_armed_on_click"	"1"
 
-		"border_default"	"ViviTanDarkBG"
-		"border_armed"		"ViviTFOrangeBG"
-		"border_selected"	"ViviTFOrangeBG"
-		"paintbackground"	"0"
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 	}
 
 	"StartExplanation"
@@ -391,34 +404,11 @@
 		"end_tall"		"155"
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"c0"
-		"next_explanation"		"PagesExplanation"
+		"next_explanation"		"ContextExplanation"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#BackpackItemsExplanation_Title"
 		"explanation_body"	"#BackpackItemsExplanation_Text"
-	}
-
-	"PagesExplanation"
-	{
-		"controlname"	"CExplanationPopup"
-		"zpos"			"10069"
-		"wide"			"300"
-		"tall"			"115"
-		"visible"		"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"force_close"	"1"
-		"end_x"			"c-50"
-		"end_y"			"130"
-		"end_wide"		"300"
-		"end_tall"		"115"
-		"callout_inparents_x"	"c240"
-		"callout_inparents_y"	"290"
-		"next_explanation"		"ContextExplanation"
-
-		"res_file_controls"	"1"
-		"explanation_title"	"#BackpackPagesExplanation_Title"
-		"explanation_body"	"#BackpackPagesExplanation_Text"
 	}
 
 	"ContextExplanation"
@@ -437,54 +427,55 @@
 		"end_tall"		"170"
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"c0"
-		"next_explanation"		"StockExplanation"
+		"next_explanation"		"PagesExplanation"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#BackpackContextExplanation_Title"
 		"explanation_body"	"#BackpackContextExplanation_Text"
 	}
 
-	"StockExplanation"
+	"PagesExplanation"
 	{
 		"controlname"	"CExplanationPopup"
 		"zpos"			"10069"
 		"wide"			"300"
-		"tall"			"155"
-		"visible"		"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"force_close"	"1"
-		"end_x"			"c-150"
-		"end_y"			"95"
-		"end_wide"		"300"
-		"end_tall"		"155"
-		"callout_inparents_x"	"c0"
-		"next_explanation"		"SortExplanation"
-
-		"res_file_controls"	"1"
-		"explanation_title"	"#BackpackStockExplanation_Title"
-		"explanation_body"	"#BackpackStockExplanation_Text"
-	}
-
-	"SortExplanation"
-	{
-		"controlname"	"CExplanationPopup"
-		"zpos"			"10069"
-		"wide"			"300"
-		"tall"			"155"
+		"tall"			"115"
 		"visible"		"0"
 		"border"		"MainMenuHighlightBorder"
 
 		"force_close"	"1"
 		"end_x"			"c-50"
-		"end_y"			"95"
+		"end_y"			"130"
 		"end_wide"		"300"
-		"end_tall"		"155"
-		"callout_inparents_x"	"c190"
-		"callout_inparents_y"	"55"
+		"end_tall"		"115"
+		"callout_inparents_x"	"c240"
+		"callout_inparents_y"	"290"
+		"next_explanation"		"SearchExplanation"
 
 		"res_file_controls"	"1"
-		"explanation_title"	"#BackpackSortExplanation_Title"
-		"explanation_body"	"#BackpackSortExplanation_Text"
+		"explanation_title"	"#BackpackPagesExplanation_Title"
+		"explanation_body"	"#BackpackPagesExplanation_Text"
+	}
+
+	"SearchExplanation"
+	{
+		"controlname"	"CExplanationPopup"
+		"zpos"			"10069"
+		"wide"			"300"
+		"tall"			"170"
+		"visible"		"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"force_close"	"1"
+		"end_x"			"c-150"
+		"end_y"			"105"
+		"end_wide"		"300"
+		"end_tall"		"170"
+		"callout_inparents_x"	"c225"
+		"callout_inparents_y"	"323"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#Vivi_Backpack_Explanation_Search_Title"
+		"explanation_body"	"#Vivi_Backpack_Explanation_Search_Text"
 	}
 }

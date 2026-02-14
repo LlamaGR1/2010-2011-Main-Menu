@@ -78,7 +78,7 @@
 		"visible"		"1"
 	}
 
-	"MutePlayersButton1"
+	"MutePlayersButton_TF"
 	{
 		"subbutton"
 		{

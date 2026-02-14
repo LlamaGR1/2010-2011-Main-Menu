@@ -1,6 +1,6 @@
-#base ../../../../cfg/2010hud/presets.txt
+#base ../../../../cfg/2010hud/loadout_presets.txt
 
-#base 1/loadout/presets.res
+#base 2bitch/loadout/loadout_presets.res
 
 "loadoutpresetpanel"
 {

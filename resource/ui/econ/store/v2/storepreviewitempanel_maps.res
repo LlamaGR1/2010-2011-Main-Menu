@@ -41,7 +41,7 @@
 
 			"subbutton"
 			{
-				"controlname"	"CExButton"
+				"controlname"	"Button"
 				"wide"			"110"
 				"tall"			"20"
 				"labeltext"		"#Store_PreviewItem"
@@ -49,6 +49,8 @@
 				"textalignment"	"center"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
+
+				"stay_armed_on_click"	"1"
 
 				"paintbackground"	"0"
 
@@ -89,7 +91,7 @@
 
 		"subbutton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"wide"			"110"
 			"tall"			"20"
 			"labeltext"		"#Store_DetailsItem"
@@ -99,6 +101,8 @@
 			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"stay_armed_on_click"	"1"
 
 			"paintbackground"	"0"
 
@@ -153,21 +157,13 @@
 		"tall"			"20"
 		"panel_bgcolor"	"TanDark"
 		"panel_bgcolor_mouseover"	"TanLight"
-		"paintbackgroundtype"	"0"
 
-		"ItemIcon1Corners"
-		{
-			"controlname"	"ScalableImagePanel"
-			"wide"			"30"
-			"tall"			"20"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-			"drawcolor"		"59 54 52 255"
-			"image"			"replay/thumbnails/borders/vivi_button_corners"
-			"mouseinputenabled"	"0"
-		}
+		"paintbackgroundtype"	"2"
+
+		"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+		"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+		"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+		"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 
 		"bgblockout"
 		{
@@ -177,7 +173,14 @@
 			"zpos"			"-10"
 			"wide"			"26"
 			"tall"			"16"
-			"border"		"ViviStoreItemBG"
+			"bgcolor_override"	"51 47 46 255"
+
+			"paintbackgroundtype"	"2"
+
+			"texture1"		"vgui/replay/thumbnails/borders/777corner1"
+			"texture2"		"vgui/replay/thumbnails/borders/777corner2"
+			"texture3"		"vgui/replay/thumbnails/borders/777corner3"
+			"texture4"		"vgui/replay/thumbnails/borders/777corner4"
 		}
 
 		"itempanel"
@@ -209,7 +212,7 @@
 
 		"subbutton"
 		{
-			"controlname"	"CExButton"
+			"controlname"	"Button"
 			"wide"			"165"
 			"tall"			"20"
 			"labeltext"		"#Store_AddToCart"
@@ -219,6 +222,8 @@
 			"actionsignallevel"	"2"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"stay_armed_on_click"	"1"
 
 			"paintbackground"	"0"
 
